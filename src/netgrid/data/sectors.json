@@ -1,0 +1,62 @@
+[
+    {
+        "id": "root",
+        "name": "Root Sector",
+        "description": "The northern hub of Netgrid where all data threads originate.",
+        "nodes": ["root-gate", "root-stream"]
+    },
+    {
+        "id": "pulse",
+        "name": "Pulse Sector",
+        "description": "A vibrant region of constant data flow and rhythmic energy.",
+        "nodes": ["pulse-gate", "pulse-stream"]
+    },
+    {
+        "id": "echo",
+        "name": "Echo Sector",
+        "description": "A mysterious area where data reverberates and secrets are hidden.",
+        "nodes": []
+    },
+    {
+        "id": "void",
+        "name": "Void Sector",
+        "description": "An empty expanse where data is scarce and silence prevails.",
+        "nodes": []
+    },
+    {
+        "id": "core",
+        "name": "Core Sector",
+        "description": "The central nexus of Netgrid, where all sectors converge.",
+        "nodes": []
+    },
+    {
+        "id": "fractal",
+        "name": "Fractal Sector",
+        "description": "A sector of infinite complexity and recursive patterns.",
+        "nodes": []
+    },
+    {
+        "id": "quantum",
+        "name": "Quantum Sector",
+        "description": "A sector where data exists in multiple states and possibilities.",
+        "nodes": []
+    },
+    {
+        "id": "neon",
+        "name": "Neon Sector",
+        "description": "A brightly lit area filled with vibrant data streams and connections.",
+        "nodes": []
+    },
+    {
+        "id": "shadow",
+        "name": "Shadow Sector",
+        "description": "A dark and enigmatic region where data lurks in the shadows.",
+        "nodes": []
+    },
+    {
+        "id": "horizon",
+        "name": "Horizon Sector",
+        "description": "A sector on the edge of Netgrid, where new data and connections are discovered.",
+        "nodes": []
+    }
+]

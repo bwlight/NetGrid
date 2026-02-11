@@ -1,0 +1,122 @@
+[
+    {
+        "id": "root-gate",
+        "type": "gate",
+        "sector": "root",
+        "connections": ["pulse-gate"]
+    },
+    {
+        "id": "root-stream",
+        "type": "stream",
+        "sector": "root",
+        "connections": ["pulse-stream"]
+    },
+    {
+        "id": "pulse-gate",
+        "type": "gate",
+        "sector": "pulse",
+        "connections": ["root-gate"]
+    },
+    {
+        "id": "pulse-stream",
+        "type": "stream",
+        "sector": "pulse",
+        "connections": ["root-stream"]
+    },
+    {
+        "id": "echo-gate",
+        "type": "gate",
+        "sector": "echo",
+        "connections": []
+    },
+    {
+        "id": "echo-stream",
+        "type": "stream",
+        "sector": "echo",
+        "connections": []
+    },
+    {
+        "id": "void-gate",
+        "type": "gate",
+        "sector": "void",
+        "connections": []
+    },
+    {
+        "id": "void-stream",
+        "type": "stream",
+        "sector": "void",
+        "connections": []
+    },
+    {
+        "id": "core-gate",
+        "type": "gate",
+        "sector": "core",
+        "connections": []
+    },
+    {
+        "id": "core-stream",
+        "type": "stream",
+        "sector": "core",
+        "connections": []
+    },
+    {
+        "id": "fractal-gate",
+        "type": "gate",
+        "sector": "fractal",
+        "connections": []
+    },
+    {
+        "id": "fractal-stream",
+        "type": "stream",
+        "sector": "fractal",
+        "connections": []
+    },
+    {
+        "id": "quantum-gate",
+        "type": "gate",
+        "sector": "quantum",
+        "connections": []
+    },
+    {
+        "id": "quantum-stream",
+        "type": "stream",
+        "sector": "quantum",
+        "connections": []
+    },
+    {
+        "id": "neon-gate",
+        "type": "gate",
+        "sector": "neon",
+        "connections": []
+    },
+    {
+        "id": "neon-stream",
+        "type": "stream",
+        "sector": "neon",
+        "connections": []
+    },
+    {
+        "id": "shadow-gate",
+        "type": "gate",
+        "sector": "shadow",
+        "connections": []
+    },
+    {
+        "id": "shadow-stream",
+        "type": "stream",
+        "sector": "shadow",
+        "connections": []
+    },
+    {
+        "id": "horizon-gate",
+        "type": "gate",
+        "sector": "horizon",
+        "connections": []
+    },
+    {
+        "id": "horizon-stream",
+        "type": "stream",
+        "sector": "horizon",
+        "connections": []
+    }
+]
