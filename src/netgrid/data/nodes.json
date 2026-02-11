@@ -3,120 +3,120 @@
         "id": "root-gate",
         "type": "gate",
         "sector": "root",
-        "connections": ["pulse-gate"]
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "root-stream",
         "type": "stream",
         "sector": "root",
-        "connections": ["pulse-stream"]
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "pulse-gate",
         "type": "gate",
         "sector": "pulse",
-        "connections": ["root-gate"]
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "pulse-stream",
         "type": "stream",
         "sector": "pulse",
-        "connections": ["root-stream"]
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "echo-gate",
         "type": "gate",
         "sector": "echo",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "echo-stream",
         "type": "stream",
         "sector": "echo",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "void-gate",
         "type": "gate",
         "sector": "void",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "void-stream",
         "type": "stream",
         "sector": "void",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "core-gate",
         "type": "gate",
         "sector": "core",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "core-stream",
         "type": "stream",
         "sector": "core",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "fractal-gate",
         "type": "gate",
         "sector": "fractal",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "fractal-stream",
         "type": "stream",
         "sector": "fractal",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "quantum-gate",
         "type": "gate",
         "sector": "quantum",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "quantum-stream",
         "type": "stream",
         "sector": "quantum",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "neon-gate",
         "type": "gate",
         "sector": "neon",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "neon-stream",
         "type": "stream",
         "sector": "neon",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "shadow-gate",
         "type": "gate",
         "sector": "shadow",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "shadow-stream",
         "type": "stream",
         "sector": "shadow",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     },
     {
         "id": "horizon-gate",
         "type": "gate",
         "sector": "horizon",
-        "connections": []
+        "connections": ["pulse-gate", "echo-gate", "void-gate", "core-gate", "fractal-gate", "quantum-gate", "neon-gate", "shadow-gate", "horizon-gate", "root-stream"]
     },
     {
         "id": "horizon-stream",
         "type": "stream",
         "sector": "horizon",
-        "connections": []
+        "connections": ["pulse-stream", "echo-stream", "void-stream", "core-stream", "fractal-stream", "quantum-stream", "neon-stream", "shadow-stream", "horizon-stream"]
     }
 ]
