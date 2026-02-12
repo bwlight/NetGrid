@@ -1,0 +1,70 @@
+{
+  "cyberkin": {
+    "family_id": "root",
+    "name": "Root Family",
+    "sector": "root",
+    "type": "Stability / Logic",
+    "evolution_line": {
+      "baby": {
+        "name": "Seedlet",
+        "stats": {
+          "hp": 17,
+          "attack": 8,
+          "defense": 12,
+          "speed": 6,
+          "intelligence": 9,
+          "stability": 15
+        }
+      },
+      "rookie": {
+        "name": "Rootling",
+        "stats": {
+          "hp": 32,
+          "attack": 18,
+          "defense": 26,
+          "speed": 14,
+          "intelligence": 20,
+          "stability": 28
+        }
+      },
+      "champion": {
+        "name": "Trunkode",
+        "stats": {
+          "hp": 58,
+          "attack": 32,
+          "defense": 44,
+          "speed": 22,
+          "intelligence": 38,
+          "stability": 52
+        }
+      },
+      "final": {
+        "name": "Rootspire",
+        "stats": {
+          "hp": 105,
+          "attack": 60,
+          "defense": 85,
+          "speed": 35,
+          "intelligence": 70,
+          "stability": 100
+        }
+      }
+    },
+    "abilities": [
+      "Integrity Boost",
+      "Anchor Field",
+      "Data Shield"
+    ],
+    "habitat": "Root Sector — Archive Pillar",
+    "evolution_requirements": [
+      "High stability",
+      "Exposure to Root-aligned Nodes",
+      "Complete a Stabilization Trial"
+    ],
+    "quest_hooks": [
+      "Help a Rootling stabilize",
+      "Repair a damaged Root Node",
+      "Investigate a Rootspire that has gone dormant"
+    ]
+  }
+}

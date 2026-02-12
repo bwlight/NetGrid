@@ -1,0 +1,70 @@
+{
+  "cyberkin": {
+    "family_id": "fractal",
+    "name": "Fractal Family",
+    "sector": "fractal",
+    "type": "Logic / Pattern",
+    "evolution_line": {
+      "baby": {
+        "name": "Pixlet",
+        "stats": {
+          "hp": 13,
+          "attack": 6,
+          "defense": 9,
+          "speed": 9,
+          "intelligence": 15,
+          "stability": 14
+        }
+      },
+      "rookie": {
+        "name": "Fractlet",
+        "stats": {
+          "hp": 27,
+          "attack": 14,
+          "defense": 20,
+          "speed": 18,
+          "intelligence": 30,
+          "stability": 28
+        }
+      },
+      "champion": {
+        "name": "Spiralith",
+        "stats": {
+          "hp": 52,
+          "attack": 26,
+          "defense": 34,
+          "speed": 32,
+          "intelligence": 52,
+          "stability": 48
+        }
+      },
+      "final": {
+        "name": "Infinitrix",
+        "stats": {
+          "hp": 95,
+          "attack": 50,
+          "defense": 70,
+          "speed": 60,
+          "intelligence": 100,
+          "stability": 95
+        }
+      }
+    },
+    "abilities": [
+      "Recursive Strike",
+      "Pattern Lock",
+      "Infinite Loop"
+    ],
+    "habitat": "Fractal Sector — Pattern Vault",
+    "evolution_requirements": [
+      "Solve recursive puzzles",
+      "Maintain high logic stat",
+      "Exposure to fractal Nodes"
+    ],
+    "quest_hooks": [
+      "Solve a recursive anomaly",
+      "Help a Fractlet complete its pattern",
+      "Investigate an Infinitrix generating unstable loops"
+    ]
+  }
+}

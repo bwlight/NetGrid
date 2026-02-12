@@ -1,0 +1,70 @@
+{
+  "cyberkin": {
+    "family_id": "shadow",
+    "name": "Shadow Family",
+    "sector": "shadow",
+    "type": "Dark / Stealth",
+    "evolution_line": {
+      "baby": {
+        "name": "Shadebit",
+        "stats": {
+          "hp": 12,
+          "attack": 10,
+          "defense": 6,
+          "speed": 13,
+          "intelligence": 12,
+          "stability": 10
+        }
+      },
+      "rookie": {
+        "name": "Gloombyte",
+        "stats": {
+          "hp": 24,
+          "attack": 22,
+          "defense": 14,
+          "speed": 26,
+          "intelligence": 25,
+          "stability": 20
+        }
+      },
+      "champion": {
+        "name": "Nightcipher",
+        "stats": {
+          "hp": 42,
+          "attack": 38,
+          "defense": 24,
+          "speed": 44,
+          "intelligence": 42,
+          "stability": 34
+        }
+      },
+      "final": {
+        "name": "Umbrageist",
+        "stats": {
+          "hp": 78,
+          "attack": 82,
+          "defense": 40,
+          "speed": 90,
+          "intelligence": 88,
+          "stability": 65
+        }
+      }
+    },
+    "abilities": [
+      "Shadow Slice",
+      "Data Fade",
+      "Silent Execution"
+    ],
+    "habitat": "Shadow Sector — Obscura Depths",
+    "evolution_requirements": [
+      "High speed or intelligence",
+      "Exposure to low‑light Nodes",
+      "Complete a stealth‑based trial"
+    ],
+    "quest_hooks": [
+      "Track a rogue Nightcipher slipping between Nodes",
+      "Help a Gloombyte escape a corrupted shadow pocket",
+      "Investigate an Umbrageist manipulating darkness fields"
+    ]
+  }
+}

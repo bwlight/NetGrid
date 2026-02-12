@@ -1,0 +1,70 @@
+{
+  "cyberkin": {
+    "family_id": "horizon",
+    "name": "Horizon Family",
+    "sector": "horizon",
+    "type": "Adaptive / Explorer",
+    "evolution_line": {
+      "baby": {
+        "name": "Skylit",
+        "stats": {
+          "hp": 17,
+          "attack": 9,
+          "defense": 9,
+          "speed": 12,
+          "intelligence": 11,
+          "stability": 11
+        }
+      },
+      "rookie": {
+        "name": "Pathbyte",
+        "stats": {
+          "hp": 34,
+          "attack": 18,
+          "defense": 20,
+          "speed": 22,
+          "intelligence": 20,
+          "stability": 22
+        }
+      },
+      "champion": {
+        "name": "Trailblaze",
+        "stats": {
+          "hp": 60,
+          "attack": 34,
+          "defense": 36,
+          "speed": 38,
+          "intelligence": 36,
+          "stability": 40
+        }
+      },
+      "final": {
+        "name": "Horizoneer",
+        "stats": {
+          "hp": 105,
+          "attack": 60,
+          "defense": 65,
+          "speed": 70,
+          "intelligence": 68,
+          "stability": 72
+        }
+      }
+    },
+    "abilities": [
+      "Pathfinder Pulse",
+      "Adaptive Shift",
+      "Terrain Scan"
+    ],
+    "habitat": "Horizon Sector — Skybound Expanse",
+    "evolution_requirements": [
+      "Travel across multiple Sectors",
+      "Demonstrate adaptability in varied environments",
+      "Balanced stat growth"
+    ],
+    "quest_hooks": [
+      "Chart a newly opened Horizon Route",
+      "Help a Pathbyte navigate a shifting landscape",
+      "Assist a Horizoneer in stabilizing a collapsing sky‑bridge"
+    ]
+  }
+}

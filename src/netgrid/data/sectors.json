@@ -1,62 +1,62 @@
 [
     {
-        "id": "root", 
+        "id": "root",
         "name": "Root Sector",
         "description": "The northern hub of Netgrid where all data threads originate.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["root-gate", "root-stream"]
     },
     {
-        "id": "pulse", 
+        "id": "pulse",
         "name": "Pulse Sector",
         "description": "A vibrant region of constant data flow and rhythmic energy.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["pulse-gate", "pulse-stream"]
     },
     {
-        "id": "echo", 
+        "id": "echo",
         "name": "Echo Sector",
         "description": "A mysterious area where data reverberates and secrets are hidden.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["echo-gate", "echo-stream"]
     },
     {
-        "id": "void", 
+        "id": "void",
         "name": "Void Sector",
         "description": "An empty expanse where data is scarce and silence prevails.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["void-gate", "void-stream"]
     },
     {
-        "id": "core", 
+        "id": "core",
         "name": "Core Sector",
         "description": "The central nexus of Netgrid, where all sectors converge.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["core-gate", "core-stream"]
     },
     {
-        "id": "fractal", 
+        "id": "fractal",
         "name": "Fractal Sector",
         "description": "A sector of infinite complexity and recursive patterns.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["fractal-gate", "fractal-stream"]
     },
     {
         "id": "quantum",
         "name": "Quantum Sector",
         "description": "A sector where data exists in multiple states and possibilities.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["quantum-gate", "quantum-stream"]
     },
     {
-        "id": "neon", 
+        "id": "neon",
         "name": "Neon Sector",
         "description": "A brightly lit area filled with vibrant data streams and connections.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["neon-gate", "neon-stream"]
     },
     {
-        "id": "shadow", 
+        "id": "shadow",
         "name": "Shadow Sector",
         "description": "A dark and enigmatic region where data lurks in the shadows.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["shadow-gate", "shadow-stream"]
     },
     {
-        "id": "horizon", 
+        "id": "horizon",
         "name": "Horizon Sector",
         "description": "A sector on the edge of Netgrid, where new data and connections are discovered.",
-        "nodes": ["pulse-gate", "pulse-stream", "echo-gate", "echo-stream", "void-gate", "void-stream", "core-gate", "core-stream", "fractal-gate", "fractal-stream", "quantum-gate", "quantum-stream", "neon-gate", "neon-stream", "shadow-gate", "shadow-stream", "horizon-gate", "horizon-stream", "root-gate", "root-stream"]
+        "nodes": ["horizon-gate", "horizon-stream"]
     }
 ]

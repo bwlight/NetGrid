@@ -1,0 +1,16 @@
+class TravelSystem:
+    def __init__(self, sectors, nodes):
+        self.sectors = sectors
+        self.nodes = nodes
+
+    def can_travel(self, start_node, end_node):
+        # returns True/False
+        pass
+
+    def find_path(self, start_node, end_node):
+        # returns list of nodes representing the path
+        pass
+
+    def travel_cost(self, node_a, node_b):
+        # gate = stable, stream = risky
+        pass
