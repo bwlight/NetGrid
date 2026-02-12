@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cyberkin Family Schema",
+  "type": "object",
+  "required": ["cyberkin"],
+
+  "properties": {
+    "cyberkin": {
+      "type": "object",
+      "required": [
+        "family_id",
+        "name",
+        "sector",
+        "type",
+        "evolution_line",
+        "abilities",
+        "habitat",
+        "evolution_requirements",
+        "quest_hooks"
+      ],
+
+      "properties": {
+        "family_id": {
+          "type": "string",
+          "description": "Unique lowercase ID for the Cyberkin family."
+        },
+
+        "name": {
+          "type": "string",
+          "description": "Display name of the Cyberkin family."
+        },
+
+        "sector": {
+          "type": "string",
+          "enum": [
+            "root",
+            "pulse",
+            "echo",
+            "void",
+            "fractal",
+            "quantum",
+            "neon",
+            "shadow",
+            "horizon",
+            "core"
+          ],
+          "description": "Sector this Cyberkin belongs to."
+        },
+
+        "type": {
+          "type": "string",
+          "description": "Primary and secondary typing."
+        },
+
+        "evolution_line": {
+          "type": "object",
+          "required": ["baby", "rookie", "champion", "final"],
+
+          "properties": {
+            "baby": { "$ref": "#/$defs/evolutionStage" },
+            "rookie": { "$ref": "#/$defs/evolutionStage" },
+            "champion": { "$ref": "#/$defs/evolutionStage" },
+            "final": { "$ref": "#/$defs/evolutionStage" }
+          }
+        },
+
+        "abilities": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+
+        "habitat": {
+          "type": "string",
+          "description": "Where this Cyberkin is found."
+        },
+
+        "evolution_requirements": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+
+        "quest_hooks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "evolutionStage": {
+      "type": "object",
+      "required": ["name", "stats"],
+
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of this evolution stage."
+        },
+
+        "stats": {
+          "type": "object",
+          "required": [
+            "hp",
+            "attack",
+            "defense",
+            "speed",
+            "intelligence",
+            "stability"
+          ],
+
+          "properties": {
+            "hp": { "type": "number", "minimum": 0 },
+            "attack": { "type": "number", "minimum": 0 },
+            "defense": { "type": "number", "minimum": 0 },
+            "speed": { "type": "number", "minimum": 0 },
+            "intelligence": { "type": "number", "minimum": 0 },
+            "stability": { "type": "number", "minimum": 0 }
+          }
+        }
+      }
+    }
+  }
+}

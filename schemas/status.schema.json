@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Status Condition Schema",
+  "type": "object",
+
+  "required": ["id", "name", "category", "duration"],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique lowercase identifier for the status condition."
+    },
+
+    "name": {
+      "type": "string",
+      "description": "Display name of the status condition."
+    },
+
+    "category": {
+      "type": "string",
+      "enum": [
+        "debuff",
+        "buff",
+        "dot",
+        "hot",
+        "control",
+        "corruption",
+        "special"
+      ],
+      "description": "General classification of the status."
+    },
+
+    "duration": {
+      "type": "number",
+      "minimum": 1,
+      "description": "How many turns the status lasts."
+    },
+
+    "stacking": {
+      "type": "string",
+      "enum": ["none", "refresh", "stack_value", "stack_duration"],
+      "description": "How this status behaves when applied again."
+    },
+
+    "stat_modifiers": {
+      "type": "array",
+      "description": "Buffs or debuffs applied to stats.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stat": {
+            "type": "string",
+            "enum": ["attack", "defense", "speed", "intelligence", "stability"]
+          },
+          "value": { "type": "number" }
+        },
+        "required": ["stat", "value"]
+      }
+    },
+
+    "damage_over_time": {
+      "type": "object",
+      "properties": {
+        "amount": { "type": "number" },
+        "scaling": {
+          "type": "string",
+          "enum": ["attack", "intelligence", "stability"]
+        }
+      }
+    },
+
+    "healing_over_time": {
+      "type": "object",
+      "properties": {
+        "amount": { "type": "number" },
+        "scaling": {
+          "type": "string",
+          "enum": ["intelligence", "stability"]
+        }
+      }
+    },
+
+    "control_effect": {
+      "type": "string",
+      "enum": [
+        "stun",
+        "sleep",
+        "silence",
+        "immobilize",
+        "confuse",
+        "taunt",
+        "blind"
+      ],
+      "description": "Special control effects that alter behavior."
+    },
+
+    "trigger": {
+      "type": "string",
+      "enum": [
+        "on_turn_start",
+        "on_turn_end",
+        "on_hit",
+        "on_miss",
+        "on_damage_taken",
+        "passive"
+      ],
+      "description": "When the status effect activates."
+    },
+
+    "cleanse_rules": {
+      "type": "object",
+      "properties": {
+        "can_be_cleansed": { "type": "boolean" },
+        "requires_special_item": { "type": "boolean" }
+      }
+    },
+
+    "corruption_level": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Optional corruption intensity for Void/Corrupt mechanics."
+    }
+  }
+}

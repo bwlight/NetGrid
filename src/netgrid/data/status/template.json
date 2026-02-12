@@ -1,0 +1,24 @@
+{
+  "id": "burn",
+  "name": "Burn",
+  "category": "dot",
+  "duration": 3,
+  "stacking": "refresh",
+
+  "stat_modifiers": [],
+  "damage_over_time": {
+    "amount": 5,
+    "scaling": "intelligence"
+  },
+
+  "healing_over_time": null,
+  "control_effect": null,
+  "trigger": "on_turn_end",
+
+  "cleanse_rules": {
+    "can_be_cleansed": true,
+    "requires_special_item": false
+  },
+
+  "corruption_level": 0
+}

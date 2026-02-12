@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Netgrid Master Schema",
+  "type": "object",
+
+  "properties": {
+    "cyberkin": {
+      "type": "array",
+      "items": {
+        "$ref": "cyberkin.schema.json"
+      }
+    }
+  },
+
+  "additionalProperties": true
+}
