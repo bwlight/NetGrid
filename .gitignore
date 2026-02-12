@@ -1,5 +1,35 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+.history/
+
+# OS files
 .DS_Store
-.env
+Thumbs.db
+
+# Build / distribution
+build/
+dist/
+*.spec
+
+# Cache
+.cache/
+*.tmp
+
+# Game assets (optional)
+assets/temp/
+assets/raw/
