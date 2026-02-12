@@ -55,7 +55,7 @@ Your bond with Cyberkin unlocks:
 ---
 
 ## 🛠️ Project Structure (WIP)
-
+```text
 Netgrid/
 │
 ├── data/               # JSON data for Cyberkin, Sectors, abilities
@@ -73,7 +73,7 @@ Netgrid/
 ├── ROADMAP.md
 ├── FEATURE_CHECKLIST.md
 └── DEVLOG_TEMPLATE.md
-
+```
 ---
 
 ## 🚧 Current Status
