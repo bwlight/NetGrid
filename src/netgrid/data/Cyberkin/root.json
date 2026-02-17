@@ -6,7 +6,7 @@
     "type": "Stability / Logic",
     "evolution_line": {
       "baby": {
-        "name": "Seedlet",
+        "name": "Rootlet",
         "stats": {
           "hp": 17,
           "attack": 8,
@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Rootling",
+        "name": "Rootbloom",
         "stats": {
           "hp": 32,
           "attack": 18,

@@ -1,12 +1,12 @@
 {
   "cyberkin": {
-    "family_id": "horizon",
-    "name": "Horizon Family",
-    "sector": "horizon",
+    "family_id": "cloud",
+    "name": "Cloud Family",
+    "sector": "cloud",
     "type": "Adaptive / Explorer",
     "evolution_line": {
       "baby": {
-        "name": "Skylit",
+        "name": "Puffbit",
         "stats": {
           "hp": 17,
           "attack": 9,
@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Pathbyte",
+        "name": "Puffdrift",
         "stats": {
           "hp": 34,
           "attack": 18,
@@ -28,7 +28,7 @@
         }
       },
       "champion": {
-        "name": "Trailblaze",
+        "name": "Skyloom",
         "stats": {
           "hp": 60,
           "attack": 34,
@@ -39,7 +39,7 @@
         }
       },
       "final": {
-        "name": "Horizoneer",
+        "name": "Cloudeer",
         "stats": {
           "hp": 105,
           "attack": 60,
@@ -55,16 +55,16 @@
       "Adaptive Shift",
       "Terrain Scan"
     ],
-    "habitat": "Horizon Sector — Skybound Expanse",
+    "habitat": "Cloud Sector — Skybound Expanse",
     "evolution_requirements": [
       "Travel across multiple Sectors",
       "Demonstrate adaptability in varied environments",
       "Balanced stat growth"
     ],
     "quest_hooks": [
-      "Chart a newly opened Horizon Route",
-      "Help a Pathbyte navigate a shifting landscape",
-      "Assist a Horizoneer in stabilizing a collapsing sky‑bridge"
+      "Chart a newly opened Cloud Route",
+      "Help a Puffdrift navigate a shifting landscape",
+      "Assist a Cloudeer in stabilizing a collapsing sky‑bridge"
     ]
   }
 }

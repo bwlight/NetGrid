@@ -1,62 +1,111 @@
-[
-    {
-        "id": "root",
-        "name": "Root Sector",
-        "description": "The northern hub of Netgrid where all data threads originate.",
-        "nodes": ["root-gate", "root-stream"]
-    },
-    {
-        "id": "pulse",
-        "name": "Pulse Sector",
-        "description": "A vibrant region of constant data flow and rhythmic energy.",
-        "nodes": ["pulse-gate", "pulse-stream"]
-    },
-    {
-        "id": "echo",
-        "name": "Echo Sector",
-        "description": "A mysterious area where data reverberates and secrets are hidden.",
-        "nodes": ["echo-gate", "echo-stream"]
-    },
-    {
-        "id": "void",
-        "name": "Void Sector",
-        "description": "An empty expanse where data is scarce and silence prevails.",
-        "nodes": ["void-gate", "void-stream"]
-    },
-    {
-        "id": "core",
-        "name": "Core Sector",
-        "description": "The central nexus of Netgrid, where all sectors converge.",
-        "nodes": ["core-gate", "core-stream"]
-    },
-    {
-        "id": "fractal",
-        "name": "Fractal Sector",
-        "description": "A sector of infinite complexity and recursive patterns.",
-        "nodes": ["fractal-gate", "fractal-stream"]
-    },
-    {
-        "id": "quantum",
-        "name": "Quantum Sector",
-        "description": "A sector where data exists in multiple states and possibilities.",
-        "nodes": ["quantum-gate", "quantum-stream"]
-    },
-    {
-        "id": "neon",
-        "name": "Neon Sector",
-        "description": "A brightly lit area filled with vibrant data streams and connections.",
-        "nodes": ["neon-gate", "neon-stream"]
-    },
-    {
-        "id": "shadow",
-        "name": "Shadow Sector",
-        "description": "A dark and enigmatic region where data lurks in the shadows.",
-        "nodes": ["shadow-gate", "shadow-stream"]
-    },
-    {
-        "id": "horizon",
-        "name": "Horizon Sector",
-        "description": "A sector on the edge of Netgrid, where new data and connections are discovered.",
-        "nodes": ["horizon-gate", "horizon-stream"]
-    }
-]
+{
+  "ROOT": {
+    "id": "ROOT",
+    "name": "Root Sector",
+    "description": "The foundational layer of the Netgrid. Stable, grounded, and the origin point for all traversal.",
+    "theme_color": "#4CAF50",
+    "glyph": "root_glyph.png",
+    "panel": "root_panel.png",
+    "difficulty": "Beginner",
+    "starter_cyberkin": "Sproutling"
+  },
+
+  "PULSE": {
+    "id": "PULSE",
+    "name": "Pulse Sector",
+    "description": "A rhythmic zone of energy and motion. Data flows like a heartbeat, steady and strong.",
+    "theme_color": "#FF4081",
+    "glyph": "pulse_glyph.png",
+    "panel": "pulse_panel.png",
+    "difficulty": "Easy",
+    "starter_cyberkin": "Volt Pup"
+  },
+
+  "ARCHIVE": {
+    "id": "ARCHIVE",
+    "name": "Archive Sector",
+    "description": "A vast library of memory clusters and preserved data. Knowledge echoes through every node.",
+    "theme_color": "#3F51B5",
+    "glyph": "archive_glyph.png",
+    "panel": "archive_panel.png",
+    "difficulty": "Moderate",
+    "starter_cyberkin": "Memora"
+  },
+
+  "FIREWALL": {
+    "id": "FIREWALL",
+    "name": "Firewall Sector",
+    "description": "A defensive stronghold of protective protocols. Heat and pressure define its digital terrain.",
+    "theme_color": "#F44336",
+    "glyph": "firewall_glyph.png",
+    "panel": "firewall_panel.png",
+    "difficulty": "Moderate",
+    "starter_cyberkin": "Blazeguard"
+  },
+
+  "DREAM": {
+    "id": "DREAM",
+    "name": "Dream Sector",
+    "description": "A surreal, shifting landscape where logic bends and imagination shapes reality.",
+    "theme_color": "#9C27B0",
+    "glyph": "dream_glyph.png",
+    "panel": "dream_panel.png",
+    "difficulty": "Intermediate",
+    "starter_cyberkin": "Somno"
+  },
+
+  "CLOUD": {
+    "id": "CLOUD",
+    "name": "Cloud Sector",
+    "description": "A floating expanse of distributed data. Light, airy, and ever‑changing.",
+    "theme_color": "#03A9F4",
+    "glyph": "cloud_glyph.png",
+    "panel": "cloud_panel.png",
+    "difficulty": "Intermediate",
+    "starter_cyberkin": "Nimbus"
+  },
+
+  "ECHO": {
+    "id": "ECHO",
+    "name": "Echo Sector",
+    "description": "A resonant chamber of repeating signals and mirrored data. Every action leaves a trace.",
+    "theme_color": "#00BCD4",
+    "glyph": "echo_glyph.png",
+    "panel": "echo_panel.png",
+    "difficulty": "Advanced",
+    "starter_cyberkin": "Reverb"
+  },
+
+  "CORE": {
+    "id": "CORE",
+    "name": "Core Sector",
+    "description": "The central processing nexus of the Netgrid. Power, precision, and perfect order.",
+    "theme_color": "#FFC107",
+    "glyph": "core_glyph.png",
+    "panel": "core_panel.png",
+    "difficulty": "Advanced",
+    "starter_cyberkin": "Kernel"
+  },
+
+  "VOID": {
+    "id": "VOID",
+    "name": "Void Sector",
+    "description": "A dark, silent expanse where data collapses and entropy reigns.",
+    "theme_color": "#212121",
+    "glyph": "void_glyph.png",
+    "panel": "void_panel.png",
+    "difficulty": "Expert",
+    "starter_cyberkin": "Nullborn"
+  },
+
+  "CORRUPT": {
+    "id": "CORRUPT",
+    "name": "Corrupt Sector",
+    "description": "A chaotic realm of glitches, anomalies, and unstable code. Dangerous and unpredictable.",
+    "theme_color": "#8B0000",
+    "glyph": "corrupt_glyph.png",
+    "panel": "corrupt_panel.png",
+    "difficulty": "Expert",
+    "starter_cyberkin": "Glitchling"
+  }
+}

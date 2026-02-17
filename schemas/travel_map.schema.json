@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Travel Map Schema",
+  "type": "object",
+
+  "properties": {
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "type"],
+        "properties": {
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "type": { "type": "string", "enum": ["gate", "stream"] },
+          "cost": { "type": "number", "minimum": 0 },
+          "stable": { "type": "boolean" }
+        }
+      }
+    },
+
+    "travel_rules": {
+      "type": "object",
+      "properties": {
+        "gate_cost": { "type": "number" },
+        "stream_cost": { "type": "number" },
+        "gate_stability": { "type": "boolean" },
+        "stream_stability": { "type": "boolean" }
+      }
+    },
+
+    "connections": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+
+    "path_types": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "enum": ["stable", "risky"]
+      }
+    }
+  },
+
+  "required": ["connections"]
+}

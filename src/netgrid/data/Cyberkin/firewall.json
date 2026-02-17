@@ -1,12 +1,12 @@
 {
   "cyberkin": {
-    "family_id": "neon",
-    "name": "Neon Family",
-    "sector": "neon",
+    "family_id": "firewall",
+    "name": "Firewall Family",
+    "sector": "firewall",
     "type": "Light / Signal",
     "evolution_line": {
       "baby": {
-        "name": "Glimbit",
+        "name": "Cindlet",
         "stats": {
           "hp": 14,
           "attack": 9,
@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Shinelink",
+        "name": "Cindrake",
         "stats": {
           "hp": 28,
           "attack": 18,
@@ -28,7 +28,7 @@
         }
       },
       "champion": {
-        "name": "Lumivolt",
+        "name": "Aedidrake",
         "stats": {
           "hp": 50,
           "attack": 30,
@@ -39,7 +39,7 @@
         }
       },
       "final": {
-        "name": "Neonflare",
+        "name": "Aegisflare",
         "stats": {
           "hp": 88,
           "attack": 58,
@@ -55,16 +55,16 @@
       "Signal Beam",
       "Radiant Overload"
     ],
-    "habitat": "Neon Sector — Luminous Strip",
+    "habitat": "Firewall Sector — Luminous Strip",
     "evolution_requirements": [
       "Exposure to high‑intensity light Nodes",
       "High speed or intelligence",
       "Complete a signal‑pattern resonance test"
     ],
     "quest_hooks": [
-      "Restore a darkened Neon Node",
-      "Help a Shinelink regain its brightness",
-      "Stop a Neonflare causing uncontrolled light storms"
+      "Restore a darkened Firewall Node",
+      "Help a Cindrake regain its brightness",
+      "Stop a Aegisflare causing uncontrolled light storms"
     ]
   }
 }

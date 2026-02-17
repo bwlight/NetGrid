@@ -1,16 +1,126 @@
-class TravelSystem:
-    def __init__(self, sectors, nodes):
-        self.sectors = sectors
-        self.nodes = nodes
+{
+  "routes": [
+    {
+      "from": "node_id",
+      "to": "node_id",
+      "type": "gate",
+      "cost": 1,
+      "stable": true
+    }
+  ],
 
-    def can_travel(self, start_node, end_node):
-        # returns True/False
-        pass
+  "travel_rules": {
+    "gate_cost": 1,
+    "stream_cost": 2,
+    "gate_stability": true,
+    "stream_stability": false
+  },
 
-    def find_path(self, start_node, end_node):
-        # returns list of nodes representing the path
-        pass
+  "connections": {
+    "GATE_ROOT": ["GATE_PULSE"],
+    "GATE_PULSE": ["GATE_ARCHIVE"],
+    "GATE_ARCHIVE": ["GATE_FIREWALL"],
+    "GATE_FIREWALL": ["GATE_DREAM"],
+    "GATE_DREAM": ["GATE_CLOUD"],
+    "GATE_CLOUD": ["GATE_ECHO"],
+    "GATE_ECHO": ["GATE_CORE"],
+    "GATE_CORE": ["GATE_VOID"],
+    "GATE_VOID": ["GATE_CORRUPT"],
+    "GATE_CORRUPT": ["GATE_ROOT"],
 
-    def travel_cost(self, node_a, node_b):
-        # gate = stable, stream = risky
-        pass
+    "STREAM_ROOT": ["STREAM_PULSE"],
+    "STREAM_PULSE": ["STREAM_ARCHIVE"],
+    "STREAM_ARCHIVE": ["STREAM_FIREWALL"],
+    "STREAM_FIREWALL": ["STREAM_DREAM"],
+    "STREAM_DREAM": ["STREAM_CLOUD"],
+    "STREAM_CLOUD": ["STREAM_ECHO"],
+    "STREAM_ECHO": ["STREAM_CORE"],
+    "STREAM_CORE": ["STREAM_VOID"],
+    "STREAM_VOID": ["STREAM_CORRUPT"],
+    "STREAM_CORRUPT": ["STREAM_ROOT"]
+  },
+
+  "path_types": {
+    "GATE_ROOT->GATE_PULSE": "stable",
+    "STREAM_ROOT->STREAM_FRACTAL": "risky"
+  },
+
+  "restrictions": {
+    "requires_item": {
+      "STREAM_VOID->STREAM_CORE": "stability_anchor",
+      "GATE_CORE->GATE_ROOT": "core_access_chip",
+      "STREAM_NEON->STREAM_ECHO": "signal_tuner"
+    },
+
+    "min_corruption_level": {
+      "STREAM_CORE->STREAM_VOID": 3,
+      "GATE_HORIZON->GATE_CORE": 5,
+      "STREAM_QUANTUM->STREAM_HORIZON": 4
+    },
+
+    "blocked_paths": [
+      "STREAM_SHADOW->STREAM_PULSE",
+      "GATE_SHADOW->GATE_HORIZON"
+    ],
+
+    "requires_flag": {
+      "GATE_ECHO->GATE_VOID": "echo_unlocked",
+      "STREAM_FRACTAL->STREAM_ROOT": "fractal_unlocked"
+    },
+
+    "time_constraints": {
+      "GATE_PULSE->GATE_ECHO": {
+        "start_time": "08:00",
+        "end_time": "20:00"
+      },
+      "STREAM_NEON->STREAM_ECHO": {
+        "start_time": "18:00",
+        "end_time": "06:00"
+      }
+    }
+  },
+
+  "flags": {
+    "echo_unlocked": false,
+    "fractal_unlocked": false
+  },
+
+  "events": {
+    "GATE_ECHO->GATE_VOID": [
+      {
+        "type": "ambush",
+        "chance": 15,
+        "enemy_group": "echo_bandits"
+      }
+    ],
+    "STREAM_CORE->STREAM_VOID": [
+      {
+        "type": "corruption_surge",
+        "chance": 25,
+        "corruption_increase": 2
+      }
+    ]
+  },
+
+    "ui_data": {
+    "GATE_ECHO->GATE_VOID": {
+      "description": "A quiet corridor with faint echoes.",
+      "warning": "High corruption detected.",
+      "icon": "gate_echo"
+    },
+    "STREAM_CORE->STREAM_VOID": {
+      "description": "A turbulent stream of unstable data.",
+      "warning": "Risk of corruption surge.",
+      "icon": "stream_warning"
+    }
+  },
+    "cost_modifiers": {
+      "corruption_level": {
+        "thresholds": [
+          {"min": 0, "max": 2, "modifier": 1.0},
+          {"min": 3, "max": 5, "modifier": 1.5},
+          {"min": 6, "max": 10, "modifier": 2.0}
+        ]
+      }
+  }
+}

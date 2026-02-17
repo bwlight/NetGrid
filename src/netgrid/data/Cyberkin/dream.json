@@ -1,12 +1,12 @@
 {
   "cyberkin": {
-    "family_id": "quantum",
-    "name": "Quantum Family",
-    "sector": "quantum",
+    "family_id": "dream",
+    "name": "Dream Family",
+    "sector": "dream",
     "type": "Probability / Logic",
     "evolution_line": {
       "baby": {
-        "name": "Quibbit",
+        "name": "Doodlit",
         "stats": {
           "hp": 15,
           "attack": 7,
@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Fluxbyte",
+        "name": "Dreamlet",
         "stats": {
           "hp": 29,
           "attack": 15,
@@ -39,7 +39,7 @@
         }
       },
       "final": {
-        "name": "Quantamind",
+        "name": "Reveria",
         "stats": {
           "hp": 90,
           "attack": 52,
@@ -53,9 +53,9 @@
     "abilities": [
       "Phase Shift",
       "Probability Spike",
-      "Quantum Tunnel"
+      "Dream Tunnel"
     ],
-    "habitat": "Quantum Sector — Uncertainty Nexus",
+    "habitat": "Dream Sector — Uncertainty Nexus",
     "evolution_requirements": [
       "High intelligence stat",
       "Exposure to probability storms",
@@ -63,8 +63,8 @@
     ],
     "quest_hooks": [
       "Stabilize a collapsing probability field",
-      "Help a Fluxbyte predict a branching outcome",
-      "Investigate a Quantamind altering event timelines"
+      "Help a Dreamlet predict a branching outcome",
+      "Investigate a Reveria altering event timelines"
     ]
   }
 }

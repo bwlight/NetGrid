@@ -1,12 +1,12 @@
 {
   "cyberkin": {
-    "family_id": "shadow",
-    "name": "Shadow Family",
-    "sector": "shadow",
-    "type": "Dark / Stealth",
+    "family_id": "corrupt",
+    "name": "Corrupt Family",
+    "sector": "corrupt",
+    "type": "Glitch / Mutation",
     "evolution_line": {
       "baby": {
-        "name": "Shadebit",
+        "name": "Glitchip",
         "stats": {
           "hp": 12,
           "attack": 10,
@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Gloombyte",
+        "name": "Glitchmaw",
         "stats": {
           "hp": 24,
           "attack": 22,
@@ -28,7 +28,7 @@
         }
       },
       "champion": {
-        "name": "Nightcipher",
+        "name": "Corruptor",
         "stats": {
           "hp": 42,
           "attack": 38,
@@ -39,7 +39,7 @@
         }
       },
       "final": {
-        "name": "Umbrageist",
+        "name": "Malwaregeist",
         "stats": {
           "hp": 78,
           "attack": 82,
@@ -51,20 +51,20 @@
       }
     },
     "abilities": [
-      "Shadow Slice",
-      "Data Fade",
-      "Silent Execution"
+      "Corrupt Surge",
+      "Data Rot",
+      "Glitch Phase"
     ],
-    "habitat": "Shadow Sector — Obscura Depths",
+    "habitat": "Corrupt Sector — Fractured Abyss",
     "evolution_requirements": [
-      "High speed or intelligence",
-      "Exposure to low‑light Nodes",
-      "Complete a stealth‑based trial"
+      "Exposure to corrupted Nodes",
+      "High instability",
+      "Complete a mutation‑based trial"
     ],
     "quest_hooks": [
-      "Track a rogue Nightcipher slipping between Nodes",
-      "Help a Gloombyte escape a corrupted shadow pocket",
-      "Investigate an Umbrageist manipulating darkness fields"
+      "Contain a spreading corruption leak",
+      "Rescue a Glitchmaw trapped in a corrupted loop",
+      "Stop a Malwaregeist infecting Sector boundaries"
     ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "cyberkin": {
-    "family_id": "fractal",
-    "name": "Fractal Family",
-    "sector": "fractal",
+    "family_id": "archive",
+    "name": "Archive Family",
+    "sector": "archive",
     "type": "Logic / Pattern",
     "evolution_line": {
       "baby": {
-        "name": "Pixlet",
+        "name": "Memori",
         "stats": {
           "hp": 13,
           "attack": 6,
@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Fractlet",
+        "name": "Memorix",
         "stats": {
           "hp": 27,
           "attack": 14,
@@ -39,7 +39,7 @@
         }
       },
       "final": {
-        "name": "Infinitrix",
+        "name": "Archivorn",
         "stats": {
           "hp": 95,
           "attack": 50,
@@ -55,16 +55,16 @@
       "Pattern Lock",
       "Infinite Loop"
     ],
-    "habitat": "Fractal Sector — Pattern Vault",
+    "habitat": "Archive Sector — Pattern Vault",
     "evolution_requirements": [
       "Solve recursive puzzles",
       "Maintain high logic stat",
-      "Exposure to fractal Nodes"
+      "Exposure to archive Nodes"
     ],
     "quest_hooks": [
       "Solve a recursive anomaly",
-      "Help a Fractlet complete its pattern",
-      "Investigate an Infinitrix generating unstable loops"
+      "Help a Memorix complete its pattern",
+      "Investigate an Archivorn generating unstable loops"
     ]
   }
 }

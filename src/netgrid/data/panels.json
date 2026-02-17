@@ -1,0 +1,12 @@
+{
+  "ROOT": "root_panel.png",
+  "PULSE": "pulse_panel.png",
+  "ARCHIVE": "archive_panel.png",
+  "FIREWALL": "firewall_panel.png",
+  "DREAM": "dream_panel.png",
+  "CLOUD": "cloud_panel.png",
+  "ECHO": "echo_panel.png",
+  "CORE": "core_panel.png",
+  "VOID": "void_panel.png",
+  "CORRUPT": "corrupt_panel.png"
+}

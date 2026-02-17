@@ -17,7 +17,7 @@
         }
       },
       "rookie": {
-        "name": "Beatbyte",
+        "name": "Sparkline",
         "stats": {
           "hp": 30,
           "attack": 22,
@@ -39,7 +39,7 @@
         }
       },
       "final": {
-        "name": "Pulsebreaker",
+        "name": "Voltflare",
         "stats": {
           "hp": 88,
           "attack": 72,
