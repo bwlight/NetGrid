@@ -123,7 +123,7 @@ ScanRarity = ScanSense + ObjectComplexity + Random (1,100)
 Higher = rarer Cyberkin or loot.
 
 ## 10. Party Synergy Formula
-SynergyBonus = ∑FriendshipMatrix \div PartySize
+SynergyBonus = \frac{∑FriendshipMatrix}{PartySize}
 
 High synergy = passive buffs.
 
@@ -161,17 +161,17 @@ Each Cyberkin family uses one of three growth curves:
 A) Linear Growth (Balanced Families)
 Used by: Core, Root, Archive
 
-StatGain = Level × GrowthRate
+```StatGain = Level × GrowthRate```
 
 B) Accelerated Growth (Aggressive Families)
 Used by: Pulse, Firewall, Corrupt
 
-StatGain = Level^1 .2 × GrowthRate
+```StatGain = Level^1 .2 × GrowthRate```
 
 C) Stability Growth (Defensive/Support Families)
 Used by: Cloud, Echo, Dream, Void
 
-StatGain = (Level×GrowthRate)+(Stability×0.2)
+```StatGain = (Level×GrowthRate)+(Stability×0.2)```
 
 This gives each family a unique “feel” without complicating the math.
 
@@ -191,20 +191,20 @@ Your care affects stat growth.
 
 ### Good Care Bonus
 If:
--Hunger > 70
--Cleanliness > 70
--Mood > 70
--Energy > 50
+- Hunger > 70
+- Cleanliness > 70
+- Mood > 70
+- Energy > 50
 
-Then: StatGain × 1.1
+Then:   ```StatGain × 1.1```
 
 ### Neglect Penalty
 If:
--Hunger < 30
--Cleanliness < 30
--Mood < 30
+- Hunger < 30
+- Cleanliness < 30
+- Mood < 30
 
-Then: StatGain × 0.85
+Then:   ```StatGain × 0.85```
 
 This makes raising Cyberkin meaningful.
 
@@ -212,11 +212,11 @@ This makes raising Cyberkin meaningful.
 Corruption affects stats dynamically.
 
 **Low Corruption (0–20)**
-    No penalty
+> ```No penalty```
 **Medium Corruption (21–60)**
-    AllStats × 0.95
+> ```AllStats × 0.95```
 **High Corruption (61–90)**
-    AllStats × 0.85
+> ```AllStats × 0.85```
 **Critical Corruption (91–100)**
 -Random stat drops
 -Random behavior
@@ -227,13 +227,13 @@ This ties the Corrupt Sector into the core gameplay loop.
 ## 6. Personality Scaling
 Temperament affects growth.
 
-Temperament | Effect 1 | Effect 2
-Brave | +5% ATK | −5% DDEF
-Calm | +5% DDEF | −5% SPD
-Curious | +10% Scan Sense | 0
-Aggressive | +10% ATK | −10% Discipline
-Shy | +10% Bond gain | −5% ATK
-Stoic | +10% Discipline | −5% Mood gain
+| Temperament | Effect 1 | Effect 2 |
+| Brave | +5% ATK | −5% DDEF |
+| Calm | +5% DDEF | −5% SPD |
+| Curious | +10% Scan Sense | 0 |
+| Aggressive | +10% ATK | −10% Discipline |
+| Shy | +10% Bond gain | −5% ATK |
+| Stoic | +10% Discipline | −5% Mood gain |
 
 This makes Cyberkin feel alive and unique.
 
@@ -241,10 +241,10 @@ This makes Cyberkin feel alive and unique.
 Party relationships affect stats.
 
 **High Synergy (Friendship > 70)**
-    AllStats × 1.05
+> ```AllStats × 1.05```
 
 **Low Synergy (Friendship < 30)**
-    AllStats × 0.95
+> ```AllStats × 0.95```
 
 Rivalry Pair
 - +10% ATK
@@ -256,8 +256,8 @@ This creates emergent party behavior.
 Cyberkin gain bonuses in their aligned Sector.
 
 **Aligned Sector**
-    AllStats × 1.10
+> ```AllStats × 1.10```
 **Opposing Sector**
-    AllStats × 0.90
+> ```AllStats × 0.90```
 
 This ties exploration and combat together.
