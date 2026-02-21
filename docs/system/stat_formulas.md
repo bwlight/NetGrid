@@ -7,8 +7,7 @@ All formulas are written in a way that can be implemented in Unity, Godot, Unrea
 Every Cyberkin has a Base Stat for each primary stat (HP, ATK, DATK, DEF, DDEF, SPD).
 
 The formula:
-
-	FinalStat = BaseStat + (Level × GrowthRate) + TrainingBonus
+[ \text{FinalStat} = \text{BaseStat} + (\text{Level} \times \text{GrowthRate}) + \text{TrainingBonus} ]
 
 Where:
 - BaseStat = species default
@@ -34,7 +33,7 @@ Training mini‑games award Training Points (TP).
 
 Each TP increases a stat:
 
-	TrainingBonus = TP×TrainingValue
+[ \text{TrainingBonus} = \text{TP} \times \text{TrainingValue} ]
 
 Where TrainingValue is usually 1–3 depending on difficulty.
 
@@ -43,14 +42,14 @@ Care stats affect performance and growth.
 
 **Mood Modifier**
 
-	MoodMultiplier = 1 + (Mood−50 \div 200)
+[ \text{MoodMultiplier} = 1 + \left(\frac{\text{Mood} - 50}{200}\right) ]
 
 - Mood 100 → +25% performance
 - Mood 0 → −25% performance
 
 **Energy Modifier**
 
-	EnergyMultiplier = Energy \div 100
+[ \text{EnergyMultiplier} = \frac{\text{Energy}}{100} ]
 
 - Energy 100 → full power
 - Energy 50 → half power
@@ -58,7 +57,7 @@ Care stats affect performance and growth.
 **Cleanliness Modifier**
 Affects sickness and corruption gain:
 
-	CorruptionGain = BaseGain × (1+(100−Clean \div 100))
+[ \text{CorruptionGain} = \text{BaseGain} \times \left(1 + \frac{100 - \text{Clean}}{100}\right) ]
 
 ## 4. Corruption Formula
 Corruption rises from:
@@ -68,11 +67,11 @@ Corruption rises from:
 - corrupted scans
 - Void/Corrupt Sectors
 
-	```Corruption + = SourceValue × StabilityFactor```
+[ \text{Corruption} += \text{SourceValue} \times \text{StabilityFactor} ]
 
 Where:
 
-	StabilityFactor = (100 − StabilityThreshold) \div 100
+[ \text{StabilityFactor} = \frac{100 - \text{StabilityThreshold}}{100} ]
 
 High StabilityThreshold = less corruption gain.
 
@@ -85,7 +84,7 @@ Bond increases from:
 -walking together
 -scanning together
 
-	BondGain = ActionValue × TemperamentModifier 
+[ \text{BondGain} = \text{ActionValue} \times \text{TemperamentModifier} ]
 
 TemperamentModifier examples:
 
@@ -97,7 +96,7 @@ TemperamentModifier examples:
 ## 6. Evolution Threshold Formula
 Evolution checks use a weighted system:
 
-	EvolutionScore = (Stats)+(Bond×2)+(Discipline)−(Corruption×15)+(TrainingPoints)
+[ \text{EvolutionScore} = (\text{Stats}) + (\text{Bond} \times 2) + (\text{Discipline}) - (\text{Corruption} \times 1.5) + (\text{TrainingPoints}) ]
 
 Each evolution form has a required score range.
 
@@ -108,23 +107,22 @@ Example:
 
 ## 7. Speed → Turn Order Formula
 
-	TurnPriority = SPD + Random (0,5)
+[ \text{TurnPriority} = \text{SPD} + \text{Random}(0,5) ]
 
 This keeps battles dynamic.
 
 ## 8. Encounter Chance Formula (Mobile Exploration)
 
-	EncounterChance = RiftInstinct + SectorBonus + WeatherBonus
+[ \text{EncounterChance} = \text{RiftInstinct} + \text{SectorBonus} + \text{WeatherBonus} ]
 
 ## 9. Scan Rarity Formula (Skannerz System)
 
-	ScanRarity = ScanSense + ObjectComplexity + Random (1,100)
+[ \text{ScanRarity} = \text{ScanSense} + \text{ObjectComplexity} + \text{Random}(1,100) ]
 
 Higher = rarer Cyberkin or loot.
 
 ## 10. Party Synergy Formula
-	```math
-	SynergyBonus = \frac {∑FriendshipMatrix} {PartySize}
-	```
-	
+
+[ \text{SynergyBonus} = \frac{\sum \text{FriendshipMatrix}}{\text{PartySize}} ]
+
 High synergy = passive buffs.
