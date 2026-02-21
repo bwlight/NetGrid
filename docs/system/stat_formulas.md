@@ -124,7 +124,7 @@ Higher = rarer Cyberkin or loot.
 
 ## 10. Party Synergy Formula
 	```math
-	SynergyBonus = \frac {∑FriendshipMatrix} {PartySize}
+	SynergyBonus = \frac{∑FriendshipMatrix}{PartySize}
 	```
 	
 High synergy = passive buffs.
