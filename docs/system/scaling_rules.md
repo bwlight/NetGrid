@@ -2,11 +2,11 @@
 These rules define how Cyberkin stats scale across their four evolutionary stages.
 This system is designed to be:
 
--simple to implement
--easy to tune
--compatible with all 10 Sectors
--balanced for both mobile and PC
--faithful to Digimon‑style growth
+- simple to implement
+- easy to tune
+- compatible with all 10 Sectors
+- balanced for both mobile and PC
+- faithful to Digimon‑style growth
 
 ## 1. Evolution Stage Multipliers
 Each evolution stage applies a multiplier to Base Stats and Growth Rates.
