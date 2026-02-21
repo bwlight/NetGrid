@@ -1,3 +1,5 @@
+
+
 # 📈 B. Scaling Rules — Evolution Stage Multipliers & Growth Curves
 These rules define how Cyberkin stats scale across their four evolutionary stages.
 This system is designed to be:
@@ -32,17 +34,17 @@ Each Cyberkin family uses one of three growth curves:
 A) Linear Growth (Balanced Families)
 Used by: Core, Root, Archive
 
-```StatGain = Level × GrowthRate```
+	StatGain = Level × GrowthRate
 
 B) Accelerated Growth (Aggressive Families)
 Used by: Pulse, Firewall, Corrupt
 
-```StatGain = Level^1 .2 × GrowthRate```
+	StatGain = Level^1 .2 × GrowthRate
 
 C) Stability Growth (Defensive/Support Families)
 Used by: Cloud, Echo, Dream, Void
 
-```StatGain = (Level×GrowthRate)+(Stability×0.2)```
+	StatGain = (Level×GrowthRate)+(Stability×0.2)
 
 This gives each family a unique “feel” without complicating the math.
 
@@ -67,7 +69,7 @@ If:
 - Mood > 70
 - Energy > 50
 
-Then:   ```StatGain × 1.1```
+Then:	```StatGain × 1.1```
 
 ### Neglect Penalty
 If:
