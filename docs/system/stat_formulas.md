@@ -8,24 +8,24 @@ Every Cyberkin has a Base Stat for each primary stat (HP, ATK, DATK, DEF, DDEF, 
 
 The formula:
 
-FinalStat = BaseStat + (Level × GrowthRate) + TrainingBonus
+	FinalStat = BaseStat + (Level × GrowthRate) + TrainingBonus
 
 Where:
-BaseStat = species default
-GrowthRate = species growth bias (low/medium/high)
-TrainingBonus = earned through training mini‑games
+- BaseStat = species default
+- GrowthRate = species growth bias (low/medium/high)
+- TrainingBonus = earned through training mini‑games
 
 Example Growth Rates:
--Low = 1
--Medium = 2
--High = 3
+- Low = 1
+- Medium = 2
+- High = 3
 
 Example:
 A Rookie with:
-Base ATK = 14
-GrowthRate = 2
-Level = 10
-TrainingBonus = 4
+- Base ATK = 14
+- GrowthRate = 2
+- Level = 10
+- TrainingBonus = 4
 
 14 + (10 × 2) + 4 = 38
 
@@ -34,7 +34,7 @@ Training mini‑games award Training Points (TP).
 
 Each TP increases a stat:
 
-TrainingBonus = TP×TrainingValue
+	TrainingBonus = TP×TrainingValue
 
 Where TrainingValue is usually 1–3 depending on difficulty.
 
@@ -43,36 +43,36 @@ Care stats affect performance and growth.
 
 **Mood Modifier**
 
-MoodMultiplier = 1 + (Mood−50 \div 200)
+	MoodMultiplier = 1 + (Mood−50 \div 200)
 
--Mood 100 → +25% performance
--Mood 0 → −25% performance
+- Mood 100 → +25% performance
+- Mood 0 → −25% performance
 
 **Energy Modifier**
 
-EnergyMultiplier = Energy \div 100
+	EnergyMultiplier = Energy \div 100
 
--Energy 100 → full power
--Energy 50 → half power
+- Energy 100 → full power
+- Energy 50 → half power
 
 **Cleanliness Modifier**
 Affects sickness and corruption gain:
 
-CorruptionGain = BaseGain × (1+(100−Clean \div 100))
+	CorruptionGain = BaseGain × (1+(100−Clean \div 100))
 
 ## 4. Corruption Formula
 Corruption rises from:
--battles
--neglect
--dirty environments
--corrupted scans
--Void/Corrupt Sectors
+- battles
+- neglect
+- dirty environments
+- corrupted scans
+- Void/Corrupt Sectors
 
-Corruption + = SourceValue × StabilityFactor
+	```Corruption + = SourceValue × StabilityFactor```
 
 Where:
 
-StabilityFactor = (100 − StabilityThreshold) \div 100
+	StabilityFactor = (100 − StabilityThreshold) \div 100
 
 High StabilityThreshold = less corruption gain.
 
@@ -85,7 +85,7 @@ Bond increases from:
 -walking together
 -scanning together
 
-BondGain = ActionValue × TemperamentModifier 
+	BondGain = ActionValue × TemperamentModifier 
 
 TemperamentModifier examples:
 
@@ -97,7 +97,7 @@ TemperamentModifier examples:
 ## 6. Evolution Threshold Formula
 Evolution checks use a weighted system:
 
-EvolutionScore = (Stats)+(Bond×2)+(Discipline)−(Corruption×15)+(TrainingPoints)
+	EvolutionScore = (Stats)+(Bond×2)+(Discipline)−(Corruption×15)+(TrainingPoints)
 
 Each evolution form has a required score range.
 
@@ -108,23 +108,25 @@ Example:
 
 ## 7. Speed → Turn Order Formula
 
-TurnPriority = SPD + Random (0,5)
+	TurnPriority = SPD + Random (0,5)
 
 This keeps battles dynamic.
 
 ## 8. Encounter Chance Formula (Mobile Exploration)
 
-EncounterChance = RiftInstinct + SectorBonus + WeatherBonus
+	EncounterChance = RiftInstinct + SectorBonus + WeatherBonus
 
 ## 9. Scan Rarity Formula (Skannerz System)
 
-ScanRarity = ScanSense + ObjectComplexity + Random (1,100)
+	ScanRarity = ScanSense + ObjectComplexity + Random (1,100)
 
 Higher = rarer Cyberkin or loot.
 
 ## 10. Party Synergy Formula
-SynergyBonus = \frac{∑FriendshipMatrix}{PartySize}
-
+	```math
+	SynergyBonus = \frac {∑FriendshipMatrix} {PartySize}
+	```
+	
 High synergy = passive buffs.
 
 # 📈 B. Scaling Rules — Evolution Stage Multipliers & Growth Curves
@@ -161,17 +163,17 @@ Each Cyberkin family uses one of three growth curves:
 A) Linear Growth (Balanced Families)
 Used by: Core, Root, Archive
 
-```StatGain = Level × GrowthRate```
+	StatGain = Level × GrowthRate
 
 B) Accelerated Growth (Aggressive Families)
 Used by: Pulse, Firewall, Corrupt
 
-```StatGain = Level^1 .2 × GrowthRate```
+	StatGain = Level^1 .2 × GrowthRate
 
 C) Stability Growth (Defensive/Support Families)
 Used by: Cloud, Echo, Dream, Void
 
-```StatGain = (Level×GrowthRate)+(Stability×0.2)```
+	StatGain = (Level×GrowthRate)+(Stability×0.2)
 
 This gives each family a unique “feel” without complicating the math.
 
@@ -196,7 +198,7 @@ If:
 - Mood > 70
 - Energy > 50
 
-Then:   ```StatGain × 1.1```
+Then:	```StatGain × 1.1```
 
 ### Neglect Penalty
 If:
