@@ -1,0 +1,46 @@
+{
+  "relationship_types": [
+    {
+      "name": "Bonded",
+      "threshold": { "min": 80, "max": 100 },
+      "effects": {
+        "ATK_together": 0.10,
+        "DEF_protect": 0.10,
+        "combo_attack_chance": 0.15
+      }
+    },
+    {
+      "name": "Friendly",
+      "threshold": { "min": 60, "max": 79 },
+      "effects": {
+        "ATK": 0.05,
+        "DEF": 0.05
+      }
+    },
+    {
+      "name": "Neutral",
+      "threshold": { "min": 40, "max": 59 },
+      "effects": {}
+    },
+    {
+      "name": "Rival",
+      "threshold": { "min": 20, "max": 39 },
+      "effects": {
+        "ATK": 0.10,
+        "DEF": -0.10,
+        "crit_chance": 0.05
+      }
+    },
+    {
+      "name": "Hostile",
+      "threshold": { "min": 0, "max": 19 },
+      "effects": {
+        "ATK": -0.10,
+        "DEF": -0.10,
+        "SPD": -0.10,
+        "ignore_command_chance": 0.10,
+        "corruption_event_chance": 0.10
+      }
+    }
+  ]
+}

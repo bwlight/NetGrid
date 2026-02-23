@@ -1,0 +1,34 @@
+{
+  "party_events": [
+    {
+      "name": "PlayfulInteraction",
+      "trigger": "random_positive",
+      "effects": { "friendship_gain": 5 }
+    },
+    {
+      "name": "ProtectiveMoment",
+      "trigger": "battle_defense",
+      "effects": { "friendship_gain": 8, "bond_gain": 2 }
+    },
+    {
+      "name": "SharedVictory",
+      "trigger": "battle_win",
+      "effects": { "friendship_gain": 4 }
+    },
+    {
+      "name": "Argument",
+      "trigger": "random_negative",
+      "effects": { "friendship_loss": 6 }
+    },
+    {
+      "name": "Jealousy",
+      "trigger": "uneven_attention",
+      "effects": { "friendship_loss": 4, "rivalry_chance": 0.10 }
+    },
+    {
+      "name": "CorruptionSurge",
+      "trigger": "corruption_spike",
+      "effects": { "friendship_loss": 10, "fear_chance": 0.20 }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "relationship_evolution_modifiers": {
+    "bonded": {
+      "evolution_score_bonus": 10,
+      "discipline_bonus": 5,
+      "corruption_reduction": 5
+    },
+    "rival": {
+      "atk_bonus": 10,
+      "discipline_penalty": 10,
+      "corrupt_evolution_chance": 0.15
+    },
+    "hostile": {
+      "corruption_gain": 10,
+      "discipline_penalty": 10,
+      "forced_corrupt_threshold": 0.90
+    }
+  }
+}

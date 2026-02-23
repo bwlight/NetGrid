@@ -1,0 +1,22 @@
+{
+  "friendship_matrix": {
+    "description": "Pairwise friendship values between Cyberkin in the party.",
+    "range": {
+      "min": 0,
+      "max": 100
+    },
+    "initialization": {
+      "default_value": 50,
+      "personality_modifier": true,
+      "corruption_modifier": true
+    },
+    "example_structure": {
+      "cyberkin_ids": ["A", "B", "C"],
+      "matrix": {
+        "A": { "B": 50, "C": 50 },
+        "B": { "A": 50, "C": 50 },
+        "C": { "A": 50, "B": 50 }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "synergy_rules": {
+    "calculation": "average_friendship",
+    "tiers": [
+      {
+        "name": "Chaotic",
+        "range": [0, 29],
+        "effects": {
+          "DEF": -0.10,
+          "SPD": -0.05
+        }
+      },
+      {
+        "name": "Neutral",
+        "range": [30, 59],
+        "effects": {}
+      },
+      {
+        "name": "Harmonized",
+        "range": [60, 79],
+        "effects": {
+          "ATK": 0.05,
+          "DEF": 0.05
+        }
+      },
+      {
+        "name": "Synchronized",
+        "range": [80, 100],
+        "effects": {
+          "ATK": 0.10,
+          "DEF": 0.10,
+          "SPD": 0.05
+        }
+      }
+    ]
+  }
+}
