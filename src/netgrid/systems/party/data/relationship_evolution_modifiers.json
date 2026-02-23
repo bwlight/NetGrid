@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/relationship_evolution_modifiers.schema.json",
   "relationship_evolution_modifiers": {
     "bonded": {
       "evolution_score_bonus": 10,

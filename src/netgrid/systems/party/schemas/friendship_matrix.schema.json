@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Friendship Matrix Schema",
+  "type": "object",
+  "properties": {
+    "friendship_matrix": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "range": {
+          "type": "object",
+          "properties": {
+            "min": { "type": "integer" },
+            "max": { "type": "integer" }
+          },
+          "required": ["min", "max"]
+        },
+        "initialization": {
+          "type": "object",
+          "properties": {
+            "default_value": { "type": "integer" },
+            "personality_modifier": { "type": "boolean" },
+            "corruption_modifier": { "type": "boolean" }
+          },
+          "required": ["default_value", "personality_modifier", "corruption_modifier"]
+        },
+        "example_structure": { "type": "object" }
+      },
+      "required": ["range", "initialization"]
+    }
+  },
+  "required": ["friendship_matrix"]
+}

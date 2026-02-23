@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/relationship_types.schema.json",
   "relationship_types": [
     {
       "name": "Bonded",

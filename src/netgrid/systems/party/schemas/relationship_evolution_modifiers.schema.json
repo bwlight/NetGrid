@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Relationship Evolution Modifiers Schema",
+  "type": "object",
+  "properties": {
+    "relationship_evolution_modifiers": {
+      "type": "object",
+      "properties": {
+        "bonded": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "rival": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "hostile": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        }
+      },
+      "required": ["bonded", "rival", "hostile"]
+    }
+  },
+  "required": ["relationship_evolution_modifiers"]
+}

@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/synergy_rules.schema.json",
   "synergy_rules": {
     "calculation": "average_friendship",
     "tiers": [

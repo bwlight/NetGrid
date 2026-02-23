@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Relationship Types Schema",
+  "type": "object",
+  "properties": {
+    "relationship_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "threshold": {
+            "type": "object",
+            "properties": {
+              "min": { "type": "integer" },
+              "max": { "type": "integer" }
+            },
+            "required": ["min", "max"]
+          },
+          "effects": {
+            "type": "object",
+            "additionalProperties": { "type": "number" }
+          }
+        },
+        "required": ["name", "threshold"]
+      }
+    }
+  },
+  "required": ["relationship_types"]
+}

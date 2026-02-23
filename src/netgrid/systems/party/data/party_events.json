@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/party_events.schema.json",
   "party_events": [
     {
       "name": "PlayfulInteraction",

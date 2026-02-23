@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synergy Rules Schema",
+  "type": "object",
+  "properties": {
+    "synergy_rules": {
+      "type": "object",
+      "properties": {
+        "calculation": { "type": "string" },
+        "tiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "range": {
+                "type": "array",
+                "items": { "type": "integer" },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "effects": {
+                "type": "object",
+                "additionalProperties": { "type": "number" }
+              }
+            },
+            "required": ["name", "range"]
+          }
+        }
+      },
+      "required": ["calculation", "tiers"]
+    }
+  },
+  "required": ["synergy_rules"]
+}

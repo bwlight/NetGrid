@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/friendship_matrix.schema.json",
   "friendship_matrix": {
     "description": "Pairwise friendship values between Cyberkin in the party.",
     "range": {

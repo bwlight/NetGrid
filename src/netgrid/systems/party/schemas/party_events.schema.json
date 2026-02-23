@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Party Events Schema",
+  "type": "object",
+  "properties": {
+    "party_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "trigger": { "type": "string" },
+          "effects": {
+            "type": "object",
+            "additionalProperties": {
+              "anyOf": [
+                { "type": "integer" },
+                { "type": "number" }
+              ]
+            }
+          }
+        },
+        "required": ["name", "trigger", "effects"]
+      }
+    }
+  },
+  "required": ["party_events"]
+}
