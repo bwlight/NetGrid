@@ -14,7 +14,7 @@ This system is designed to be:
 Each evolution stage applies a multiplier to Base Stats and Growth Rates.
 
 Stage | Base Stat Multiplier | Growth Rate Multiplier | Notes
-|:----:|:---:|:---:|
+|:----:|:---:|:---:|:---:|
 Baby | ×0.6 | ×0.5 | Weak, grows slowly, care‑focused
 Rookie | ×1.0 | ×1.0 | Baseline stage
 Champion | ×1.6 | ×1.4 | Stronger stats, faster growth
@@ -86,14 +86,17 @@ Corruption affects stats dynamically.
 
 **Low Corruption (0–20)**
 > ```No penalty```
+
 **Medium Corruption (21–60)**
 > ```AllStats × 0.95```
+
 **High Corruption (61–90)**
 > ```AllStats × 0.85```
+
 **Critical Corruption (91–100)**
--Random stat drops
--Random behavior
--Chance of Corrupt evolution
+- Random stat drops
+- Random behavior
+- Chance of Corrupt evolution
 
 This ties the Corrupt Sector into the core gameplay loop.
 
@@ -101,6 +104,7 @@ This ties the Corrupt Sector into the core gameplay loop.
 Temperament affects growth.
 
 | Temperament | Effect 1 | Effect 2 |
+|:---:|:---:|:---:|
 | Brave | +5% ATK | −5% DDEF |
 | Calm | +5% DDEF | −5% SPD |
 | Curious | +10% Scan Sense | 0 |
@@ -130,6 +134,7 @@ Cyberkin gain bonuses in their aligned Sector.
 
 **Aligned Sector**
 > ```AllStats × 1.10```
+
 **Opposing Sector**
 > ```AllStats × 0.90```
 
