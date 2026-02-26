@@ -1,0 +1,70 @@
+{
+  "void_baby": {
+    "into": "void_rookie",
+    "level": 6
+  },
+
+  "void_rookie": {
+    "branches": [
+      {
+        "into": "void_champion_entropy",
+        "level": 18,
+        "stability_below": 50
+      },
+      {
+        "into": "void_champion_gravity",
+        "level": 18,
+        "attack": 30
+      },
+      {
+        "into": "void_champion_null",
+        "level": 18,
+        "friendship": 40
+      }
+    ]
+  },
+
+  "void_champion_entropy": {
+    "branches": [
+      {
+        "into": "corrupt_final_glitch",
+        "stability_below": 20
+      },
+      {
+        "into": "void_final_oblivion",
+        "level": 34,
+        "friendship": 70
+      }
+    ]
+  },
+
+  "void_champion_gravity": {
+    "branches": [
+      {
+        "into": "void_final_singularity",
+        "level": 34,
+        "attack": 45
+      },
+      {
+        "into": "void_final_oblivion",
+        "level": 34,
+        "friendship": 70
+      }
+    ]
+  },
+
+  "void_champion_null": {
+    "branches": [
+      {
+        "into": "void_final_oblivion",
+        "level": 34,
+        "friendship": 70
+      },
+      {
+        "into": "void_final_singularity",
+        "level": 34,
+        "attack": 45
+      }
+    ]
+  }
+}

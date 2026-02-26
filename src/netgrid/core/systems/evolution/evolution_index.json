@@ -1,0 +1,56 @@
+{
+  "$schema": "./evolution_index.schema.json",
+  "description": "Master index of all evolution files for Netgrid.",
+  "families": [
+    {
+      "family": "core",
+      "file": "families/evolution_core.json",
+      "notes": "Balanced, foundational branching evolutions."
+    },
+    {
+      "family": "root",
+      "file": "families/evolution_root.json",
+      "notes": "Growth, nature-logic, defensive and adaptive branches."
+    },
+    {
+      "family": "archive",
+      "file": "families/evolution_archive.json",
+      "notes": "Memory, logic, corruption risk branches."
+    },
+    {
+      "family": "firewall",
+      "file": "families/evolution_firewall.json",
+      "notes": "Defense, shielding, counter-based branches."
+    },
+    {
+      "family": "cloud",
+      "file": "families/evolution_cloud.json",
+      "notes": "Mobility, support, weather-based branches."
+    },
+    {
+      "family": "echo",
+      "file": "families/evolution_echo.json",
+      "notes": "Resonance, recursion, distortion branches."
+    },
+    {
+      "family": "pulse",
+      "file": "families/evolution_pulse.json",
+      "notes": "Energy, speed, rhythm-based branches."
+    },
+    {
+      "family": "dream",
+      "file": "families/evolution_dream.json",
+      "notes": "Emotion, surreal, duality branches."
+    },
+    {
+      "family": "void",
+      "file": "families/evolution_void.json",
+      "notes": "Entropy, instability, rare cross-family branches into Corrupt."
+    },
+    {
+      "family": "corrupt",
+      "file": "families/evolution_corrupt.json",
+      "notes": "Glitch, instability, terminal corruption paths."
+    }
+  ]
+}

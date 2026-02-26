@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stability Schema",
+  "description": "Defines stability configuration for Cyberkin.",
+  "type": "object",
+  "properties": {
+    "max_stability": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 100,
+      "description": "Maximum stability value."
+    },
+    "thresholds": {
+      "type": "object",
+      "properties": {
+        "stable": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Upper bound for stable state."
+        },
+        "strained": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Upper bound for strained state."
+        },
+        "unstable": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Upper bound for unstable state."
+        },
+        "critical": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Upper bound for critical state."
+        }
+      },
+      "required": ["stable", "strained", "unstable", "critical"],
+      "additionalProperties": false
+    },
+    "modifiers": {
+      "type": "object",
+      "properties": {
+        "crit_bonus": {
+          "type": "number",
+          "description": "Crit chance bonus at high instability."
+        },
+        "damage_bonus": {
+          "type": "number",
+          "description": "Damage bonus at high instability."
+        },
+        "status_vulnerability": {
+          "type": "number",
+          "description": "Multiplier for status susceptibility."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["max_stability", "thresholds"],
+  "additionalProperties": false
+}

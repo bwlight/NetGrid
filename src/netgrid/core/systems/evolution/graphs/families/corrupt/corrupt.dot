@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "corrupt_baby" [fillcolor="#ef5350"];
+  "corrupt_baby" -> "corrupt_rookie";
+  "corrupt_rookie" [fillcolor="#ef5350"];
+  "corrupt_rookie" -> "corrupt_champion_glitch" [color="#7e57c2"];
+  "corrupt_rookie" -> "corrupt_champion_error" [color="#7e57c2"];
+  "corrupt_rookie" -> "corrupt_champion_patchfail" [color="#7e57c2"];
+  "corrupt_champion_glitch" [fillcolor="#ef5350"];
+  "corrupt_champion_glitch" -> "corrupt_final_corruptcore" [color="#7e57c2"];
+  "corrupt_champion_glitch" -> "corrupt_final_overrun" [color="#7e57c2"];
+  "corrupt_champion_error" [fillcolor="#ef5350"];
+  "corrupt_champion_error" -> "corrupt_final_overrun" [color="#7e57c2"];
+  "corrupt_champion_error" -> "corrupt_final_corruptcore" [color="#7e57c2"];
+  "corrupt_champion_patchfail" [fillcolor="#ef5350"];
+  "corrupt_champion_patchfail" -> "corrupt_final_corruptcore" [color="#7e57c2"];
+  "corrupt_champion_patchfail" -> "corrupt_final_overrun" [color="#7e57c2"];
+}

@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "void_baby" [fillcolor="#b0bec5"];
+  "void_baby" -> "void_rookie";
+  "void_rookie" [fillcolor="#b0bec5"];
+  "void_rookie" -> "void_champion_entropy" [color="#7e57c2"];
+  "void_rookie" -> "void_champion_gravity" [color="#7e57c2"];
+  "void_rookie" -> "void_champion_null" [color="#7e57c2"];
+  "void_champion_entropy" [fillcolor="#b0bec5"];
+  "void_champion_entropy" -> "corrupt_final_glitch" [color="#7e57c2"];
+  "void_champion_entropy" -> "void_final_oblivion" [color="#7e57c2"];
+  "void_champion_gravity" [fillcolor="#b0bec5"];
+  "void_champion_gravity" -> "void_final_singularity" [color="#7e57c2"];
+  "void_champion_gravity" -> "void_final_oblivion" [color="#7e57c2"];
+  "void_champion_null" [fillcolor="#b0bec5"];
+  "void_champion_null" -> "void_final_oblivion" [color="#7e57c2"];
+  "void_champion_null" -> "void_final_singularity" [color="#7e57c2"];
+}

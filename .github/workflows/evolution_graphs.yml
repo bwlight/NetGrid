@@ -1,0 +1,48 @@
+name: Generate Evolution Graphs
+
+on:
+  push:
+    paths:
+      - "src/netgrid/core/systems/evolution/**"
+  workflow_dispatch:
+
+jobs:
+  build-graphs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Graphviz
+        run: sudo apt-get update && sudo apt-get install -y graphviz
+
+      - name: Install Python dependencies
+        run: pip install --upgrade pip
+
+      - name: Run Evolution Graph Generator
+        run: python src/netgrid/core/systems/evolution/evolution_graphviz.py
+
+      - name: Upload Graph Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: evolution-graphs
+          path: |
+            src/netgrid/core/systems/evolution/graphs/**/*.dot
+            src/netgrid/core/systems/evolution/graphs/**/*.png
+            src/netgrid/core/systems/evolution/graphs/**/*.svg
+
+      # OPTIONAL: Auto-commit updated graphs back to repo
+      - name: Commit updated graphs
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "actions@github.com"
+          git add src/netgrid/core/systems/evolution/graphs
+          git commit -m "Auto-update evolution graphs" || echo "No changes to commit"
+          git push

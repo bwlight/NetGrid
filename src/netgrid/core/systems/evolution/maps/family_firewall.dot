@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "firewall_baby" [fillcolor="#b3e5fc"];
+  "firewall_baby" -> "firewall_rookie";
+  "firewall_rookie" [fillcolor="#c8e6c9"];
+  "firewall_rookie" -> "firewall_champion_barrier" [color="#7e57c2"];
+  "firewall_rookie" -> "firewall_champion_counter" [color="#7e57c2"];
+  "firewall_rookie" -> "firewall_champion_patch" [color="#7e57c2"];
+  "firewall_champion_barrier" [fillcolor="#ffe0b2"];
+  "firewall_champion_barrier" -> "firewall_final_fortress" [color="#7e57c2"];
+  "firewall_champion_barrier" -> "firewall_final_protocol" [color="#7e57c2"];
+  "firewall_champion_counter" [fillcolor="#ffe0b2"];
+  "firewall_champion_counter" -> "firewall_final_retaliate" [color="#7e57c2"];
+  "firewall_champion_counter" -> "firewall_final_protocol" [color="#7e57c2"];
+  "firewall_champion_patch" [fillcolor="#ffe0b2"];
+  "firewall_champion_patch" -> "firewall_final_protocol" [color="#7e57c2"];
+  "firewall_champion_patch" -> "firewall_final_fortress" [color="#7e57c2"];
+}

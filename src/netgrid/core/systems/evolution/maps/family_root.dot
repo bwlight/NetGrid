@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "root_baby" [fillcolor="#b3e5fc"];
+  "root_baby" -> "root_rookie";
+  "root_rookie" [fillcolor="#c8e6c9"];
+  "root_rookie" -> "root_champion_thorn" [color="#7e57c2"];
+  "root_rookie" -> "root_champion_bloom" [color="#7e57c2"];
+  "root_rookie" -> "root_champion_bark" [color="#7e57c2"];
+  "root_champion_thorn" [fillcolor="#ffe0b2"];
+  "root_champion_thorn" -> "root_final_bramble" [color="#7e57c2"];
+  "root_champion_thorn" -> "root_final_ancient" [color="#7e57c2"];
+  "root_champion_bloom" [fillcolor="#ffe0b2"];
+  "root_champion_bloom" -> "root_final_ancient" [color="#7e57c2"];
+  "root_champion_bloom" -> "root_final_verdant" [color="#7e57c2"];
+  "root_champion_bark" [fillcolor="#ffe0b2"];
+  "root_champion_bark" -> "root_final_warden" [color="#7e57c2"];
+  "root_champion_bark" -> "root_final_ancient" [color="#7e57c2"];
+}

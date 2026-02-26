@@ -1,0 +1,71 @@
+{
+  "dream_baby": {
+    "into": "dream_rookie",
+    "level": 6
+  },
+
+  "dream_rookie": {
+    "branches": [
+      {
+        "into": "dream_champion_lucid",
+        "level": 16,
+        "friendship": 35
+      },
+      {
+        "into": "dream_champion_nightmare",
+        "level": 16,
+        "stability_below": 40
+      },
+      {
+        "into": "dream_champion_whimsy",
+        "level": 16,
+        "speed": 30
+      }
+    ]
+  },
+
+  "dream_champion_lucid": {
+    "branches": [
+      {
+        "into": "dream_final_ascended",
+        "level": 32,
+        "friendship": 65
+      },
+      {
+        "into": "dream_final_chaos",
+        "level": 32,
+        "stability_below": 30
+      }
+    ]
+  },
+
+  "dream_champion_nightmare": {
+    "branches": [
+      {
+        "into": "dream_final_chaos",
+        "level": 32,
+        "stability_below": 30
+      },
+      {
+        "into": "dream_final_ascended",
+        "level": 32,
+        "friendship": 65
+      }
+    ]
+  },
+
+  "dream_champion_whimsy": {
+    "branches": [
+      {
+        "into": "dream_final_ascended",
+        "level": 32,
+        "friendship": 65
+      },
+      {
+        "into": "dream_final_chaos",
+        "level": 32,
+        "stability_below": 30
+      }
+    ]
+  }
+}

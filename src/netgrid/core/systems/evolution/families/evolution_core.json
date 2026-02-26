@@ -1,0 +1,71 @@
+{
+  "core_baby": {
+    "into": "core_rookie",
+    "level": 5
+  },
+
+  "core_rookie": {
+    "branches": [
+      {
+        "into": "core_champion_power",
+        "level": 15,
+        "attack": 25
+      },
+      {
+        "into": "core_champion_guard",
+        "level": 15,
+        "defense": 25
+      },
+      {
+        "into": "core_champion_speed",
+        "level": 15,
+        "speed": 25
+      }
+    ]
+  },
+
+  "core_champion_power": {
+    "branches": [
+      {
+        "into": "core_final_overclock",
+        "level": 30,
+        "stability_below": 30
+      },
+      {
+        "into": "core_final_prime",
+        "level": 30,
+        "friendship": 60
+      }
+    ]
+  },
+
+  "core_champion_guard": {
+    "branches": [
+      {
+        "into": "core_final_bastion",
+        "level": 30,
+        "defense": 40
+      },
+      {
+        "into": "core_final_prime",
+        "level": 30,
+        "friendship": 60
+      }
+    ]
+  },
+
+  "core_champion_speed": {
+    "branches": [
+      {
+        "into": "core_final_photon",
+        "level": 30,
+        "speed": 40
+      },
+      {
+        "into": "core_final_prime",
+        "level": 30,
+        "friendship": 60
+      }
+    ]
+  }
+}

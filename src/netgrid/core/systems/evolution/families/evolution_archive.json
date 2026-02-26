@@ -1,0 +1,71 @@
+{
+  "archive_baby": {
+    "into": "archive_rookie",
+    "level": 4
+  },
+
+  "archive_rookie": {
+    "branches": [
+      {
+        "into": "archive_champion_logic",
+        "level": 12,
+        "intelligence": 30
+      },
+      {
+        "into": "archive_champion_index",
+        "level": 12,
+        "friendship": 20
+      },
+      {
+        "into": "archive_champion_fragment",
+        "level": 12,
+        "stability_below": 40
+      }
+    ]
+  },
+
+  "archive_champion_logic": {
+    "branches": [
+      {
+        "into": "archive_final_compiler",
+        "level": 26,
+        "intelligence": 45
+      },
+      {
+        "into": "archive_final_librarian",
+        "level": 26,
+        "friendship": 50
+      }
+    ]
+  },
+
+  "archive_champion_index": {
+    "branches": [
+      {
+        "into": "archive_final_librarian",
+        "level": 26,
+        "friendship": 50
+      },
+      {
+        "into": "archive_final_corrupt",
+        "level": 26,
+        "stability_below": 35
+      }
+    ]
+  },
+
+  "archive_champion_fragment": {
+    "branches": [
+      {
+        "into": "archive_final_corrupt",
+        "level": 26,
+        "stability_below": 35
+      },
+      {
+        "into": "archive_final_compiler",
+        "level": 26,
+        "intelligence": 45
+      }
+    ]
+  }
+}

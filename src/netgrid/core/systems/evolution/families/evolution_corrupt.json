@@ -1,0 +1,68 @@
+{
+  "corrupt_baby": {
+    "into": "corrupt_rookie",
+    "level": 6
+  },
+
+  "corrupt_rookie": {
+    "branches": [
+      {
+        "into": "corrupt_champion_glitch",
+        "level": 18,
+        "stability_below": 50
+      },
+      {
+        "into": "corrupt_champion_error",
+        "level": 18,
+        "attack": 30
+      },
+      {
+        "into": "corrupt_champion_patchfail",
+        "level": 18,
+        "defense_below": 20
+      }
+    ]
+  },
+
+  "corrupt_champion_glitch": {
+    "branches": [
+      {
+        "into": "corrupt_final_corruptcore",
+        "stability_below": 25
+      },
+      {
+        "into": "corrupt_final_overrun",
+        "level": 34,
+        "attack": 45
+      }
+    ]
+  },
+
+  "corrupt_champion_error": {
+    "branches": [
+      {
+        "into": "corrupt_final_overrun",
+        "level": 34,
+        "attack": 45
+      },
+      {
+        "into": "corrupt_final_corruptcore",
+        "stability_below": 25
+      }
+    ]
+  },
+
+  "corrupt_champion_patchfail": {
+    "branches": [
+      {
+        "into": "corrupt_final_corruptcore",
+        "stability_below": 25
+      },
+      {
+        "into": "corrupt_final_overrun",
+        "level": 34,
+        "attack": 45
+      }
+    ]
+  }
+}

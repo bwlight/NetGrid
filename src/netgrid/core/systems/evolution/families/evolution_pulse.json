@@ -1,0 +1,71 @@
+{
+  "pulse_baby": {
+    "into": "pulse_rookie",
+    "level": 5
+  },
+
+  "pulse_rookie": {
+    "branches": [
+      {
+        "into": "pulse_champion_surge",
+        "level": 14,
+        "speed": 30
+      },
+      {
+        "into": "pulse_champion_resonance",
+        "level": 14,
+        "friendship": 25
+      },
+      {
+        "into": "pulse_champion_static",
+        "level": 14,
+        "stability_below": 40
+      }
+    ]
+  },
+
+  "pulse_champion_surge": {
+    "branches": [
+      {
+        "into": "pulse_final_overdrive",
+        "level": 28,
+        "speed": 45
+      },
+      {
+        "into": "pulse_final_sync",
+        "level": 28,
+        "friendship": 55
+      }
+    ]
+  },
+
+  "pulse_champion_resonance": {
+    "branches": [
+      {
+        "into": "pulse_final_sync",
+        "level": 28,
+        "friendship": 55
+      },
+      {
+        "into": "pulse_final_staticstorm",
+        "level": 28,
+        "stability_below": 35
+      }
+    ]
+  },
+
+  "pulse_champion_static": {
+    "branches": [
+      {
+        "into": "pulse_final_staticstorm",
+        "level": 28,
+        "stability_below": 35
+      },
+      {
+        "into": "pulse_final_overdrive",
+        "level": 28,
+        "speed": 45
+      }
+    ]
+  }
+}

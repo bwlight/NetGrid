@@ -1,0 +1,71 @@
+{
+  "cloud_baby": {
+    "into": "cloud_rookie",
+    "level": 4
+  },
+
+  "cloud_rookie": {
+    "branches": [
+      {
+        "into": "cloud_champion_wind",
+        "level": 12,
+        "speed": 30
+      },
+      {
+        "into": "cloud_champion_rain",
+        "level": 12,
+        "friendship": 20
+      },
+      {
+        "into": "cloud_champion_storm",
+        "level": 12,
+        "attack": 25
+      }
+    ]
+  },
+
+  "cloud_champion_wind": {
+    "branches": [
+      {
+        "into": "cloud_final_jetstream",
+        "level": 25,
+        "speed": 45
+      },
+      {
+        "into": "cloud_final_halo",
+        "level": 25,
+        "friendship": 45
+      }
+    ]
+  },
+
+  "cloud_champion_rain": {
+    "branches": [
+      {
+        "into": "cloud_final_halo",
+        "level": 25,
+        "friendship": 45
+      },
+      {
+        "into": "cloud_final_tempest",
+        "level": 25,
+        "attack": 40
+      }
+    ]
+  },
+
+  "cloud_champion_storm": {
+    "branches": [
+      {
+        "into": "cloud_final_tempest",
+        "level": 25,
+        "attack": 40
+      },
+      {
+        "into": "cloud_final_jetstream",
+        "level": 25,
+        "speed": 45
+      }
+    ]
+  }
+}

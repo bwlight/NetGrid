@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evolution Index Schema",
+  "description": "Schema for the master evolution index file.",
+  "type": "object",
+
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to the schema file."
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the index."
+    },
+
+    "families": {
+      "type": "array",
+      "description": "List of evolution files and their associated families.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "family": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$",
+            "description": "Canonical family ID (lowercase)."
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^families\\/evolution_[a-z0-9_]+\\.json$",
+            "description": "Relative path to the evolution JSON file."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Short description of the family's evolution identity."
+          }
+        },
+        "required": ["family", "file"],
+        "additionalProperties": false
+      }
+    }
+  },
+
+  "required": ["families"],
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "dream_baby" [fillcolor="#9575cd"];
+  "dream_baby" -> "dream_rookie";
+  "dream_rookie" [fillcolor="#9575cd"];
+  "dream_rookie" -> "dream_champion_lucid" [color="#7e57c2"];
+  "dream_rookie" -> "dream_champion_nightmare" [color="#7e57c2"];
+  "dream_rookie" -> "dream_champion_whimsy" [color="#7e57c2"];
+  "dream_champion_lucid" [fillcolor="#9575cd"];
+  "dream_champion_lucid" -> "dream_final_ascended" [color="#7e57c2"];
+  "dream_champion_lucid" -> "dream_final_chaos" [color="#7e57c2"];
+  "dream_champion_nightmare" [fillcolor="#9575cd"];
+  "dream_champion_nightmare" -> "dream_final_chaos" [color="#7e57c2"];
+  "dream_champion_nightmare" -> "dream_final_ascended" [color="#7e57c2"];
+  "dream_champion_whimsy" [fillcolor="#9575cd"];
+  "dream_champion_whimsy" -> "dream_final_ascended" [color="#7e57c2"];
+  "dream_champion_whimsy" -> "dream_final_chaos" [color="#7e57c2"];
+}

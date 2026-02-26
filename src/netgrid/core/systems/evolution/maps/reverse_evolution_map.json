@@ -1,0 +1,41 @@
+{
+  "core_final_overclock": ["core_champion_power", "core_rookie", "core_baby"],
+  "core_final_prime": ["core_champion_power", "core_champion_guard", "core_champion_speed", "core_rookie", "core_baby"],
+  "core_final_bastion": ["core_champion_guard", "core_rookie", "core_baby"],
+  "core_final_photon": ["core_champion_speed", "core_rookie", "core_baby"],
+
+  "root_final_bramble": ["root_champion_thorn", "root_rookie", "root_baby"],
+  "root_final_ancient": ["root_champion_thorn", "root_champion_bloom", "root_champion_bark", "root_rookie", "root_baby"],
+  "root_final_verdant": ["root_champion_bloom", "root_rookie", "root_baby"],
+  "root_final_warden": ["root_champion_bark", "root_rookie", "root_baby"],
+
+  "archive_final_compiler": ["archive_champion_logic", "archive_champion_fragment", "archive_rookie", "archive_baby"],
+  "archive_final_librarian": ["archive_champion_logic", "archive_champion_index", "archive_rookie", "archive_baby"],
+  "archive_final_corrupt": ["archive_champion_index", "archive_champion_fragment", "archive_rookie", "archive_baby"],
+
+  "firewall_final_fortress": ["firewall_champion_barrier", "firewall_champion_patch", "firewall_rookie", "firewall_baby"],
+  "firewall_final_protocol": ["firewall_champion_barrier", "firewall_champion_counter", "firewall_champion_patch", "firewall_rookie", "firewall_baby"],
+  "firewall_final_retaliate": ["firewall_champion_counter", "firewall_rookie", "firewall_baby"],
+
+  "cloud_final_jetstream": ["cloud_champion_wind", "cloud_champion_storm", "cloud_rookie", "cloud_baby"],
+  "cloud_final_halo": ["cloud_champion_wind", "cloud_champion_rain", "cloud_rookie", "cloud_baby"],
+  "cloud_final_tempest": ["cloud_champion_rain", "cloud_champion_storm", "cloud_rookie", "cloud_baby"],
+
+  "echo_final_harmonic": ["echo_champion_resonate", "echo_champion_reverb", "echo_champion_distort", "echo_rookie", "echo_baby"],
+  "echo_final_feedback": ["echo_champion_resonate", "echo_champion_reverb", "echo_champion_distort", "echo_rookie", "echo_baby"],
+
+  "pulse_final_overdrive": ["pulse_champion_surge", "pulse_champion_static", "pulse_rookie", "pulse_baby"],
+  "pulse_final_sync": ["pulse_champion_surge", "pulse_champion_resonance", "pulse_rookie", "pulse_baby"],
+  "pulse_final_staticstorm": ["pulse_champion_resonance", "pulse_champion_static", "pulse_rookie", "pulse_baby"],
+
+  "dream_final_ascended": ["dream_champion_lucid", "dream_champion_nightmare", "dream_champion_whimsy", "dream_rookie", "dream_baby"],
+  "dream_final_chaos": ["dream_champion_lucid", "dream_champion_nightmare", "dream_champion_whimsy", "dream_rookie", "dream_baby"],
+
+  "void_final_oblivion": ["void_champion_entropy", "void_champion_gravity", "void_champion_null", "void_rookie", "void_baby"],
+  "void_final_singularity": ["void_champion_gravity", "void_champion_null", "void_rookie", "void_baby"],
+
+  "corrupt_final_corruptcore": ["corrupt_champion_glitch", "corrupt_champion_error", "corrupt_champion_patchfail", "corrupt_rookie", "corrupt_baby"],
+  "corrupt_final_overrun": ["corrupt_champion_glitch", "corrupt_champion_error", "corrupt_champion_patchfail", "corrupt_rookie", "corrupt_baby"],
+
+  "corrupt_final_glitch": ["void_champion_entropy", "void_rookie", "void_baby"]
+}

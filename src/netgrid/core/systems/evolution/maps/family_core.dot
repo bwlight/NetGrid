@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "core_baby" [fillcolor="#b3e5fc"];
+  "core_baby" -> "core_rookie";
+  "core_rookie" [fillcolor="#c8e6c9"];
+  "core_rookie" -> "core_champion_power" [color="#7e57c2"];
+  "core_rookie" -> "core_champion_guard" [color="#7e57c2"];
+  "core_rookie" -> "core_champion_speed" [color="#7e57c2"];
+  "core_champion_power" [fillcolor="#ffe0b2"];
+  "core_champion_power" -> "core_final_overclock" [color="#7e57c2"];
+  "core_champion_power" -> "core_final_prime" [color="#7e57c2"];
+  "core_champion_guard" [fillcolor="#ffe0b2"];
+  "core_champion_guard" -> "core_final_bastion" [color="#7e57c2"];
+  "core_champion_guard" -> "core_final_prime" [color="#7e57c2"];
+  "core_champion_speed" [fillcolor="#ffe0b2"];
+  "core_champion_speed" -> "core_final_photon" [color="#7e57c2"];
+  "core_champion_speed" -> "core_final_prime" [color="#7e57c2"];
+}

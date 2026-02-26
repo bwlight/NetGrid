@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "echo_baby" [fillcolor="#ba68c8"];
+  "echo_baby" -> "echo_rookie";
+  "echo_rookie" [fillcolor="#ba68c8"];
+  "echo_rookie" -> "echo_champion_resonate" [color="#7e57c2"];
+  "echo_rookie" -> "echo_champion_reverb" [color="#7e57c2"];
+  "echo_rookie" -> "echo_champion_distort" [color="#7e57c2"];
+  "echo_champion_resonate" [fillcolor="#ba68c8"];
+  "echo_champion_resonate" -> "echo_final_harmonic" [color="#7e57c2"];
+  "echo_champion_resonate" -> "echo_final_feedback" [color="#7e57c2"];
+  "echo_champion_reverb" [fillcolor="#ba68c8"];
+  "echo_champion_reverb" -> "echo_final_feedback" [color="#7e57c2"];
+  "echo_champion_reverb" -> "echo_final_harmonic" [color="#7e57c2"];
+  "echo_champion_distort" [fillcolor="#ba68c8"];
+  "echo_champion_distort" -> "echo_final_feedback" [color="#7e57c2"];
+  "echo_champion_distort" -> "echo_final_harmonic" [color="#7e57c2"];
+}

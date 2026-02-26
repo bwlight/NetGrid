@@ -1,0 +1,71 @@
+{
+  "root_baby": {
+    "into": "root_rookie",
+    "level": 5
+  },
+
+  "root_rookie": {
+    "branches": [
+      {
+        "into": "root_champion_thorn",
+        "level": 14,
+        "attack": 25
+      },
+      {
+        "into": "root_champion_bloom",
+        "level": 14,
+        "friendship": 25
+      },
+      {
+        "into": "root_champion_bark",
+        "level": 14,
+        "defense": 30
+      }
+    ]
+  },
+
+  "root_champion_thorn": {
+    "branches": [
+      {
+        "into": "root_final_bramble",
+        "level": 28,
+        "attack": 40
+      },
+      {
+        "into": "root_final_ancient",
+        "level": 28,
+        "friendship": 55
+      }
+    ]
+  },
+
+  "root_champion_bloom": {
+    "branches": [
+      {
+        "into": "root_final_ancient",
+        "level": 28,
+        "friendship": 55
+      },
+      {
+        "into": "root_final_verdant",
+        "level": 28,
+        "speed": 35
+      }
+    ]
+  },
+
+  "root_champion_bark": {
+    "branches": [
+      {
+        "into": "root_final_warden",
+        "level": 28,
+        "defense": 45
+      },
+      {
+        "into": "root_final_ancient",
+        "level": 28,
+        "friendship": 55
+      }
+    ]
+  }
+}

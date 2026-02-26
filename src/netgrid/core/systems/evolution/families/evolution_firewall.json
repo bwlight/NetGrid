@@ -1,0 +1,71 @@
+{
+  "firewall_baby": {
+    "into": "firewall_rookie",
+    "level": 5
+  },
+
+  "firewall_rookie": {
+    "branches": [
+      {
+        "into": "firewall_champion_barrier",
+        "level": 15,
+        "defense": 30
+      },
+      {
+        "into": "firewall_champion_counter",
+        "level": 15,
+        "attack": 25
+      },
+      {
+        "into": "firewall_champion_patch",
+        "level": 15,
+        "friendship": 30
+      }
+    ]
+  },
+
+  "firewall_champion_barrier": {
+    "branches": [
+      {
+        "into": "firewall_final_fortress",
+        "level": 30,
+        "defense": 45
+      },
+      {
+        "into": "firewall_final_protocol",
+        "level": 30,
+        "friendship": 60
+      }
+    ]
+  },
+
+  "firewall_champion_counter": {
+    "branches": [
+      {
+        "into": "firewall_final_retaliate",
+        "level": 30,
+        "attack": 40
+      },
+      {
+        "into": "firewall_final_protocol",
+        "level": 30,
+        "friendship": 60
+      }
+    ]
+  },
+
+  "firewall_champion_patch": {
+    "branches": [
+      {
+        "into": "firewall_final_protocol",
+        "level": 30,
+        "friendship": 60
+      },
+      {
+        "into": "firewall_final_fortress",
+        "level": 30,
+        "defense": 45
+      }
+    ]
+  }
+}

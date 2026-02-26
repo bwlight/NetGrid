@@ -1,0 +1,71 @@
+{
+  "echo_baby": {
+    "into": "echo_rookie",
+    "level": 5
+  },
+
+  "echo_rookie": {
+    "branches": [
+      {
+        "into": "echo_champion_resonate",
+        "level": 14,
+        "friendship": 25
+      },
+      {
+        "into": "echo_champion_reverb",
+        "level": 14,
+        "speed": 30
+      },
+      {
+        "into": "echo_champion_distort",
+        "level": 14,
+        "stability_below": 40
+      }
+    ]
+  },
+
+  "echo_champion_resonate": {
+    "branches": [
+      {
+        "into": "echo_final_harmonic",
+        "level": 28,
+        "friendship": 55
+      },
+      {
+        "into": "echo_final_feedback",
+        "level": 28,
+        "attack": 40
+      }
+    ]
+  },
+
+  "echo_champion_reverb": {
+    "branches": [
+      {
+        "into": "echo_final_feedback",
+        "level": 28,
+        "attack": 40
+      },
+      {
+        "into": "echo_final_harmonic",
+        "level": 28,
+        "friendship": 55
+      }
+    ]
+  },
+
+  "echo_champion_distort": {
+    "branches": [
+      {
+        "into": "echo_final_feedback",
+        "level": 28,
+        "attack": 40
+      },
+      {
+        "into": "echo_final_harmonic",
+        "level": 28,
+        "friendship": 55
+      }
+    ]
+  }
+}

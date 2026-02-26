@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evolution Schema",
+  "description": "Defines evolution requirements for Cyberkin species.",
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9_]+$": {
+      "type": "object",
+      "properties": {
+        "into": {
+          "type": "string",
+          "description": "Species ID this Cyberkin evolves into."
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Minimum level required to evolve."
+        },
+        "friendship": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Minimum friendship required to evolve."
+        },
+        "item": {
+          "type": "string",
+          "description": "Item required to trigger evolution."
+        },
+        "story_flag": {
+          "type": "string",
+          "description": "Story event or flag required for evolution."
+        },
+        "min_level": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Minimum level after evolution (optional)."
+        }
+      },
+      "required": ["into"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

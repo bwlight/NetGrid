@@ -1,0 +1,137 @@
+{
+  "core_baby": {
+    "into": "core_rookie",
+    "level": 5
+  },
+  "core_rookie": {
+    "into": "core_champion",
+    "level": 15,
+    "friendship": 30
+  },
+  "core_champion": {
+    "into": "core_final",
+    "level": 30,
+    "friendship": 60
+  },
+
+  "pulse_baby": {
+    "into": "pulse_rookie",
+    "level": 5
+  },
+  "pulse_rookie": {
+    "into": "pulse_champion",
+    "level": 14,
+    "friendship": 25
+  },
+  "pulse_champion": {
+    "into": "pulse_final",
+    "level": 28,
+    "friendship": 55
+  },
+
+  "archive_baby": {
+    "into": "archive_rookie",
+    "level": 4
+  },
+  "archive_rookie": {
+    "into": "archive_champion",
+    "level": 12,
+    "friendship": 20
+  },
+  "archive_champion": {
+    "into": "archive_final",
+    "level": 26,
+    "friendship": 50
+  },
+
+  "dream_baby": {
+    "into": "dream_rookie",
+    "level": 6
+  },
+  "dream_rookie": {
+    "into": "dream_champion",
+    "level": 16,
+    "friendship": 35
+  },
+  "dream_champion": {
+    "into": "dream_final",
+    "level": 32,
+    "friendship": 65
+  },
+
+  "firewall_baby": {
+    "into": "firewall_rookie",
+    "level": 5
+  },
+  "firewall_rookie": {
+    "into": "firewall_champion",
+    "level": 15,
+    "friendship": 30
+  },
+  "firewall_champion": {
+    "into": "firewall_final",
+    "level": 30,
+    "friendship": 60
+  },
+
+  "cloud_baby": {
+    "into": "cloud_rookie",
+    "level": 4
+  },
+  "cloud_rookie": {
+    "into": "cloud_champion",
+    "level": 12,
+    "friendship": 20
+  },
+  "cloud_champion": {
+    "into": "cloud_final",
+    "level": 25,
+    "friendship": 45
+  },
+
+  "root_baby": {
+    "into": "root_rookie",
+    "level": 5
+  },
+  "root_rookie": {
+    "into": "root_champion",
+    "level": 14,
+    "friendship": 25
+  },
+  "root_champion": {
+    "into": "root_final",
+    "level": 28,
+    "friendship": 55
+  },
+
+  "void_baby": {
+    "into": "void_rookie",
+    "level": 6
+  },
+  "void_rookie": {
+    "into": "void_champion",
+    "level": 18,
+    "friendship": 40
+  },
+  "void_champion": {
+    "into": "void_final",
+    "level": 34,
+    "friendship": 70,
+    "story_flag": "void_sector_awakened"
+  },
+
+  "quantum_baby": {
+    "into": "quantum_rookie",
+    "level": 5
+  },
+  "quantum_rookie": {
+    "into": "quantum_champion",
+    "level": 15,
+    "friendship": 30
+  },
+  "quantum_champion": {
+    "into": "quantum_final",
+    "level": 30,
+    "friendship": 60
+  }
+}

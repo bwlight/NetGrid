@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "archive_baby" [fillcolor="#ce93d8"];
+  "archive_baby" -> "archive_rookie";
+  "archive_rookie" [fillcolor="#ce93d8"];
+  "archive_rookie" -> "archive_champion_logic" [color="#7e57c2"];
+  "archive_rookie" -> "archive_champion_index" [color="#7e57c2"];
+  "archive_rookie" -> "archive_champion_fragment" [color="#7e57c2"];
+  "archive_champion_logic" [fillcolor="#ce93d8"];
+  "archive_champion_logic" -> "archive_final_compiler" [color="#7e57c2"];
+  "archive_champion_logic" -> "archive_final_librarian" [color="#7e57c2"];
+  "archive_champion_index" [fillcolor="#ce93d8"];
+  "archive_champion_index" -> "archive_final_librarian" [color="#7e57c2"];
+  "archive_champion_index" -> "archive_final_corrupt" [color="#7e57c2"];
+  "archive_champion_fragment" [fillcolor="#ce93d8"];
+  "archive_champion_fragment" -> "archive_final_corrupt" [color="#7e57c2"];
+  "archive_champion_fragment" -> "archive_final_compiler" [color="#7e57c2"];
+}

@@ -1,0 +1,10 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "codeborn_baby" [fillcolor="#e0e0e0"];
+  "codeborn_baby" -> "codeborn_rookie";
+  "codeborn_rookie" [fillcolor="#e0e0e0"];
+  "codeborn_rookie" -> "codeborn_champion";
+  "codeborn_champion" [fillcolor="#e0e0e0"];
+  "codeborn_champion" -> "codeborn_final";
+}

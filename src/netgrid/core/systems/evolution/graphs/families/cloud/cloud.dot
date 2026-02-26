@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "cloud_baby" [fillcolor="#90caf9"];
+  "cloud_baby" -> "cloud_rookie";
+  "cloud_rookie" [fillcolor="#90caf9"];
+  "cloud_rookie" -> "cloud_champion_wind" [color="#7e57c2"];
+  "cloud_rookie" -> "cloud_champion_rain" [color="#7e57c2"];
+  "cloud_rookie" -> "cloud_champion_storm" [color="#7e57c2"];
+  "cloud_champion_wind" [fillcolor="#90caf9"];
+  "cloud_champion_wind" -> "cloud_final_jetstream" [color="#7e57c2"];
+  "cloud_champion_wind" -> "cloud_final_halo" [color="#7e57c2"];
+  "cloud_champion_rain" [fillcolor="#90caf9"];
+  "cloud_champion_rain" -> "cloud_final_halo" [color="#7e57c2"];
+  "cloud_champion_rain" -> "cloud_final_tempest" [color="#7e57c2"];
+  "cloud_champion_storm" [fillcolor="#90caf9"];
+  "cloud_champion_storm" -> "cloud_final_tempest" [color="#7e57c2"];
+  "cloud_champion_storm" -> "cloud_final_jetstream" [color="#7e57c2"];
+}

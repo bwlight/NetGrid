@@ -1,0 +1,19 @@
+digraph EvolutionTree {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled"];
+  "pulse_baby" [fillcolor="#b3e5fc"];
+  "pulse_baby" -> "pulse_rookie";
+  "pulse_rookie" [fillcolor="#c8e6c9"];
+  "pulse_rookie" -> "pulse_champion_surge" [color="#7e57c2"];
+  "pulse_rookie" -> "pulse_champion_resonance" [color="#7e57c2"];
+  "pulse_rookie" -> "pulse_champion_static" [color="#7e57c2"];
+  "pulse_champion_surge" [fillcolor="#ffe0b2"];
+  "pulse_champion_surge" -> "pulse_final_overdrive" [color="#7e57c2"];
+  "pulse_champion_surge" -> "pulse_final_sync" [color="#7e57c2"];
+  "pulse_champion_resonance" [fillcolor="#ffe0b2"];
+  "pulse_champion_resonance" -> "pulse_final_sync" [color="#7e57c2"];
+  "pulse_champion_resonance" -> "pulse_final_staticstorm" [color="#7e57c2"];
+  "pulse_champion_static" [fillcolor="#ffe0b2"];
+  "pulse_champion_static" -> "pulse_final_staticstorm" [color="#7e57c2"];
+  "pulse_champion_static" -> "pulse_final_overdrive" [color="#7e57c2"];
+}

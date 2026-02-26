@@ -1,0 +1,16 @@
+{
+  "codeborn_baby": {
+    "into": "codeborn_rookie",
+    "level": 5
+  },
+  "codeborn_rookie": {
+    "into": "codeborn_champion",
+    "level": 15,
+    "friendship": 40
+  },
+  "codeborn_champion": {
+    "into": "codeborn_final",
+    "level": 30,
+    "story_flag": "chapter_2_clear"
+  }
+}
