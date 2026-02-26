@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schemas/abilities.schema.json",
+  "$schema": "../../../../schemas/abilities.schema.json",
   "ability": {
     "id": "pulse_strike",
     "name": "Pulse Strike",

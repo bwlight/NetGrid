@@ -4,6 +4,11 @@
   "type": "object",
 
   "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "VS Code schema reference (ignored by game logic)"
+    },
+
     "ability": {
       "type": "object",
 

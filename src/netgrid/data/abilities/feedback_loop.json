@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schemas/abilities.schema.json",
+  "$schema": "../../../../schemas/abilities.schema.json",
   "ability": {
     "id": "feedback_loop",
     "name": "Feedback Loop",
