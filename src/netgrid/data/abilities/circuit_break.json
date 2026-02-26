@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "circuit_break",
+    "name": "Circuit Break",
+    "type": "attack",
+    "element": "pulse",
+    "power": 40,
+    "cost": 10,
+    "cooldown": 2,
+    "accuracy": 0.85,
+    "target": "single",
+
+    "effects": {
+      "stat_modifiers": {
+        "SPD": -0.15
+      },
+      "multi_hit": 1
+    },
+
+    "description": "A heavy electrical strike that slows the target’s systems."
+  }
+}

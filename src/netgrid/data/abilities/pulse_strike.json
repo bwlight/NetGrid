@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "pulse_strike",
+    "name": "Pulse Strike",
+    "type": "attack",
+    "element": "core",
+    "power": 25,
+    "cost": 5,
+    "cooldown": 0,
+    "accuracy": 0.95,
+    "target": "single",
+
+    "effects": {
+      "stat_modifiers": {},
+      "multi_hit": 1
+    },
+
+    "description": "A quick burst of compressed energy that deals light damage."
+  }
+}

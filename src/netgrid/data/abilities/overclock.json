@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "overclock",
+    "name": "Overclock",
+    "type": "support",
+    "element": "core",
+    "power": 0,
+    "cost": 8,
+    "cooldown": 2,
+    "accuracy": 1.0,
+    "target": "self",
+
+    "effects": {
+      "stat_modifiers": {
+        "SPD": 0.20
+      },
+      "multi_hit": 1
+    },
+
+    "description": "Temporarily boosts processing speed, increasing SPD."
+  }
+}

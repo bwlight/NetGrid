@@ -3,165 +3,120 @@
   "title": "Ability Schema",
   "type": "object",
 
-  "required": ["id", "name", "type", "category", "energy_cost"],
-
   "properties": {
-    "id": {
-      "type": "string",
-      "description": "Unique lowercase identifier for the ability."
-    },
-
-    "name": {
-      "type": "string",
-      "description": "Display name of the ability."
-    },
-
-    "type": {
-      "type": "string",
-      "description": "Element/type of the ability (Signal, Logic, Stability, etc.)"
-    },
-
-    "category": {
-      "type": "string",
-      "enum": ["attack", "support", "status", "passive"],
-      "description": "Determines how the ability behaves in battle."
-    },
-
-    "energy_cost": {
-      "type": "number",
-      "minimum": 0
-    },
-
-    "cooldown": {
-      "type": "number",
-      "minimum": 0,
-      "description": "Turns required before the ability can be used again."
-    },
-
-    "power": {
-      "type": "number",
-      "minimum": 0,
-      "description": "Base damage (attack category only)."
-    },
-
-    "accuracy": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 100
-    },
-
-    "scaling": {
-      "type": "string",
-      "enum": ["attack", "intelligence", "stability", "speed"],
-      "description": "Which stat influences damage or effect strength."
-    },
-
-    "target": {
-      "type": "string",
-      "enum": ["self", "ally", "enemy", "all_enemies", "all_allies"],
-      "description": "Who the ability targets."
-    },
-
-    "multi_hit": {
+    "ability": {
       "type": "object",
-      "properties": {
-        "min_hits": { "type": "number", "minimum": 1 },
-        "max_hits": { "type": "number", "minimum": 1 }
-      }
-    },
 
-    "healing": {
-      "type": "object",
       "properties": {
-        "amount": { "type": "number", "minimum": 0 },
-        "scaling": {
+        "id": {
           "type": "string",
-          "enum": ["intelligence", "stability"]
+          "description": "Unique ability identifier"
+        },
+
+        "name": {
+          "type": "string",
+          "description": "Display name of the ability"
+        },
+
+        "type": {
+          "type": "string",
+          "enum": ["attack", "support", "passive"],
+          "description": "Determines how the ability behaves in battle"
+        },
+
+        "element": {
+          "type": "string",
+          "description": "Elemental type (core, echo, pulse, root, void, etc.)"
+        },
+
+        "power": {
+          "type": "number",
+          "description": "Base power of the ability"
+        },
+
+        "cost": {
+          "type": "number",
+          "description": "Energy cost to use the ability"
+        },
+
+        "cooldown": {
+          "type": "number",
+          "description": "Turns required before the ability can be used again"
+        },
+
+        "accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Hit chance (0.0 - 1.0)"
+        },
+
+        "target": {
+          "type": "string",
+          "enum": ["single", "multi", "self", "random"],
+          "description": "Targeting rules for the ability"
+        },
+
+        "effects": {
+          "type": "object",
+
+          "properties": {
+            "stat_modifiers": {
+              "type": "object",
+              "description": "Stat changes applied by the ability",
+              "additionalProperties": {
+                "type": "number"
+              }
+            },
+
+            "status_inflict": {
+              "type": "string",
+              "description": "Status effect applied by the ability"
+            },
+
+            "status_chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Chance to apply the status effect"
+            },
+
+            "multi_hit": {
+              "type": "number",
+              "minimum": 1,
+              "description": "Number of hits (for multi-hit abilities)"
+            },
+
+            "heal_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Percent of HP restored"
+            }
+          },
+
+          "additionalProperties": false
+        },
+
+        "description": {
+          "type": "string",
+          "description": "Readable description for UI"
         }
-      }
-    },
+      },
 
-    "shield": {
-      "type": "object",
-      "properties": {
-        "value": { "type": "number", "minimum": 0 },
-        "duration": { "type": "number", "minimum": 1 }
-      }
-    },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "power",
+        "cost",
+        "description"
+      ],
 
-    "status_inflict": {
-      "type": "object",
-      "properties": {
-        "status": { "type": "string" },
-        "chance": { "type": "number", "minimum": 0, "maximum": 100 },
-        "duration": { "type": "number", "minimum": 1 }
-      }
-    },
-
-    "buffs": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "stat": {
-            "type": "string",
-            "enum": ["attack", "defense", "speed", "intelligence", "stability"]
-          },
-          "value": { "type": "number" },
-          "duration": { "type": "number", "minimum": 1 }
-        },
-        "required": ["stat", "value", "duration"]
-      }
-    },
-
-    "debuffs": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "stat": {
-            "type": "string",
-            "enum": ["attack", "defense", "speed", "intelligence", "stability"]
-          },
-          "value": { "type": "number" },
-          "duration": { "type": "number", "minimum": 1 }
-        },
-        "required": ["stat", "value", "duration"]
-      }
-    },
-
-    "damage_over_time": {
-      "type": "object",
-      "properties": {
-        "amount": { "type": "number" },
-        "duration": { "type": "number", "minimum": 1 }
-      }
-    },
-
-    "conditional_effects": {
-      "type": "array",
-      "description": "Effects that trigger only under certain conditions.",
-      "items": {
-        "type": "object",
-        "properties": {
-          "condition": { "type": "string" },
-          "effect": { "type": "string" },
-          "value": { "type": "number" }
-        },
-        "required": ["condition", "effect"]
-      }
-    },
-
-    "on_hit": {
-      "type": "array",
-      "description": "Effects that trigger when the ability hits.",
-      "items": { "type": "string" }
-    },
-
-    "on_miss": {
-      "type": "array",
-      "description": "Effects that trigger when the ability misses.",
-      "items": { "type": "string" }
+      "additionalProperties": false
     }
-  }
+  },
+
+  "required": ["ability"],
+  "additionalProperties": false
 }

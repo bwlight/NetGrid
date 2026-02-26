@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "feedback_loop",
+    "name": "Feedback Loop",
+    "type": "attack",
+    "element": "echo",
+    "power": 20,
+    "cost": 8,
+    "cooldown": 1,
+    "accuracy": 0.85,
+    "target": "single",
+
+    "effects": {
+      "status_inflict": "confusion",
+      "status_chance": 0.30,
+      "multi_hit": 1
+    },
+
+    "description": "A destabilizing pulse that may confuse the target."
+  }
+}

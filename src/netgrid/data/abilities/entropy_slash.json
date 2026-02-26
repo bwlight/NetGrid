@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "entropy_slash",
+    "name": "Entropy Slash",
+    "type": "attack",
+    "element": "void",
+    "power": 35,
+    "cost": 8,
+    "cooldown": 1,
+    "accuracy": 0.90,
+    "target": "single",
+
+    "effects": {
+      "stat_modifiers": {
+        "CRIT": 0.20
+      },
+      "multi_hit": 1
+    },
+
+    "description": "A chaotic strike that destabilizes data, increasing crit chance."
+  }
+}
