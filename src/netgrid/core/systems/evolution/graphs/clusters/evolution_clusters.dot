@@ -1,41 +1,14 @@
 digraph EvolutionTree {
   rankdir=LR;
   node [shape=box, style="rounded,filled"];
-  subgraph cluster_archive {
-    label="ARCHIVE";
+  subgraph cluster_firewall {
+    label="FIREWALL";
     style="rounded,filled"; fillcolor="#f5f5f5";
-    "archive_baby" [fillcolor="#ce93d8"];
-    "archive_rookie" [fillcolor="#ce93d8"];
-    "archive_champion_logic" [fillcolor="#ce93d8"];
-    "archive_champion_index" [fillcolor="#ce93d8"];
-    "archive_champion_fragment" [fillcolor="#ce93d8"];
-  }
-  subgraph cluster_cloud {
-    label="CLOUD";
-    style="rounded,filled"; fillcolor="#f5f5f5";
-    "cloud_baby" [fillcolor="#90caf9"];
-    "cloud_rookie" [fillcolor="#90caf9"];
-    "cloud_champion_wind" [fillcolor="#90caf9"];
-    "cloud_champion_rain" [fillcolor="#90caf9"];
-    "cloud_champion_storm" [fillcolor="#90caf9"];
-  }
-  subgraph cluster_core {
-    label="CORE";
-    style="rounded,filled"; fillcolor="#f5f5f5";
-    "core_baby" [fillcolor="#4fc3f7"];
-    "core_rookie" [fillcolor="#4fc3f7"];
-    "core_champion_power" [fillcolor="#4fc3f7"];
-    "core_champion_guard" [fillcolor="#4fc3f7"];
-    "core_champion_speed" [fillcolor="#4fc3f7"];
-  }
-  subgraph cluster_corrupt {
-    label="CORRUPT";
-    style="rounded,filled"; fillcolor="#f5f5f5";
-    "corrupt_baby" [fillcolor="#ef5350"];
-    "corrupt_rookie" [fillcolor="#ef5350"];
-    "corrupt_champion_glitch" [fillcolor="#ef5350"];
-    "corrupt_champion_error" [fillcolor="#ef5350"];
-    "corrupt_champion_patchfail" [fillcolor="#ef5350"];
+    "firewall_baby" [fillcolor="#ff8a65"];
+    "firewall_rookie" [fillcolor="#ff8a65"];
+    "firewall_champion_barrier" [fillcolor="#ff8a65"];
+    "firewall_champion_counter" [fillcolor="#ff8a65"];
+    "firewall_champion_patch" [fillcolor="#ff8a65"];
   }
   subgraph cluster_dream {
     label="DREAM";
@@ -46,14 +19,14 @@ digraph EvolutionTree {
     "dream_champion_nightmare" [fillcolor="#9575cd"];
     "dream_champion_whimsy" [fillcolor="#9575cd"];
   }
-  subgraph cluster_echo {
-    label="ECHO";
+  subgraph cluster_void {
+    label="VOID";
     style="rounded,filled"; fillcolor="#f5f5f5";
-    "echo_baby" [fillcolor="#ba68c8"];
-    "echo_rookie" [fillcolor="#ba68c8"];
-    "echo_champion_resonate" [fillcolor="#ba68c8"];
-    "echo_champion_reverb" [fillcolor="#ba68c8"];
-    "echo_champion_distort" [fillcolor="#ba68c8"];
+    "void_baby" [fillcolor="#b0bec5"];
+    "void_rookie" [fillcolor="#b0bec5"];
+    "void_champion_entropy" [fillcolor="#b0bec5"];
+    "void_champion_gravity" [fillcolor="#b0bec5"];
+    "void_champion_null" [fillcolor="#b0bec5"];
   }
   subgraph cluster_codeborn {
     label="CODEBORN";
@@ -61,24 +34,6 @@ digraph EvolutionTree {
     "codeborn_baby" [fillcolor="#e0e0e0"];
     "codeborn_rookie" [fillcolor="#e0e0e0"];
     "codeborn_champion" [fillcolor="#e0e0e0"];
-  }
-  subgraph cluster_firewall {
-    label="FIREWALL";
-    style="rounded,filled"; fillcolor="#f5f5f5";
-    "firewall_baby" [fillcolor="#ff8a65"];
-    "firewall_rookie" [fillcolor="#ff8a65"];
-    "firewall_champion_barrier" [fillcolor="#ff8a65"];
-    "firewall_champion_counter" [fillcolor="#ff8a65"];
-    "firewall_champion_patch" [fillcolor="#ff8a65"];
-  }
-  subgraph cluster_pulse {
-    label="PULSE";
-    style="rounded,filled"; fillcolor="#f5f5f5";
-    "pulse_baby" [fillcolor="#f06292"];
-    "pulse_rookie" [fillcolor="#f06292"];
-    "pulse_champion_surge" [fillcolor="#f06292"];
-    "pulse_champion_resonance" [fillcolor="#f06292"];
-    "pulse_champion_static" [fillcolor="#f06292"];
   }
   subgraph cluster_root {
     label="ROOT";
@@ -89,78 +44,60 @@ digraph EvolutionTree {
     "root_champion_bloom" [fillcolor="#81c784"];
     "root_champion_bark" [fillcolor="#81c784"];
   }
-  subgraph cluster_void {
-    label="VOID";
+  subgraph cluster_cloud {
+    label="CLOUD";
     style="rounded,filled"; fillcolor="#f5f5f5";
-    "void_baby" [fillcolor="#b0bec5"];
-    "void_rookie" [fillcolor="#b0bec5"];
-    "void_champion_entropy" [fillcolor="#b0bec5"];
-    "void_champion_gravity" [fillcolor="#b0bec5"];
-    "void_champion_null" [fillcolor="#b0bec5"];
+    "cloud_baby" [fillcolor="#90caf9"];
+    "cloud_rookie" [fillcolor="#90caf9"];
+    "cloud_champion_wind" [fillcolor="#90caf9"];
+    "cloud_champion_rain" [fillcolor="#90caf9"];
+    "cloud_champion_storm" [fillcolor="#90caf9"];
   }
-  "archive_baby" -> "archive_rookie";
-  "archive_rookie" -> "archive_champion_logic" [color="#7e57c2"];
-  "archive_rookie" -> "archive_champion_index" [color="#7e57c2"];
-  "archive_rookie" -> "archive_champion_fragment" [color="#7e57c2"];
-  "archive_champion_logic" -> "archive_final_compiler" [color="#7e57c2"];
-  "archive_champion_logic" -> "archive_final_librarian" [color="#7e57c2"];
-  "archive_champion_index" -> "archive_final_librarian" [color="#7e57c2"];
-  "archive_champion_index" -> "archive_final_corrupt" [color="#7e57c2"];
-  "archive_champion_fragment" -> "archive_final_corrupt" [color="#7e57c2"];
-  "archive_champion_fragment" -> "archive_final_compiler" [color="#7e57c2"];
-  "cloud_baby" -> "cloud_rookie";
-  "cloud_rookie" -> "cloud_champion_wind" [color="#7e57c2"];
-  "cloud_rookie" -> "cloud_champion_rain" [color="#7e57c2"];
-  "cloud_rookie" -> "cloud_champion_storm" [color="#7e57c2"];
-  "cloud_champion_wind" -> "cloud_final_jetstream" [color="#7e57c2"];
-  "cloud_champion_wind" -> "cloud_final_halo" [color="#7e57c2"];
-  "cloud_champion_rain" -> "cloud_final_halo" [color="#7e57c2"];
-  "cloud_champion_rain" -> "cloud_final_tempest" [color="#7e57c2"];
-  "cloud_champion_storm" -> "cloud_final_tempest" [color="#7e57c2"];
-  "cloud_champion_storm" -> "cloud_final_jetstream" [color="#7e57c2"];
-  "core_baby" -> "core_rookie";
-  "core_rookie" -> "core_champion_power" [color="#7e57c2"];
-  "core_rookie" -> "core_champion_guard" [color="#7e57c2"];
-  "core_rookie" -> "core_champion_speed" [color="#7e57c2"];
-  "core_champion_power" -> "core_final_overclock" [color="#7e57c2"];
-  "core_champion_power" -> "core_final_prime" [color="#7e57c2"];
-  "core_champion_guard" -> "core_final_bastion" [color="#7e57c2"];
-  "core_champion_guard" -> "core_final_prime" [color="#7e57c2"];
-  "core_champion_speed" -> "core_final_photon" [color="#7e57c2"];
-  "core_champion_speed" -> "core_final_prime" [color="#7e57c2"];
-  "corrupt_baby" -> "corrupt_rookie";
-  "corrupt_rookie" -> "corrupt_champion_glitch" [color="#7e57c2"];
-  "corrupt_rookie" -> "corrupt_champion_error" [color="#7e57c2"];
-  "corrupt_rookie" -> "corrupt_champion_patchfail" [color="#7e57c2"];
-  "corrupt_champion_glitch" -> "corrupt_final_corruptcore" [color="#7e57c2"];
-  "corrupt_champion_glitch" -> "corrupt_final_overrun" [color="#7e57c2"];
-  "corrupt_champion_error" -> "corrupt_final_overrun" [color="#7e57c2"];
-  "corrupt_champion_error" -> "corrupt_final_corruptcore" [color="#7e57c2"];
-  "corrupt_champion_patchfail" -> "corrupt_final_corruptcore" [color="#7e57c2"];
-  "corrupt_champion_patchfail" -> "corrupt_final_overrun" [color="#7e57c2"];
-  "dream_baby" -> "dream_rookie";
-  "dream_rookie" -> "dream_champion_lucid" [color="#7e57c2"];
-  "dream_rookie" -> "dream_champion_nightmare" [color="#7e57c2"];
-  "dream_rookie" -> "dream_champion_whimsy" [color="#7e57c2"];
-  "dream_champion_lucid" -> "dream_final_ascended" [color="#7e57c2"];
-  "dream_champion_lucid" -> "dream_final_chaos" [color="#7e57c2"];
-  "dream_champion_nightmare" -> "dream_final_chaos" [color="#7e57c2"];
-  "dream_champion_nightmare" -> "dream_final_ascended" [color="#7e57c2"];
-  "dream_champion_whimsy" -> "dream_final_ascended" [color="#7e57c2"];
-  "dream_champion_whimsy" -> "dream_final_chaos" [color="#7e57c2"];
-  "echo_baby" -> "echo_rookie";
-  "echo_rookie" -> "echo_champion_resonate" [color="#7e57c2"];
-  "echo_rookie" -> "echo_champion_reverb" [color="#7e57c2"];
-  "echo_rookie" -> "echo_champion_distort" [color="#7e57c2"];
-  "echo_champion_resonate" -> "echo_final_harmonic" [color="#7e57c2"];
-  "echo_champion_resonate" -> "echo_final_feedback" [color="#7e57c2"];
-  "echo_champion_reverb" -> "echo_final_feedback" [color="#7e57c2"];
-  "echo_champion_reverb" -> "echo_final_harmonic" [color="#7e57c2"];
-  "echo_champion_distort" -> "echo_final_feedback" [color="#7e57c2"];
-  "echo_champion_distort" -> "echo_final_harmonic" [color="#7e57c2"];
-  "codeborn_baby" -> "codeborn_rookie";
-  "codeborn_rookie" -> "codeborn_champion";
-  "codeborn_champion" -> "codeborn_final";
+  subgraph cluster_archive {
+    label="ARCHIVE";
+    style="rounded,filled"; fillcolor="#f5f5f5";
+    "archive_baby" [fillcolor="#ce93d8"];
+    "archive_rookie" [fillcolor="#ce93d8"];
+    "archive_champion_logic" [fillcolor="#ce93d8"];
+    "archive_champion_index" [fillcolor="#ce93d8"];
+    "archive_champion_fragment" [fillcolor="#ce93d8"];
+  }
+  subgraph cluster_corrupt {
+    label="CORRUPT";
+    style="rounded,filled"; fillcolor="#f5f5f5";
+    "corrupt_baby" [fillcolor="#ef5350"];
+    "corrupt_rookie" [fillcolor="#ef5350"];
+    "corrupt_champion_glitch" [fillcolor="#ef5350"];
+    "corrupt_champion_error" [fillcolor="#ef5350"];
+    "corrupt_champion_patchfail" [fillcolor="#ef5350"];
+  }
+  subgraph cluster_echo {
+    label="ECHO";
+    style="rounded,filled"; fillcolor="#f5f5f5";
+    "echo_baby" [fillcolor="#ba68c8"];
+    "echo_rookie" [fillcolor="#ba68c8"];
+    "echo_champion_resonate" [fillcolor="#ba68c8"];
+    "echo_champion_reverb" [fillcolor="#ba68c8"];
+    "echo_champion_distort" [fillcolor="#ba68c8"];
+  }
+  subgraph cluster_core {
+    label="CORE";
+    style="rounded,filled"; fillcolor="#f5f5f5";
+    "core_baby" [fillcolor="#4fc3f7"];
+    "core_rookie" [fillcolor="#4fc3f7"];
+    "core_champion_power" [fillcolor="#4fc3f7"];
+    "core_champion_guard" [fillcolor="#4fc3f7"];
+    "core_champion_speed" [fillcolor="#4fc3f7"];
+  }
+  subgraph cluster_pulse {
+    label="PULSE";
+    style="rounded,filled"; fillcolor="#f5f5f5";
+    "pulse_baby" [fillcolor="#f06292"];
+    "pulse_rookie" [fillcolor="#f06292"];
+    "pulse_champion_surge" [fillcolor="#f06292"];
+    "pulse_champion_resonance" [fillcolor="#f06292"];
+    "pulse_champion_static" [fillcolor="#f06292"];
+  }
   "firewall_baby" -> "firewall_rookie";
   "firewall_rookie" -> "firewall_champion_barrier" [color="#7e57c2"];
   "firewall_rookie" -> "firewall_champion_counter" [color="#7e57c2"];
@@ -171,26 +108,16 @@ digraph EvolutionTree {
   "firewall_champion_counter" -> "firewall_final_protocol" [color="#7e57c2"];
   "firewall_champion_patch" -> "firewall_final_protocol" [color="#7e57c2"];
   "firewall_champion_patch" -> "firewall_final_fortress" [color="#7e57c2"];
-  "pulse_baby" -> "pulse_rookie";
-  "pulse_rookie" -> "pulse_champion_surge" [color="#7e57c2"];
-  "pulse_rookie" -> "pulse_champion_resonance" [color="#7e57c2"];
-  "pulse_rookie" -> "pulse_champion_static" [color="#7e57c2"];
-  "pulse_champion_surge" -> "pulse_final_overdrive" [color="#7e57c2"];
-  "pulse_champion_surge" -> "pulse_final_sync" [color="#7e57c2"];
-  "pulse_champion_resonance" -> "pulse_final_sync" [color="#7e57c2"];
-  "pulse_champion_resonance" -> "pulse_final_staticstorm" [color="#7e57c2"];
-  "pulse_champion_static" -> "pulse_final_staticstorm" [color="#7e57c2"];
-  "pulse_champion_static" -> "pulse_final_overdrive" [color="#7e57c2"];
-  "root_baby" -> "root_rookie";
-  "root_rookie" -> "root_champion_thorn" [color="#7e57c2"];
-  "root_rookie" -> "root_champion_bloom" [color="#7e57c2"];
-  "root_rookie" -> "root_champion_bark" [color="#7e57c2"];
-  "root_champion_thorn" -> "root_final_bramble" [color="#7e57c2"];
-  "root_champion_thorn" -> "root_final_ancient" [color="#7e57c2"];
-  "root_champion_bloom" -> "root_final_ancient" [color="#7e57c2"];
-  "root_champion_bloom" -> "root_final_verdant" [color="#7e57c2"];
-  "root_champion_bark" -> "root_final_warden" [color="#7e57c2"];
-  "root_champion_bark" -> "root_final_ancient" [color="#7e57c2"];
+  "dream_baby" -> "dream_rookie";
+  "dream_rookie" -> "dream_champion_lucid" [color="#7e57c2"];
+  "dream_rookie" -> "dream_champion_nightmare" [color="#7e57c2"];
+  "dream_rookie" -> "dream_champion_whimsy" [color="#7e57c2"];
+  "dream_champion_lucid" -> "dream_final_ascended" [color="#7e57c2"];
+  "dream_champion_lucid" -> "dream_final_chaos" [color="#7e57c2"];
+  "dream_champion_nightmare" -> "dream_final_chaos" [color="#7e57c2"];
+  "dream_champion_nightmare" -> "dream_final_ascended" [color="#7e57c2"];
+  "dream_champion_whimsy" -> "dream_final_ascended" [color="#7e57c2"];
+  "dream_champion_whimsy" -> "dream_final_chaos" [color="#7e57c2"];
   "void_baby" -> "void_rookie";
   "void_rookie" -> "void_champion_entropy" [color="#7e57c2"];
   "void_rookie" -> "void_champion_gravity" [color="#7e57c2"];
@@ -201,4 +128,77 @@ digraph EvolutionTree {
   "void_champion_gravity" -> "void_final_oblivion" [color="#7e57c2"];
   "void_champion_null" -> "void_final_oblivion" [color="#7e57c2"];
   "void_champion_null" -> "void_final_singularity" [color="#7e57c2"];
+  "codeborn_baby" -> "codeborn_rookie";
+  "codeborn_rookie" -> "codeborn_champion";
+  "codeborn_champion" -> "codeborn_final";
+  "root_baby" -> "root_rookie";
+  "root_rookie" -> "root_champion_thorn" [color="#7e57c2"];
+  "root_rookie" -> "root_champion_bloom" [color="#7e57c2"];
+  "root_rookie" -> "root_champion_bark" [color="#7e57c2"];
+  "root_champion_thorn" -> "root_final_bramble" [color="#7e57c2"];
+  "root_champion_thorn" -> "root_final_ancient" [color="#7e57c2"];
+  "root_champion_bloom" -> "root_final_ancient" [color="#7e57c2"];
+  "root_champion_bloom" -> "root_final_verdant" [color="#7e57c2"];
+  "root_champion_bark" -> "root_final_warden" [color="#7e57c2"];
+  "root_champion_bark" -> "root_final_ancient" [color="#7e57c2"];
+  "cloud_baby" -> "cloud_rookie";
+  "cloud_rookie" -> "cloud_champion_wind" [color="#7e57c2"];
+  "cloud_rookie" -> "cloud_champion_rain" [color="#7e57c2"];
+  "cloud_rookie" -> "cloud_champion_storm" [color="#7e57c2"];
+  "cloud_champion_wind" -> "cloud_final_jetstream" [color="#7e57c2"];
+  "cloud_champion_wind" -> "cloud_final_halo" [color="#7e57c2"];
+  "cloud_champion_rain" -> "cloud_final_halo" [color="#7e57c2"];
+  "cloud_champion_rain" -> "cloud_final_tempest" [color="#7e57c2"];
+  "cloud_champion_storm" -> "cloud_final_tempest" [color="#7e57c2"];
+  "cloud_champion_storm" -> "cloud_final_jetstream" [color="#7e57c2"];
+  "archive_baby" -> "archive_rookie";
+  "archive_rookie" -> "archive_champion_logic" [color="#7e57c2"];
+  "archive_rookie" -> "archive_champion_index" [color="#7e57c2"];
+  "archive_rookie" -> "archive_champion_fragment" [color="#7e57c2"];
+  "archive_champion_logic" -> "archive_final_compiler" [color="#7e57c2"];
+  "archive_champion_logic" -> "archive_final_librarian" [color="#7e57c2"];
+  "archive_champion_index" -> "archive_final_librarian" [color="#7e57c2"];
+  "archive_champion_index" -> "archive_final_corrupt" [color="#7e57c2"];
+  "archive_champion_fragment" -> "archive_final_corrupt" [color="#7e57c2"];
+  "archive_champion_fragment" -> "archive_final_compiler" [color="#7e57c2"];
+  "corrupt_baby" -> "corrupt_rookie";
+  "corrupt_rookie" -> "corrupt_champion_glitch" [color="#7e57c2"];
+  "corrupt_rookie" -> "corrupt_champion_error" [color="#7e57c2"];
+  "corrupt_rookie" -> "corrupt_champion_patchfail" [color="#7e57c2"];
+  "corrupt_champion_glitch" -> "corrupt_final_corruptcore" [color="#7e57c2"];
+  "corrupt_champion_glitch" -> "corrupt_final_overrun" [color="#7e57c2"];
+  "corrupt_champion_error" -> "corrupt_final_overrun" [color="#7e57c2"];
+  "corrupt_champion_error" -> "corrupt_final_corruptcore" [color="#7e57c2"];
+  "corrupt_champion_patchfail" -> "corrupt_final_corruptcore" [color="#7e57c2"];
+  "corrupt_champion_patchfail" -> "corrupt_final_overrun" [color="#7e57c2"];
+  "echo_baby" -> "echo_rookie";
+  "echo_rookie" -> "echo_champion_resonate" [color="#7e57c2"];
+  "echo_rookie" -> "echo_champion_reverb" [color="#7e57c2"];
+  "echo_rookie" -> "echo_champion_distort" [color="#7e57c2"];
+  "echo_champion_resonate" -> "echo_final_harmonic" [color="#7e57c2"];
+  "echo_champion_resonate" -> "echo_final_feedback" [color="#7e57c2"];
+  "echo_champion_reverb" -> "echo_final_feedback" [color="#7e57c2"];
+  "echo_champion_reverb" -> "echo_final_harmonic" [color="#7e57c2"];
+  "echo_champion_distort" -> "echo_final_feedback" [color="#7e57c2"];
+  "echo_champion_distort" -> "echo_final_harmonic" [color="#7e57c2"];
+  "core_baby" -> "core_rookie";
+  "core_rookie" -> "core_champion_power" [color="#7e57c2"];
+  "core_rookie" -> "core_champion_guard" [color="#7e57c2"];
+  "core_rookie" -> "core_champion_speed" [color="#7e57c2"];
+  "core_champion_power" -> "core_final_overclock" [color="#7e57c2"];
+  "core_champion_power" -> "core_final_prime" [color="#7e57c2"];
+  "core_champion_guard" -> "core_final_bastion" [color="#7e57c2"];
+  "core_champion_guard" -> "core_final_prime" [color="#7e57c2"];
+  "core_champion_speed" -> "core_final_photon" [color="#7e57c2"];
+  "core_champion_speed" -> "core_final_prime" [color="#7e57c2"];
+  "pulse_baby" -> "pulse_rookie";
+  "pulse_rookie" -> "pulse_champion_surge" [color="#7e57c2"];
+  "pulse_rookie" -> "pulse_champion_resonance" [color="#7e57c2"];
+  "pulse_rookie" -> "pulse_champion_static" [color="#7e57c2"];
+  "pulse_champion_surge" -> "pulse_final_overdrive" [color="#7e57c2"];
+  "pulse_champion_surge" -> "pulse_final_sync" [color="#7e57c2"];
+  "pulse_champion_resonance" -> "pulse_final_sync" [color="#7e57c2"];
+  "pulse_champion_resonance" -> "pulse_final_staticstorm" [color="#7e57c2"];
+  "pulse_champion_static" -> "pulse_final_staticstorm" [color="#7e57c2"];
+  "pulse_champion_static" -> "pulse_final_overdrive" [color="#7e57c2"];
 }
