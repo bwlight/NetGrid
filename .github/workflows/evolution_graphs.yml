@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # REQUIRED for pull --rebase to work
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,7 +44,6 @@ jobs:
             src/netgrid/core/systems/evolution/graphs/**/*.png
             src/netgrid/core/systems/evolution/graphs/**/*.svg
 
-      # OPTIONAL: Auto-commit updated graphs back to repo
       - name: Commit updated graphs
         if: github.ref == 'refs/heads/main'
         run: |
