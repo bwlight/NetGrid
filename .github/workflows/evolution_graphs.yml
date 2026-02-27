@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 5 * * *"   # Nightly at 5:00 UTC (11 PM CST)
 
 jobs:
   build-graphs:
@@ -49,8 +49,12 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
 
+          # Stage generated files BEFORE pulling
+          git add src/netgrid/core/systems/evolution/graphs
+
+          # Pull latest changes with rebase
           git pull --rebase origin main
 
-          git add src/netgrid/core/systems/evolution/graphs
+          # Commit and push
           git commit -m "Auto-update evolution graphs" || echo "No changes to commit"
           git push
