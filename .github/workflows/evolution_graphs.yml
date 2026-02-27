@@ -49,12 +49,19 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
 
-          # Stage generated files BEFORE pulling
+          # Stage generated files
           git add src/netgrid/core/systems/evolution/graphs
+
+          # Stash everything (including index changes from checkout)
+          git stash
 
           # Pull latest changes with rebase
           git pull --rebase origin main
 
+          # Reapply stashed changes
+          git stash pop || true
+
           # Commit and push
+          git add src/netgrid/core/systems/evolution/graphs
           git commit -m "Auto-update evolution graphs" || echo "No changes to commit"
           git push
