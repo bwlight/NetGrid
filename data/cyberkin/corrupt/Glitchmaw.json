@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "glitchmaw",
+    "name": "Glitchmaw",
+    "family": "corrupt",
+    "stage": "rookie",
+    "stats": {
+      "hp": 24,
+      "attack": 22,
+      "defense": 14,
+      "speed": 26,
+      "intelligence": 25,
+      "stability": 20
+    },
+    "abilities": [
+      "Corrupt Surge",
+      "Data Rot",
+      "Glitch Phase"
+    ],
+    "evolution": {
+      "next_stage": "corruptor",
+      "requirements": [
+        "Exposure to corrupted Nodes",
+        "High instability",
+        "Complete a mutation‑based trial"
+      ]
+    },
+    "sector": "corrupt",
+    "habitat": "Corrupt Sector — Fractured Abyss",
+    "description": "A semi‑coherent corruption beast that bites through data structures and spreads glitch residue."
+  }
+}

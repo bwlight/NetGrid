@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "doodlit",
+    "name": "Doodlit",
+    "family": "dream",
+    "stage": "baby",
+    "stats": {
+      "hp": 15,
+      "attack": 7,
+      "defense": 6,
+      "speed": 12,
+      "intelligence": 16,
+      "stability": 12
+    },
+    "abilities": [
+      "Phase Shift",
+      "Probability Spike"
+    ],
+    "evolution": {
+      "next_stage": "dreamlet",
+      "requirements": [
+        "High intelligence stat",
+        "Exposure to probability storms",
+        "Complete a logic‑based prediction trial"
+      ]
+    },
+    "sector": "dream",
+    "habitat": "Dream Sector — Uncertainty Nexus",
+    "description": "A flickering sketch‑creature that shifts shape based on stray thoughts and ambient dream‑logic."
+  }
+}

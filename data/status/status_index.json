@@ -1,0 +1,10 @@
+{
+  "status_effects": [
+    { "id": "burn", "path": "status/burn.json" },
+    { "id": "shock", "path": "status/shock.json" },
+    { "id": "slow", "path": "status/slow.json" },
+    { "id": "poison", "path": "status/poison.json" },
+    { "id": "regen", "path": "status/regen.json" },
+    { "id": "stun", "path": "status/stun.json" }
+  ]
+}

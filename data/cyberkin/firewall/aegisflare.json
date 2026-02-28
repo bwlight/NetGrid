@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "aegisflare",
+    "name": "Aegisflare",
+    "family": "firewall",
+    "stage": "final",
+    "stats": {
+      "hp": 88,
+      "attack": 58,
+      "defense": 45,
+      "speed": 82,
+      "intelligence": 92,
+      "stability": 70
+    },
+    "abilities": [
+      "Photon Burst",
+      "Signal Beam",
+      "Radiant Overload"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "firewall",
+    "habitat": "Firewall Sector — Luminous Strip",
+    "description": "A majestic guardian of pure light, capable of unleashing blinding storms."
+  }
+}

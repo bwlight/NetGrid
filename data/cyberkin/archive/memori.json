@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "memori",
+    "name": "Memori",
+    "family": "archive",
+    "stage": "baby",
+    "stats": {
+      "hp": 13,
+      "attack": 6,
+      "defense": 9,
+      "speed": 9,
+      "intelligence": 15,
+      "stability": 14
+    },
+    "abilities": [
+      "recursive_strike",
+      "pattern_lock"
+    ],
+    "evolution": {
+      "next_stage": "memorix",
+      "requirements": [
+        "Solve recursive puzzles",
+        "Maintain high logic stat",
+        "Exposure to archive Nodes"
+      ]
+    },
+    "sector": "archive",
+    "habitat": "Archive Sector — Pattern Vault",
+    "description": "A curious construct that absorbs and stores micro‑patterns, quietly recording everything it encounters."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "voltflare",
+    "name": "Voltflare",
+    "family": "pulse",
+    "stage": "final",
+    "stats": {
+      "hp": 88,
+      "attack": 72,
+      "defense": 45,
+      "speed": 80,
+      "intelligence": 58,
+      "stability": 50
+    },
+    "abilities": [
+      "Surge Dash",
+      "Rhythm Burst",
+      "Overclock"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "pulse",
+    "habitat": "Pulse Sector — Resonance Corridor",
+    "description": "A blazing signal‑titan that channels pure Pulse energy, unleashing rhythmic overloads that shake entire corridors."
+  }
+}

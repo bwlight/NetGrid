@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "voltstride",
+    "name": "Voltstride",
+    "family": "pulse",
+    "stage": "champion",
+    "stats": {
+      "hp": 52,
+      "attack": 38,
+      "defense": 26,
+      "speed": 46,
+      "intelligence": 36,
+      "stability": 31
+    },
+    "abilities": [
+      "Surge Dash",
+      "Rhythm Burst",
+      "Overclock"
+    ],
+    "evolution": {
+      "next_stage": "voltflare",
+      "requirements": [
+        "High speed stat",
+        "Travel through Pulse Streams",
+        "Sync with rhythmic data patterns"
+      ]
+    },
+    "sector": "pulse",
+    "habitat": "Pulse Sector — Resonance Corridor",
+    "description": "A high‑velocity signal beast that runs on pure rhythm, accelerating in pulses that distort nearby data."
+  }
+}

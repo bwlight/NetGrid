@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "memorix",
+    "name": "Memorix",
+    "family": "archive",
+    "stage": "rookie",
+    "stats": {
+      "hp": 27,
+      "attack": 14,
+      "defense": 20,
+      "speed": 18,
+      "intelligence": 30,
+      "stability": 28
+    },
+    "abilities": [
+      "Recursive Strike",
+      "Pattern Lock",
+      "Infinite Loop"
+    ],
+    "evolution": {
+      "next_stage": "spiralith",
+      "requirements": [
+        "Solve recursive puzzles",
+        "Maintain high logic stat",
+        "Exposure to archive Nodes"
+      ]
+    },
+    "sector": "archive",
+    "habitat": "Archive Sector — Pattern Vault",
+    "description": "A logic‑driven analyzer capable of detecting repeating anomalies and predicting short‑term data behavior."
+  }
+}

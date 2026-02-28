@@ -1,0 +1,10 @@
+{
+  "status": {
+    "id": "shock",
+    "name": "Shock",
+    "type": "debuff",
+    "duration": 2,
+    "speed_multiplier": 0.7,
+    "description": "Reduces speed and may interrupt actions."
+  }
+}

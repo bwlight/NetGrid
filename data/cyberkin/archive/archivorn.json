@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "archivorn",
+    "name": "Archivorn",
+    "family": "archive",
+    "stage": "final",
+    "stats": {
+      "hp": 95,
+      "attack": 50,
+      "defense": 70,
+      "speed": 60,
+      "intelligence": 100,
+      "stability": 95
+    },
+    "abilities": [
+      "Recursive Strike",
+      "Pattern Lock",
+      "Infinite Loop"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "archive",
+    "habitat": "Archive Sector — Pattern Vault",
+    "description": "A towering logic entity capable of rewriting patterns, stabilizing recursive anomalies, and generating infinite loops."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "corruptor",
+    "name": "Corruptor",
+    "family": "corrupt",
+    "stage": "champion",
+    "stats": {
+      "hp": 42,
+      "attack": 38,
+      "defense": 24,
+      "speed": 44,
+      "intelligence": 42,
+      "stability": 34
+    },
+    "abilities": [
+      "Corrupt Surge",
+      "Data Rot",
+      "Glitch Phase"
+    ],
+    "evolution": {
+      "next_stage": "malwaregeist",
+      "requirements": [
+        "Exposure to corrupted Nodes",
+        "High instability",
+        "Complete a mutation‑based trial"
+      ]
+    },
+    "sector": "corrupt",
+    "habitat": "Corrupt Sector — Fractured Abyss",
+    "description": "A dangerous mid‑tier mutation entity that emits distortion waves and destabilizes system logic."
+  }
+}

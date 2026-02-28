@@ -1,110 +1,100 @@
 from __future__ import annotations
 
-from typing import List, Any, Optional
+from typing import List
+from .battle_entity import BattleEntity
+from .status_engine import StatusEngine
+from .cooldown_manager import CooldownManager
 
 
 class TurnManager:
     """
-    Controls turn order, SPD priority, cooldown ticking,
-    status ticking, and determining whose turn it is.
+    Handles turn sequencing, speed ordering, and per-turn updates.
+    Designed to work with BattleEntity objects and future systems
+    like synergy, corruption, resonance, and evolution triggers.
     """
 
-    def __init__(self, combatants: List[Any]):
-        """
-        combatants: list of Cyberkin or battlers
-        Each must have:
-        - name
-        - stats["SPD"]
-        - current_hp
-        - is_alive()
-        - cooldowns (dict)
-        - statuses (list)
-        """
-        self.combatants = combatants
-        self.turn_index = 0
+    def __init__(self, status_engine: StatusEngine, cooldown_manager: CooldownManager):
+        self.status_engine = status_engine
+        self.cooldown_manager = cooldown_manager
+        self.entities = []
+        self.current_index = 0
+    
+    def set_entities(self, entities): 
+        """ Register the two battle entities. """ 
+        self.entities = entities
+        self.current_index = 0
+    
+    def get_current_entity(self): 
+            """ Return the entity whose turn it is. """ 
+            if not self.entities: 
+                raise RuntimeError("TurnManager has no entities registered.") 
+            return self.entities[self.current_index]
 
-        # Sort by SPD descending
-        self.combatants.sort(key=lambda c: c.stats.get("SPD", 10), reverse=True)
-
-    # ---------------------------------------------------------
-    # MAIN LOOP
-    # ---------------------------------------------------------
-    def next_turn(self) -> Optional[Any]:
-        """
-        Returns the next combatant whose turn it is.
-        Handles:
-        - skipping dead units
-        - skipping immobilized units
-        - ticking cooldowns
-        - ticking statuses
-        """
-
-        if not any(c.is_alive() for c in self.combatants):
-            return None  # battle is over
-
-        while True:
-            actor = self.combatants[self.turn_index]
-
-            # Advance turn index for next call
-            self.turn_index = (self.turn_index + 1) % len(self.combatants)
-
-            # Skip dead units
-            if not actor.is_alive():
-                continue
-
-            # Tick cooldowns + statuses
-            self._tick_cooldowns(actor)
-            self._tick_statuses(actor)
-
-            # Skip immobilized units
-            if actor.has_status("immobilized"):
-                actor.consume_status("immobilized")
-                continue
-
-            return actor
+    def get_opponent(self, entity): 
+        """ Return the opposing entity. """ 
+        if len(self.entities) != 2: 
+            raise RuntimeError("TurnManager only supports 1v1 battles.") 
+        return self.entities[1] if self.entities[0] == entity else self.entities[0]
+ 
+    def advance_turn(self): 
+        """ Move to the next entity. """ 
+        if not self.entities: 
+            raise RuntimeError("TurnManager has no entities registered.") 
+        self.current_index = (self.current_index + 1) % len(self.entities)
 
     # ---------------------------------------------------------
-    # INTERNAL HELPERS
+    # Turn Order
     # ---------------------------------------------------------
 
-    def _tick_cooldowns(self, actor: Any):
+    def sort_by_speed(self, entities: List[BattleEntity]) -> List[BattleEntity]:
         """
-        Reduces all cooldowns by 1.
-        Removes abilities whose cooldown reaches 0.
+        Returns entities sorted by speed descending.
+        Future-proof: speed may be modified by synergy, buffs, debuffs, or corruption.
         """
-        to_remove = []
-        for ability_id, turns in actor.cooldowns.items():
-            new_value = turns - 1
-            if new_value <= 0:
-                to_remove.append(ability_id)
-            else:
-                actor.cooldowns[ability_id] = new_value
+        return sorted(entities, key=lambda e: e.stats.get("speed", 1), reverse=True)
 
-        for ability_id in to_remove:
-            del actor.cooldowns[ability_id]
+    # ---------------------------------------------------------
+    # Turn Start
+    # ---------------------------------------------------------
 
-    def _tick_statuses(self, actor: Any):
+    def begin_turn(self, entity: BattleEntity) -> None:
         """
-        Ticks down status durations.
-        Applies DOT/HOT effects if present.
+        Called at the start of a creature's turn.
+        Applies status effects, ticks cooldowns, and handles energy gain.
         """
-        expired = []
 
-        for status in actor.statuses:
-            status.duration -= 1
+        # Clear immobilize flag each turn (StatusEffect will reapply if needed)
+        if "immobilized" in entity.metadata:
+            del entity.metadata["immobilized"]
 
-            # DOT
-            if status.type == "dot":
-                dmg = status.value
-                actor.current_hp = max(0, actor.current_hp - dmg)
+        # Status effects (DOT, HOT, buffs, debuffs, immobilize, etc.)
+        logs = self.status_engine.update_statuses(entity)
+        # (Optional) You can forward logs to BattleManager later
 
-            # HOT
-            if status.type == "hot":
-                heal = status.value
-                actor.current_hp = min(actor.max_hp, actor.current_hp + heal)
+        # Cooldowns
+        self.cooldown_manager.tick(entity)
 
-            if status.duration <= 0:
-                expired.append(status)
+        # Energy gain (placeholder — BattleManager may override this later)
+        entity.energy += 1
 
-        for s in expired:
-            actor.statuses.remove(s)
+    # ---------------------------------------------------------
+    # Turn End (optional future hook)
+    # ---------------------------------------------------------
+
+    def end_turn(self, entity: BattleEntity) -> None:
+        """
+        Optional hook for end-of-turn effects.
+        Useful for corruption decay, resonance charge, or lingering effects.
+        """
+        pass
+
+    # ---------------------------------------------------------
+    # Battle End Checks
+    # ---------------------------------------------------------
+
+    def all_dead(self, entities: List[BattleEntity]) -> bool:
+        return all(not e.is_alive() for e in entities)
+
+    def any_dead(self, entities: List[BattleEntity]) -> bool:
+        return any(not e.is_alive() for e in entities)
+

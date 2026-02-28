@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "probabound",
+    "name": "Probabound",
+    "family": "dream",
+    "stage": "champion",
+    "stats": {
+      "hp": 50,
+      "attack": 28,
+      "defense": 26,
+      "speed": 42,
+      "intelligence": 55,
+      "stability": 45
+    },
+    "abilities": [
+      "Phase Shift",
+      "Probability Spike",
+      "Dream Tunnel"
+    ],
+    "evolution": {
+      "next_stage": "reveria",
+      "requirements": [
+        "High intelligence stat",
+        "Exposure to probability storms",
+        "Complete a logic‑based prediction trial"
+      ]
+    },
+    "sector": "dream",
+    "habitat": "Dream Sector — Uncertainty Nexus",
+    "description": "A fluid probability entity that splits into after‑images representing alternate outcomes and branching actions."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "harmonic_shield",
+    "name": "Harmonic Shield",
+    "type": "support",
+    "element": "echo",
+    "power": 0,
+    "cost": 10,
+    "cooldown": 3,
+    "accuracy": 1.0,
+    "target": "self",
+
+    "effects": {
+      "stat_modifiers": {
+        "DEF": 0.25
+      },
+      "multi_hit": 1
+    },
+
+    "description": "A resonant barrier that strengthens defensive integrity."
+  }
+}

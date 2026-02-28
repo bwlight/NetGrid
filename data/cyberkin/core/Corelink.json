@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "corelink",
+    "name": "Corelink",
+    "family": "core",
+    "stage": "rookie",
+    "stats": {
+      "hp": 34,
+      "attack": 18,
+      "defense": 28,
+      "speed": 12,
+      "intelligence": 28,
+      "stability": 36
+    },
+    "abilities": [
+      "Prime Barrier",
+      "Stability Surge",
+      "Core Lock"
+    ],
+    "evolution": {
+      "next_stage": "corewarden",
+      "requirements": [
+        "High stability",
+        "Exposure to Prime Nodes",
+        "Complete a Guardian Protocol Trial"
+      ]
+    },
+    "sector": "core",
+    "habitat": "Core Sector — Central Nexus",
+    "description": "A stabilizing conduit that links Prime Nodes and reinforces weakened data structures."
+  }
+}

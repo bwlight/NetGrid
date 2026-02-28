@@ -1,0 +1,317 @@
+{
+  "cyberkin_index": [
+    {
+      "id": "memori",
+      "family": "archive",
+      "stage": "baby",
+      "next_stage": "memorix",
+      "sector": "archive",
+      "path": "cyberkin/archive/memori.json"
+    },
+    {
+      "id": "memorix",
+      "family": "archive",
+      "stage": "rookie",
+      "next_stage": "spiralith",
+      "sector": "archive",
+      "path": "cyberkin/archive/memorix.json"
+    },
+    {
+      "id": "spiralith",
+      "family": "archive",
+      "stage": "champion",
+      "next_stage": "archivorn",
+      "sector": "archive",
+      "path": "cyberkin/archive/spiralith.json"
+    },
+    {
+      "id": "archivorn",
+      "family": "archive",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "archive",
+      "path": "cyberkin/archive/archivorn.json"
+    },
+
+    {
+      "id": "puffbit",
+      "family": "cloud",
+      "stage": "baby",
+      "next_stage": "puffdrift",
+      "sector": "cloud",
+      "path": "cyberkin/cloud/puffbit.json"
+    },
+    {
+      "id": "puffdrift",
+      "family": "cloud",
+      "stage": "rookie",
+      "next_stage": "skyloom",
+      "sector": "cloud",
+      "path": "cyberkin/cloud/puffdrift.json"
+    },
+    {
+      "id": "skyloom",
+      "family": "cloud",
+      "stage": "champion",
+      "next_stage": "cloudeer",
+      "sector": "cloud",
+      "path": "cyberkin/cloud/skyloom.json"
+    },
+    {
+      "id": "cloudeer",
+      "family": "cloud",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "cloud",
+      "path": "cyberkin/cloud/cloudeer.json"
+    },
+
+    {
+      "id": "corebit",
+      "family": "core",
+      "stage": "baby",
+      "next_stage": "corelink",
+      "sector": "core",
+      "path": "cyberkin/core/corebit.json"
+    },
+    {
+      "id": "corelink",
+      "family": "core",
+      "stage": "rookie",
+      "next_stage": "corewarden",
+      "sector": "core",
+      "path": "cyberkin/core/corelink.json"
+    },
+    {
+      "id": "corewarden",
+      "family": "core",
+      "stage": "champion",
+      "next_stage": "coreprime",
+      "sector": "core",
+      "path": "cyberkin/core/corewarden.json"
+    },
+    {
+      "id": "coreprime",
+      "family": "core",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "core",
+      "path": "cyberkin/core/coreprime.json"
+    },
+
+    {
+      "id": "doodlit",
+      "family": "dream",
+      "stage": "baby",
+      "next_stage": "dreamlet",
+      "sector": "dream",
+      "path": "cyberkin/dream/doodlit.json"
+    },
+    {
+      "id": "dreamlet",
+      "family": "dream",
+      "stage": "rookie",
+      "next_stage": "probabound",
+      "sector": "dream",
+      "path": "cyberkin/dream/dreamlet.json"
+    },
+    {
+      "id": "probabound",
+      "family": "dream",
+      "stage": "champion",
+      "next_stage": "reveria",
+      "sector": "dream",
+      "path": "cyberkin/dream/probabound.json"
+    },
+    {
+      "id": "reveria",
+      "family": "dream",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "dream",
+      "path": "cyberkin/dream/reveria.json"
+    },
+
+    {
+      "id": "glitchip",
+      "family": "corrupt",
+      "stage": "baby",
+      "next_stage": "glitchmaw",
+      "sector": "corrupt",
+      "path": "cyberkin/corrupt/glitchip.json"
+    },
+    {
+      "id": "glitchmaw",
+      "family": "corrupt",
+      "stage": "rookie",
+      "next_stage": "corruptor",
+      "sector": "corrupt",
+      "path": "cyberkin/corrupt/glitchmaw.json"
+    },
+    {
+      "id": "corruptor",
+      "family": "corrupt",
+      "stage": "champion",
+      "next_stage": "malwaregeist",
+      "sector": "corrupt",
+      "path": "cyberkin/corrupt/corruptor.json"
+    },
+    {
+      "id": "malwaregeist",
+      "family": "corrupt",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "corrupt",
+      "path": "cyberkin/corrupt/malwaregeist.json"
+    },
+
+    {
+      "id": "reverbit",
+      "family": "echo",
+      "stage": "baby",
+      "next_stage": "reverwave",
+      "sector": "echo",
+      "path": "cyberkin/echo/reverbit.json"
+    },
+    {
+      "id": "reverwave",
+      "family": "echo",
+      "stage": "rookie",
+      "next_stage": "echolume",
+      "sector": "echo",
+      "path": "cyberkin/echo/reverwave.json"
+    },
+    {
+      "id": "echolume",
+      "family": "echo",
+      "stage": "champion",
+      "next_stage": "echomancer",
+      "sector": "echo",
+      "path": "cyberkin/echo/echolume.json"
+    },
+    {
+      "id": "echomancer",
+      "family": "echo",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "echo",
+      "path": "cyberkin/echo/echomancer.json"
+    },
+
+    {
+      "id": "sparklit",
+      "family": "pulse",
+      "stage": "baby",
+      "next_stage": "sparkline",
+      "sector": "pulse",
+      "path": "cyberkin/pulse/sparklit.json"
+    },
+    {
+      "id": "sparkline",
+      "family": "pulse",
+      "stage": "rookie",
+      "next_stage": "voltstride",
+      "sector": "pulse",
+      "path": "cyberkin/pulse/sparkline.json"
+    },
+    {
+      "id": "voltstride",
+      "family": "pulse",
+      "stage": "champion",
+      "next_stage": "voltflare",
+      "sector": "pulse",
+      "path": "cyberkin/pulse/voltstride.json"
+    },
+    {
+      "id": "voltflare",
+      "family": "pulse",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "pulse",
+      "path": "cyberkin/pulse/voltflare.json"
+    },
+
+    {
+      "id": "nullbit",
+      "family": "void",
+      "stage": "baby",
+      "next_stage": "hollowbyte",
+      "sector": "void",
+      "path": "cyberkin/void/nullbit.json"
+    },
+    {
+      "id": "hollowbyte",
+      "family": "void",
+      "stage": "rookie",
+      "next_stage": "deletor",
+      "sector": "void",
+      "path": "cyberkin/void/hollowbyte.json"
+    },
+    {
+      "id": "deletor",
+      "family": "void",
+      "stage": "champion",
+      "next_stage": "voidreaver",
+      "sector": "void",
+      "path": "cyberkin/void/deletor.json"
+    },
+    {
+      "id": "voidreaver",
+      "family": "void",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "void",
+      "path": "cyberkin/void/voidreaver.json"
+    },
+
+    {
+      "id": "rootlet",
+      "family": "root",
+      "stage": "baby",
+      "next_stage": "rootbloom",
+      "sector": "root",
+      "path": "cyberkin/root/rootlet.json"
+    },
+    {
+      "id": "rootbloom",
+      "family": "root",
+      "stage": "rookie",
+      "next_stage": "trunkode",
+      "sector": "root",
+      "path": "cyberkin/root/rootbloom.json"
+    },
+    {
+      "id": "trunkode",
+      "family": "root",
+      "stage": "champion",
+      "next_stage": "rootspire",
+      "sector": "root",
+      "path": "cyberkin/root/trunkode.json"
+    },
+    {
+      "id": "rootspire",
+      "family": "root",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "root",
+      "path": "cyberkin/root/rootspire.json"
+    },
+
+    {
+      "id": "primacore_base",
+      "family": "primacore",
+      "stage": "baby",
+      "next_stage": "primacore",
+      "sector": "root",
+      "path": "cyberkin/primacore/primacore_base.json"
+    },
+    {
+      "id": "primacore",
+      "family": "primacore",
+      "stage": "final",
+      "next_stage": null,
+      "sector": "root",
+      "path": "cyberkin/primacore/primacore.json"
+    }
+  ]
+}

@@ -1,1 +1,3 @@
-# Netgrid root package
+# Netgrid root package - this is the main entry point for the NetGrid engine. It provides the core functionality for loading and managing quests, as well as other game mechanics. The NetGrid engine is designed to be modular and extensible, allowing for easy addition of new features and mechanics as the game evolves. The engine serves as the backbone of the NetGrid experience, ensuring a cohesive and engaging gameplay experience for players. 
+
+__version__ = "0.1.0"

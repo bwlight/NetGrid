@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "cloudeer",
+    "name": "Cloudeer",
+    "family": "cloud",
+    "stage": "final",
+    "stats": {
+      "hp": 105,
+      "attack": 60,
+      "defense": 65,
+      "speed": 70,
+      "intelligence": 68,
+      "stability": 72
+    },
+    "abilities": [
+      "Pathfinder Pulse",
+      "Adaptive Shift",
+      "Terrain Scan"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "cloud",
+    "habitat": "Cloud Sector — Skybound Expanse",
+    "description": "A majestic sky‑bound Cyberkin that stabilizes aerial pathways and navigates multi‑Sector routes with precision."
+  }
+}

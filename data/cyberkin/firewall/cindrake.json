@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "cindrake",
+    "name": "Cindrake",
+    "family": "firewall",
+    "stage": "rookie",
+    "stats": {
+      "hp": 28,
+      "attack": 18,
+      "defense": 15,
+      "speed": 25,
+      "intelligence": 28,
+      "stability": 22
+    },
+    "abilities": [
+      "Photon Burst",
+      "Signal Beam",
+      "Radiant Overload"
+    ],
+    "evolution": {
+      "next_stage": "aedidrake",
+      "requirements": [
+        "Exposure to high‑intensity light Nodes",
+        "High speed or intelligence",
+        "Complete a signal‑pattern resonance test"
+      ]
+    },
+    "sector": "firewall",
+    "habitat": "Firewall Sector — Luminous Strip",
+    "description": "A swift, bright drake that channels concentrated light energy."
+  }
+}

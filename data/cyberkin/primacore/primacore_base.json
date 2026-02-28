@@ -1,0 +1,30 @@
+{
+  "cyberkin": {
+    "id": "primacore_base",
+    "name": "Primacore",
+    "family": "primacore",
+    "stage": "baby",
+    "stats": {
+      "hp": 22,
+      "attack": 14,
+      "defense": 16,
+      "speed": 12,
+      "intelligence": 18,
+      "stability": 22
+    },
+    "abilities": [
+      "Stability Pulse",
+      "Root Bind",
+      "Echo Sense"
+    ],
+    "evolution": {
+      "next_stage": "primacore",
+      "requirements": [
+        "Forms a Resonance Link with a Codeborn"
+      ]
+    },
+    "sector": "root",
+    "habitat": "Root Sector — Origin Loop",
+    "description": "A dormant fragment of the First Cyberkin. Though small and quiet, it radiates ancient stability and responds to the presence of a true Codeborn."
+  }
+}

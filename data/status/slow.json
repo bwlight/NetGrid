@@ -1,0 +1,10 @@
+{
+  "status": {
+    "id": "slow",
+    "name": "Slow",
+    "type": "debuff",
+    "duration": 3,
+    "speed_multiplier": 0.6,
+    "description": "Greatly reduces speed."
+  }
+}

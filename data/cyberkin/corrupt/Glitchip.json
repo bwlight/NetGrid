@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "glitchip",
+    "name": "Glitchip",
+    "family": "corrupt",
+    "stage": "baby",
+    "stats": {
+      "hp": 12,
+      "attack": 10,
+      "defense": 6,
+      "speed": 13,
+      "intelligence": 12,
+      "stability": 10
+    },
+    "abilities": [
+      "Corrupt Surge",
+      "Data Rot"
+    ],
+    "evolution": {
+      "next_stage": "glitchmaw",
+      "requirements": [
+        "Exposure to corrupted Nodes",
+        "High instability",
+        "Complete a mutation‑based trial"
+      ]
+    },
+    "sector": "corrupt",
+    "habitat": "Corrupt Sector — Fractured Abyss",
+    "description": "A flickering anomaly that jitters between corrupted frames, leaving static trails in its wake."
+  }
+}

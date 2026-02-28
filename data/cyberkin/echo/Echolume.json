@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "echolume",
+    "name": "Echolume",
+    "family": "echo",
+    "stage": "champion",
+    "stats": {
+      "hp": 50,
+      "attack": 28,
+      "defense": 30,
+      "speed": 34,
+      "intelligence": 48,
+      "stability": 40
+    },
+    "abilities": [
+      "Reverberate",
+      "Phantom Packet",
+      "Memory Loop"
+    ],
+    "evolution": {
+      "next_stage": "echomancer",
+      "requirements": [
+        "Exposure to repeated signals",
+        "Complete a memory-based puzzle",
+        "High intelligence stat"
+      ]
+    },
+    "sector": "echo",
+    "habitat": "Echo Sector — Reverberation Hall",
+    "description": "A luminous echo‑construct that bends resonance fields and traps foes in looping illusions."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "cyberkin": {
+    "id": "primacore",
+    "name": "Primacore",
+    "family": "primacore",
+    "stage": "final",
+    "stats": {
+      "hp": 110,
+      "attack": 70,
+      "defense": 85,
+      "speed": 55,
+      "intelligence": 95,
+      "stability": 120
+    },
+    "abilities": [
+      "Stability Pulse",
+      "Root Bind",
+      "Echo Sense",
+      "Prime Shield"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "root",
+    "habitat": "Root Sector — Origin Loop",
+    "description": "The First Cyberkin, awakened. Primacore embodies the original stabilizing algorithm from which all Cyberkin life emerged. Its presence harmonizes entire Sectors and shields the system from collapse."
+  }
+}

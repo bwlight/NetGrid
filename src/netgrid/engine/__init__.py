@@ -1,4 +1,4 @@
-from .models import Quest, QuestObjective, QuestReward, QuestCategory
-from .loader import load_all_quests
-from .state import QuestManager
-__all__ = ["Quest", "QuestObjective", "QuestReward", "QuestCategory", "load_all_quests", "QuestManager"]
+### NetGrid engine module. This module provides the core engine functionality for NetGrid. It includes the main Engine class, which is responsible for managing the game state, processing player actions, and coordinating the various components of the game. The engine also handles loading and saving game data, as well as managing quests and other game mechanics. The engine is designed to be modular and extensible, allowing for easy addition of new features and mechanics as the game evolves. It serves as the backbone of the NetGrid experience, ensuring a cohesive and engaging gameplay experience for players. 
+
+# from .engine import Engine
+__all__ = ["Engine"]

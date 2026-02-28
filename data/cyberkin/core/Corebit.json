@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "corebit",
+    "name": "Corebit",
+    "family": "core",
+    "stage": "baby",
+    "stats": {
+      "hp": 18,
+      "attack": 9,
+      "defense": 14,
+      "speed": 6,
+      "intelligence": 15,
+      "stability": 20
+    },
+    "abilities": [
+      "Prime Barrier",
+      "Stability Surge"
+    ],
+    "evolution": {
+      "next_stage": "corelink",
+      "requirements": [
+        "High stability",
+        "Exposure to Prime Nodes",
+        "Complete a Guardian Protocol Trial"
+      ]
+    },
+    "sector": "core",
+    "habitat": "Core Sector — Central Nexus",
+    "description": "A tiny stabilizer unit formed from pure Prime code, radiating harmonic balance."
+  }
+}

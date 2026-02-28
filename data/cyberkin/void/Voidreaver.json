@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "voidreaver",
+    "name": "Voidreaver",
+    "family": "void",
+    "stage": "final",
+    "stats": {
+      "hp": 120,
+      "attack": 60,
+      "defense": 90,
+      "speed": 28,
+      "intelligence": 40,
+      "stability": 100
+    },
+    "abilities": [
+      "Data Drain",
+      "Null Field",
+      "Purge Wave"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "void",
+    "habitat": "Void Sector — Null Basin",
+    "description": "A towering null‑entity that purges corruption on a massive scale, capable of erasing entire data structures."
+  }
+}

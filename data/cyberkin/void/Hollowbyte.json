@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "hollowbyte",
+    "name": "Hollowbyte",
+    "family": "void",
+    "stage": "rookie",
+    "stats": {
+      "hp": 38,
+      "attack": 18,
+      "defense": 28,
+      "speed": 10,
+      "intelligence": 12,
+      "stability": 30
+    },
+    "abilities": [
+      "Data Drain",
+      "Null Field",
+      "Purge Wave"
+    ],
+    "evolution": {
+      "next_stage": "deletor",
+      "requirements": [
+        "Exposure to null storms",
+        "High corruption resistance",
+        "Complete a purification trial"
+      ]
+    },
+    "sector": "void",
+    "habitat": "Void Sector — Null Basin",
+    "description": "A hollow, pixel‑eaten entity that consumes corrupted fragments and leaves behind purified void‑space."
+  }
+}

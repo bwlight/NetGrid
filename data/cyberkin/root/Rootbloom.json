@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "rootbloom",
+    "name": "Rootbloom",
+    "family": "root",
+    "stage": "rookie",
+    "stats": {
+      "hp": 32,
+      "attack": 18,
+      "defense": 26,
+      "speed": 14,
+      "intelligence": 20,
+      "stability": 28
+    },
+    "abilities": [
+      "Integrity Boost",
+      "Anchor Field",
+      "Data Shield"
+    ],
+    "evolution": {
+      "next_stage": "trunkode",
+      "requirements": [
+        "High stability",
+        "Exposure to Root-aligned Nodes",
+        "Complete a Stabilization Trial"
+      ]
+    },
+    "sector": "root",
+    "habitat": "Root Sector — Archive Pillar",
+    "description": "A branching logic‑bloom that extends stabilizing tendrils into nearby data streams."
+  }
+}

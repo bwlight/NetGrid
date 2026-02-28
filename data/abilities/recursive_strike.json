@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "recursive_strike",
+    "name": "Recursive Strike",
+    "type": "attack",
+    "power": 12,
+    "cost": 0,
+    "cooldown": 1,
+    "accuracy": 0.8,
+    "target": "single",
+    "description": "A looping strike that grows stronger with each consecutive use."
+  }
+}

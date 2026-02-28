@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "rootlet",
+    "name": "Rootlet",
+    "family": "root",
+    "stage": "baby",
+    "stats": {
+      "hp": 17,
+      "attack": 8,
+      "defense": 12,
+      "speed": 6,
+      "intelligence": 9,
+      "stability": 15
+    },
+    "abilities": [
+      "Integrity Boost",
+      "Anchor Field"
+    ],
+    "evolution": {
+      "next_stage": "rootbloom",
+      "requirements": [
+        "High stability",
+        "Exposure to Root-aligned Nodes",
+        "Complete a Stabilization Trial"
+      ]
+    },
+    "sector": "root",
+    "habitat": "Root Sector — Archive Pillar",
+    "description": "A small stabilizer sprout that reinforces micro‑fractures in nearby data structures."
+  }
+}

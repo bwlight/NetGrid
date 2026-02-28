@@ -1,0 +1,10 @@
+{
+  "status": {
+    "id": "regen",
+    "name": "Regeneration",
+    "type": "hot",
+    "duration": 3,
+    "tick_heal": 6,
+    "description": "Restores HP each turn."
+  }
+}

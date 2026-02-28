@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "voltage_snap",
+    "name": "Voltage Snap",
+    "type": "attack",
+    "element": "pulse",
+    "power": 30,
+    "cost": 6,
+    "cooldown": 0,
+    "accuracy": 0.95,
+    "target": "single",
+
+    "effects": {
+      "multi_hit": 1
+    },
+
+    "description": "A sharp electrical discharge that jolts the target."
+  }
+}

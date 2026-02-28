@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "sparklit",
+    "name": "Sparklit",
+    "family": "pulse",
+    "stage": "baby",
+    "stats": {
+      "hp": 16,
+      "attack": 11,
+      "defense": 7,
+      "speed": 14,
+      "intelligence": 10,
+      "stability": 8
+    },
+    "abilities": [
+      "Surge Dash",
+      "Rhythm Burst"
+    ],
+    "evolution": {
+      "next_stage": "sparkline",
+      "requirements": [
+        "High speed stat",
+        "Travel through Pulse Streams",
+        "Sync with rhythmic data patterns"
+      ]
+    },
+    "sector": "pulse",
+    "habitat": "Pulse Sector — Resonance Corridor",
+    "description": "A jittery spark‑creature that flickers in and out of sync with nearby signals, always buzzing with motion."
+  }
+}

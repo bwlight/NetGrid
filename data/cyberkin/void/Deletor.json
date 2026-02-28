@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "deletor",
+    "name": "Deletor",
+    "family": "void",
+    "stage": "champion",
+    "stats": {
+      "hp": 68,
+      "attack": 32,
+      "defense": 46,
+      "speed": 18,
+      "intelligence": 20,
+      "stability": 52
+    },
+    "abilities": [
+      "Data Drain",
+      "Null Field",
+      "Purge Wave"
+    ],
+    "evolution": {
+      "next_stage": "voidreaver",
+      "requirements": [
+        "Exposure to null storms",
+        "High corruption resistance",
+        "Complete a purification trial"
+      ]
+    },
+    "sector": "void",
+    "habitat": "Void Sector — Null Basin",
+    "description": "A purging construct that erases corrupted code on contact, leaving clean void‑space in its wake."
+  }
+}

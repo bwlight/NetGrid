@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "puffbit",
+    "name": "Puffbit",
+    "family": "cloud",
+    "stage": "baby",
+    "stats": {
+      "hp": 17,
+      "attack": 9,
+      "defense": 9,
+      "speed": 12,
+      "intelligence": 11,
+      "stability": 11
+    },
+    "abilities": [
+      "Pathfinder Pulse",
+      "Adaptive Shift"
+    ],
+    "evolution": {
+      "next_stage": "puffdrift",
+      "requirements": [
+        "Travel across multiple Sectors",
+        "Demonstrate adaptability in varied environments",
+        "Balanced stat growth"
+      ]
+    },
+    "sector": "cloud",
+    "habitat": "Cloud Sector — Skybound Expanse",
+    "description": "A soft, buoyant Cyberkin that drifts on data currents and explores shifting terrain."
+  }
+}

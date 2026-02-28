@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "reverbit",
+    "name": "Reverbit",
+    "family": "echo",
+    "stage": "baby",
+    "stats": {
+      "hp": 14,
+      "attack": 7,
+      "defense": 8,
+      "speed": 10,
+      "intelligence": 14,
+      "stability": 12
+    },
+    "abilities": [
+      "Reverberate",
+      "Phantom Packet"
+    ],
+    "evolution": {
+      "next_stage": "reverwave",
+      "requirements": [
+        "Exposure to repeated signals",
+        "Complete a memory-based puzzle",
+        "High intelligence stat"
+      ]
+    },
+    "sector": "echo",
+    "habitat": "Echo Sector — Reverberation Hall",
+    "description": "A tiny ripple‑creature made of vibrating rings of light, always listening and subtly echoing nearby data."
+  }
+}

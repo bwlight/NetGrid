@@ -1,56 +1,83 @@
 from __future__ import annotations
 
-from typing import Dict, List, Tuple
+from typing import Dict, List, Union, Any
 
-from .party_loader import SynergyRulesConfig, SynergyTier
+from .party_loader import SynergyRulesConfig
 from .relationship_system import RelationshipSystem
 
 
+# A party member can be a string ID (current behavior)
+# or a Cyberkin object (future behavior).
+PartyMember = Union[str, Any]
+
+
 class SynergyCalculator:
-    def __init__(self, rules: SynergyRulesConfig, relationship_system: RelationshipSystem) -> None:
+    def __init__(
+        self,
+        rules: SynergyRulesConfig,
+        relationship_system: RelationshipSystem,
+    ) -> None:
         self.rules = rules
         self.relationship_system = relationship_system
 
-    def _compute_average_friendship(self, party_ids: List[str]) -> float:
-        pairs: List[int] = []
-        n = len(party_ids)
-        for i in range(n):
-            for j in range(i + 1, n):
-                a = party_ids[i]
-                b = party_ids[j]
-                pairs.append(self.relationship_system.get_friendship(a, b))
-        if not pairs:
-            return float(self.relationship_system.config.default_value)
-        return sum(pairs) / len(pairs)
+    # --- Internal helpers ---
 
-    def get_synergy_value(self, party_ids: List[str]) -> float:
-        if self.rules.calculation == "average_friendship":
-            return self._compute_average_friendship(party_ids)
-        # future: other calculation modes
-        return self._compute_average_friendship(party_ids)
+    def _extract_id(self, member: PartyMember) -> str:
+        """Return the ID of a party member, whether it's a string or a Cyberkin object."""
+        if isinstance(member, str):
+            return member
+        return member.id  # Future: Cyberkin object must have .id
 
-    def get_synergy_tier(self, party_ids: List[str]) -> SynergyTier | None:
-        value = self.get_synergy_value(party_ids)
+    def _extract_ids(self, members: List[PartyMember]) -> List[str]:
+        return [self._extract_id(m) for m in members]
+
+    # --- Synergy calculations ---
+
+    def get_synergy_value(self, members: List[PartyMember]) -> float:
+        ids = self._extract_ids(members)
+
+        total = 0.0
+        count = 0
+
+        # Pairwise synergy calculation
+        for i in range(len(ids)):
+            for j in range(i + 1, len(ids)):
+                a = ids[i]
+                b = ids[j]
+
+                # Relationship-based synergy
+                rel = self.relationship_system.get_relationship_type(a, b)
+                if rel and rel.name in self.rules.relationship_synergy:
+                    total += self.rules.relationship_synergy[rel.name]
+                    count += 1
+
+        if count == 0:
+            return 0.0
+
+        return total / count
+
+    def get_synergy_tier(self, members: List[PartyMember]):
+        value = self.get_synergy_value(members)
+
         for tier in self.rules.tiers:
-            if tier.range_min <= value <= tier.range_max:
+            if tier.min_value <= value <= tier.max_value:
                 return tier
+
         return None
 
     def apply_synergy_effects(
         self,
         base_stats: Dict[str, float],
-        party_ids: List[str],
+        members: List[PartyMember],
     ) -> Dict[str, float]:
-        """
-        base_stats: e.g. {\"ATK\": 100, \"DEF\": 80, \"SPD\": 50}
-        returns new stats with synergy applied.
-        """
-        tier = self.get_synergy_tier(party_ids)
-        if tier is None or not tier.effects:
-            return dict(base_stats)
+        tier = self.get_synergy_tier(members)
+        if tier is None:
+            return base_stats
 
-        result = dict(base_stats)
-        for stat, modifier in tier.effects.items():
-            if stat in result:
-                result[stat] = result[stat] * (1.0 + modifier)
-        return result
+        modified = dict(base_stats)
+
+        for stat, multiplier in tier.stat_multipliers.items():
+            if stat in modified:
+                modified[stat] *= multiplier
+
+        return modified

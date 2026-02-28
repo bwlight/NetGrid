@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "sparkline",
+    "name": "Sparkline",
+    "family": "pulse",
+    "stage": "rookie",
+    "stats": {
+      "hp": 30,
+      "attack": 22,
+      "defense": 15,
+      "speed": 27,
+      "intelligence": 19,
+      "stability": 17
+    },
+    "abilities": [
+      "Surge Dash",
+      "Rhythm Burst",
+      "Overclock"
+    ],
+    "evolution": {
+      "next_stage": "voltstride",
+      "requirements": [
+        "High speed stat",
+        "Travel through Pulse Streams",
+        "Sync with rhythmic data patterns"
+      ]
+    },
+    "sector": "pulse",
+    "habitat": "Pulse Sector — Resonance Corridor",
+    "description": "A fast‑moving signal runner that leaves streaks of light as it accelerates through data pathways."
+  }
+}

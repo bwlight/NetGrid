@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "corewarden",
+    "name": "Corewarden",
+    "family": "core",
+    "stage": "champion",
+    "stats": {
+      "hp": 58,
+      "attack": 32,
+      "defense": 46,
+      "speed": 20,
+      "intelligence": 48,
+      "stability": 58
+    },
+    "abilities": [
+      "Prime Barrier",
+      "Stability Surge",
+      "Core Lock"
+    ],
+    "evolution": {
+      "next_stage": "coreprime",
+      "requirements": [
+        "High stability",
+        "Exposure to Prime Nodes",
+        "Complete a Guardian Protocol Trial"
+      ]
+    },
+    "sector": "core",
+    "habitat": "Core Sector — Central Nexus",
+    "description": "A guardian of Prime threads, shielding critical data pathways from corruption and collapse."
+  }
+}

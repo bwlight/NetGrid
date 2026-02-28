@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "nullbit",
+    "name": "Nullbit",
+    "family": "void",
+    "stage": "baby",
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 14,
+      "speed": 5,
+      "intelligence": 7,
+      "stability": 16
+    },
+    "abilities": [
+      "Data Drain",
+      "Null Field"
+    ],
+    "evolution": {
+      "next_stage": "hollowbyte",
+      "requirements": [
+        "Exposure to null storms",
+        "High corruption resistance",
+        "Complete a purification trial"
+      ]
+    },
+    "sector": "void",
+    "habitat": "Void Sector — Null Basin",
+    "description": "A flickering cube of missing data that absorbs stray corruption and stabilizes itself through null energy."
+  }
+}

@@ -1,28 +1,40 @@
 from __future__ import annotations
 
+from typing import Dict
+from .battle_entity import BattleEntity
+
+
 class CooldownManager:
     """
-    Tracks and updates ability cooldowns for each Cyberkin.
+    Tracks ability cooldowns for each BattleEntity.
+    Cooldowns are stored on the entity itself:
+        entity.cooldowns = { ability_name: turns_remaining }
     """
 
-    def __init__(self):
-        pass
+    def set_cooldown(self, entity: BattleEntity, ability_name: str, turns: int) -> None:
+        """
+        Starts a cooldown for an ability.
+        """
+        entity.cooldowns[ability_name] = turns
 
-    def apply_cooldown(self, actor, ability_id: str, turns: int):
-        actor.cooldowns[ability_id] = turns
+    def tick(self, entity: BattleEntity) -> None:
+        """
+        Decrements all cooldowns by 1.
+        Removes abilities whose cooldown has expired.
+        """
+        expired: list[str] = []
 
-    def tick_cooldowns(self, actor):
-        expired = []
-
-        for ability_id, turns in actor.cooldowns.items():
-            new_value = turns - 1
-            if new_value <= 0:
-                expired.append(ability_id)
+        for ability, turns in entity.cooldowns.items():
+            if turns > 1:
+                entity.cooldowns[ability] = turns - 1
             else:
-                actor.cooldowns[ability_id] = new_value
+                expired.append(ability)
 
-        for ability_id in expired:
-            del actor.cooldowns[ability_id]
+        for ability in expired:
+            del entity.cooldowns[ability]
 
-    def is_usable(self, actor, ability_id: str) -> bool:
-        return ability_id not in actor.cooldowns
+    def is_on_cooldown(self, entity: BattleEntity, ability_name: str) -> bool:
+        """
+        Returns True if the ability is still cooling down.
+        """
+        return ability_name in entity.cooldowns

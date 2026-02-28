@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "reverwave",
+    "name": "Reverwave",
+    "family": "echo",
+    "stage": "rookie",
+    "stats": {
+      "hp": 28,
+      "attack": 15,
+      "defense": 18,
+      "speed": 20,
+      "intelligence": 26,
+      "stability": 22
+    },
+    "abilities": [
+      "Reverberate",
+      "Phantom Packet",
+      "Memory Loop"
+    ],
+    "evolution": {
+      "next_stage": "echolume",
+      "requirements": [
+        "Exposure to repeated signals",
+        "Complete a memory-based puzzle",
+        "High intelligence stat"
+      ]
+    },
+    "sector": "echo",
+    "habitat": "Echo Sector — Reverberation Hall",
+    "description": "A waveform entity that distorts sound‑logic and leaves after‑images of its own movements."
+  }
+}

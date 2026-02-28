@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "rootspire",
+    "name": "Rootspire",
+    "family": "root",
+    "stage": "final",
+    "stats": {
+      "hp": 105,
+      "attack": 60,
+      "defense": 85,
+      "speed": 35,
+      "intelligence": 70,
+      "stability": 100
+    },
+    "abilities": [
+      "Integrity Boost",
+      "Anchor Field",
+      "Data Shield"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "root",
+    "habitat": "Root Sector — Archive Pillar",
+    "description": "A monumental stabilizer spire capable of restoring corrupted pathways and reinforcing massive system structures."
+  }
+}

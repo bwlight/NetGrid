@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "spiralith",
+    "name": "Spiralith",
+    "family": "archive",
+    "stage": "champion",
+    "stats": {
+      "hp": 52,
+      "attack": 26,
+      "defense": 34,
+      "speed": 32,
+      "intelligence": 52,
+      "stability": 48
+    },
+    "abilities": [
+      "Recursive Strike",
+      "Pattern Lock",
+      "Infinite Loop"
+    ],
+    "evolution": {
+      "next_stage": "archivorn",
+      "requirements": [
+        "Solve recursive puzzles",
+        "Maintain high logic stat",
+        "Exposure to archive Nodes"
+      ]
+    },
+    "sector": "archive",
+    "habitat": "Archive Sector — Pattern Vault",
+    "description": "A spiraling construct of layered logic rings that manipulates recursive loops and traps enemies in repeating patterns."
+  }
+}

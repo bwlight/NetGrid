@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "trunkode",
+    "name": "Trunkode",
+    "family": "root",
+    "stage": "champion",
+    "stats": {
+      "hp": 58,
+      "attack": 32,
+      "defense": 44,
+      "speed": 22,
+      "intelligence": 38,
+      "stability": 52
+    },
+    "abilities": [
+      "Integrity Boost",
+      "Anchor Field",
+      "Data Shield"
+    ],
+    "evolution": {
+      "next_stage": "rootspire",
+      "requirements": [
+        "High stability",
+        "Exposure to Root-aligned Nodes",
+        "Complete a Stabilization Trial"
+      ]
+    },
+    "sector": "root",
+    "habitat": "Root Sector — Archive Pillar",
+    "description": "A towering stabilizer trunk that shields allies and reinforces entire regions of the system."
+  }
+}

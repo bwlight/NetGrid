@@ -1,0 +1,10 @@
+{
+  "status": {
+    "id": "burn",
+    "name": "Burn",
+    "type": "dot",
+    "duration": 3,
+    "tick_damage": 5,
+    "description": "Deals small fire damage each turn."
+  }
+}

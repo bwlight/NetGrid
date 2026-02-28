@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "dreamlet",
+    "name": "Dreamlet",
+    "family": "dream",
+    "stage": "rookie",
+    "stats": {
+      "hp": 29,
+      "attack": 15,
+      "defense": 14,
+      "speed": 24,
+      "intelligence": 32,
+      "stability": 26
+    },
+    "abilities": [
+      "Phase Shift",
+      "Probability Spike",
+      "Dream Tunnel"
+    ],
+    "evolution": {
+      "next_stage": "probabound",
+      "requirements": [
+        "High intelligence stat",
+        "Exposure to probability storms",
+        "Complete a logic‑based prediction trial"
+      ]
+    },
+    "sector": "dream",
+    "habitat": "Dream Sector — Uncertainty Nexus",
+    "description": "A semi‑stable dream construct that bends small probabilities and creates minor distortions in local logic."
+  }
+}

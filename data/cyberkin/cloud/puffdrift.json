@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "puffdrift",
+    "name": "Puffdrift",
+    "family": "cloud",
+    "stage": "rookie",
+    "stats": {
+      "hp": 34,
+      "attack": 18,
+      "defense": 20,
+      "speed": 22,
+      "intelligence": 20,
+      "stability": 22
+    },
+    "abilities": [
+      "Pathfinder Pulse",
+      "Adaptive Shift",
+      "Terrain Scan"
+    ],
+    "evolution": {
+      "next_stage": "skyloom",
+      "requirements": [
+        "Travel across multiple Sectors",
+        "Demonstrate adaptability in varied environments",
+        "Balanced stat growth"
+      ]
+    },
+    "sector": "cloud",
+    "habitat": "Cloud Sector — Skybound Expanse",
+    "description": "A nimble explorer that glides across unstable data fields and adapts quickly to new environments."
+  }
+}

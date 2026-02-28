@@ -1,0 +1,31 @@
+{
+  "cyberkin": {
+    "id": "cindlet",
+    "name": "Cindlet",
+    "family": "firewall",
+    "stage": "baby",
+    "stats": {
+      "hp": 14,
+      "attack": 9,
+      "defense": 7,
+      "speed": 13,
+      "intelligence": 14,
+      "stability": 11
+    },
+    "abilities": [
+      "Photon Burst",
+      "Signal Beam"
+    ],
+    "evolution": {
+      "next_stage": "cindrake",
+      "requirements": [
+        "Exposure to high‑intensity light Nodes",
+        "High speed or intelligence",
+        "Complete a signal‑pattern resonance test"
+      ]
+    },
+    "sector": "firewall",
+    "habitat": "Firewall Sector — Luminous Strip",
+    "description": "A small ember-like Cyberkin that glows with a soft, warm light."
+  }
+}

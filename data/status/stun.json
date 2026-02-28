@@ -1,0 +1,10 @@
+{
+  "status": {
+    "id": "stun",
+    "name": "Stun",
+    "type": "control",
+    "duration": 1,
+    "immobilize": true,
+    "description": "Prevents the target from acting."
+  }
+}

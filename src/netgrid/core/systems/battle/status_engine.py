@@ -1,78 +1,61 @@
 from __future__ import annotations
 
-from typing import List, Optional
-from status_effect import StatusEffect
+from typing import List, Dict, Any
+from .battle_entity import BattleEntity
+from .status_effect import StatusEffect
+
 
 class StatusEngine:
     """
-    Handles applying, ticking, and expiring status effects.
+    Applies and updates status effects on BattleEntity objects.
+    Handles:
+    - DOT / HOT
+    - immobilize / stun
+    - buffs / debuffs
+    - duration ticking
     """
 
-    def __init__(self):
-        pass
+    def apply_status(self, entity: BattleEntity, status: StatusEffect) -> None:
+        """
+        Adds a new status effect instance to the entity.
+        """
+        entity.status_effects.append(status)
 
-    # ---------------------------------------------------------
-    # APPLY STATUS
-    # ---------------------------------------------------------
-    def apply_status(
-        self,
-        actor,
-        status_id: str,
-        duration: int,
-        effect_type: str,
-        value: int = 0
-    ) -> str:
+    def remove_status(self, entity: BattleEntity, status_name: str) -> None:
         """
-        Adds a new status to the actor.
+        Removes a status effect by ID/name.
         """
-        status = StatusEffect(status_id, duration, effect_type, value)
-        actor.statuses.append(status)
-        return f"{actor.name} is afflicted with {status_id}!"
+        entity.status_effects = [
+            s for s in entity.status_effects if s.id != status_name
+        ]
 
-    # ---------------------------------------------------------
-    # TICK STATUSES
-    # ---------------------------------------------------------
-    def tick_statuses(self, actor) -> List[str]:
+    def update_statuses(self, entity: BattleEntity) -> List[str]:
         """
-        Ticks all statuses:
-        - applies DOT/HOT
-        - reduces duration
-        - removes expired statuses
-        Returns log messages.
-        """
-        logs = []
-        expired = []
+        Called each turn to:
+        - apply DOT/HOT
+        - apply immobilize flags
+        - decrement durations
+        - remove expired statuses
 
-        for status in actor.statuses:
-            # DOT/HOT effects
-            tick_log = status.tick(actor)
+        Returns a list of log messages for the turn.
+        """
+        logs: List[str] = []
+        remaining: List[StatusEffect] = []
+
+        for status in entity.status_effects:
+            # Apply per-turn effect (DOT/HOT)
+            tick_log = status.tick(entity)
             if tick_log:
                 logs.append(tick_log)
 
-            # Reduce duration
+            # Decrement duration
             status.duration -= 1
-            if status.duration <= 0:
-                expired.append(status)
 
-        # Remove expired statuses
-        for s in expired:
-            actor.statuses.remove(s)
-            logs.append(f"{actor.name}'s {s.id} expired")
+            # Keep if still active
+            if status.duration > 0:
+                remaining.append(status)
+            else:
+                logs.append(f"{entity.id}'s {status.id} expired")
 
+        entity.status_effects = remaining
         return logs
-
-    # ---------------------------------------------------------
-    # STATUS CHECK HELPERS
-    # ---------------------------------------------------------
-    def has_status(self, actor, status_id: str) -> bool:
-        return any(s.id == status_id for s in actor.statuses)
-
-    def consume_status(self, actor, status_id: str) -> bool:
-        """
-        Removes a status immediately (used for immobilize).
-        """
-        for s in actor.statuses:
-            if s.id == status_id:
-                actor.statuses.remove(s)
-                return True
-        return False

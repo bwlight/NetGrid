@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "echomancer",
+    "name": "Echomancer",
+    "family": "echo",
+    "stage": "final",
+    "stats": {
+      "hp": 92,
+      "attack": 55,
+      "defense": 60,
+      "speed": 70,
+      "intelligence": 95,
+      "stability": 80
+    },
+    "abilities": [
+      "Reverberate",
+      "Phantom Packet",
+      "Memory Loop"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "echo",
+    "habitat": "Echo Sector — Reverberation Hall",
+    "description": "A master of memory‑echoes capable of rewriting perception, duplicating signals, and bending identity itself."
+  }
+}

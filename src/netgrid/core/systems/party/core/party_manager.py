@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Dict, List
+from typing import Dict, List, Union, Any
 
 from .party_loader import (
     PartyLoader,
@@ -12,6 +12,12 @@ from .party_loader import (
 )
 from .relationship_system import RelationshipSystem
 from .synergy_calculator import SynergyCalculator
+
+
+# Type alias for future-proofing:
+# A party member can be a string ID (current behavior)
+# or a Cyberkin object (future behavior).
+PartyMember = Union[str, Any]
 
 
 class PartyManager:
@@ -37,11 +43,25 @@ class PartyManager:
             relationship_system=self.relationship_system,
         )
 
-        # current party members (ids)
-        self.party_ids: List[str] = []
+        # current party members (IDs for now, objects later)
+        self.party: List[PartyMember] = []
 
-    def set_party(self, ids: List[str]) -> None:
-        self.party_ids = list(ids)
+    # --- Party setup ---
+
+    def set_party(self, members: List[PartyMember]) -> None:
+        """Accepts either string IDs or Cyberkin objects."""
+        self.party = list(members)
+
+    def _extract_ids(self) -> List[str]:
+        """Internal helper: always return a list of IDs, even if party contains objects."""
+        ids: List[str] = []
+        for member in self.party:
+            if isinstance(member, str):
+                ids.append(member)
+            else:
+                # Future: Cyberkin object must have .id or .identifier
+                ids.append(member.id)
+        return ids
 
     # --- Relationship operations ---
 
@@ -58,21 +78,18 @@ class PartyManager:
     # --- Synergy operations ---
 
     def get_synergy_value(self) -> float:
-        return self.synergy_calculator.get_synergy_value(self.party_ids)
+        return self.synergy_calculator.get_synergy_value(self._extract_ids())
 
     def get_synergy_tier_name(self) -> str | None:
-        tier = self.synergy_calculator.get_synergy_tier(self.party_ids)
+        tier = self.synergy_calculator.get_synergy_tier(self._extract_ids())
         return tier.name if tier else None
 
     def apply_synergy_to_stats(self, base_stats: Dict[str, float]) -> Dict[str, float]:
-        return self.synergy_calculator.apply_synergy_effects(base_stats, self.party_ids)
+        return self.synergy_calculator.apply_synergy_effects(base_stats, self._extract_ids())
 
-    # --- Event handling (simple hook) ---
+    # --- Event handling ---
 
     def apply_event_effects(self, event_name: str, a: str, b: str) -> None:
-        """
-        Very simple first pass: apply friendship deltas from party_events.json.
-        """
         event = next((e for e in self.party_events if e.name == event_name), None)
         if event is None:
             return
@@ -83,7 +100,7 @@ class PartyManager:
         if "friendship_loss" in effects:
             self.modify_friendship(a, b, -int(effects["friendship_loss"]))
 
-    # --- Evolution hooks (for later integration) ---
+    # --- Evolution hooks ---
 
     def get_evolution_modifiers_for_relationship(self, a: str, b: str) -> Dict[str, float | int]:
         rel = self.relationship_system.get_relationship_type(a, b)

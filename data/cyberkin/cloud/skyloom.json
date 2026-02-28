@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "skyloom",
+    "name": "Skyloom",
+    "family": "cloud",
+    "stage": "champion",
+    "stats": {
+      "hp": 60,
+      "attack": 34,
+      "defense": 36,
+      "speed": 38,
+      "intelligence": 36,
+      "stability": 40
+    },
+    "abilities": [
+      "Pathfinder Pulse",
+      "Adaptive Shift",
+      "Terrain Scan"
+    ],
+    "evolution": {
+      "next_stage": "cloudeer",
+      "requirements": [
+        "Travel across multiple Sectors",
+        "Demonstrate adaptability in varied environments",
+        "Balanced stat growth"
+      ]
+    },
+    "sector": "cloud",
+    "habitat": "Cloud Sector — Skybound Expanse",
+    "description": "A graceful, cloud‑woven entity that scans terrain and creates temporary routes for allies."
+  }
+}

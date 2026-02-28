@@ -1,0 +1,10 @@
+{
+  "status": {
+    "id": "poison",
+    "name": "Poison",
+    "type": "dot",
+    "duration": 4,
+    "tick_damage": 4,
+    "description": "Deals toxic damage each turn."
+  }
+}

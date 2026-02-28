@@ -1,0 +1,28 @@
+{
+  "cyberkin": {
+    "id": "reveria",
+    "name": "Reveria",
+    "family": "dream",
+    "stage": "final",
+    "stats": {
+      "hp": 90,
+      "attack": 52,
+      "defense": 48,
+      "speed": 78,
+      "intelligence": 100,
+      "stability": 85
+    },
+    "abilities": [
+      "Phase Shift",
+      "Probability Spike",
+      "Dream Tunnel"
+    ],
+    "evolution": {
+      "next_stage": null,
+      "requirements": []
+    },
+    "sector": "dream",
+    "habitat": "Dream Sector — Uncertainty Nexus",
+    "description": "A majestic dream‑entity capable of rewriting probability fields and shaping surreal environments with pure intent."
+  }
+}

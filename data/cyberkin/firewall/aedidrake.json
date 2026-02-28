@@ -1,0 +1,32 @@
+{
+  "cyberkin": {
+    "id": "aedidrake",
+    "name": "Aedidrake",
+    "family": "firewall",
+    "stage": "champion",
+    "stats": {
+      "hp": 50,
+      "attack": 30,
+      "defense": 26,
+      "speed": 42,
+      "intelligence": 48,
+      "stability": 38
+    },
+    "abilities": [
+      "Photon Burst",
+      "Signal Beam",
+      "Radiant Overload"
+    ],
+    "evolution": {
+      "next_stage": "aegisflare",
+      "requirements": [
+        "Exposure to high‑intensity light Nodes",
+        "High speed or intelligence",
+        "Complete a signal‑pattern resonance test"
+      ]
+    },
+    "sector": "firewall",
+    "habitat": "Firewall Sector — Luminous Strip",
+    "description": "A radiant drake whose body refracts light into powerful beams."
+  }
+}
