@@ -3,5 +3,10 @@
         "docs"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showSnippets": true,
+    "markdown.editor.quickSuggestions": true,
+    "markdown.editor.suggest.showSnippets": true,
+
 }
