@@ -3,12 +3,14 @@
   "ability": {
     "id": "recursive_strike",
     "name": "Recursive Strike",
-    "type": "attack",
+    "type": "damage",
+    "element": "core",
     "power": 12,
     "cost": 0,
     "cooldown": 1,
-    "accuracy": 0.8,
-    "target": "single",
+    "accuracy": 1.0,
+    "target": "enemy",
+    "effects": {},
     "description": "A looping strike that grows stronger with each consecutive use."
   }
 }

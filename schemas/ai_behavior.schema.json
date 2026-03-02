@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Behavior Schema",
+  "type": "object",
+
+  "properties": {
+    "ai_role": {
+      "type": "string",
+      "enum": ["balanced", "aggressive", "defensive", "control", "purifier"],
+      "default": "balanced"
+    },
+
+    "ai_personality": {
+      "type": "string",
+      "enum": ["neutral", "brave", "cautious", "chaotic"],
+      "default": "neutral"
+    },
+
+    "role_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["tank", "support", "control", "glass_cannon"]
+      },
+      "default": []
+    },
+
+    "ai_behavior_modifiers": {
+      "type": "object",
+      "properties": {
+        "damage_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+        "dot_focus_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+        "control_focus_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+        "heal_priority_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+        "target_memory_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 }
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+
+    "ai_phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "trigger"],
+        "properties": {
+          "name": { "type": "string" },
+
+          "trigger": {
+            "type": "object",
+            "properties": {
+              "hp_below": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+              "memory_damage_from": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+              "ally_dead": { "type": "boolean" },
+              "status_applied": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+
+          "role": {
+            "type": "string",
+            "enum": ["balanced", "aggressive", "defensive", "control", "purifier"]
+          },
+
+          "personality": {
+            "type": "string",
+            "enum": ["neutral", "brave", "cautious", "chaotic"]
+          },
+
+          "behavior_modifiers": {
+            "type": "object",
+            "properties": {
+              "damage_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+              "dot_focus_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+              "control_focus_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+              "heal_priority_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 },
+              "target_memory_mult": { "type": "number", "minimum": 0.0, "maximum": 5.0 }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      },
+      "default": []
+    }
+  },
+
+  "additionalProperties": false
+}

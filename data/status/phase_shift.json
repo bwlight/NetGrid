@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/status.schema.json",
+  "status": {
+    "id": "phase_shift",
+    "name": "Phase Shift",
+    "duration": 1,
+    "tick_damage": 0,
+    "description": "The user flickers out of sync, increasing evasion and reducing the chance of being hit."
+  }
+}

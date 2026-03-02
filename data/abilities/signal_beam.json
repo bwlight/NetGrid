@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "signal_beam",
+    "name": "Signal Beam",
+    "type": "damage",
+    "element": "firewall",
+    "power": 20,
+    "cost": 0,
+    "cooldown": 2,
+    "accuracy": 0.9,
+    "target": "enemy",
+    "effects": {
+      "stat_modifiers": {
+        "stability": -6
+      }
+    },
+    "description": "A concentrated beam of patterned light that destabilizes the target's corrupted pathways."
+  }
+}

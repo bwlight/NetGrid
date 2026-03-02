@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "infinite_loop",
+    "name": "Infinite Loop",
+    "type": "damage_over_time",
+    "element": "core",
+    "power": 4,
+    "cost": 0,
+    "cooldown": 3,
+    "accuracy": 1.0,
+    "target": "enemy",
+    "effects": {
+      "status_inflict": "loop_dot",
+      "status_chance": 1.0
+    },
+    "description": "Traps the target in a recursive loop, dealing damage each turn until the loop collapses."
+  }
+}

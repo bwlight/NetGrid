@@ -10,12 +10,14 @@
       "defense": 34,
       "speed": 32,
       "intelligence": 52,
-      "stability": 48
+      "stability": 48,
+      "element": "archive",
+      "element_resistances": { "corrupt": 0.6, "void": 0.6, "pulse": 1.3, "dream": 1.4, "echo": 0.9 }
     },
     "abilities": [
-      "Recursive Strike",
-      "Pattern Lock",
-      "Infinite Loop"
+      "recursive_strike",
+      "pattern_lock",
+      "infinite_loop"
     ],
     "evolution": {
       "next_stage": "archivorn",

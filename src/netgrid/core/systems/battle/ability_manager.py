@@ -1,98 +1,51 @@
-from __future__ import annotations
-
-from typing import Any, Dict
-from .battle_entity import BattleEntity
-from .status_engine import StatusEngine
-from .cooldown_manager import CooldownManager
-
+import random
 
 class AbilityManager:
-    """
-    Executes abilities on BattleEntity objects.
-    Handles:
-    - Damage
-    - Healing
-    - Status effects
-    - Cooldowns
-    - Energy costs
-    """
+    def __init__(self, ability_loader):
+        self.ability_loader = ability_loader
 
-    def __init__(self, status_engine: StatusEngine, cooldown_manager: CooldownManager):
-        self.status_engine = status_engine
-        self.cooldown_manager = cooldown_manager
+    def get(self, ability_id):
+        return self.ability_loader.load(ability_id)
 
-    # ---------------------------------------------------------
-    # Ability Checks
-    # ---------------------------------------------------------
-
-    def can_use(self, user: BattleEntity, ability: Dict[str, Any]) -> bool:
-        name = ability["name"]
-
-        # Cooldown check
-        if self.cooldown_manager.is_on_cooldown(user, name):
-            return False
-
-        # Energy check
-        cost = ability.get("energy_cost", 0)
-        if user.energy < cost:
-            return False
-
+    def can_use(self, entity, ability):
+        # Cost system is simple for now
         return True
 
-    # ---------------------------------------------------------
-    # Ability Execution
-    # ---------------------------------------------------------
+    def get_targets(self, user, ability, allies, enemies):
+        t = ability.target
 
-    def execute(self, user: BattleEntity, target: BattleEntity, ability: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Executes an ability and returns a result dictionary for logging.
-        """
+        if t == "self":
+            return [user]
+        if t == "ally":
+            return allies
+        if t == "enemy":
+            return enemies
+        if t == "single":
+            return [enemies[0]] if enemies else []
+        if t == "multi":
+            return enemies
+        if t == "random":
+            return [random.choice(enemies)] if enemies else []
 
-        name = ability["name"]
-        result = {"ability": name, "events": []}
+        return []
 
-        # Pay energy cost
-        cost = ability.get("energy_cost", 0)
-        user.energy = max(0, user.energy - cost)
+    def check_accuracy(self, user, target, ability, status_engine):
+        acc = ability.accuracy
 
-        # Damage
-        if "damage" in ability:
-            dmg = self._calculate_damage(user, target, ability)
-            target.apply_damage(dmg)
-            result["events"].append({"type": "damage", "amount": dmg})
+        # Evasion boost from statuses
+        if status_engine.has_evasion_boost(target):
+            acc *= 0.8
 
-        # Healing
-        if "heal" in ability:
-            heal_amount = ability["heal"]
-            target.heal(heal_amount)
-            result["events"].append({"type": "heal", "amount": heal_amount})
+        return random.random() <= acc
 
-        # Status effects
-        if "status" in ability:
-            status = ability["status"]
-            self.status_engine.apply_status(target, status)
-            result["events"].append({"type": "status", "status": status.name})
+    def apply_status_if_any(self, target, ability, status_loader, status_engine):
+        eff = ability.effects
+        if "status_inflict" not in eff:
+            return
 
-        # Apply cooldown
-        cooldown = ability.get("cooldown", 0)
-        if cooldown > 0:
-            self.cooldown_manager.set_cooldown(user, name, cooldown)
+        status_id = eff["status_inflict"]
+        chance = eff.get("status_chance", 1.0)
 
-        return result
-
-    # ---------------------------------------------------------
-    # Damage Calculation
-    # ---------------------------------------------------------
-
-    def _calculate_damage(self, user: BattleEntity, target: BattleEntity, ability: Dict[str, Any]) -> float:
-        """
-        Simple placeholder formula:
-        damage = (attack * power) - defense
-        """
-
-        power = ability["damage"]
-        atk = user.stats.get("attack", 1)
-        defense = target.stats.get("defense", 1)
-
-        dmg = max(1, (atk * power) - defense)
-        return float(dmg)
+        if random.random() <= chance:
+            status_obj = status_loader.load(status_id)
+            status_engine.apply(target, status_obj)

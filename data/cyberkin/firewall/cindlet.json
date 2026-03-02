@@ -10,11 +10,13 @@
       "defense": 7,
       "speed": 13,
       "intelligence": 14,
-      "stability": 11
+      "stability": 11,
+      "element": "firewall",
+      "element_resistances": { "pulse": 0.7, "corrupt": 0.7 }
     },
     "abilities": [
-      "Photon Burst",
-      "Signal Beam"
+      "photon_burst",
+      "signal_beam"
     ],
     "evolution": {
       "next_stage": "cindrake",

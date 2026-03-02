@@ -10,12 +10,14 @@
       "defense": 45,
       "speed": 82,
       "intelligence": 92,
-      "stability": 70
+      "stability": 70,
+      "element": "firewall",
+      "element_resistances": { "pulse": 0.5, "corrupt": 0.5, "cloud": 1.5, "dream": 1.4, "root": 0.8, "archive": 0.9 }
     },
     "abilities": [
-      "Photon Burst",
-      "Signal Beam",
-      "Radiant Overload"
+      "photon_burst",
+      "signal_beam",
+      "radiant_overload"
     ],
     "evolution": {
       "next_stage": null,

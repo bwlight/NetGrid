@@ -10,12 +10,14 @@
       "defense": 46,
       "speed": 18,
       "intelligence": 20,
-      "stability": 52
+      "stability": 52,
+      "element": "void",
+      "element_resistances": { "root": 0.7, "echo": 0.7, "archive": 1.3, "core": 1.2, "Dream":0.9 }
     },
     "abilities": [
-      "Data Drain",
-      "Null Field",
-      "Purge Wave"
+      "data_drain",
+      "null_field",
+      "purge_wave"
     ],
     "evolution": {
       "next_stage": "voidreaver",

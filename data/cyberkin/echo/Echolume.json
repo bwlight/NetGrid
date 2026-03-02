@@ -10,12 +10,14 @@
       "defense": 30,
       "speed": 34,
       "intelligence": 48,
-      "stability": 40
+      "stability": 40,
+      "element": "echo",
+      "element_resistances": { "dream": 0.7, "pulse": 0.8, "void": 1.3, "corrupt": 1.2, "cloud":0.9 }
     },
     "abilities": [
-      "Reverberate",
-      "Phantom Packet",
-      "Memory Loop"
+      "reverberate",
+      "phantom_packet",
+      "memory_loop"
     ],
     "evolution": {
       "next_stage": "echomancer",

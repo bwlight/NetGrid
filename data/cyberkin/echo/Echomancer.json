@@ -10,12 +10,14 @@
       "defense": 60,
       "speed": 70,
       "intelligence": 95,
-      "stability": 80
+      "stability": 80,
+      "element": "echo",
+      "element_resistances": { "dream": 0.5, "pulse": 0.7, "void": 1.5, "corrupt": 1.4, "cloud": 0.8, "archive": 0.9 }
     },
     "abilities": [
-      "Reverberate",
-      "Phantom Packet",
-      "Memory Loop"
+      "reverberate",
+      "phantom_packet",
+      "memory_loop"
     ],
     "evolution": {
       "next_stage": null,

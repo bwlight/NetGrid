@@ -10,11 +10,13 @@
       "defense": 8,
       "speed": 10,
       "intelligence": 14,
-      "stability": 12
+      "stability": 12,
+      "element": "echo",
+      "element_resistances": { "void": 1.3, "corrupt": 1.2 }
     },
     "abilities": [
-      "Reverberate",
-      "Phantom Packet"
+      "reverberate",
+      "phantom_packet"
     ],
     "evolution": {
       "next_stage": "reverwave",

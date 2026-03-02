@@ -10,11 +10,13 @@
       "defense": 14,
       "speed": 6,
       "intelligence": 15,
-      "stability": 20
+      "stability": 20,
+      "element": "core",
+      "element_resistances": { "void": 0.8, "corrupt": 0.9 }
     },
     "abilities": [
-      "Prime Barrier",
-      "Stability Surge"
+      "prime_barrier",
+      "stability_surge"
     ],
     "evolution": {
       "next_stage": "corelink",

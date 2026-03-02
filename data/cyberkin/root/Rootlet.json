@@ -10,11 +10,13 @@
       "defense": 12,
       "speed": 6,
       "intelligence": 9,
-      "stability": 15
+      "stability": 15,
+      "element": "root",
+      "element_resistances": { "pulse": 0.7, "cloud": 0.8 }
     },
     "abilities": [
-      "Integrity Boost",
-      "Anchor Field"
+      "integrity_boost",
+      "anchor_field"
     ],
     "evolution": {
       "next_stage": "rootbloom",

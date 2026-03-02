@@ -10,17 +10,20 @@
       "defense": 70,
       "speed": 60,
       "intelligence": 100,
-      "stability": 95
+      "stability": 95,
+      "element": "archive",
+      "element_resistances": {"corrupt": 0.5, "void": 0.5, "pulse": 1.4, "dream": 1.4, "echo": 0.8, "firewall": 0.9}
     },
     "abilities": [
-      "Recursive Strike",
-      "Pattern Lock",
-      "Infinite Loop"
+      "recursive_strike",
+      "pattern_lock",
+      "infinite_loop"
     ],
     "evolution": {
       "next_stage": null,
       "requirements": []
     },
+
     "sector": "archive",
     "habitat": "Archive Sector — Pattern Vault",
     "description": "A towering logic entity capable of rewriting patterns, stabilizing recursive anomalies, and generating infinite loops."

@@ -10,11 +10,13 @@
       "defense": 9,
       "speed": 12,
       "intelligence": 11,
-      "stability": 11
+      "stability": 11,
+      "element": "cloud",
+      "element_resistances": { "pulse": 1.1, "root": 1.1 }
     },
     "abilities": [
-      "Pathfinder Pulse",
-      "Adaptive Shift"
+      "pathfinder_pulse",
+      "adaptive_shift"
     ],
     "evolution": {
       "next_stage": "puffdrift",

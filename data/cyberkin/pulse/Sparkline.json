@@ -10,12 +10,14 @@
       "defense": 15,
       "speed": 27,
       "intelligence": 19,
-      "stability": 17
+      "stability": 17,
+      "element": "pulse",
+      "element_resistances": { "cloud": 0.8, "dream": 0.8, "root": 1.3, "firewall": 1.2 }
     },
     "abilities": [
-      "Surge Dash",
-      "Rhythm Burst",
-      "Overclock"
+      "surge_dash",
+      "rhythm_burst",
+      "overclock"
     ],
     "evolution": {
       "next_stage": "voltstride",

@@ -10,11 +10,13 @@
       "defense": 7,
       "speed": 14,
       "intelligence": 10,
-      "stability": 8
+      "stability": 8,
+      "element": "pulse",
+      "element_resistances": { "root": 1.3, "firewall": 1.2 }
     },
     "abilities": [
-      "Surge Dash",
-      "Rhythm Burst"
+      "surge_dash",
+      "rhythm_burst"
     ],
     "evolution": {
       "next_stage": "sparkline",

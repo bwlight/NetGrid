@@ -25,7 +25,14 @@
 
         "type": {
           "type": "string",
-          "enum": ["attack", "support", "passive"],
+          "enum": [
+            "attack",
+            "support",
+            "passive",
+            "damage",
+            "control",
+            "damage_over_time"
+          ],
           "description": "Determines how the ability behaves in battle"
         },
 
@@ -58,7 +65,14 @@
 
         "target": {
           "type": "string",
-          "enum": ["single", "multi", "self", "random"],
+          "enum": [
+            "single",
+            "multi",
+            "self",
+            "random",
+            "enemy",
+            "ally"
+          ],
           "description": "Targeting rules for the ability"
         },
 

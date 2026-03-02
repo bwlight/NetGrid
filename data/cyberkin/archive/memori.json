@@ -10,7 +10,9 @@
       "defense": 9,
       "speed": 9,
       "intelligence": 15,
-      "stability": 14
+      "stability": 14,
+      "element": "archive",
+      "element_resistances": { "corrupt": 0.7, "void": 0.7 }
     },
     "abilities": [
       "recursive_strike",

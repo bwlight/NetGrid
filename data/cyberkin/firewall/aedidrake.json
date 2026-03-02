@@ -10,12 +10,14 @@
       "defense": 26,
       "speed": 42,
       "intelligence": 48,
-      "stability": 38
+      "stability": 38,
+      "element": "firewall",
+      "element_resistances": { "pulse": 0.7, "corrupt": 0.7, "cloud": 1.3, "dream": 1.2, "root":0.9 }
     },
     "abilities": [
-      "Photon Burst",
-      "Signal Beam",
-      "Radiant Overload"
+      "photon_burst",
+      "signal_beam",
+      "radiant_overload"
     ],
     "evolution": {
       "next_stage": "aegisflare",

@@ -10,12 +10,15 @@
       "defense": 20,
       "speed": 22,
       "intelligence": 20,
-      "stability": 22
+      "stability": 22,
+      "element": "cloud",
+      "element_resistances": { "archive": 1.2, "firewall": 1.3, "pulse": 1.2, "root": 1.3 }
+
     },
     "abilities": [
-      "Pathfinder Pulse",
-      "Adaptive Shift",
-      "Terrain Scan"
+      "pathfinder_pulse",
+      "adaptive_shift",
+      "terrain_scan"
     ],
     "evolution": {
       "next_stage": "skyloom",

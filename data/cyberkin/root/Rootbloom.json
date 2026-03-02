@@ -10,12 +10,14 @@
       "defense": 26,
       "speed": 14,
       "intelligence": 20,
-      "stability": 28
+      "stability": 28,
+      "element": "root",
+      "element_resistances": { "pulse": 0.7, "cloud": 0.8, "corrupt": 1.3, "void": 1.2 }
     },
     "abilities": [
-      "Integrity Boost",
-      "Anchor Field",
-      "Data Shield"
+      "integrity_boost",
+      "anchor_field",
+      "data_shield"
     ],
     "evolution": {
       "next_stage": "trunkode",

@@ -10,12 +10,14 @@
       "defense": 20,
       "speed": 18,
       "intelligence": 30,
-      "stability": 28
+      "stability": 28,
+      "element": "archive",
+      "element_resistances": { "corrupt": 0.7, "void": 0.7, "pulse": 1.2, "dream": 1.3 }
     },
     "abilities": [
-      "Recursive Strike",
-      "Pattern Lock",
-      "Infinite Loop"
+      "recursive_strike",
+      "pattern_lock",
+      "infinite_loop"
     ],
     "evolution": {
       "next_stage": "spiralith",

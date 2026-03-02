@@ -10,12 +10,14 @@
       "defense": 48,
       "speed": 78,
       "intelligence": 100,
-      "stability": 85
+      "stability": 85,
+      "element": "dream",
+      "element_resistances": { "firewall": 0.5, "archive": 0.7, "pulse": 1.5, "echo": 1.4, "cloud": 0.8, "void": 1.1 }
     },
     "abilities": [
-      "Phase Shift",
-      "Probability Spike",
-      "Dream Tunnel"
+      "phase_shift",
+      "probability_spike",
+      "dream_tunnel"
     ],
     "evolution": {
       "next_stage": null,

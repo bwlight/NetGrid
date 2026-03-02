@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/abilities.schema.json",
+  "ability": {
+    "id": "data_rot",
+    "name": "Data Rot",
+    "type": "damage_over_time",
+    "element": "corrupt",
+    "power": 4,
+    "cost": 0,
+    "cooldown": 2,
+    "accuracy": 1.0,
+    "target": "enemy",
+    "effects": {
+      "status_inflict": "rot_dot",
+      "status_chance": 1.0
+    },
+    "description": "Infects the target with degrading corruption that eats away at their data each turn."
+  }
+}

@@ -10,12 +10,14 @@
       "defense": 90,
       "speed": 28,
       "intelligence": 40,
-      "stability": 100
+      "stability": 100,
+      "element": "void",
+      "element_resistances": { "root": 0.5, "echo": 0.6, "archive": 1.5, "core": 1.4, "dream": 0.8, "corrupt": 0.9 }
     },
     "abilities": [
-      "Data Drain",
-      "Null Field",
-      "Purge Wave"
+      "data_drain",
+      "null_field",
+      "purge_wave"
     ],
     "evolution": {
       "next_stage": null,

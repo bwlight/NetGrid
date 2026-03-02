@@ -10,7 +10,9 @@
       "defense": 85,
       "speed": 55,
       "intelligence": 95,
-      "stability": 120
+      "stability": 120,
+      "element": "primacore", 
+      "element_resistances": { "void": 0.5, "corrupt": 0.6, "pulse": 1.4, "dream": 1.3, "archive": 0.8, "core": 0.7, "cloud": 0.9, "root": 1.2}
     },
     "abilities": [
       "Stability Pulse",

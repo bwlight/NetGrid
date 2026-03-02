@@ -10,12 +10,14 @@
       "defense": 28,
       "speed": 12,
       "intelligence": 28,
-      "stability": 36
+      "stability": 36,
+      "element": "core",
+      "element_resistances": { "void": 0.8, "corrupt": 0.9, "pulse": 1.1 }
     },
     "abilities": [
-      "Prime Barrier",
-      "Stability Surge",
-      "Core Lock"
+      "prime_barrier",
+      "stability_surge",
+      "core_lock"
     ],
     "evolution": {
       "next_stage": "corewarden",

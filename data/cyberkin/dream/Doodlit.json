@@ -10,11 +10,13 @@
       "defense": 6,
       "speed": 12,
       "intelligence": 16,
-      "stability": 12
+      "stability": 12,
+      "element": "dream",
+      "element_resistances": { "pulse": 1.3, "echo": 1.2 }
     },
     "abilities": [
-      "Phase Shift",
-      "Probability Spike"
+      "phase_shift",
+      "probability_spike"
     ],
     "evolution": {
       "next_stage": "dreamlet",

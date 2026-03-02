@@ -10,12 +10,14 @@
       "defense": 65,
       "speed": 70,
       "intelligence": 68,
-      "stability": 72
+      "stability": 72,
+      "element": "cloud",
+      "element_resistances": { "archive": 1.0, "firewall": 1.1, "pulse": 1.4, "root": 1.5, "echo": 0.8, "dream": 0.9 }
     },
     "abilities": [
-      "Pathfinder Pulse",
-      "Adaptive Shift",
-      "Terrain Scan"
+      "pathfinder_pulse",
+      "adaptive_shift",
+      "terrain_scan"
     ],
     "evolution": {
       "next_stage": null,

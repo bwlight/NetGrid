@@ -4,20 +4,18 @@
     "id": "overclock",
     "name": "Overclock",
     "type": "support",
-    "element": "core",
+    "element": "pulse",
     "power": 0,
-    "cost": 8,
-    "cooldown": 2,
+    "cost": 0,
+    "cooldown": 3,
     "accuracy": 1.0,
     "target": "self",
-
     "effects": {
       "stat_modifiers": {
-        "SPD": 0.20
-      },
-      "multi_hit": 1
+        "speed": 12,
+        "attack": 8
+      }
     },
-
-    "description": "Temporarily boosts processing speed, increasing SPD."
+    "description": "Pushes the user's systems into a high‑tempo state, dramatically boosting speed and offensive output."
   }
 }

@@ -1,264 +1,209 @@
-from __future__ import annotations
-
-from typing import List, Dict, Any, Optional
-
-from netgrid.core.systems.battle import ability_loader
-from .battle_entity import BattleEntity
-from netgrid.core.ai.ai_config_loader import AIConfigLoader
-
-
-
+#version 4.0 - 3/2/26
 class AIController:
-    """
-    Advanced tactical AI for BattleEntity combatants.
-    Fully data-driven using ai_config.json.
-    Supports:
-    - Roles (aggressive, defensive, support, chaotic, smart)
-    - Personalities (brave, cautious, chaotic, loyal, vengeful, neutral)
-    - Threat system (aggro tables)
-    - Ability scoring (damage, healing, control, cooldown, cost)
-    - Smart targeting (kill thresholds, threat, biggest threat)
-    """
-
-class AIController:
-    def __init__(self, config_loader, role_id="neutral", personality_id="neutral"):
-        self.config = config_loader
-        self.role_id = role_id
-        self.personality_id = personality_id
-
-        # Load role config (optional but future-proof)
-        self.role = getattr(self.config, "roles", {}).get(self.role_id, {})
-
-        # Load personality config (THIS FIXES THE CRASH)
-        if hasattr(self.config, "get_personality"):
-            self.personality = self.config.get_personality(self.personality_id)
-        else:
-            # Fallback if loader exposes personalities as a dict
-            personalities = getattr(self.config, "personalities", {})
-            self.personality = personalities.get(self.personality_id, {})
-
+    def __init__(self):
+        # Threat memory persists across turns
+        self.threat_table = {}  # { entity_id: { target_id: threat_value } }
 
     # ---------------------------------------------------------
-    # PUBLIC ENTRY POINTS
+    # MAIN ENTRY POINT
     # ---------------------------------------------------------
+    def choose_action(self, entity, battle):
+        cyberkin = entity.cyberkin
+        turn = getattr(battle, "turn_number", None)
 
-    def choose_target(
-        self,
-        user: BattleEntity,
-        entities: List[BattleEntity],
-    ) -> Optional[BattleEntity]:
+        # Ensure threat table exists for this entity
+        if entity.id not in self.threat_table:
+            self.threat_table[entity.id] = {}
 
-        enemies = [e for e in entities if e is not user and e.is_alive()]
-        if not enemies:
-            return None
+        # Track previous phase
+        previous_phase = cyberkin.active_ai_phase
 
-        # Smart role uses advanced targeting
-        if user.role == "smart":
-            return self._smart_target(user, enemies)
+        # 1. Evaluate phase
+        phase = self.evaluate_phase(entity)
+        new_phase = phase["name"] if phase else None
 
-        # Threat-based targeting
-        threat_target = self._choose_by_threat(user, enemies)
-        if threat_target:
-            return threat_target
+        # 2. Developer-only phase transition logging
+        if new_phase != previous_phase:
+            if previous_phase is None and new_phase is not None:
+                msg = f"Turn {turn}: Entered phase '{new_phase}'."
+            elif previous_phase is not None and new_phase is None:
+                msg = f"Turn {turn}: Exited phase '{previous_phase}'."
+            else:
+                msg = f"Turn {turn}: Transitioned {previous_phase} → {new_phase}."
 
-        # Role-based targeting from config
-        role_cfg = self.config.get_role(user.role)
-        targeting = role_cfg.get("targeting", "first")
+            print(f"[AI][Phase] {cyberkin.id} {msg}")
+            cyberkin.ai_warnings.append(msg)
 
-        if targeting == "highest_hp":
-            return self._choose_highest_hp(enemies)
-        if targeting == "lowest_hp":
-            return self._choose_lowest_hp(enemies)
-        if targeting == "biggest_threat":
-            return self._choose_biggest_threat(enemies)
-        if targeting == "random":
-            return enemies[0]  # placeholder for randomness
+        cyberkin.active_ai_phase = new_phase
 
-        # Fallback
-        return enemies[0]
+        # 3. Determine effective role/personality/modifiers
+        role = phase["role"] if phase and phase.get("role") else cyberkin.ai_role
+        personality = (
+            phase["personality"]
+            if phase and phase.get("personality")
+            else cyberkin.ai_personality
+        )
 
-    def choose_ability(self, attacker, defender, ability_loader):
-        ability_ids = getattr(attacker, "abilities", []) or []
-        if not ability_ids:
-            return None
+        # Merge base + phase modifiers
+        modifiers = dict(cyberkin.ai_modifiers)
+        if phase:
+            for k, v in phase["behavior_modifiers"].items():
+                modifiers[k] = v
 
-        # Filter out abilities that don't exist
-        valid_ids = []
-        for ability_id in ability_ids:
-            try:
-                ability_loader.get(ability_id)
-                valid_ids.append(ability_id)
-            except KeyError:
+        # 4. Score abilities (cooldown-aware + tag-aware)
+        ability_scores = self.score_abilities(entity, battle, role, personality, modifiers)
+
+        if not ability_scores:
+            return None, None
+
+        chosen_ability = max(ability_scores, key=lambda a: ability_scores[a])
+
+        # 5. Pick target (based on ability.target + threat + kill logic)
+        target = self.choose_target(entity, battle, chosen_ability, role, personality, modifiers)
+
+        # 6. Update threat memory
+        if target:
+            self.add_threat(entity, target, amount=5)
+
+        return chosen_ability, target
+
+    # ---------------------------------------------------------
+    # PHASE EVALUATION
+    # ---------------------------------------------------------
+    def evaluate_phase(self, entity):
+        cyberkin = entity.cyberkin
+        hp_ratio = entity.current_hp / entity.max_hp
+
+        for phase in cyberkin.ai_phases:
+            trigger = phase.get("trigger", {})
+
+            if "hp_below" in trigger:
+                if hp_ratio <= trigger["hp_below"]:
+                    return phase
+
+        return None
+
+    # ---------------------------------------------------------
+    # ABILITY SCORING (role, personality, modifiers, cooldowns, tags)
+    # ---------------------------------------------------------
+    def score_abilities(self, entity, battle, role, personality, modifiers):
+        scores = {}
+
+        for ability in entity.abilities:
+            # Skip abilities on cooldown
+            if entity.cooldowns.is_on_cooldown(ability.id):
                 continue
 
-        if not valid_ids:
-            return None
+            base = 1.0
 
-        best_score = -9999
-        best_ability = valid_ids[0]
+            # -------------------------
+            # Role scoring
+            # -------------------------
+            if role == "aggressive":
+                base *= modifiers.get("damage_mult", 1.0)
+            if role == "control":
+                base *= modifiers.get("control_focus_mult", 1.0)
+            if role == "purifier":
+                base *= modifiers.get("dot_focus_mult", 1.0)
+            if role == "tank":
+                base *= modifiers.get("tank_focus_mult", 1.0)
 
-        # Pull AI config attributes safely
-        role_cfg = getattr(self.config, "ability_bias", {})
-        randomness_factor = getattr(self.personality, "randomness", 0.1)
+            # -------------------------
+            # Personality scoring
+            # -------------------------
+            if personality == "brave":
+                base *= 1.15
+            elif personality == "cautious":
+                base *= 0.85
+            elif personality == "chaotic":
+                base *= 1.25
 
-        for ability_id in valid_ids:
-            ability = ability_loader.get(ability_id)
+            # -------------------------
+            # Tag-based scoring
+            # -------------------------
+            tags = ability.tags
 
-            # Power-based scoring
-            score = getattr(ability, "power", 0)
+            if "buff" in tags:
+                base *= 1.2
+            if "heal" in tags:
+                base *= 1.3
+            if "debuff" in tags:
+                base *= 1.15
+            if "status" in tags:
+                base *= 1.25
+            if "control" in tags and role == "control":
+                base *= 1.4
+            if "multi_hit" in tags:
+                base *= 1.1
+            if "high_damage" in tags:
+                base *= 1.2
+            if "finisher" in tags:
+                base *= 1.5
 
-            # Role bias
-            ability_type = getattr(ability, "type", "damage")
-            score *= role_cfg.get(ability_type, 1.0)
+            # -------------------------
+            # Power scaling
+            # -------------------------
+            base *= (1 + ability.power / 100)
 
-            # Randomness
-            import random
-            score += random.uniform(-randomness_factor, randomness_factor)
+            scores[ability] = base
 
-            if score > best_score:
-                best_score = score
-                best_ability = ability_id
+        return scores
 
-        return best_ability
+    # ---------------------------------------------------------
+    # TARGET SELECTION (ability.target + threat + kill logic + role logic)
+    # ---------------------------------------------------------
+def choose_target(self, entity, battle, ability, role, personality, modifiers):
+    # Self-targeting
+    if ability.target == "self":
+        return entity
 
+    # Multi-target abilities return a LIST of targets
+    if ability.target == "multi_enemy":
+        return battle.get_opposing_team(entity)
 
+    if ability.target == "multi_ally":
+        return battle.get_team(entity)
+
+    if ability.target == "multi_all":
+        return battle.all_entities()
+
+    # Ally targeting
+    if ability.target == "ally":
+        allies = battle.get_team(entity)
+        return min(allies, key=lambda a: a.current_hp / a.max_hp)
+
+    # Enemy targeting (single)
+    enemies = battle.get_opposing_team(entity)
+    if not enemies:
+        return None
+
+    # Kill threshold logic
+    kill_targets = [e for e in enemies if e.current_hp <= e.max_hp * 0.25]
+    if kill_targets:
+        return min(kill_targets, key=lambda e: e.current_hp)
+
+    # Threat-based targeting
+    threat_table = self.threat_table[entity.id]
+    if threat_table:
+        highest_threat = max(threat_table, key=lambda tid: threat_table[tid])
+        for e in enemies:
+            if e.id == highest_threat:
+                return e
+
+    # Role-based targeting
+    if role == "aggressive":
+        return min(enemies, key=lambda e: e.current_hp)
+    if role == "defensive":
+        return max(enemies, key=lambda e: e.current_hp)
+    if role == "control":
+        return max(enemies, key=lambda e: e.speed)
+
+    return enemies[0]
 
 
     # ---------------------------------------------------------
     # THREAT SYSTEM
     # ---------------------------------------------------------
-
-    def add_threat(self, source: BattleEntity, target: BattleEntity, amount: float) -> None:
-        current = target.threat.get(source.id, 0.0)
-        target.threat[source.id] = current + amount
-
-    def _choose_by_threat(
-        self,
-        user: BattleEntity,
-        enemies: List[BattleEntity],
-    ) -> Optional[BattleEntity]:
-
-        best = None
-        best_value = 0.0
-
-        for enemy in enemies:
-            value = enemy.threat.get(user.id, 0.0)
-            if value > best_value:
-                best_value = value
-                best = enemy
-
-        return best
-
-    # ---------------------------------------------------------
-    # ROLE-BASED TARGETING HELPERS
-    # ---------------------------------------------------------
-
-    def _choose_highest_hp(self, enemies: List[BattleEntity]) -> BattleEntity:
-        return max(enemies, key=lambda e: e.current_hp)
-
-    def _choose_lowest_hp(self, enemies: List[BattleEntity]) -> BattleEntity:
-        return min(enemies, key=lambda e: e.current_hp)
-
-    def _choose_biggest_threat(self, enemies: List[BattleEntity]) -> BattleEntity:
-        return max(enemies, key=lambda e: e.stats.get("attack", 1))
-
-    # ---------------------------------------------------------
-    # SMART TARGETING
-    # ---------------------------------------------------------
-
-    def _smart_target(self, user: BattleEntity, enemies: List[BattleEntity]) -> BattleEntity:
-        # 1. Try to finish off low HP enemies
-        killable = [
-            e for e in enemies
-            if e.current_hp < user.stats.get("attack", 1) * 2
-        ]
-        if killable:
-            return min(killable, key=lambda e: e.current_hp)
-
-        # 2. Threat-based targeting
-        threat_target = self._choose_by_threat(user, enemies)
-        if threat_target:
-            return threat_target
-
-        # 3. Target highest damage dealer
-        return max(enemies, key=lambda e: e.stats.get("attack", 1))
-
-    # ---------------------------------------------------------
-    # ABILITY SCORING
-    # ---------------------------------------------------------
-
-    def _score_ability(self, user: BattleEntity, ability: Dict[str, Any]) -> float:
-        scoring = self.config.get_ability_scoring()
-        score = 0.0
-
-        # Damage
-        if "damage" in ability:
-            score += ability["damage"] * scoring.get("damage_weight", 2.0)
-
-        # Healing
-        if "heal" in ability:
-            score += ability["heal"] * scoring.get("heal_weight", 1.5)
-
-        # Status effects
-        if "status" in ability:
-            status = ability["status"]
-            etype = getattr(status, "effect_type", "")
-
-            status_weights = scoring.get("status_weights", {})
-            score += status_weights.get(etype, 0.0)
-
-        # Cooldown
-        score += ability.get("cooldown", 0) * scoring.get("cooldown_weight", 0.5)
-
-        # Energy cost penalty
-        score -= ability.get("energy_cost", 0) * scoring.get("energy_cost_penalty", 0.5)
-
-        # Apply role and personality modifiers
-        score = self._apply_role_bias(user, score, ability)
-        score = self._apply_personality_bias(user, score, ability)
-
-        return score
-
-    # ---------------------------------------------------------
-    # ROLE BIAS
-    # ---------------------------------------------------------
-
-    def _apply_role_bias(self, user: BattleEntity, score: float, ability: Dict[str, Any]) -> float:
-        role_cfg = self.config.get_role(user.role)
-        bias = role_cfg.get("ability_bias", {})
-
-        if "damage" in ability:
-            score *= bias.get("damage_multiplier", 1.0)
-        if "heal" in ability:
-            score *= bias.get("heal_multiplier", 1.0)
-        if "status" in ability:
-            etype = ability["status"].effect_type
-            if etype == "buff":
-                score *= bias.get("buff_multiplier", 1.0)
-            if etype == "debuff":
-                score *= bias.get("debuff_multiplier", 1.0)
-
-        # Smart AI cooldown bonus
-        if user.role == "smart":
-            score += ability.get("cooldown", 0) * bias.get("cooldown_bonus", 0.0)
-
-        return score
-
-    # ---------------------------------------------------------
-    # PERSONALITY BIAS
-    # ---------------------------------------------------------
-
-    def _apply_personality_bias(self, user: BattleEntity, score: float, ability: Dict[str, Any]) -> float:
-        p_cfg = self.config.get_personality(user.personality)
-        bias = p_cfg.get("bias", {})
-
-        if "damage" in ability:
-            score *= bias.get("damage_multiplier", 1.0)
-        if "heal" in ability:
-            score *= bias.get("heal_multiplier", 1.0)
-        if "status" in ability:
-            etype = ability["status"].effect_type
-            if etype == "buff":
-                score *= bias.get("buff_multiplier", 1.0)
-
-        return score
+    def add_threat(self, entity, target, amount):
+        table = self.threat_table[entity.id]
+        table[target.id] = table.get(target.id, 0) + amount

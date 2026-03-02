@@ -10,12 +10,14 @@
       "defense": 24,
       "speed": 44,
       "intelligence": 42,
-      "stability": 34
+      "stability": 34,
+      "element": "corrupt",
+      "element_resistances": { "root": 0.7, "echo": 0.7, "archive": 1.3, "firewall": 1.2, "void": 0.9 }
     },
     "abilities": [
-      "Corrupt Surge",
-      "Data Rot",
-      "Glitch Phase"
+      "corrupt_surge",
+      "data_rot",
+      "glitch_phase"
     ],
     "evolution": {
       "next_stage": "malwaregeist",

@@ -10,12 +10,14 @@
       "defense": 14,
       "speed": 26,
       "intelligence": 25,
-      "stability": 20
+      "stability": 20,
+      "element": "corrupt",
+      "element_resistances": { "root": 0.7, "echo": 0.7, "archive": 1.3, "firewall": 1.2 }
     },
     "abilities": [
-      "Corrupt Surge",
-      "Data Rot",
-      "Glitch Phase"
+      "corrupt_surge",
+      "data_rot",
+      "glitch_phase"
     ],
     "evolution": {
       "next_stage": "corruptor",

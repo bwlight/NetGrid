@@ -1,40 +1,27 @@
-from __future__ import annotations
-
-from typing import Dict
-from .battle_entity import BattleEntity
-
-
 class CooldownManager:
-    """
-    Tracks ability cooldowns for each BattleEntity.
-    Cooldowns are stored on the entity itself:
-        entity.cooldowns = { ability_name: turns_remaining }
-    """
+    def __init__(self):
+        self.cooldowns = {}  # entity_id -> { ability_id: turns_remaining }
 
-    def set_cooldown(self, entity: BattleEntity, ability_name: str, turns: int) -> None:
-        """
-        Starts a cooldown for an ability.
-        """
-        entity.cooldowns[ability_name] = turns
+    def start_cooldown(self, entity, ability):
+        if ability.cooldown <= 0:
+            return
 
-    def tick(self, entity: BattleEntity) -> None:
-        """
-        Decrements all cooldowns by 1.
-        Removes abilities whose cooldown has expired.
-        """
-        expired: list[str] = []
+        eid = entity.id
+        if eid not in self.cooldowns:
+            self.cooldowns[eid] = {}
 
-        for ability, turns in entity.cooldowns.items():
-            if turns > 1:
-                entity.cooldowns[ability] = turns - 1
-            else:
-                expired.append(ability)
+        self.cooldowns[eid][ability.id] = ability.cooldown
 
-        for ability in expired:
-            del entity.cooldowns[ability]
+    def is_on_cooldown(self, entity, ability):
+        eid = entity.id
+        if eid not in self.cooldowns:
+            return False
 
-    def is_on_cooldown(self, entity: BattleEntity, ability_name: str) -> bool:
-        """
-        Returns True if the ability is still cooling down.
-        """
-        return ability_name in entity.cooldowns
+        return self.cooldowns[eid].get(ability.id, 0) > 0
+
+    def tick(self):
+        for eid in list(self.cooldowns.keys()):
+            for ability_id in list(self.cooldowns[eid].keys()):
+                self.cooldowns[eid][ability_id] -= 1
+                if self.cooldowns[eid][ability_id] <= 0:
+                    del self.cooldowns[eid][ability_id]

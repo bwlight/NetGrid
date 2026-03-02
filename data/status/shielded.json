@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/status.schema.json",
+  "status": {
+    "id": "shielded",
+    "name": "Shielded",
+    "duration": 2,
+    "tick_damage": 0,
+    "description": "A protective barrier reduces incoming damage."
+  }
+}

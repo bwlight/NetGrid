@@ -10,11 +10,13 @@
       "defense": 6,
       "speed": 13,
       "intelligence": 12,
-      "stability": 10
+      "stability": 10,
+      "element": "corrupt",
+      "element_resistances": { "archive": 1.3, "firewall": 1.2 }
     },
     "abilities": [
-      "Corrupt Surge",
-      "Data Rot"
+      "corrupt_surge",
+      "data_rot"
     ],
     "evolution": {
       "next_stage": "glitchmaw",

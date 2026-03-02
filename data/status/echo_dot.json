@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/status.schema.json",
+  "status": {
+    "id": "echo_dot",
+    "name": "Echo Damage",
+    "duration": 3,
+    "tick_damage": 4,
+    "description": "A looping memory echo damages the target repeatedly."
+  }
+}

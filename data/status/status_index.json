@@ -1,10 +1,15 @@
 {
   "status_effects": [
-    { "id": "burn", "path": "status/burn.json" },
-    { "id": "shock", "path": "status/shock.json" },
-    { "id": "slow", "path": "status/slow.json" },
-    { "id": "poison", "path": "status/poison.json" },
-    { "id": "regen", "path": "status/regen.json" },
-    { "id": "stun", "path": "status/stun.json" }
+    { "id": "loop_dot",       "path": "status/loop_dot.json" },
+    { "id": "rot_dot",        "path": "status/rot_dot.json" },
+    { "id": "echo_dot",       "path": "status/echo_dot.json" },
+    { "id": "radiant_burn",   "path": "status/radiant_burn.json" },
+    { "id": "purge_dot",      "path": "status/purge_dot.json" },
+
+    { "id": "locked_action",  "path": "status/locked_action.json" },
+    { "id": "phase_shift",    "path": "status/phase_shift.json" },
+
+    { "id": "shielded",       "path": "status/shielded.json" },
+    { "id": "null_barrier",   "path": "status/null_barrier.json" }
   ]
 }

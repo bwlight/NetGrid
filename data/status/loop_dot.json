@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/status.schema.json",
+  "status": {
+    "id": "loop_dot",
+    "name": "Loop Damage",
+    "duration": 3,
+    "tick_damage": 4,
+    "description": "Recursive damage inflicted by a repeating loop of corrupted actions."
+  }
+}

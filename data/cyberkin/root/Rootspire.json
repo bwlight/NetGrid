@@ -10,12 +10,14 @@
       "defense": 85,
       "speed": 35,
       "intelligence": 70,
-      "stability": 100
+      "stability": 100,
+      "element": "root",
+      "element_resistances": { "pulse": 0.5, "cloud": 0.7, "corrupt": 1.5, "void": 1.4, "firewall": 0.8, "archive": 0.9 }
     },
     "abilities": [
-      "Integrity Boost",
-      "Anchor Field",
-      "Data Shield"
+      "integrity_boost",
+      "anchor_field",
+      "data_shield"
     ],
     "evolution": {
       "next_stage": null,

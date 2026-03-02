@@ -10,12 +10,14 @@
       "defense": 46,
       "speed": 20,
       "intelligence": 48,
-      "stability": 58
+      "stability": 58,
+      "element": "core",
+      "element_resistances": { "void": 0.8, "corrupt": 0.9, "pulse": 1.2, "firewall":0.9 }
     },
     "abilities": [
-      "Prime Barrier",
-      "Stability Surge",
-      "Core Lock"
+      "prime_barrier",
+      "stability_surge",
+      "core_lock"
     ],
     "evolution": {
       "next_stage": "coreprime",

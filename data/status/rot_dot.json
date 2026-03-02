@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/status.schema.json",
+  "status": {
+    "id": "rot_dot",
+    "name": "Rot Damage",
+    "duration": 3,
+    "tick_damage": 5,
+    "description": "Corrupted data spreads through the target, dealing damage each turn."
+  }
+}

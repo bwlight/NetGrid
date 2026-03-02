@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/status.schema.json",
+  "status": {
+    "id": "radiant_burn",
+    "name": "Radiant Burn",
+    "duration": 3,
+    "tick_damage": 5,
+    "description": "A purifying burn that sears corrupted code each turn."
+  }
+}
