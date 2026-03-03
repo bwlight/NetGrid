@@ -1,0 +1,132 @@
+{
+  "resonant_tap": {
+    "id": "resonant_tap",
+    "name": "Resonant Tap",
+    "element": "echo",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["attack", "intelligence"],
+    "effects": ["gain_resonance"],
+    "description": "Strike with a light harmonic tap that builds a small resonance stack."
+  },
+
+  "echo_flicker": {
+    "id": "echo_flicker",
+    "name": "Echo Flicker",
+    "element": "echo",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["speed", "attack"],
+    "effects": ["chance_repeat_hit"],
+    "description": "Deliver a flickering after-image strike that may repeat once through harmonic drift."
+  },
+
+  "harmonic_thread": {
+    "id": "harmonic_thread",
+    "name": "Harmonic Thread",
+    "element": "echo",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["reduce_accuracy"],
+    "description": "Send a vibrating thread through the target’s pattern, distorting their accuracy."
+  },
+
+  "feedback_bloom": {
+    "id": "feedback_bloom",
+    "name": "Feedback Bloom",
+    "element": "echo",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["boost_intelligence", "increase_resonance_gain"],
+    "description": "Bloom with resonant feedback, enhancing clarity and increasing resonance buildup."
+  },
+
+  "oscillation_burst": {
+    "id": "oscillation_burst",
+    "name": "Oscillation Burst",
+    "element": "echo",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack", "speed"],
+    "effects": ["multi_hit"],
+    "description": "Unleash a rhythmic oscillation of strikes that hit in rapid succession."
+  },
+
+  "phase_echo": {
+    "id": "phase_echo",
+    "name": "Phase Echo",
+    "element": "echo",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence", "speed"],
+    "effects": ["reduce_incoming_damage"],
+    "description": "Manifest a semi-illusory echo-clone that absorbs part of incoming damage."
+  },
+
+  "resonance_break": {
+    "id": "resonance_break",
+    "name": "Resonance Break",
+    "element": "echo",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["chance_stagger"],
+    "description": "Snap the air with a sharp harmonic break that may stagger the target."
+  },
+
+  "loop_echo": {
+    "id": "loop_echo",
+    "name": "Loop Echo",
+    "element": "echo",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence"],
+    "effects": ["delayed_hit"],
+    "description": "Create a looping echo that repeats the strike after a recursive interval."
+  },
+
+  "harmonic_collapse": {
+    "id": "harmonic_collapse",
+    "name": "Harmonic Collapse",
+    "element": "echo",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["intelligence", "attack"],
+    "effects": ["consume_resonance", "massive_damage"],
+    "description": "Collapse built-up resonance into a devastating harmonic release."
+  },
+
+  "special": {
+    "id": "echo_special",
+    "name": "SPECIAL",
+    "element": "echo",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Echo technique reserved for future awakening."
+  }
+}

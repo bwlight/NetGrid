@@ -1,0 +1,11 @@
+{
+  "id": "purify_flame",
+  "name": "Purify Flame",
+  "description": "The target is engulfed in a purifying flame, cleansing them of damage over time effects and preventing new ones from being applied for a short duration.",
+  "category": "hot",
+  "duration": 3,
+  "stacking": "none",
+  "element": "firewall",
+  "magnitude": 6,
+  "effect": "cleanse_dot_on_apply"
+}

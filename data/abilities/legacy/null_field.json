@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "null_field",
+  "name": "Null Field",
+  "element": "void",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "self",
+  "status_inflict": "void_nullify",
+  "status_chance": 1.0,
+  "description": "Generates a void‑stabilizing barrier that nullifies corruption and reduces incoming damage."
+}

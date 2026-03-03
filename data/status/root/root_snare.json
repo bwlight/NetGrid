@@ -1,0 +1,10 @@
+{
+  "id": "root_snare",
+  "name": "Root Snare",
+  "description": "The target is ensnared by roots, immobilizing them and preventing any movement or evasion for a short duration.",
+  "category": "control",
+  "duration": 2,
+  "stacking": "none",
+  "element": "root",
+  "effect": "immobilize"
+}

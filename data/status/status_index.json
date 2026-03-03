@@ -1,15 +1,36 @@
 {
-  "status_effects": [
-    { "id": "loop_dot",       "path": "status/loop_dot.json" },
-    { "id": "rot_dot",        "path": "status/rot_dot.json" },
-    { "id": "echo_dot",       "path": "status/echo_dot.json" },
-    { "id": "radiant_burn",   "path": "status/radiant_burn.json" },
-    { "id": "purge_dot",      "path": "status/purge_dot.json" },
+  "status_effects": [ 
+    { "id": "memory_leak", "path": "status/archive/memory_leak.json" },
+    { "id": "restore_loop", "path": "status/archive/restorer_loop.json" },
+    
+    { "id": "fog_drift", "path": "status/cloud/fog_drift.json" },
+    { "id": "data_diffuse", "path": "status/cloud/data_diffuse.json" },
 
-    { "id": "locked_action",  "path": "status/locked_action.json" },
-    { "id": "phase_shift",    "path": "status/phase_shift.json" },
+    { "id": "integrity_shield", "path": "status/core/integrity_shield.json" },
+    { "id": "system_lock", "path": "status/core/system_lock.json" },
 
-    { "id": "shielded",       "path": "status/shielded.json" },
-    { "id": "null_barrier",   "path": "status/null_barrier.json" }
+    { "id": "corrupt_rot", "path": "status/corrupt/corrupt_rot.json" },
+    { "id": "mutation_spike", "path": "status/corrupt/mutation_spike.json" },
+
+    { "id": "sleep_loop", "path": "status/dream/sleep_loop.json" },
+    { "id": "probability_veil", "path": "status/dream/probability_veil.json" },
+
+    { "id": "resonance_chain", "path": "status/echo/resonance_chain.json" },
+    { "id": "feedback_guard", "path": "status/echo/feedback_guard.json" },
+
+    { "id": "purify_flame", "path": "status/firewall/purify_flame.json" },
+    { "id": "packet_filter", "path": "status/firewall/packet_filter.json" },
+
+    { "id": "overload_burn", "path": "status/pulse/overload_burn.json" },
+    { "id": "voltage_surge", "path": "status/pulse/voltage_surge.json" },
+
+    { "id": "root_snare", "path": "status/root/root_snare.json" },
+    { "id": "mend_growth", "path": "status/root/mend_growth.json" },
+
+    { "id": "void_nullify", "path": "status/void/void_nullify.json" },
+    { "id": "entropy_drain", "path": "status/void/entropy_drain.json" },
+
+    { "id": "origin_pulse", "path": "status/primacore/origin_pulse.json" },
+    { "id": "genesis_lock", "path": "status/primacore/genesis_lock.json" }
   ]
 }

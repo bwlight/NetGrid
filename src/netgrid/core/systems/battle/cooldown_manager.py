@@ -1,27 +1,56 @@
+# cooldown_manager.py V3
+
+from typing import Dict
+
+
 class CooldownManager:
-    def __init__(self):
-        self.cooldowns = {}  # entity_id -> { ability_id: turns_remaining }
+    """
+    Tracks and updates ability cooldowns for each BattleEntity.
+    Cooldowns are stored on the entity itself:
+        entity.cooldowns = { ability_id: turns_remaining }
+    """
 
-    def start_cooldown(self, entity, ability):
-        if ability.cooldown <= 0:
-            return
+    # -------------------------------------------------------------------------
+    # Public API
+    # -------------------------------------------------------------------------
 
-        eid = entity.id
-        if eid not in self.cooldowns:
-            self.cooldowns[eid] = {}
+    def start_cooldown(self, entity, ability: dict) -> None:
+        """
+        Begins the cooldown for an ability after it is used.
+        Cooldown is defined in the ability schema as an integer.
+        """
+        cd = ability.get("cooldown", 0)
+        if cd and cd > 0:
+            entity.cooldowns[ability["id"]] = cd
 
-        self.cooldowns[eid][ability.id] = ability.cooldown
+    def tick_cooldowns(self, entity) -> None:
+        """
+        Decrements all cooldowns by 1 at the start of the entity's turn.
+        Removes any cooldowns that have expired.
+        """
+        expired = []
 
-    def is_on_cooldown(self, entity, ability):
-        eid = entity.id
-        if eid not in self.cooldowns:
-            return False
+        for ability_id, turns in entity.cooldowns.items():
+            if turns > 1:
+                entity.cooldowns[ability_id] = turns - 1
+            else:
+                expired.append(ability_id)
 
-        return self.cooldowns[eid].get(ability.id, 0) > 0
+        for ability_id in expired:
+            del entity.cooldowns[ability_id]
 
-    def tick(self):
-        for eid in list(self.cooldowns.keys()):
-            for ability_id in list(self.cooldowns[eid].keys()):
-                self.cooldowns[eid][ability_id] -= 1
-                if self.cooldowns[eid][ability_id] <= 0:
-                    del self.cooldowns[eid][ability_id]
+    def is_on_cooldown(self, entity, ability_id: str) -> bool:
+        """
+        Returns True if the ability is still cooling down.
+        """
+        return ability_id in entity.cooldowns
+
+    # -------------------------------------------------------------------------
+    # Optional: Utility for UI/AI
+    # -------------------------------------------------------------------------
+
+    def turns_remaining(self, entity, ability_id: str) -> int:
+        """
+        Returns the number of turns remaining for a cooldown, or 0 if ready.
+        """
+        return entity.cooldowns.get(ability_id, 0)

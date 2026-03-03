@@ -1,0 +1,132 @@
+{
+  "null_spark": {
+    "id": "null_spark",
+    "name": "Null Spark",
+    "element": "void",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["entropy_damage", "reduce_accuracy"],
+    "description": "Release a small spark of void energy that deals entropy damage and distorts accuracy."
+  },
+
+  "silence_thread": {
+    "id": "silence_thread",
+    "name": "Silence Thread",
+    "element": "void",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["silence_support"],
+    "description": "Cast a thin void filament that prevents the target from using support abilities next turn."
+  },
+
+  "entropy_lash": {
+    "id": "entropy_lash",
+    "name": "Entropy Lash",
+    "element": "void",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack", "intelligence"],
+    "effects": ["stable_entropy_damage"],
+    "description": "Strike with a patternless lash of entropy that delivers cold, stable damage."
+  },
+
+  "void_bloom": {
+    "id": "void_bloom",
+    "name": "Void Bloom",
+    "element": "void",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["reduce_buffs", "weaken_resistance"],
+    "description": "Bloom with null energy, eroding active buffs and weakening resistances."
+  },
+
+  "collapse_step": {
+    "id": "collapse_step",
+    "name": "Collapse Step",
+    "element": "void",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_evasion", "remove_minor_debuff"],
+    "description": "Shift through a collapsing point in space, increasing evasion and shedding minor disruptions."
+  },
+
+  "anti_pattern_pulse": {
+    "id": "anti_pattern_pulse",
+    "name": "Anti-Pattern Pulse",
+    "element": "void",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["disrupt_effects", "reduce_initiative"],
+    "description": "Emit a pulse of void logic that disrupts active effects and slows the target’s response."
+  },
+
+  "erasure_wave": {
+    "id": "erasure_wave",
+    "name": "Erasure Wave",
+    "element": "void",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["remove_buff", "entropy_damage"],
+    "description": "Sweep the field with a wave of erasing force that removes a buff and deals entropy damage."
+  },
+
+  "nullbind_seal": {
+    "id": "nullbind_seal",
+    "name": "Nullbind Seal",
+    "element": "void",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["silence_attack"],
+    "description": "Invoke a sealing glyph of void logic that prevents offensive abilities next turn."
+  },
+
+  "total_collapse": {
+    "id": "total_collapse",
+    "name": "Total Collapse",
+    "element": "void",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["intelligence", "attack"],
+    "effects": ["massive_entropy_damage", "increase_instability"],
+    "description": "Unleash a devastating collapse of local reality, dealing massive entropy damage at the cost of instability."
+  },
+
+  "special": {
+    "id": "void_special",
+    "name": "SPECIAL",
+    "element": "void",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Void technique reserved for future awakening."
+  }
+}

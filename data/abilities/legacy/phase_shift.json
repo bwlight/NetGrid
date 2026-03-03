@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "phase_shift",
+  "name": "Phase Shift",
+  "element": "dream",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 2,
+  "target": "self",
+  "stat_modifiers": {
+    "spd": 0.08
+  },
+  "status_inflict": "probability_veil",
+  "status_chance": 1.0,
+  "description": "The user flickers between possible positions, increasing evasion and slipping through incoming attacks."
+}

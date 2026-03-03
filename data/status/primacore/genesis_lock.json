@@ -1,0 +1,10 @@
+{
+  "id": "genesis_lock",
+  "name": "Genesis Lock",
+  "description": "The target is locked in a genesis state, preventing any new status effects from being applied to them for a short duration.",
+  "category": "control",
+  "duration": 2,
+  "stacking": "none",
+  "element": "primacore",
+  "effect": "prevent_status_application"
+}

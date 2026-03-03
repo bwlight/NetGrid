@@ -1,0 +1,132 @@
+{
+  "ember_guard": {
+    "id": "ember_guard",
+    "name": "Ember Guard",
+    "element": "firewall",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["defense"],
+    "effects": ["reduce_incoming_damage"],
+    "description": "Summon a small protective ember that softens incoming attacks."
+  },
+
+  "cinder_lash": {
+    "id": "cinder_lash",
+    "name": "Cinder Lash",
+    "element": "firewall",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack"],
+    "effects": ["stable_damage"],
+    "description": "Strike with a controlled lash of flame that delivers consistent, focused damage."
+  },
+
+  "purge_spark": {
+    "id": "purge_spark",
+    "name": "Purge Spark",
+    "element": "firewall",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["cleanse_minor_debuffs", "reduce_corruption"],
+    "description": "Release a cleansing spark that purifies minor disruptions and lowers corruption."
+  },
+
+  "flame_screen": {
+    "id": "flame_screen",
+    "name": "Flame Screen",
+    "element": "firewall",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["defense", "intelligence"],
+    "effects": ["reduce_incoming_damage", "burn_on_contact"],
+    "description": "Erect a heated barrier that reduces damage and lightly burns attackers."
+  },
+
+  "firewall_pulse": {
+    "id": "firewall_pulse",
+    "name": "Firewall Pulse",
+    "element": "firewall",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["weaken_corrupted_targets", "boost_resistance"],
+    "description": "Emit a purifying pulse that weakens corrupted foes and strengthens your defenses."
+  },
+
+  "heatwave_break": {
+    "id": "heatwave_break",
+    "name": "Heatwave Break",
+    "element": "firewall",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence", "attack"],
+    "effects": ["slow_target", "disrupt_next_action"],
+    "description": "Send out a controlled heatwave that slows the target and disrupts their next move."
+  },
+
+  "aegis_flare": {
+    "id": "aegis_flare",
+    "name": "Aegis Flare",
+    "element": "firewall",
+    "category": "family",
+    "type": "defense",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["defense", "intelligence"],
+    "effects": ["boost_defense", "reflect_damage"],
+    "description": "Form a radiant flare shield that strengthens defenses and reflects a portion of damage."
+  },
+
+  "sear_protocol": {
+    "id": "sear_protocol",
+    "name": "Sear Protocol",
+    "element": "firewall",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["attack", "intelligence"],
+    "effects": ["bonus_vs_corrupted"],
+    "description": "Execute a precise flame-logic strike that deals extra damage to corrupted targets."
+  },
+
+  "purity_brand": {
+    "id": "purity_brand",
+    "name": "Purity Brand",
+    "element": "firewall",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["remove_buff", "apply_purity_pressure"],
+    "description": "Mark the target with a purification seal that strips enhancements and applies anti-corruption pressure."
+  },
+
+  "special": {
+    "id": "firewall_special",
+    "name": "SPECIAL",
+    "element": "firewall",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Firewall technique reserved for future awakening."
+  }
+}

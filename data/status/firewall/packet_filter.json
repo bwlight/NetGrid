@@ -1,0 +1,10 @@
+{
+  "id": "packet_filter",
+  "name": "Packet Filter",
+  "description": "The target is affected by a packet filter, reducing their speed and accuracy as their packets are filtered and delayed.",
+  "category": "debuff",
+  "duration": 2,
+  "stacking": "none",
+  "element": "firewall",
+  "stat_modifiers": { "spd": -0.15, "acc": -0.10 }
+}

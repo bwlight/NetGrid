@@ -1,0 +1,10 @@
+{
+  "id": "sleep_loop",
+  "name": "Sleep Loop",
+  "description": "The target is caught in a loop of sleep and wakefulness, preventing them from taking any actions and making them vulnerable to attacks when they wake up.",
+  "category": "control",
+  "duration": 2,
+  "stacking": "none",
+  "element": "dream",
+  "effect": "cannot_act_20_percent_wake"
+}

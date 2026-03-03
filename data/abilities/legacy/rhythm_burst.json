@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "rhythm_burst",
+  "name": "Rhythm Burst",
+  "element": "pulse",
+  "type": "attack",
+  "power": 8,
+  "cost": 0,
+  "accuracy": 0.9,
+  "cooldown": 2,
+  "target": "enemy",
+  "multi_hit": {
+    "min": 3,
+    "max": 3
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A rapid sequence of rhythmic strikes that hit in pulsing intervals."
+}

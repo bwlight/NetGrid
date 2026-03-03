@@ -1,0 +1,38 @@
+{
+  "families": {
+    "archive": "data/abilities/family/archive_abilities.json",
+    "cloud": "data/abilities/family/cloud_abilities.json",
+    "core": "data/abilities/family/core_abilities.json",
+    "corrupt": "data/abilities/family/corrupt_abilities.json",
+    "dream": "data/abilities/family/dream_abilities.json",
+    "echo": "data/abilities/family/echo_abilities.json",
+    "firewall": "data/abilities/family/firewall_abilities.json",
+    "pulse": "data/abilities/family/pulse_abilities.json",
+    "root": "data/abilities/family/root_abilities.json",
+    "void": "data/abilities/family/void_abilities.json",
+    "primacore": "data/abilities/family/primacore_abilities.json"
+  },
+
+  "universal": {
+    "path": "data/abilities/universal/universal_abilities.json",
+    "note": "Universal abilities are available to all families and scale with the highest relevant stat."
+  },
+
+  "cross_family": {
+    "path": "data/abilities/cross_family/cross_family_abilities.json",
+    "note": "Cross-family abilities are versatile skills that can be learned by any family, often with unique effects that complement multiple playstyles."
+  },
+
+  "status": {
+    "path": "data/abilities/status/status_abilities.json",
+    "note": "Status abilities apply various conditions to targets, affecting their performance in combat."
+  },
+
+  "boss_only": {
+    "primacore_special": {
+      "family": "primacore",
+      "path": "data/abilities/family/primacore_abilities.json",
+      "note": "Primacore SPECIAL is narrative-locked and not usable by the player."
+    }
+  }
+}

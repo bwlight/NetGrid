@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ability",
+  "type": "object",
+
+  "required": [
+    "id",
+    "name",
+    "element",
+    "type",
+    "cost",
+    "accuracy",
+    "cooldown",
+    "target"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the ability."
+    },
+
+    "name": {
+      "type": "string",
+      "description": "Display name of the ability."
+    },
+
+    "element": {
+      "type": "string",
+      "description": "Elemental identity of the ability."
+    },
+
+    "type": {
+      "type": "string",
+      "enum": ["attack", "support", "passive"],
+      "description": "Determines how the ability behaves in battle."
+    },
+
+    "power": {
+      "type": ["number", "null"],
+      "description": "Damage value for attack abilities. Null for support abilities."
+    },
+
+    "cost": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Energy cost to use the ability."
+    },
+
+    "accuracy": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Chance for the ability to hit."
+    },
+
+    "cooldown": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Turns required before the ability can be used again."
+    },
+
+    "target": {
+      "type": "string",
+      "enum": ["self", "enemy", "allies", "all_enemies", "all_allies"],
+      "description": "Who the ability affects."
+    },
+
+    "multi_hit": {
+      "type": "object",
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" }
+      },
+      "description": "Optional multi-hit behavior."
+    },
+
+    "status_inflict": {
+      "type": ["string", "null"],
+      "description": "Status effect applied by the ability."
+    },
+
+    "status_chance": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Chance to apply the status effect."
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Flavor and mechanical description."
+    }
+  }
+}

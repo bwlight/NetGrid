@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "radiant_overload",
+  "name": "Radiant Overload",
+  "element": "firewall",
+  "type": "attack",
+  "power": 6,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "enemy",
+  "status_inflict": "radiant_burn",
+  "status_chance": 1.0,
+  "description": "Unleashes a blinding surge of radiant energy that burns corruption and continues to sear the target over time."
+}

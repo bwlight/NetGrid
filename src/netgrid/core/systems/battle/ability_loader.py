@@ -1,85 +1,72 @@
-# src/netgrid/core/systems/battle/ability_loader.py
+# ability_loader.py V4
 
-import os
 import json
-from typing import Dict, Any
-
+import os
+from typing import List, Dict, Union
 from .ability import Ability
-from .status_effect import StatusEffect
 
 
 class AbilityLoader:
     """
-    Loads all ability JSON files from data/abilities/, supports schema-wrapped
-    JSON ({"ability": {...}}) and flat JSON, validates required fields, and
-    constructs Ability objects.
+    Loads ability JSON files from disk and converts them into Ability objects.
+    Works with AbilityManager to register abilities into the game.
     """
 
-    def __init__(self, base_path: str = "data/abilities"):
+    def __init__(self, base_path: str):
+        """
+        base_path: directory where ability JSON files are stored.
+        Example: "data/abilities/"
+        """
         self.base_path = base_path
-        self.abilities: Dict[str, Ability] = {}
-        self._load_all()
 
-    # ----------------------------------------------------------------------
-    # Load all ability files
-    # ----------------------------------------------------------------------
-    def _load_all(self):
-        if not os.path.isdir(self.base_path):
-            raise FileNotFoundError(f"Ability directory not found: {self.base_path}")
+    # -------------------------------------------------------------------------
+    # Public API
+    # -------------------------------------------------------------------------
+
+    def load_all(self) -> List[Ability]:
+        """
+        Loads all .json files in the base_path directory.
+        Returns a list of Ability objects.
+        """
+        abilities: List[Ability] = []
 
         for filename in os.listdir(self.base_path):
             if not filename.endswith(".json"):
                 continue
 
-            filepath = os.path.join(self.base_path, filename)
+            full_path = os.path.join(self.base_path, filename)
+            loaded = self._load_file(full_path)
 
-            with open(filepath, "r") as fp:
-                raw = json.load(fp)
+            # Single ability file
+            if isinstance(loaded, dict):
+                abilities.append(Ability(loaded))
 
-            # Unwrap schema-wrapped abilities
-            data = raw.get("ability", raw)
+            # Multi-ability file
+            elif isinstance(loaded, list):
+                for ability_data in loaded:
+                    abilities.append(Ability(ability_data))
 
-            ability = self._parse_ability(data)
-            self.abilities[ability.id] = ability
+        return abilities
 
-    # ----------------------------------------------------------------------
-    # Parse a single ability JSON block
-    # ----------------------------------------------------------------------
-    def _parse_ability(self, data: Dict[str, Any]) -> Ability:
-        required = ["id", "name", "type", "target"]
+    def load_file(self, filename: str) -> List[Ability]:
+        """
+        Loads a single JSON file by name (relative to base_path).
+        Returns a list of Ability objects.
+        """
+        full_path = os.path.join(self.base_path, filename)
+        loaded = self._load_file(full_path)
 
-        for field in required:
-            if field not in data:
-                raise ValueError(f"Ability JSON missing required field: '{field}'")
+        if isinstance(loaded, dict):
+            return [Ability(loaded)]
+        return [Ability(a) for a in loaded]
 
-        # Parse status effects if present
-        effects = data.get("effects", {})
-        status_effects = []
+    # -------------------------------------------------------------------------
+    # Internal helpers
+    # -------------------------------------------------------------------------
 
-        if "status" in effects:
-            for status_block in effects["status"]:
-                status_effects.append(StatusEffect.from_json(status_block))
-
-        # Construct Ability object
-        return Ability(
-            id=data["id"],
-            name=data["name"],
-            type=data.get("type", "attack"),
-            element=data.get("element"),
-            power=data.get("power", 0),
-            cost=data.get("cost", 0),
-            cooldown=data.get("cooldown", 0),
-            accuracy=data.get("accuracy", 1.0),
-            target=data["target"],
-            effects=effects,
-            status_effects=status_effects,
-            description=data.get("description", "")
-        )
-
-    # ----------------------------------------------------------------------
-    # Public API
-    # ----------------------------------------------------------------------
-    def get(self, ability_id: str) -> Ability:
-        if ability_id not in self.abilities:
-            raise KeyError(f"Ability not found: {ability_id}")
-        return self.abilities[ability_id]
+    def _load_file(self, path: str) -> Union[dict, List[dict]]:
+        """
+        Loads a JSON file and returns the parsed data.
+        """
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)

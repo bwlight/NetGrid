@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "anchor_field",
+  "name": "Anchor Field",
+  "element": "root",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "allies",
+  "stat_modifiers": {
+    "def": 0.10
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "Generates a stabilizing field that anchors nearby allies, reducing incoming damage."
+}

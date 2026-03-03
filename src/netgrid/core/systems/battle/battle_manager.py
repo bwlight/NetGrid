@@ -1,131 +1,117 @@
+# battle_manager.py
+
+from typing import List, Tuple, Optional, Callable
+import random
+from .battle_entity import BattleEntity
+
+
 class BattleManager:
-    def __init__(self, team_a, team_b):
-        self.team_a = team_a
-        self.team_b = team_b
+    """
+    Central orchestrator for battle logic.
+    Handles:
+    - action selection (AI or player)
+    - damage calculation
+    - shield reduction (via StatusEngine)
+    - KO checks
+    - battle end conditions
+    """
 
-        # Turn counter for AI logging
-        self.turn_number = 1
+    def __init__(
+        self,
+        status_engine,
+        cooldown_manager,
+        ai_controller,
+        rng: Optional[random.Random] = None,
+        dev_log: Optional[Callable[[str], None]] = None,
+    ):
+        self.status_engine = status_engine
+        self.cooldown_manager = cooldown_manager
+        self.ai_controller = ai_controller
+        self.rng = rng or random.Random()
+        self.dev_log = dev_log or (lambda msg: None)
 
-        # AI controller
-        self.ai = AIController()
+    # -------------------------------------------------------------------------
+    # Action Selection
+    # -------------------------------------------------------------------------
 
-        # Battle log (developer only for now)
-        self.log = []
+    def choose_action(self, actor, entities: List["BattleEntity"]) -> Tuple[Optional[dict], List["BattleEntity"]]:
+        """
+        Returns (ability, targets).
+        Delegates to AI for now, but can support player input later.
+        """
+        return self.ai_controller.choose_action(actor, entities, self)
 
-    # ---------------------------------------------------------
-    # TEAM HELPERS
-    # ---------------------------------------------------------
-    def get_team(self, entity):
-        if entity in self.team_a:
-            return self.team_a
-        return self.team_b
+    # -------------------------------------------------------------------------
+    # Damage Calculation
+    # -------------------------------------------------------------------------
 
-    def get_opposing_team(self, entity):
-        if entity in self.team_a:
-            return [e for e in self.team_b if e.is_alive()]
-        return [e for e in self.team_a if e.is_alive()]
+    def calculate_damage(self, attacker, defender, ability: dict) -> int:
+        """
+        Canon damage formula:
+            damage = power * (atk / def) * elemental_multiplier * variance
+        """
+        power = ability.get("power", 0)
+        if power is None:
+            return 0
 
-    def all_entities(self):
-        return self.team_a + self.team_b
+        atk = attacker.get_effective_stat("atk")
+        defense = max(1, defender.get_effective_stat("def"))
 
-    # ---------------------------------------------------------
-    # MAIN BATTLE LOOP
-    # ---------------------------------------------------------
-    def start_battle(self):
-        print("\n=== Battle Start ===")
+        base = power * (atk / defense)
 
-        while True:
-            # 1. Determine turn order (simple speed-based)
-            turn_order = sorted(
-                [e for e in self.all_entities() if e.is_alive()],
-                key=lambda e: e.speed,
-                reverse=True
-            )
+        # Elemental multiplier (placeholder for now)
+        multiplier = self._elemental_multiplier(attacker, defender, ability)
 
-            print(f"\n--- Turn {self.turn_number} ---")
+        # Random variance (±10%)
+        variance = self.rng.uniform(0.9, 1.1)
 
-            # 2. Each entity takes a turn
-            for entity in turn_order:
-                if not entity.is_alive():
-                    continue
+        damage = int(base * multiplier * variance)
+        return max(1, damage)
 
-                self.take_turn(entity)
+    def _elemental_multiplier(self, attacker, defender, ability):
+        """
+        Placeholder for your future elemental chart.
+        Always returns 1.0 for now.
+        """
+        return 1.0
 
-                # Check for battle end
-                if self.check_battle_end():
-                    print("\n=== Battle End ===")
-                    return self.get_winner()
+    # -------------------------------------------------------------------------
+    # Damage Application
+    # -------------------------------------------------------------------------
 
-            # 3. Tick cooldowns
-            for entity in self.all_entities():
-                entity.cooldowns.tick()
+    def apply_damage(self, defender, amount: int) -> None:
+        """
+        Applies shield reduction first, then damage.
+        """
+        reduced = self.status_engine.apply_shield_reduction(defender, amount, self.dev_log)
+        defender.apply_damage(reduced)
 
-            # 4. Advance turn counter
-            self.turn_number += 1
+    # -------------------------------------------------------------------------
+    # KO and Battle End Logic
+    # -------------------------------------------------------------------------
 
-    # ---------------------------------------------------------
-    # SINGLE TURN EXECUTION
-    # ---------------------------------------------------------
-    def take_turn(self, entity):
-        # AI chooses ability + target
-        ability, target = self.ai.choose_action(entity, self)
+    def is_battle_over(self, entities: List["BattleEntity"]) -> bool:
+        """
+        Returns True if one side has no living members.
+        """
+        teams = {}
+        for e in entities:
+            team = getattr(e.cyberkin, "team", "A")
+            teams.setdefault(team, []).append(e)
 
-        if ability is None or target is None:
-            print(f"[Turn] {entity.name} has no valid actions.")
-            return
+        alive_by_team = {team: [e for e in members if e.is_alive()] for team, members in teams.items()}
 
-        print(f"[Turn] {entity.name} uses {ability.name} on {target.name}.")
+        # If any team has 0 alive, battle ends
+        for team, alive in alive_by_team.items():
+            if len(alive) == 0:
+                self.dev_log(f"Battle over: Team {team} has no remaining Cyberkin.")
+                return True
 
-        # Apply ability effects
-        self.execute_ability(entity, target, ability)
+        return False
 
-        # Apply cooldown
-        entity.cooldowns.apply_cooldown(ability)
+    # -------------------------------------------------------------------------
+    # Utility
+    # -------------------------------------------------------------------------
 
-    # ---------------------------------------------------------
-    # ABILITY EXECUTION
-    # ---------------------------------------------------------
-    def execute_ability(self, user, target, ability):
-        # Damage abilities
-        if ability.is_attack:
-            damage = ability.power
-            target.apply_damage(damage)
-            print(f"[Damage] {target.name} takes {damage} damage ({target.current_hp}/{target.max_hp}).")
-
-        # Support abilities
-        if ability.is_support:
-            if "stat_modifiers" in ability.effects:
-                for stat, value in ability.effects["stat_modifiers"].items():
-                    target.apply_stat_modifier(stat, 1 + (value / 100))
-                    print(f"[Buff] {target.name}'s {stat} modified by {value}%.")
-
-            if "heal_percent" in ability.effects:
-                heal_amount = target.max_hp * ability.effects["heal_percent"]
-                target.heal(heal_amount)
-                print(f"[Heal] {target.name} heals {heal_amount} HP.")
-
-        # Status effects (future expansion)
-        # if ability.status_effects:
-        #     ...
-
-        # KO check
-        if not target.is_alive():
-            print(f"[KO] {target.name} has been defeated!")
-
-    # ---------------------------------------------------------
-    # BATTLE END CHECK
-    # ---------------------------------------------------------
-    def check_battle_end(self):
-        alive_a = any(e.is_alive() for e in self.team_a)
-        alive_b = any(e.is_alive() for e in self.team_b)
-        return not (alive_a and alive_b)
-
-    def get_winner(self):
-        alive_a = any(e.is_alive() for e in self.team_a)
-        alive_b = any(e.is_alive() for e in self.team_b)
-
-        if alive_a and not alive_b:
-            return "Team A wins"
-        if alive_b and not alive_a:
-            return "Team B wins"
-        return "Draw"
+    def get_living_entities(self, entities: List["BattleEntity"]) -> List["BattleEntity"]:
+        return [e for e in entities if e.is_alive()]

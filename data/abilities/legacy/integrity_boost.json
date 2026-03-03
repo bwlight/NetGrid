@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "integrity_boost",
+  "name": "Integrity Boost",
+  "element": "root",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 2,
+  "target": "self",
+  "stat_modifiers": {
+    "res": 0.12,
+    "def": 0.06
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "Reinforces the user's structural integrity, increasing stability and defensive resilience."
+}

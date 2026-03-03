@@ -1,0 +1,157 @@
+{
+  "basic_strike": {
+    "id": "basic_strike",
+    "name": "Basic Strike",
+    "element": "neutral",
+    "category": "universal",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["attack"],
+    "effects": ["stable_damage"],
+    "description": "A simple physical strike used by all Cyberkin."
+  },
+
+  "data_burst": {
+    "id": "data_burst",
+    "name": "Data Burst",
+    "element": "neutral",
+    "category": "universal",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["stable_damage"],
+    "description": "A burst of raw data energy that deals intelligence-based damage."
+  },
+
+  "guard_up": {
+    "id": "guard_up",
+    "name": "Guard Up",
+    "element": "neutral",
+    "category": "universal",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["defense"],
+    "effects": ["boost_defense"],
+    "description": "Increase defensive posture to reduce incoming damage."
+  },
+
+  "focus_up": {
+    "id": "focus_up",
+    "name": "Focus Up",
+    "element": "neutral",
+    "category": "universal",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["boost_intelligence"],
+    "description": "Sharpen mental clarity to enhance intelligence."
+  },
+
+  "quick_step": {
+    "id": "quick_step",
+    "name": "Quick Step",
+    "element": "neutral",
+    "category": "universal",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_speed"],
+    "description": "A swift movement that increases speed."
+  },
+
+  "stabilize": {
+    "id": "stabilize",
+    "name": "Stabilize",
+    "element": "neutral",
+    "category": "universal",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["restore_stability"],
+    "description": "Restore a small amount of system stability."
+  },
+
+  "disrupt": {
+    "id": "disrupt",
+    "name": "Disrupt",
+    "element": "neutral",
+    "category": "universal",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["weaken_next_action"],
+    "description": "Disrupt the target’s pattern, weakening their next move."
+  },
+
+  "scan": {
+    "id": "scan",
+    "name": "Scan",
+    "element": "neutral",
+    "category": "universal",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": ["reveal_stats"],
+    "description": "Analyze the target to reveal stats and resistances."
+  },
+
+  "cleanse": {
+    "id": "cleanse",
+    "name": "Cleanse",
+    "element": "neutral",
+    "category": "universal",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["remove_minor_debuff"],
+    "description": "Remove one minor negative effect."
+  },
+
+  "charge_hit": {
+    "id": "charge_hit",
+    "name": "Charge Hit",
+    "element": "neutral",
+    "category": "universal",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack"],
+    "effects": ["unstable_damage"],
+    "description": "A stronger strike with reduced accuracy."
+  },
+
+  "multi_ping": {
+    "id": "multi_ping",
+    "name": "Multi-Ping",
+    "element": "neutral",
+    "category": "universal",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["multi_hit"],
+    "description": "A rapid series of weak hits."
+  },
+
+  "overclock": {
+    "id": "overclock",
+    "name": "Overclock",
+    "element": "neutral",
+    "category": "universal",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["attack"],
+    "effects": ["boost_attack"],
+    "description": "Temporarily increase offensive output."
+  }
+}

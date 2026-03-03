@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "probability_spike",
+  "name": "Probability Spike",
+  "element": "dream",
+  "type": "attack",
+  "power": 16,
+  "cost": 0,
+  "accuracy": 0.85,
+  "cooldown": 1,
+  "target": "enemy",
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A volatile strike that collapses unlikely outcomes into a single damaging event."
+}

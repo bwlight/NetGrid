@@ -1,0 +1,132 @@
+{
+  "sprout_pulse": {
+    "id": "sprout_pulse",
+    "name": "Sprout Pulse",
+    "element": "root",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["restore_stability_over_time"],
+    "description": "Release a gentle regenerative pulse that restores stability gradually."
+  },
+
+  "groundbind_step": {
+    "id": "groundbind_step",
+    "name": "Groundbind Step",
+    "element": "root",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["defense", "intelligence"],
+    "effects": ["reduce_disruption", "slow_target"],
+    "description": "Anchor yourself with a grounding step that resists disruption and slows the target."
+  },
+
+  "verdant_lash": {
+    "id": "verdant_lash",
+    "name": "Verdant Lash",
+    "element": "root",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack"],
+    "effects": ["chance_bind"],
+    "description": "Strike with a lash of living energy that may bind the target momentarily."
+  },
+
+  "bloom_surge": {
+    "id": "bloom_surge",
+    "name": "Bloom Surge",
+    "element": "root",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["boost_attack", "boost_intelligence"],
+    "description": "Surge with verdant growth, enhancing both offensive and mental strength."
+  },
+
+  "rootweave_guard": {
+    "id": "rootweave_guard",
+    "name": "Rootweave Guard",
+    "element": "root",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["defense", "intelligence"],
+    "effects": ["boost_defense", "increase_stability_regen"],
+    "description": "Weave a protective lattice of living energy that strengthens defense and regeneration."
+  },
+
+  "entangle_thread": {
+    "id": "entangle_thread",
+    "name": "Entangle Thread",
+    "element": "root",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["slow_target", "weaken_next_action"],
+    "description": "Send out a binding thread that slows the target and weakens their next move."
+  },
+
+  "life_spiral": {
+    "id": "life_spiral",
+    "name": "Life Spiral",
+    "element": "root",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["heal", "boost_resistance"],
+    "description": "Channel a spiral of life energy that heals and strengthens resistance."
+  },
+
+  "growth_cascade": {
+    "id": "growth_cascade",
+    "name": "Growth Cascade",
+    "element": "root",
+    "category": "family",
+    "type": "support",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence", "attack"],
+    "effects": ["escalating_growth"],
+    "description": "Trigger a cascading growth effect that increases power each turn."
+  },
+
+  "verdancy_break": {
+    "id": "verdancy_break",
+    "name": "Verdancy Break",
+    "element": "root",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["remove_debuff", "restore_stability"],
+    "description": "Break through harmful effects with a burst of verdant clarity, restoring stability."
+  },
+
+  "special": {
+    "id": "root_special",
+    "name": "SPECIAL",
+    "element": "root",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Root technique reserved for future awakening."
+  }
+}

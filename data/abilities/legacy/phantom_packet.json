@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "phantom_packet",
+  "name": "Phantom Packet",
+  "element": "echo",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 2,
+  "target": "enemy",
+  "stat_modifiers": {
+    "acc": -0.15
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "Sends a false signal that overlays the target's perception, reducing their accuracy."
+}

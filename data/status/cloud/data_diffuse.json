@@ -1,0 +1,10 @@
+{
+  "id": "data_diffuse",
+  "name": "Data Diffuse",
+  "description": "The target's data is diffused, making them harder to hit but also less effective at attacking.",
+  "category": "buff",
+  "duration": 3,
+  "stacking": "none",
+  "element": "cloud",
+  "stat_modifiers": { "eva": 0.15 }
+}

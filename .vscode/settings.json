@@ -8,5 +8,5 @@
     "editor.suggest.showSnippets": true,
     "markdown.editor.quickSuggestions": true,
     "markdown.editor.suggest.showSnippets": true,
-
+    "python.analysis.extraPaths": ["./src"]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "void_nullify",
+  "name": "Void Nullify",
+  "description": "The target is engulfed in a void nullification, removing all buffs and preventing any new buffs from being applied to them for a short duration.",
+  "category": "special",
+  "duration": 1,
+  "stacking": "none",
+  "element": "void",
+  "effect": "remove_buffs_prevent_new"
+}

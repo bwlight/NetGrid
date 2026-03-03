@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "data_drain",
+  "name": "Data Drain",
+  "element": "void",
+  "type": "attack",
+  "power": 10,
+  "cost": 0,
+  "accuracy": 0.95,
+  "cooldown": 1,
+  "target": "enemy",
+  "stat_modifiers": {
+    "res": -0.06
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "Siphons corrupted fragments from the target, weakening their stability while strengthening the user's void‑core."
+}

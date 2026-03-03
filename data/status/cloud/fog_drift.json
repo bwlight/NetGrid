@@ -1,0 +1,10 @@
+{
+  "id": "fog_drift",
+  "name": "Fog Drift",
+  "description": "The target is enveloped in a drifting fog, reducing their accuracy and making it harder for them to hit their targets.",
+  "category": "debuff",
+  "duration": 2,
+  "stacking": "none",
+  "element": "cloud",
+  "effect": "reduce_accuracy"
+}

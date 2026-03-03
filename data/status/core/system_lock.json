@@ -1,0 +1,10 @@
+{
+  "id": "system_lock",
+  "name": "System Lock",
+  "description": "The target's system is locked, preventing any stat changes or effects from being applied to them for a short duration.",
+  "category": "control",
+  "duration": 2,
+  "stacking": "none",
+  "element": "core",
+  "effect": "prevent_stat_changes"
+}

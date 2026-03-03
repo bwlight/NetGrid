@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "overclock",
+  "name": "Overclock",
+  "element": "pulse",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "self",
+  "stat_modifiers": {
+    "spd": 0.12,
+    "atk": 0.08
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "Pushes the user's systems into a high‑tempo state, dramatically boosting speed and offensive output."
+}

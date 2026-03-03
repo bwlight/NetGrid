@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "adaptive_shift",
+  "name": "Adaptive Shift",
+  "element": "cloud",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "self",
+  "stat_modifiers": {
+    "def": 0.08,
+    "res": 0.08
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "The user adapts its form to shifting terrain, increasing its defensive stability."
+}

@@ -1,0 +1,132 @@
+{
+  "quick_jolt": {
+    "id": "quick_jolt",
+    "name": "Quick Jolt",
+    "element": "pulse",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["attack", "speed"],
+    "effects": ["boost_speed"],
+    "description": "Deliver a fast kinetic strike that briefly accelerates your movement."
+  },
+
+  "rhythm_burst": {
+    "id": "rhythm_burst",
+    "name": "Rhythm Burst",
+    "element": "pulse",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack", "speed"],
+    "effects": ["multi_hit"],
+    "description": "Strike in rhythmic succession, delivering multiple hits in a steady tempo."
+  },
+
+  "pulse_step": {
+    "id": "pulse_step",
+    "name": "Pulse Step",
+    "element": "pulse",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_initiative", "boost_evasion"],
+    "description": "Shift with kinetic precision, increasing initiative and evasion."
+  },
+
+  "shock_thread": {
+    "id": "shock_thread",
+    "name": "Shock Thread",
+    "element": "pulse",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["attack"],
+    "effects": ["chance_stagger"],
+    "description": "Send a linear shock-thread through the target, dealing damage with a chance to stagger."
+  },
+
+  "tempo_bloom": {
+    "id": "tempo_bloom",
+    "name": "Tempo Bloom",
+    "element": "pulse",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed", "attack"],
+    "effects": ["boost_speed", "boost_attack"],
+    "description": "Bloom with rhythmic energy, enhancing both speed and offensive tempo."
+  },
+
+  "chain_pulse": {
+    "id": "chain_pulse",
+    "name": "Chain Pulse",
+    "element": "pulse",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack", "speed"],
+    "effects": ["escalating_multi_hit"],
+    "description": "Unleash a combo of pulse strikes that grow stronger with each consecutive hit."
+  },
+
+  "impact_wave": {
+    "id": "impact_wave",
+    "name": "Impact Wave",
+    "element": "pulse",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack"],
+    "effects": ["aoe_split_damage"],
+    "description": "Release a shockwave of kinetic force that spreads damage across multiple targets."
+  },
+
+  "pulse_overdrive": {
+    "id": "pulse_overdrive",
+    "name": "Pulse Overdrive",
+    "element": "pulse",
+    "category": "family",
+    "type": "support",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["speed"],
+    "effects": ["boost_multi_hit_chance", "boost_next_attack"],
+    "description": "Enter a high-tempo overdrive state that enhances combo potential and next attack power."
+  },
+
+  "momentum_crash": {
+    "id": "momentum_crash",
+    "name": "Momentum Crash",
+    "element": "pulse",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["attack", "speed"],
+    "effects": ["speed_scaling_damage"],
+    "description": "Crash into the target with overwhelming force, scaling damage with your current speed."
+  },
+
+  "special": {
+    "id": "pulse_special",
+    "name": "SPECIAL",
+    "element": "pulse",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Pulse technique reserved for future awakening."
+  }
+}

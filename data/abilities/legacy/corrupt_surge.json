@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "corrupt_surge",
+  "name": "Corrupt Surge",
+  "element": "corrupt",
+  "type": "attack",
+  "power": 14,
+  "cost": 0,
+  "accuracy": 0.9,
+  "cooldown": 1,
+  "target": "enemy",
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A volatile burst of corrupted energy that destabilizes the target's code structure."
+}

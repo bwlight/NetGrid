@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "photon_burst",
+  "name": "Photon Burst",
+  "element": "firewall",
+  "type": "attack",
+  "power": 12,
+  "cost": 0,
+  "accuracy": 0.95,
+  "cooldown": 1,
+  "target": "enemy",
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A rapid burst of concentrated light energy that strikes before the target can react."
+}

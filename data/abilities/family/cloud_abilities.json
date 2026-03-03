@@ -1,0 +1,132 @@
+{
+  "drift_spark": {
+    "id": "drift_spark",
+    "name": "Drift Spark",
+    "element": "cloud",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["attack", "speed"],
+    "effects": ["unstable_multi_hit"],
+    "description": "Release a flickering spark of unstable energy that may strike more than once."
+  },
+
+  "veil_step": {
+    "id": "veil_step",
+    "name": "Veil Step",
+    "element": "cloud",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_evasion", "reduce_enemy_accuracy"],
+    "description": "Slip into a drifting veil, increasing evasion while distorting the opponent’s aim."
+  },
+
+  "mirage_thread": {
+    "id": "mirage_thread",
+    "name": "Mirage Thread",
+    "element": "cloud",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["reduce_accuracy"],
+    "description": "Cast a false pattern across the field, misleading the target’s perception."
+  },
+
+  "storm_flicker": {
+    "id": "storm_flicker",
+    "name": "Storm Flicker",
+    "element": "cloud",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack", "speed"],
+    "effects": ["boost_speed"],
+    "description": "Strike with a volatile burst of storm energy, briefly accelerating your form."
+  },
+
+  "phase_bloom": {
+    "id": "phase_bloom",
+    "name": "Phase Bloom",
+    "element": "cloud",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_evasion", "boost_initiative"],
+    "description": "Shift partially out of phase, blooming into a state of heightened agility."
+  },
+
+  "arc_scatter": {
+    "id": "arc_scatter",
+    "name": "Arc Scatter",
+    "element": "cloud",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack"],
+    "effects": ["arc_multi_hit"],
+    "description": "Unleash a burst of storm arcs that scatter into multiple low-power strikes."
+  },
+
+  "cloudbind_loop": {
+    "id": "cloudbind_loop",
+    "name": "Cloudbind Loop",
+    "element": "cloud",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence", "speed"],
+    "effects": ["slow_target", "disrupt_next_action"],
+    "description": "Bind the target in a drifting loop of unstable connections, slowing their response."
+  },
+
+  "illusory_echo": {
+    "id": "illusory_echo",
+    "name": "Illusory Echo",
+    "element": "cloud",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["create_decoy", "reduce_incoming_damage"],
+    "description": "Generate a drifting echo that absorbs a hit or weakens incoming impact."
+  },
+
+  "tempest_recode": {
+    "id": "tempest_recode",
+    "name": "Tempest Recode",
+    "element": "cloud",
+    "category": "family",
+    "type": "support",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence", "speed"],
+    "effects": ["reset_instability", "boost_next_attack"],
+    "description": "Recode your storm-state, stabilizing your form before unleashing a stronger strike."
+  },
+
+  "special": {
+    "id": "cloud_special",
+    "name": "SPECIAL",
+    "element": "cloud",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Cloud technique reserved for future awakening."
+  }
+}

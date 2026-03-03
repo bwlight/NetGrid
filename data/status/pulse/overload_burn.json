@@ -1,0 +1,11 @@
+{
+  "id": "overload_burn",
+  "name": "Overload Burn",
+  "description": "The target is overloaded with energy, taking damage over time and gaining increased damage from subsequent hits. Additionally, if the target is already affected by a debuff when this effect is applied, they take increased damage from this burn.",
+  "category": "dot",
+  "duration": 3,
+  "stacking": "additive",
+  "element": "pulse",
+  "magnitude": 4,
+  "effect": "bonus_if_debuffed"
+}

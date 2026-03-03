@@ -1,0 +1,132 @@
+{
+  "integrity_pulse": {
+    "id": "integrity_pulse",
+    "name": "Integrity Pulse",
+    "element": "core",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["restore_stability", "boost_defense"],
+    "description": "Emit a stabilizing pulse that reinforces structural integrity and restores stability."
+  },
+
+  "core_lock": {
+    "id": "core_lock",
+    "name": "Core Lock",
+    "element": "core",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["reduce_damage_output"],
+    "description": "Apply a precise suppression lock that weakens the target’s offensive output."
+  },
+
+  "order_strike": {
+    "id": "order_strike",
+    "name": "Order Strike",
+    "element": "core",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["attack"],
+    "effects": ["stable_damage"],
+    "description": "Deliver a clean, controlled strike that maintains perfectly stable damage."
+  },
+
+  "shield_bloom": {
+    "id": "shield_bloom",
+    "name": "Shield Bloom",
+    "element": "core",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["defense"],
+    "effects": ["create_barrier"],
+    "description": "Generate a blooming shield of pure system energy that absorbs incoming damage."
+  },
+
+  "purity_wave": {
+    "id": "purity_wave",
+    "name": "Purity Wave",
+    "element": "core",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["cleanse_minor_debuffs", "boost_resistance"],
+    "description": "Release a cleansing wave that purifies minor disruptions and strengthens resistance."
+  },
+
+  "fortify_matrix": {
+    "id": "fortify_matrix",
+    "name": "Fortify Matrix",
+    "element": "core",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["defense", "intelligence"],
+    "effects": ["boost_defense", "increase_stability_regen"],
+    "description": "Construct a fortified matrix that enhances defense and stability regeneration."
+  },
+
+  "corebind_seal": {
+    "id": "corebind_seal",
+    "name": "Corebind Seal",
+    "element": "core",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["slow_target", "weaken_next_action"],
+    "description": "Invoke a binding seal of pure order that slows the target and weakens their next move."
+  },
+
+  "integrity_field": {
+    "id": "integrity_field",
+    "name": "Integrity Field",
+    "element": "core",
+    "category": "family",
+    "type": "defense",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["defense", "intelligence"],
+    "effects": ["reduce_incoming_damage"],
+    "description": "Project a wide field of stabilized energy that reduces incoming damage over time."
+  },
+
+  "system_recalibrate": {
+    "id": "system_recalibrate",
+    "name": "System Recalibrate",
+    "element": "core",
+    "category": "family",
+    "type": "support",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence"],
+    "effects": ["reset_instability", "boost_next_action"],
+    "description": "Recalibrate internal systems, clearing instability and empowering the next technique."
+  },
+
+  "special": {
+    "id": "core_special",
+    "name": "SPECIAL",
+    "element": "core",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Core technique reserved for future awakening."
+  }
+}

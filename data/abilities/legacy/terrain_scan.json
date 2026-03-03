@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "terrain_scan",
+  "name": "Terrain Scan",
+  "element": "cloud",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 2,
+  "target": "enemy",
+  "stat_modifiers": {
+    "int": 0.06
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "Analyzes the surrounding terrain and enemy patterns, improving the user's predictive accuracy."
+}

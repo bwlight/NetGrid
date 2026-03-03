@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "dream_tunnel",
+  "name": "Dream Tunnel",
+  "element": "dream",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "self",
+  "stat_modifiers": {
+    "spd": 0.10,
+    "int": 0.10
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "The user slips through a surreal probability tunnel, emerging faster and more perceptive."
+}

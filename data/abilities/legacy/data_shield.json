@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "data_shield",
+  "name": "Data Shield",
+  "element": "root",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "allies",
+  "status_inflict": "mend_growth",
+  "status_chance": 1.0,
+  "description": "Forms a protective barrier of stabilized data that absorbs incoming damage."
+}

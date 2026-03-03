@@ -1,91 +1,77 @@
-from __future__ import annotations
+# status_effect.py V3
 
-from typing import Optional, Dict, Any
-from .battle_entity import BattleEntity
+from typing import Dict, Any, Optional
 
 
 class StatusEffect:
     """
-    Represents a single status effect instance on a BattleEntity.
-    Supports:
-    - DOT / HOT
-    - immobilize / stun
-    - buffs / debuffs
-    - custom metadata
+    Immutable runtime wrapper for a status effect loaded from JSON.
+    This class mirrors the canonical status schema and provides
+    clean attribute access for the StatusEngine and BattleEntity.
     """
 
-    def __init__(
-        self,
-        status_id: str,
-        duration: int,
-        effect_type: str,
-        value: float = 0,
-        stat_modifiers: Optional[Dict[str, float]] = None,
-        metadata: Optional[Dict[str, Any]] = None,
-    ):
-        self.id = status_id
-        self.duration = duration
-        self.effect_type = effect_type  # "dot", "hot", "immobilize", "buff", "debuff", etc.
-        self.value = value
-        self.stat_modifiers = stat_modifiers or {}
-        self.metadata = metadata or {}
+    def __init__(self, data: Dict[str, Any]):
+        self._data = data
 
-        # Internal flags
-        self.applied_once = False  # for buffs/debuffs
+        self.id: str = data["id"]
+        self.name: str = data["name"]
+        self.description: str = data["description"]
 
-    # ---------------------------------------------------------
-    # Per-turn effect logic
-    # ---------------------------------------------------------
+        # Mechanical role (buff, debuff, dot, special, etc.)
+        self.type: str = data.get("type", data.get("category"))
 
-    def tick(self, entity: BattleEntity) -> Optional[str]:
-        """
-        Called once per turn by StatusEngine.
-        Applies DOT/HOT, immobilize flags, or stat modifiers.
-        Returns a log message or None.
-        """
+        # Elemental family (archive, cloud, core, corrupt, etc.)
+        self.element: str = data["element"]
 
-        # DOT
-        if self.effect_type == "dot":
-            entity.apply_damage(self.value)
-            return f"{entity.id} took {self.value} DOT damage from {self.id}"
+        self.duration: int = data["duration"]
+        self.stacking: str = data.get("stacking", "none")
 
-        # HOT
-        if self.effect_type == "hot":
-            entity.heal(self.value)
-            return f"{entity.id} recovered {self.value} HP from {self.id}"
+        # Effects list or single effect
+        self.effects = data.get("effects", [])
+        self.effect = data.get("effect")
 
-        # Immobilize
-        if self.effect_type == "immobilize":
-            entity.metadata["immobilized"] = True
-            return f"{entity.id} is immobilized by {self.id}"
 
-        # Buff / Debuff (apply once)
-        if self.effect_type in ("buff", "debuff"):
-            if not self.applied_once:
-                for stat, multiplier in self.stat_modifiers.items():
-                    entity.apply_stat_modifier(stat, multiplier)
-                self.applied_once = True
-                return f"{entity.id}'s {self.id} applied"
+        # Optional fields
+        self.tick_damage: Optional[int] = data.get("tick_damage")
+        self.stat_modifiers: Optional[Dict[str, float]] = data.get("stat_modifiers")
+        self.shield_value: Optional[int] = data.get("shield_value")
+        self.shield_decay: Optional[int] = data.get("shield_decay")
+        self.unique: bool = data.get("unique", False)
 
-        return None
+        # Optional tags for AI or synergy
+        self.tags = data.get("tags", [])
 
-    # ---------------------------------------------------------
-    # Cleanup logic
-    # ---------------------------------------------------------
+    # -------------------------------------------------------------------------
+    # Accessors
+    # -------------------------------------------------------------------------
 
-    def on_expire(self, entity: BattleEntity) -> None:
-        """
-        Called when the status expires.
-        Used to revert buffs/debuffs or cleanup flags.
-        """
+    def to_dict(self) -> Dict[str, Any]:
+        """Returns the raw JSON dictionary."""
+        return self._data
 
-        # Revert stat modifiers
-        if self.effect_type in ("buff", "debuff"):
-            for stat, multiplier in self.stat_modifiers.items():
-                if stat in entity.stats:
-                    entity.stats[stat] /= multiplier
+    def is_dot(self) -> bool:
+        return self.type == "dot"
 
-        # Remove immobilize flag
-        if self.effect_type == "immobilize":
-            if "immobilized" in entity.metadata:
-                del entity.metadata["immobilized"]
+    def is_buff(self) -> bool:
+        return self.type == "buff"
+
+    def is_debuff(self) -> bool:
+        return self.type == "debuff"
+
+    def is_shield(self) -> bool:
+        return self.type == "shield"
+
+    def is_lock(self) -> bool:
+        return self.type == "lock"
+
+    def is_special(self) -> bool:
+        return self.type == "special"
+
+    def has_stat_modifiers(self) -> bool:
+        return self.stat_modifiers is not None
+
+    def has_tick_damage(self) -> bool:
+        return self.tick_damage is not None
+
+    def __repr__(self):
+        return f"<StatusEffect {self.id}: {self.name}>"

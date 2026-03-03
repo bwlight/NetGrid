@@ -1,0 +1,10 @@
+{
+  "id": "integrity_shield",
+  "name": "Integrity Shield",
+  "description": "The target is protected by an integrity shield, increasing their defense and resistance against attacks.",
+  "category": "buff",
+  "duration": 3,
+  "stacking": "none",
+  "element": "core",
+  "stat_modifiers": { "def": 0.20, "res": 0.15 }
+}

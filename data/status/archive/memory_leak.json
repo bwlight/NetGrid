@@ -1,0 +1,10 @@
+{
+  "id": "memory_leak",
+  "name": "Memory Leak",
+  "description": "The target's memory is being corrupted, causing confusion and vulnerability.", 
+  "category": "debuff",
+  "duration": 3,
+  "stacking": "none",
+  "element": "archive",
+  "stat_modifiers": { "int": -0.15, "def": -0.10 }
+}

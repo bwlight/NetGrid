@@ -1,0 +1,118 @@
+{
+  "apply_debuff": {
+    "id": "apply_debuff",
+    "name": "Apply Debuff",
+    "element": "neutral",
+    "category": "status",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["apply_status_debuff"],
+    "description": "Apply a generic debuff status to the target."
+  },
+
+  "apply_control": {
+    "id": "apply_control",
+    "name": "Apply Control",
+    "element": "neutral",
+    "category": "status",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["apply_status_control"],
+    "description": "Apply a generic control status to the target."
+  },
+
+  "apply_dot": {
+    "id": "apply_dot",
+    "name": "Apply Damage Over Time",
+    "element": "neutral",
+    "category": "status",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["apply_status_dot"],
+    "description": "Apply a generic damage-over-time status to the target."
+  },
+
+  "cleanse_one": {
+    "id": "cleanse_one",
+    "name": "Cleanse One",
+    "element": "neutral",
+    "category": "status",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["remove_one_status"],
+    "description": "Remove one negative status from the user or an ally."
+  },
+
+  "cleanse_all": {
+    "id": "cleanse_all",
+    "name": "Cleanse All",
+    "element": "neutral",
+    "category": "status",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["remove_all_status"],
+    "description": "Remove all negative statuses from the user or an ally."
+  },
+
+  "cleanse_category": {
+    "id": "cleanse_category",
+    "name": "Cleanse Category",
+    "element": "neutral",
+    "category": "status",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["remove_status_category"],
+    "description": "Remove all statuses of a specific category from the user or an ally."
+  },
+
+  "extend_status": {
+    "id": "extend_status",
+    "name": "Extend Status",
+    "element": "neutral",
+    "category": "status",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["extend_status_duration"],
+    "description": "Extend the duration of an active status on the target."
+  },
+
+  "shorten_status": {
+    "id": "shorten_status",
+    "name": "Shorten Status",
+    "element": "neutral",
+    "category": "status",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["shorten_status_duration"],
+    "description": "Reduce the duration of an active status on the target."
+  },
+
+  "transfer_status": {
+    "id": "transfer_status",
+    "name": "Transfer Status",
+    "element": "neutral",
+    "category": "status",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["transfer_status"],
+    "description": "Transfer a negative status from the user to the target."
+  }
+}

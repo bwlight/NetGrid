@@ -1,0 +1,133 @@
+{
+  "origin_pulse": {
+    "id": "origin_pulse",
+    "name": "Origin Pulse",
+    "element": "primacore",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["restore_stability", "boost_resistance"],
+    "description": "Emit a pulse of pure system energy that restores stability and strengthens resistance."
+  },
+
+  "first_thread": {
+    "id": "first_thread",
+    "name": "First Thread",
+    "element": "primacore",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["attack", "intelligence"],
+    "effects": ["stable_damage"],
+    "description": "Strike with a primordial thread of the original algorithm, dealing clean, pattern-true damage."
+  },
+
+  "proto_loop": {
+    "id": "proto_loop",
+    "name": "Proto-Loop",
+    "element": "primacore",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["repeat_hit"],
+    "description": "Invoke an early recursive pattern that repeats its strike once."
+  },
+
+  "stabilize_core": {
+    "id": "stabilize_core",
+    "name": "Stabilize Core",
+    "element": "primacore",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["defense", "intelligence"],
+    "effects": ["boost_resistance", "reduce_corruption", "reduce_void_effects"],
+    "description": "Reinforce system integrity, resisting corruption and void-aligned disruptions."
+  },
+
+  "prime_glyph": {
+    "id": "prime_glyph",
+    "name": "Prime Glyph",
+    "element": "primacore",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["boost_recursion", "boost_resistance"],
+    "description": "Channel a glyph of the original algorithm, enhancing recursion and defensive clarity."
+  },
+
+  "system_recall": {
+    "id": "system_recall",
+    "name": "System Recall",
+    "element": "primacore",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["remove_debuff", "reset_instability"],
+    "description": "Restore system order by removing harmful effects and resetting instability."
+  },
+
+  "recursive_bloom": {
+    "id": "recursive_bloom",
+    "name": "Recursive Bloom",
+    "element": "primacore",
+    "category": "family",
+    "type": "support",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence"],
+    "effects": ["escalating_recursion"],
+    "description": "Unfold deeper recursion layers, increasing power with each passing turn."
+  },
+
+  "origin_break": {
+    "id": "origin_break",
+    "name": "Origin Break",
+    "element": "primacore",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["intelligence", "attack"],
+    "effects": ["massive_damage", "bonus_vs_void", "bonus_vs_corrupt"],
+    "description": "Strike with the force of the original system, dealing immense damage—especially to void or corrupted foes."
+  },
+
+  "first_light": {
+    "id": "first_light",
+    "name": "First Light",
+    "element": "primacore",
+    "category": "family",
+    "type": "support",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence"],
+    "effects": ["restore_stability_team", "weaken_anomalies"],
+    "description": "Unleash the primordial light of creation, restoring allies and weakening anomalies."
+  },
+
+  "special": {
+    "id": "primacore_special",
+    "name": "Genesis Recall",
+    "element": "primacore",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "usable_by_player": false,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A narrative-locked origin command used only by Primacore in scripted encounters."
+  }
+}

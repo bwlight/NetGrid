@@ -1,0 +1,118 @@
+{
+  "vector_strike": {
+    "id": "vector_strike",
+    "name": "Vector Strike",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack", "speed"],
+    "effects": ["stable_damage"],
+    "description": "A precise, high‑velocity strike that follows a clean combat vector."
+  },
+
+  "pulse_rend": {
+    "id": "pulse_rend",
+    "name": "Pulse Rend",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack", "intelligence"],
+    "effects": ["multi_hit"],
+    "description": "Tear through the target with a rapid sequence of digital impacts."
+  },
+
+  "overload_crash": {
+    "id": "overload_crash",
+    "name": "Overload Crash",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["attack"],
+    "effects": ["unstable_damage"],
+    "description": "Unleash a heavy burst of force that risks destabilizing the user."
+  },
+
+  "sync_flow": {
+    "id": "sync_flow",
+    "name": "Sync Flow",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_speed", "boost_initiative"],
+    "description": "Enter a synchronized combat rhythm that enhances speed and initiative."
+  },
+
+  "core_align": {
+    "id": "core_align",
+    "name": "Core Align",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["attack", "intelligence"],
+    "effects": ["boost_attack", "boost_intelligence"],
+    "description": "Align internal systems to enhance both physical and digital output."
+  },
+
+  "stability_weave": {
+    "id": "stability_weave",
+    "name": "Stability Weave",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["restore_stability", "boost_resistance"],
+    "description": "Weave stabilizing threads through your pattern to restore balance and resilience."
+  },
+
+  "disrupt_pattern": {
+    "id": "disrupt_pattern",
+    "name": "Disrupt Pattern",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["weaken_next_action", "reduce_accuracy"],
+    "description": "Distort the target’s combat pattern, weakening their next move."
+  },
+
+  "anchor_lock": {
+    "id": "anchor_lock",
+    "name": "Anchor Lock",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["slow_target", "reduce_evasion"],
+    "description": "Lock the target’s movement vector, slowing them and reducing evasion."
+  },
+
+  "phase_jam": {
+    "id": "phase_jam",
+    "name": "Phase Jam",
+    "element": "neutral",
+    "category": "cross_family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["chance_interrupt"],
+    "description": "Jam the target’s phase timing, potentially interrupting their action."
+  }
+}

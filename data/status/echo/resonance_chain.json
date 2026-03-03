@@ -1,0 +1,11 @@
+{
+  "id": "resonance_chain",
+  "name": "Resonance Chain",
+  "description": "The target is affected by a resonance chain, increasing the damage they take from subsequent hits for a short duration. Each hit increases the damage taken by a certain percentage, stacking additively.",
+  "category": "special",
+  "duration": 3,
+  "stacking": "additive",
+  "element": "echo",
+  "magnitude": 3,
+  "effect": "increase_damage_on_hit"
+}

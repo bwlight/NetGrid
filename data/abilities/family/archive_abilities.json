@@ -1,0 +1,132 @@
+{
+  "fragment_pulse": {
+    "id": "fragment_pulse",
+    "name": "Fragment Pulse",
+    "element": "archive",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["attack", "intelligence"],
+    "effects": ["multi_hit"],
+    "description": "Release a burst of unstable memory shards that strike in rapid succession."
+  },
+
+  "pattern_rebind": {
+    "id": "pattern_rebind",
+    "name": "Pattern Rebind",
+    "element": "archive",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["reduce_accuracy", "reduce_speed"],
+    "description": "Reorganize the target’s active pattern, disrupting their accuracy and initiative."
+  },
+
+  "memory_fracture": {
+    "id": "memory_fracture",
+    "name": "Memory Fracture",
+    "element": "archive",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["apply_minor_debuff"],
+    "description": "Shatter a fragment of ancient data against the target, weakening their structure."
+  },
+
+  "echo_archive": {
+    "id": "echo_archive",
+    "name": "Echo Archive",
+    "element": "archive",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence"],
+    "effects": ["delayed_hit"],
+    "description": "Imprint a delayed echo of damage that triggers after a recursive interval."
+  },
+
+  "recursive_seal": {
+    "id": "recursive_seal",
+    "name": "Recursive Seal",
+    "element": "archive",
+    "category": "family",
+    "type": "control",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["intelligence"],
+    "effects": ["looping_slow", "pattern_lock"],
+    "description": "Invoke an ancient Archive rite that binds the target in a looping seal."
+  },
+
+  "loopbind_surge": {
+    "id": "loopbind_surge",
+    "name": "Loopbind Surge",
+    "element": "archive",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack", "intelligence"],
+    "effects": ["temporary_lock"],
+    "description": "Strike with a surge of recursive force that momentarily locks the target’s actions."
+  },
+
+  "glyph_first_loop": {
+    "id": "glyph_first_loop",
+    "name": "Glyph of the First Loop",
+    "element": "archive",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["boost_recursion"],
+    "description": "Channel a primordial Archive glyph that strengthens recursion-based techniques."
+  },
+
+  "archive_lattice": {
+    "id": "archive_lattice",
+    "name": "Archive Lattice",
+    "element": "archive",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["defense", "intelligence"],
+    "effects": ["resist_control", "resist_disruption"],
+    "description": "Weave a defensive lattice of ancient data strands to resist control effects."
+  },
+
+  "data_rite_unspool": {
+    "id": "data_rite_unspool",
+    "name": "Data Rite: Unspool",
+    "element": "archive",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["remove_buff", "weaken_next_action"],
+    "description": "Perform a ritual that unravels the target’s active enhancements and weakens their next move."
+  },
+
+  "special": {
+    "id": "archive_special",
+    "name": "SPECIAL",
+    "element": "archive",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Archive rite reserved for future awakening."
+  }
+}

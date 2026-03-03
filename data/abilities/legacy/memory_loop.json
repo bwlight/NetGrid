@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "memory_loop",
+  "name": "Memory Loop",
+  "element": "echo",
+  "type": "attack",
+  "power": 4,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "enemy",
+  "status_inflict": "resonance_chain",
+  "status_chance": 1.0,
+  "description": "Traps the target in a recursive memory echo, dealing damage each turn."
+}

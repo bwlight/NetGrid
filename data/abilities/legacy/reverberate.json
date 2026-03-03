@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "reverberate",
+  "name": "Reverberate",
+  "element": "echo",
+  "type": "attack",
+  "power": 14,
+  "cost": 0,
+  "accuracy": 0.95,
+  "cooldown": 1,
+  "target": "enemy",
+  "multi_hit": {
+    "min": 2,
+    "max": 2
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A resonance strike that hits the target and then echoes a weaker after‑shock."
+}

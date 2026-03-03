@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StatusEffect",
+  "type": "object",
+
+  "required": [
+    "id",
+    "category",
+    "duration",
+    "stacking",
+    "element"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the status effect."
+    },
+
+    "category": {
+      "type": "string",
+      "enum": [
+        "dot",
+        "hot",
+        "buff",
+        "debuff",
+        "control",
+        "special"
+      ],
+      "description": "Determines how the engine processes the effect."
+    },
+
+    "duration": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of turns the effect lasts."
+    },
+
+    "stacking": {
+      "type": "string",
+      "enum": [
+        "none",
+        "additive",
+        "unique"
+      ],
+      "description": "How the effect behaves when reapplied."
+    },
+
+    "element": {
+      "type": "string",
+      "description": "Elemental identity of the status effect."
+    },
+
+    "magnitude": {
+      "type": "number",
+      "description": "Optional numeric value used for DOT/HOT or scaling effects."
+    },
+
+    "stat_modifiers": {
+      "type": "object",
+      "description": "Optional stat changes applied by the effect.",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+
+    "effect": {
+      "type": "string",
+      "description": "Engine-recognized keyword for special behavior (e.g., cleanse, immobilize, nullify)."
+    }
+  }
+}

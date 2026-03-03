@@ -1,0 +1,11 @@
+{
+  "id": "origin_pulse",
+  "name": "Origin Pulse",
+  "description": "The target is empowered by an origin pulse, increasing their attack, defense, and speed for a short duration. Additionally, the first debuff that would be applied to the target while this effect is active is cleansed instead.",
+  "category": "buff",
+  "duration": 3,
+  "stacking": "none",
+  "element": "primacore",
+  "stat_modifiers": { "atk": 0.10, "def": 0.10, "spd": 0.10 },
+  "effect": "cleanse_one_debuff"
+}

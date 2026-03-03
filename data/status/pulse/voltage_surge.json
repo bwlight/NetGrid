@@ -1,0 +1,10 @@
+{
+  "id": "voltage_surge",
+  "name": "Voltage Surge",
+  "description": "The target is energized by a surge of voltage, increasing their speed for a short duration. Additionally, the first debuff that would be applied to the target while this effect is active is cleansed instead.",
+  "category": "buff",
+  "duration": 2,
+  "stacking": "none",
+  "element": "pulse",
+  "stat_modifiers": { "spd": 0.30 }
+}

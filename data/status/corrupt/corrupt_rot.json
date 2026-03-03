@@ -1,0 +1,11 @@
+{
+  "id": "corrupt_rot",
+  "name": "Corrupt Rot",
+  "description": "The target is infected with a corrupt rot, dealing damage over time and spreading to adjacent targets.",
+  "category": "dot",
+  "duration": 3,
+  "stacking": "additive",
+  "element": "corrupt",
+  "magnitude": 5,
+  "effect": "spread_to_adjacent"
+}

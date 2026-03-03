@@ -1,0 +1,10 @@
+{
+  "id": "restore_loop",
+  "name": "Restore Loop",
+  "description": "The target is caught in a loop of restoring and losing health, making them vulnerable to attacks.",
+  "category": "special",
+  "duration": 3,
+  "stacking": "none",
+  "element": "archive",
+  "effect": "20_percent_cleanse_end_turn"
+}

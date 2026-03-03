@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "pathfinder_pulse",
+  "name": "Pathfinder Pulse",
+  "element": "cloud",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 2,
+  "target": "enemy",
+  "stat_modifiers": {
+    "spd": 0.05
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A directional pulse that maps nearby terrain and boosts the user's speed as it moves."
+}

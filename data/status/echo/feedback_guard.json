@@ -1,0 +1,10 @@
+{
+  "id": "feedback_guard",
+  "name": "Feedback Guard",
+  "description": "The target is protected by a feedback guard, increasing their resistance to damage and debuffs for a short duration.",
+  "category": "buff",
+  "duration": 3,
+  "stacking": "none",
+  "element": "echo",
+  "stat_modifiers": { "res": 0.15 }
+}

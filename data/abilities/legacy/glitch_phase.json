@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "glitch_phase",
+  "name": "Glitch Phase",
+  "element": "corrupt",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "self",
+  "stat_modifiers": {
+    "spd": 0.10
+  },
+  "status_inflict": "probability_veil",
+  "status_chance": 1.0,
+  "description": "The user flickers between corrupted frames, increasing evasion and slipping through attacks."
+}

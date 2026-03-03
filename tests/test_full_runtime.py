@@ -1,63 +1,108 @@
-import json
-from src.netgrid.core.models.cyberkin.cyberkin_loader import CyberkinLoader
+# tests/test_full_runtime.py
+
+import random
+
 from src.netgrid.core.systems.battle.ability_loader import AbilityLoader
-from src.netgrid.core.loaders.ai_behavior_loader import AIBehaviorLoader
-from src.netgrid.core.systems.battle.battle_manager import BattleManager
+from src.netgrid.core.systems.battle.ability_manager import AbilityManager
+from src.netgrid.core.loaders.status_loader import StatusLoader
+from src.netgrid.core.systems.battle.status_engine import StatusEngine
+from src.netgrid.core.models.cyberkin.cyberkin_loader import CyberkinLoader
 from src.netgrid.core.systems.battle.battle_entity import BattleEntity
+from src.netgrid.core.systems.battle.battle_manager import BattleManager
+from src.netgrid.core.systems.battle.turn_manager import TurnManager
 from src.netgrid.core.systems.battle.ai_controller import AIController
+from src.netgrid.core.systems.battle.ability_resolver import AbilityResolver
+from src.netgrid.core.systems.battle.cooldown_manager import CooldownManager
+
+
+def dev_log(msg: str):
+    print(msg)
+
 
 def test_full_runtime():
-    # Load Cyberkin JSON
-    with open("data/cyberkin/EMBERBIT.json", "r") as f:
-        raw_data = json.load(f)
+    rng = random.Random(42)
 
-    # Loaders
-    cyberkin_loader = CyberkinLoader("schemas/cyberkin.schema.json")
-    ability_loader = AbilityLoader("schemas/ability.schema.json")
-    ai_loader = AIBehaviorLoader("schemas/ai_behavior.schema.json")
-
-    # Load Cyberkin object
-    cyberkin = cyberkin_loader.apply(raw_data)
-
+    # ---------------------------------------------------------
     # Load abilities
-    ability_loader.apply(cyberkin)
+    # ---------------------------------------------------------
+    ability_manager = AbilityManager()
+    ability_loader = AbilityLoader("data/abilities/")
+    loaded_abilities = ability_loader.load_all()
 
-    # Load AI behavior
-    ai_loader.apply(raw_data, cyberkin)
+    # AbilityManager stores dicts, not Ability objects
+    ability_manager.register_many([a.to_dict() for a in loaded_abilities])
 
-    # Wrap Cyberkin into a BattleEntity
-    entity = BattleEntity(cyberkin)
+    # ---------------------------------------------------------
+    # Load statuses
+    # ---------------------------------------------------------
+    status_loader = StatusLoader("data/status/")
+    status_library = status_loader.load_all()
+    status_engine = StatusEngine(status_library)
 
-    # Create a dummy opponent
-    dummy_data = {
-        "id": "DUMMY",
-        "name": "Dummy",
-        "stats": {"hp": 100, "attack": 1, "defense": 1, "speed": 1},
-        "abilities": [],
-        "evolution": None,
-        "personality": "neutral"
-    }
-    dummy = cyberkin_loader.apply(dummy_data)
-    dummy_entity = BattleEntity(dummy)
+    # ---------------------------------------------------------
+    # Load Cyberkin
+    # ---------------------------------------------------------
+    cyberkin_loader = CyberkinLoader("data/cyberkin/", ability_manager)
+    cyberkin_library = cyberkin_loader.load_all()
 
-    # Create battle manager
-    battle = BattleManager([entity], [dummy_entity])
+    ck_list = list(cyberkin_library.values())
+    assert len(ck_list) >= 2, "Need at least two Cyberkin for runtime test."
 
-    # AI Controller
-    ai = AIController()
+    ck1 = ck_list[0]
+    ck2 = ck_list[1]
 
-    # Simulate one turn
-    chosen_ability, target = ai.choose_action(entity, battle)
+    # ---------------------------------------------------------
+    # Create BattleEntities
+    # ---------------------------------------------------------
+    e1 = BattleEntity(ck1)
+    e2 = BattleEntity(ck2)
+    entities = [e1, e2]
 
-    print("\n=== Integration Test Output ===")
-    print("Chosen Ability:", chosen_ability)
-    print("Target:", target.cyberkin.id if target else None)
-    print("Active AI Phase:", entity.cyberkin.active_ai_phase)
-    print("AI Warnings:", entity.cyberkin.ai_warnings)
+    # ---------------------------------------------------------
+    # Create AI + Managers
+    # ---------------------------------------------------------
+    ai = AIController(rng=rng, dev_log=dev_log)
+    cooldown_manager = CooldownManager()
 
-    # Assertions
-    assert chosen_ability is not None
-    assert target is not None
-    assert isinstance(entity.cyberkin.ai, dict)
-    assert entity.cyberkin.active_ai_phase is None or isinstance(entity.cyberkin.active_ai_phase, str)
-    assert isinstance(entity.cyberkin.ai_warnings, list)
+    battle_manager = BattleManager(
+        status_engine=status_engine,
+        cooldown_manager=cooldown_manager,
+        ai_controller=ai,
+        rng=rng,
+        dev_log=dev_log,
+    )
+
+    ability_resolver = AbilityResolver(
+        battle_manager=battle_manager,
+        status_engine=status_engine,
+        cooldown_manager=cooldown_manager,
+        rng=rng,
+        dev_log=dev_log,
+    )
+
+    turn_manager = TurnManager(
+        battle_manager=battle_manager,
+        status_engine=status_engine,
+        cooldown_manager=cooldown_manager,
+        ability_resolver=ability_resolver,
+        rng=rng,
+        dev_log=dev_log,
+    )
+
+    # ---------------------------------------------------------
+    # Run battle loop
+    # ---------------------------------------------------------
+    turn = 1
+    max_turns = 50  # safety guard
+
+    while turn <= max_turns:
+        dev_log(f"\n===== TURN {turn} =====")
+        turn_manager.run_full_turn(entities)
+
+        if battle_manager.is_battle_over(entities):
+            dev_log("Battle finished successfully.")
+            return
+
+        turn += 1
+
+    assert False, "Battle did not end within 50 turns."

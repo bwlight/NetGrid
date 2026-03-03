@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "purge_wave",
+  "name": "Purge Wave",
+  "element": "void",
+  "type": "attack",
+  "power": 6,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "enemy",
+  "status_inflict": "void_purge",
+  "status_chance": 1.0,
+  "description": "Unleashes a cleansing void pulse that erases corrupted code and continues purging the target over time."
+}

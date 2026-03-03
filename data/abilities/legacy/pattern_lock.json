@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "pattern_lock",
+  "name": "Pattern Lock",
+  "element": "core",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 2,
+  "target": "enemy",
+  "status_inflict": "system_lock",
+  "status_chance": 1.0,
+  "description": "Locks the target into a repeating behavioral pattern, restricting their next action."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mutation_spike",
+  "name": "Mutation Spike", 
+  "description": "The target experiences a sudden spike in mutation, causing random stat increases and decreases for a short duration.",
+  "category": "special",
+  "duration": 2,
+  "stacking": "none",
+  "element": "corrupt",
+  "effect": "random_stat_up_down"
+}

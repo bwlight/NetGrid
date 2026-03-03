@@ -1,0 +1,132 @@
+{
+  "soft_step": {
+    "id": "soft_step",
+    "name": "Soft Step",
+    "element": "dream",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed"],
+    "effects": ["boost_evasion"],
+    "description": "Slip lightly across softened reality, increasing evasion through dreamlike movement."
+  },
+
+  "flicker_dream": {
+    "id": "flicker_dream",
+    "name": "Flicker Dream",
+    "element": "dream",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack", "intelligence"],
+    "effects": ["unstable_damage"],
+    "description": "Strike with a flickering dream-image that may hit harder than expected—or miss entirely."
+  },
+
+  "mirage_fold": {
+    "id": "mirage_fold",
+    "name": "Mirage Fold",
+    "element": "dream",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["reduce_accuracy"],
+    "description": "Fold perception around the target, distorting their sense of position and lowering accuracy."
+  },
+
+  "lucid_bloom": {
+    "id": "lucid_bloom",
+    "name": "Lucid Bloom",
+    "element": "dream",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["boost_intelligence", "reveal_modifiers"],
+    "description": "Bloom with sudden clarity, heightening awareness and revealing hidden battle modifiers."
+  },
+
+  "probability_drift": {
+    "id": "probability_drift",
+    "name": "Probability Drift",
+    "element": "dream",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["boost_crit_chance", "reduce_incoming_crit"],
+    "description": "Shift the flow of possibility, increasing your critical chance while softening incoming crits."
+  },
+
+  "phase_mirage": {
+    "id": "phase_mirage",
+    "name": "Phase Mirage",
+    "element": "dream",
+    "category": "family",
+    "type": "defense",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["speed", "intelligence"],
+    "effects": ["reduce_incoming_damage"],
+    "description": "Adopt a semi-illusory form that causes attacks to pass through with reduced impact."
+  },
+
+  "dream_spiral": {
+    "id": "dream_spiral",
+    "name": "Dream Spiral",
+    "element": "dream",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack", "intelligence"],
+    "effects": ["chance_confuse"],
+    "description": "Strike in a spiraling dream-pattern that may leave the target disoriented."
+  },
+
+  "echo_of_possibility": {
+    "id": "echo_of_possibility",
+    "name": "Echo of Possibility",
+    "element": "dream",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["intelligence"],
+    "effects": ["delayed_hit"],
+    "description": "Manifest an alternate-outcome echo that triggers a delayed strike from another possibility."
+  },
+
+  "reverie_break": {
+    "id": "reverie_break",
+    "name": "Reverie Break",
+    "element": "dream",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["remove_buff", "disrupt_next_action"],
+    "description": "Snap the target out of their current state, removing a buff and destabilizing their next move."
+  },
+
+  "special": {
+    "id": "dream_special",
+    "name": "SPECIAL",
+    "element": "dream",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Dream technique reserved for future awakening."
+  }
+}

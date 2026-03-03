@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/ability.schema.json",
+  "id": "stability_surge",
+  "name": "Stability Surge",
+  "element": "core",
+  "type": "support",
+  "power": null,
+  "cost": 0,
+  "accuracy": 1.0,
+  "cooldown": 3,
+  "target": "self",
+  "stat_modifiers": {
+    "res": 0.15,
+    "int": 0.06
+  },
+  "status_inflict": null,
+  "status_chance": null,
+  "description": "A surge of Prime energy that stabilizes internal processes and sharpens predictive logic."
+}

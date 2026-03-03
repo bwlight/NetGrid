@@ -1,0 +1,132 @@
+{
+  "rot_pulse": {
+    "id": "rot_pulse",
+    "name": "Rot Pulse",
+    "element": "corrupt",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["attack"],
+    "effects": ["apply_minor_corruption"],
+    "description": "Emit a decaying pulse that erodes the target’s structure and applies minor corruption."
+  },
+
+  "glitch_lash": {
+    "id": "glitch_lash",
+    "name": "Glitch Lash",
+    "element": "corrupt",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.20,
+    "stats": ["attack"],
+    "effects": ["unstable_damage"],
+    "description": "Strike with a chaotic glitch lash that fluctuates wildly in power."
+  },
+
+  "viral_thread": {
+    "id": "viral_thread",
+    "name": "Viral Thread",
+    "element": "corrupt",
+    "category": "family",
+    "type": "attack",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["attack", "intelligence"],
+    "effects": ["increase_corruption"],
+    "description": "Weave a viral thread into the target’s data, increasing their corruption level."
+  },
+
+  "mutation_spike": {
+    "id": "mutation_spike",
+    "name": "Mutation Spike",
+    "element": "corrupt",
+    "category": "family",
+    "type": "support",
+    "scaling": "tiered",
+    "scaling_factor": 1.00,
+    "stats": ["intelligence"],
+    "effects": ["random_stat_boost", "random_stat_drop"],
+    "description": "Trigger an unstable mutation that boosts one stat while weakening another."
+  },
+
+  "decay_bloom": {
+    "id": "decay_bloom",
+    "name": "Decay Bloom",
+    "element": "corrupt",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.05,
+    "stats": ["intelligence"],
+    "effects": ["apply_decay_dot"],
+    "description": "Unleash a spreading bloom of decay that inflicts damage over time."
+  },
+
+  "corrupt_surge": {
+    "id": "corrupt_surge",
+    "name": "Corrupt Surge",
+    "element": "corrupt",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.25,
+    "stats": ["attack", "intelligence"],
+    "effects": ["corruption_scaling_damage"],
+    "description": "Channel a surge of corrupted energy that grows stronger with the target’s corruption level."
+  },
+
+  "instability_break": {
+    "id": "instability_break",
+    "name": "Instability Break",
+    "element": "corrupt",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.10,
+    "stats": ["intelligence"],
+    "effects": ["disrupt_next_action"],
+    "description": "Release a glitch-phase burst that destabilizes the target’s next move."
+  },
+
+  "overrun_wave": {
+    "id": "overrun_wave",
+    "name": "Overrun Wave",
+    "element": "corrupt",
+    "category": "family",
+    "type": "attack",
+    "scaling": "exponential",
+    "scaling_factor": 1.20,
+    "stats": ["attack", "intelligence"],
+    "effects": ["spread_corruption"],
+    "description": "Send out a viral wave that spreads corruption across all enemies."
+  },
+
+  "data_rot": {
+    "id": "data_rot",
+    "name": "Data Rot",
+    "element": "corrupt",
+    "category": "family",
+    "type": "control",
+    "scaling": "tiered",
+    "scaling_factor": 1.15,
+    "stats": ["intelligence"],
+    "effects": ["reduce_defense", "apply_erosion"],
+    "description": "Inflict deep data rot that weakens the target’s defenses and causes sustained erosion damage."
+  },
+
+  "special": {
+    "id": "corrupt_special",
+    "name": "SPECIAL",
+    "element": "corrupt",
+    "category": "family",
+    "type": "special",
+    "locked": true,
+    "scaling": "exponential",
+    "scaling_factor": 1.00,
+    "stats": [],
+    "effects": [],
+    "description": "A hidden Corrupt technique reserved for future awakening."
+  }
+}

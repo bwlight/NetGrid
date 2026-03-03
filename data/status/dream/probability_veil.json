@@ -1,0 +1,10 @@
+{
+  "id": "probability_veil",
+  "name": "Probability Veil",
+  "description": "The target is shrouded in a veil of probability, increasing their evasion, critical hit chance, and speed for a short duration.",
+  "category": "buff",
+  "duration": 3,
+  "stacking": "none",
+  "element": "dream",
+  "effect": "random_eva_crit_spd_up"
+}

@@ -1,102 +1,66 @@
-#Version 2.0 - 3/2/26
+# ability.py V4
+
+from typing import Optional, Dict, Any
+
+
 class Ability:
-    def __init__(
-        self,
-        id: str,
-        name: str,
-        type: str,
-        element: str = None,
-        power: int = 0,
-        cost: int = 0,
-        cooldown: int = 0,
-        accuracy: float = 1.0,
-        target: str = "single",
-        effects: dict = None,
-        status_effects: list = None,
-        description: str = ""
-    ):
-        self.id = id
-        self.name = name
-        self.type = type  # attack | support | passive
-        self.element = element
-        self.power = power
-        self.cost = cost
-        self.cooldown = cooldown
-        self.accuracy = accuracy
-        self.target = target
-        self.effects = effects or {}
-        self.status_effects = status_effects or []
-        self.description = description
+    """
+    Immutable runtime wrapper for an ability loaded from JSON.
+    This class provides:
+    - clean attribute access
+    - schema-aligned fields
+    - safe defaults
+    - helper methods for engine logic
+    """
 
-        # Auto-generated tags for AI scoring
-        self.tags = self._generate_tags()
+    def __init__(self, data: Dict[str, Any]):
+        # Raw JSON data (kept immutable)
+        self._data = data
 
-    # ---------------------------------------------------------
-    # Tag generation based on schema fields
-    # ---------------------------------------------------------
-    def _generate_tags(self):
-        tags = set()
+        # Required fields
+        self.id: str = data["id"]
+        self.name: str = data["name"]
+        self.type: str = data["type"]              # "attack" or "support"
+        self.element: str = data["element"]        # "fire", "pulse", "void", etc.
+        self.accuracy: float = data.get("accuracy", 1.0)
+        self.cooldown: int = data.get("cooldown", 0)
 
-        # Type-based tags
-        if self.type == "attack":
-            tags.add("attack")
-        elif self.type == "support":
-            tags.add("support")
-        elif self.type == "passive":
-            tags.add("passive")
+        # Optional fields
+        self.power: Optional[int] = data.get("power")  # None for support abilities
+        self.target: str = data.get("target", "enemy") # "enemy", "ally", "self", "area"
 
-        # Power-based tags
-        if self.power > 0:
-            tags.add("damage")
-        if self.power >= 50:
-            tags.add("high_damage")
-        if self.power >= 80:
-            tags.add("finisher")
+        # Multi-hit structure: { "min": int, "max": int }
+        self.multi_hit: Optional[Dict[str, int]] = data.get("multi_hit")
 
-        # Effects-based tags
-        if "stat_modifiers" in self.effects:
-            mods = self.effects["stat_modifiers"]
-            # Buffs vs debuffs
-            for stat, value in mods.items():
-                if value > 0:
-                    tags.add("buff")
-                elif value < 0:
-                    tags.add("debuff")
+        # Stat modifiers: { "atk": +0.2, "def": -0.1, ... }
+        self.stat_modifiers: Optional[Dict[str, float]] = data.get("stat_modifiers")
 
-        if "heal_percent" in self.effects or "heal_flat" in self.effects:
-            tags.add("heal")
+        # Status application
+        self.status_inflict: Optional[str] = data.get("status_inflict")
+        self.status_chance: Optional[float] = data.get("status_chance")
 
-        if "status_inflict" in self.effects:
-            tags.add("status")
-            # Control tags
-            status = self.effects["status_inflict"]
-            if status in ("stun", "root", "sleep", "freeze"):
-                tags.add("control")
+        # Optional tags for AI or synergy
+        self.tags = data.get("tags", [])
 
-        # Multi-hit
-        if "multi_hit" in self.effects and self.effects["multi_hit"] > 1:
-            tags.add("multi_hit")
+    # -------------------------------------------------------------------------
+    # Accessors
+    # -------------------------------------------------------------------------
 
-        return list(tags)
+    def to_dict(self) -> Dict[str, Any]:
+        """Returns the raw JSON dictionary."""
+        return self._data
 
-    # ---------------------------------------------------------
-    # Convenience helpers for AI logic
-    # ---------------------------------------------------------
-    @property
-    def is_attack(self):
-        return self.type == "attack"
+    def is_attack(self) -> bool:
+        return self.type == "attack" and self.power is not None
 
-    @property
-    def is_support(self):
-        return self.type == "support"
+    def is_support(self) -> bool:
+        return self.type == "support" or self.power is None
 
-    @property
-    def is_passive(self):
-        return self.type == "passive"
+    def has_multi_hit(self) -> bool:
+        return self.multi_hit is not None
+
+    def has_status(self) -> bool:
+        return self.status_inflict is not None
 
     def __repr__(self):
         return f"<Ability {self.id}: {self.name}>"
-    
-    @property
-    def is_multi_target(self):
-        return self.target in ("multi_enemy", "multi_ally", "multi_all")
