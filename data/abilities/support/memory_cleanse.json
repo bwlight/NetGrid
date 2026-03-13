@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.support.memory_cleanse",
+    "name": "Memory Cleanse",
+    "element": "archive",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 3,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": { "status": "cleanse", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "cleanse"],
+    "animation": "memory_cleanse",
+    "description": "Purges corrupted or unstable data from the user's memory."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.pulse_tap",
+    "name": "Pulse Tap",
+    "element": "core",
+    "category": "digital",
+    "power": 35,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["digital"],
+    "animation": "pulse_tap",
+    "description": "A small burst of digital energy delivered as a tap."
+  }
+}

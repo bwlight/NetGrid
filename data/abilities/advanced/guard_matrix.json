@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.guard_matrix",
+    "name": "Guard Matrix",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": 1, "stability": 1 },
+    "synergy_tags": ["buff"],
+    "animation": "guard_matrix",
+    "description": "A structured defensive matrix reinforces the user's systems."
+  }
+}

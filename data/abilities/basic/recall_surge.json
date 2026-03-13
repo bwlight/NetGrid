@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.advanced.recall_surge",
+    "name": "Recall Surge",
+    "element": "archive",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 30 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "digital"],
+    "animation": "recall_surge",
+    "description": "A surge of memory energy that may confuse the target."
+  }
+}

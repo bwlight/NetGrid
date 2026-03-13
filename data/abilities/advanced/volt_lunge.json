@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.advanced.volt_lunge",
+    "name": "Volt Lunge",
+    "element": "pulse",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "quick"],
+    "animation": "volt_lunge",
+    "description": "The user lunges forward in a flash of electric light."
+  }
+}

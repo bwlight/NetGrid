@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.advanced.bramble_crush",
+    "name": "Bramble Crush",
+    "element": "root",
+    "category": "physical",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["root", "heavy"],
+    "animation": "bramble_crush",
+    "description": "Massive bramble vines slam down, slowing the target."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.signature.monolith_recall",
+    "name": "Monolith Recall",
+    "element": "archive",
+    "category": "digital",
+    "power": 100,
+    "accuracy": 90,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "finisher"],
+    "animation": "monolith_recall",
+    "description": "A massive surge of ancient memory energy."
+  }
+}

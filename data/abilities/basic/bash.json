@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.bash",
+    "name": "Bash",
+    "element": "core",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 95,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["heavy", "physical"],
+    "animation": "bash_basic",
+    "description": "A heavier strike that trades accuracy for impact."
+  }
+}

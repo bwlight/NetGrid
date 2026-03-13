@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.advanced.entangle_spike",
+    "name": "Entangle Spike",
+    "element": "root",
+    "category": "physical",
+    "power": 50,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "bind", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "status"],
+    "animation": "entangle_spike",
+    "description": "A piercing strike followed by creeping roots that bind the foe."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.advanced.thorn_barrage",
+    "name": "Thorn Barrage",
+    "element": "root",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 95,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "bleed", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "multi_hit"],
+    "animation": "thorn_barrage",
+    "description": "A rapid volley of hardened thorns tears into the target."
+  }
+}

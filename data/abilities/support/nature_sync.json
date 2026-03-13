@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.support.nature_sync",
+    "name": "Nature Sync",
+    "element": "root",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1, "stability": 1 },
+    "synergy_tags": ["root", "buff"],
+    "animation": "nature_sync",
+    "description": "The user harmonizes with natural data, boosting strength and stability."
+  }
+}

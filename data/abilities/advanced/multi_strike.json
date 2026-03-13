@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.multi_strike",
+    "name": "Multi Strike",
+    "element": "core",
+    "category": "physical",
+    "power": 25,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["multi_hit"],
+    "animation": "multi_strike",
+    "description": "A rapid sequence of blows delivered with precision."
+  }
+}

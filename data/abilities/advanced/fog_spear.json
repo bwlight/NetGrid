@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.advanced.fog_spear",
+    "name": "Fog Spear",
+    "element": "cloud",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["cloud", "digital"],
+    "animation": "fog_spear",
+    "description": "Condensed mist forms a piercing spear that slows the target."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.advanced.viral_spike",
+    "name": "Viral Spike",
+    "element": "corrupt",
+    "category": "physical",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["corrupt", "physical"],
+    "animation": "viral_spike",
+    "description": "A piercing strike that injects corruptive residue."
+  }
+}

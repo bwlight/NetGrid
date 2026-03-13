@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.basic.bark_bash",
+    "name": "Bark Bash",
+    "element": "root",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 95,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "heavy"],
+    "animation": "bark_bash",
+    "description": "A heavy slam using thick bark plating."
+  }
+}

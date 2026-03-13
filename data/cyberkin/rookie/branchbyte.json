@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "branchbyte",
+    "name": "Branchbyte",
+    "family": "Root",
+    "sector": "Root",
+    "stage": "Rookie",
+    "role": ["Support", "Tank"],
+    "personality": ["Steady", "Protective"],
+    "element": "root",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 1.5,
+      "archive": 1.0,
+      "cloud": 1.5,
+      "firewall": 1.0,
+      "dream": 1.0,
+      "echo": 1.0,
+      "void": 0.5,
+      "corrupt": 0.5
+    },
+
+    "status_resistances": {
+      "sleep": 0,
+      "burn": -1,
+      "corrupt": 0,
+      "fear": 0,
+      "confuse": 0,
+      "slow": -1,
+      "shock": 0,
+      "poison": 1,
+      "silence": 0,
+      "bind": -1
+    },
+
+    "stats": {
+      "hp": 60,
+      "attack": 32,
+      "defense": 40,
+      "speed": 22,
+      "stability": 34
+    },
+
+    "abilities": {
+      "basic": ["Leaf Nudge", "Root Snap"],
+      "advanced": ["Bark Shield"],
+      "signature": "Branch Guard"
+    },
+
+    "evolution": {
+      "next": "treenode",
+      "method": "level",
+      "requirements": { "level": 20 }
+    },
+
+    "tags": ["rookie", "root"]
+  }
+}

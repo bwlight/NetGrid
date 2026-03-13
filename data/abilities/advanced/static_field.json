@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.advanced.static_field",
+    "name": "Static Field",
+    "element": "pulse",
+    "category": "digital",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "shock", "chance": 15 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "aoe"],
+    "animation": "static_field",
+    "description": "A crackling field of static energy jolts all nearby foes."
+  }
+}

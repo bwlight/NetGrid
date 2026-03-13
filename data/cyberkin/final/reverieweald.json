@@ -1,0 +1,61 @@
+{
+  "cyberkin": {
+    "id": "reverieweald",
+    "name": "Reverieweald",
+    "title": "The Dreaming Canopy",
+    "family": "Dream",
+    "sector": "Dream",
+    "stage": "Final",
+    "role": ["Controller", "Support"],
+    "personality": ["Ethereal", "Serene"],
+    "element": "dream",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 0.5,
+      "archive": 0.5,
+      "cloud": 1.0,
+      "firewall": 1.5,
+      "dream": 1.0,
+      "echo": 1.5,
+      "void": 1.0,
+      "corrupt": 1.0
+    },
+
+    "status_resistances": {
+      "sleep": -2,
+      "burn": 0,
+      "corrupt": 1,
+      "fear": -1,
+      "confuse": -2,
+      "slow": 0,
+      "shock": 0,
+      "poison": 0,
+      "silence": 2,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 120,
+      "attack": 60,
+      "defense": 70,
+      "speed": 62,
+      "stability": 142
+    },
+
+    "abilities": {
+      "basic": ["Mind Wink", "Lull Veil"],
+      "advanced": ["Dream Spiral", "Soft Bind"],
+      "signature": "Reverie Bloom"
+    },
+
+    "evolution": {
+      "next": null,
+      "method": null,
+      "requirements": null
+    },
+
+    "tags": ["final", "dream", "canopy", "reverie"]
+  }
+}

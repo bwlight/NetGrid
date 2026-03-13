@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.advanced.sonic_lunge",
+    "name": "Sonic Lunge",
+    "element": "echo",
+    "category": "physical",
+    "power": 50,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["echo", "quick"],
+    "animation": "sonic_lunge",
+    "description": "The user lunges forward with a sharp sonic crack."
+  }
+}

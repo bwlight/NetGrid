@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.advanced.system_shock",
+    "name": "System Shock",
+    "element": "core",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "stun", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["core", "status"],
+    "animation": "system_shock",
+    "description": "A direct overload to the target's core systems."
+  }
+}

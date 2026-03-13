@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.echo_cut",
+    "name": "Echo Cut",
+    "element": "echo",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["echo", "hybrid"],
+    "animation": "echo_cut",
+    "description": "A slicing strike that leaves a lingering resonant drag."
+  }
+}

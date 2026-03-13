@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.advanced.echo_wave",
+    "name": "Echo Wave",
+    "element": "echo",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "confuse", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["echo", "aoe"],
+    "animation": "echo_wave",
+    "description": "A sweeping wave of resonant energy disorients all foes."
+  }
+}

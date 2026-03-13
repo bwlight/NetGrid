@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.flick",
+    "name": "Flick",
+    "element": "core",
+    "category": "physical",
+    "power": 30,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["quick", "interrupt"],
+    "animation": "flick_basic",
+    "description": "A lightning-fast poke used to interrupt enemy actions."
+  }
+}

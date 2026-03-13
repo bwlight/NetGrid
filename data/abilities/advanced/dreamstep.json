@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.advanced.dreamstep",
+    "name": "Dreamstep",
+    "element": "dream",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 3,
+    "priority": 2,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["dream", "buff"],
+    "animation": "dreamstep",
+    "description": "The user slips partially into a dream state, moving faster."
+  }
+}

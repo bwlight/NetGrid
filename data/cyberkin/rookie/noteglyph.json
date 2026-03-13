@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "noteglyph",
+    "name": "Noteglyph",
+    "family": "Archive",
+    "sector": "Archive",
+    "stage": "Rookie",
+    "role": ["Support", "Controller"],
+    "personality": ["Analytical", "Quiet"],
+    "element": "archive",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 0.5,
+      "archive": 1.0,
+      "cloud": 1.0,
+      "firewall": 1.0,
+      "dream": 0.5,
+      "echo": 1.0,
+      "void": 1.5,
+      "corrupt": 1.5
+    },
+
+    "status_resistances": {
+      "sleep": -1,
+      "burn": 0,
+      "corrupt": 1,
+      "fear": 0,
+      "confuse": -1,
+      "slow": 0,
+      "shock": 0,
+      "poison": 0,
+      "silence": -1,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 48,
+      "attack": 26,
+      "defense": 34,
+      "speed": 22,
+      "stability": 42
+    },
+
+    "abilities": {
+      "basic": ["Memory Ping", "Glyph Tap"],
+      "advanced": ["Mind Anchor"],
+      "signature": "Recall Burst"
+    },
+
+    "evolution": {
+      "next": "mnemoshard",
+      "method": "level",
+      "requirements": { "level": 20 }
+    },
+
+    "tags": ["rookie", "archive"]
+  }
+}

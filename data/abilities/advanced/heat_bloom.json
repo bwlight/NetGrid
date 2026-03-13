@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.advanced.heat_bloom",
+    "name": "Heat Bloom",
+    "element": "firewall",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "burn", "chance": 15 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "aoe"],
+    "animation": "heat_bloom",
+    "description": "A radiant bloom of firewall heat washes over all foes."
+  }
+}

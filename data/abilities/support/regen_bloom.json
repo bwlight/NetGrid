@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.support.regen_bloom",
+    "name": "Regen Bloom",
+    "element": "root",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": { "status": "regen", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "healing"],
+    "animation": "regen_bloom",
+    "description": "A gentle bloom of living data restores vitality over time."
+  }
+}

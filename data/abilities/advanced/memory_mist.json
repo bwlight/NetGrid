@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive_cloud.advanced.memory_mist",
+    "name": "Memory Mist",
+    "element": "archive",
+    "category": "digital",
+    "power": 55,
+    "accuracy": 95,
+    "cost": 4,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "confuse", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "cloud"],
+    "animation": "memory_mist",
+    "description": "A drifting haze of fragmented memories disorients all foes."
+  }
+}

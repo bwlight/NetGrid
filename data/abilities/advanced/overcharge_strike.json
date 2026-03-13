@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.advanced.overcharge_strike",
+    "name": "Overcharge Strike",
+    "element": "pulse",
+    "category": "physical",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["pulse", "heavy"],
+    "animation": "overcharge_strike",
+    "description": "A devastating blow fueled by unstable voltage that drains the user."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.advanced.verdant_crush",
+    "name": "Verdant Crush",
+    "element": "root",
+    "category": "physical",
+    "power": 65,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "heavy"],
+    "animation": "verdant_crush",
+    "description": "A crushing blow empowered by dense natural growth."
+  }
+}

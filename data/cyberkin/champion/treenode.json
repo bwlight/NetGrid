@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "treenode",
+    "name": "Treenode",
+    "family": "Root",
+    "sector": "Root",
+    "stage": "Champion",
+    "role": ["Tank", "Support"],
+    "personality": ["Steadfast", "Protective"],
+    "element": "root",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 1.5,
+      "archive": 1.0,
+      "cloud": 1.5,
+      "firewall": 1.0,
+      "dream": 1.0,
+      "echo": 1.0,
+      "void": 0.5,
+      "corrupt": 0.5
+    },
+
+    "status_resistances": {
+      "sleep": -1,
+      "burn": -1,
+      "corrupt": 0,
+      "fear": 0,
+      "confuse": 0,
+      "slow": -2,
+      "shock": 0,
+      "poison": 1,
+      "silence": 0,
+      "bind": -2
+    },
+
+    "stats": {
+      "hp": 92,
+      "attack": 54,
+      "defense": 78,
+      "speed": 34,
+      "stability": 62
+    },
+
+    "abilities": {
+      "basic": ["Root Snap", "Bark Shield"],
+      "advanced": ["Verdant Wall", "Sap Pulse"],
+      "signature": "Treenode Aegis"
+    },
+
+    "evolution": {
+      "next": "overgrove",
+      "method": "bond",
+      "requirements": { "bond": 60 }
+    },
+
+    "tags": ["champion", "root"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.advanced.mist_lash",
+    "name": "Mist Lash",
+    "element": "cloud",
+    "category": "physical",
+    "power": 50,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "quick"],
+    "animation": "mist_lash",
+    "description": "A swift lash through drifting mist that distorts perception."
+  }
+}

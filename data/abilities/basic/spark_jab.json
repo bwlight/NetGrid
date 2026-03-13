@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.basic.spark_jab",
+    "name": "Spark Jab",
+    "element": "pulse",
+    "category": "physical",
+    "power": 35,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "quick"],
+    "animation": "spark_jab",
+    "description": "A quick jab carrying a small electric pulse."
+  }
+}

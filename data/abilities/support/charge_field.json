@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.support.charge_field",
+    "name": "Charge Field",
+    "element": "pulse",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["pulse", "buff"],
+    "animation": "charge_field",
+    "description": "A kinetic field builds around the user, accelerating movement."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "malwarp",
+    "name": "Malwarp",
+    "family": "Corrupt",
+    "sector": "Corrupt",
+    "stage": "Champion",
+    "role": ["Offense", "Disruptor"],
+    "personality": ["Chaotic", "Erratic"],
+    "element": "corrupt",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.5,
+      "pulse": 1.0,
+      "archive": 0.5,
+      "cloud": 1.0,
+      "firewall": 0.5,
+      "dream": 1.0,
+      "echo": 1.5,
+      "void": 1.0,
+      "corrupt": 1.0
+    },
+
+    "status_resistances": {
+      "sleep": 1,
+      "burn": 1,
+      "corrupt": -2,
+      "fear": 0,
+      "confuse": -2,
+      "slow": 0,
+      "shock": 0,
+      "poison": -1,
+      "silence": 0,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 82,
+      "attack": 88,
+      "defense": 40,
+      "speed": 64,
+      "stability": 34
+    },
+
+    "abilities": {
+      "basic": ["Corrupt Peck", "Glitch Wave"],
+      "advanced": ["Mal Surge", "Warp Spike"],
+      "signature": "Corrupt Spiral"
+    },
+
+    "evolution": {
+      "next": "chaoshive",
+      "method": "bond",
+      "requirements": { "bond": 60 }
+    },
+
+    "tags": ["champion", "corrupt"]
+  }
+}

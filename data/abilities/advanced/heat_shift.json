@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.heat_shift",
+    "name": "Heat Shift",
+    "element": "firewall",
+    "category": "digital",
+    "power": 50,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 15 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "hybrid"],
+    "animation": "heat_shift",
+    "description": "A sudden thermal spike disrupts the target's balance."
+  }
+}

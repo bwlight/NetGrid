@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.mist_blade",
+    "name": "Mist Blade",
+    "element": "cloud",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 10 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "hybrid"],
+    "animation": "mist_blade",
+    "description": "A blade of condensed mist flickers unpredictably as it strikes."
+  }
+}

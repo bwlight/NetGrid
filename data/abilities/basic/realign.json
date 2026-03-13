@@ -1,0 +1,21 @@
+{
+  "ability": {
+    "id": "universal.basic.realign",
+    "name": "Realign",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": {
+      "attack": 1,
+      "defense": 1
+    },
+    "synergy_tags": ["buff"],
+    "animation": "realign",
+    "description": "Realigns internal structures to improve balance."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.advanced.lucid_spike",
+    "name": "Lucid Spike",
+    "element": "dream",
+    "category": "digital",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "status"],
+    "animation": "lucid_spike",
+    "description": "A sharp burst of lucid dreamstuff that induces drowsiness."
+  }
+}

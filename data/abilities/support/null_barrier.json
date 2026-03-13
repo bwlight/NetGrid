@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.support.null_barrier",
+    "name": "Null Barrier",
+    "element": "void",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": { "status": "silence_resist", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "shield"],
+    "animation": "null_barrier",
+    "description": "A barrier of anti‑data nullifies disruptive interference."
+  }
+}

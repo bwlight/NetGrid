@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.echo_ping",
+    "name": "Echo Ping",
+    "element": "core",
+    "category": "disruptor",
+    "power": 25,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["disrupt"],
+    "animation": "echo_ping",
+    "description": "A quick ping that destabilizes the target."
+  }
+}

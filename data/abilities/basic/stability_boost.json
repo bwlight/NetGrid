@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.stability_boost",
+    "name": "Stability Boost",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": 1 },
+    "synergy_tags": ["buff", "stability"],
+    "animation": "stability_boost",
+    "description": "Strengthens the user's internal processes."
+  }
+}

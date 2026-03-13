@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.peck",
+    "name": "Peck",
+    "element": "core",
+    "category": "physical",
+    "power": 30,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["quick", "physical"],
+    "animation": "peck_basic",
+    "description": "A quick jab that often lands before slower moves."
+  }
+}

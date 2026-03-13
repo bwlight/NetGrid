@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.advanced.null_slash",
+    "name": "Null Slash",
+    "element": "void",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "anti_data"],
+    "animation": "null_slash",
+    "description": "A blade of absence cuts through the target, muting their output."
+  }
+}

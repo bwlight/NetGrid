@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "echoraid",
+    "name": "Echoraid",
+    "family": "Echo",
+    "sector": "Echo",
+    "stage": "Champion",
+    "role": ["Disruptor", "Speedster"],
+    "personality": ["Reactive", "Sharp"],
+    "element": "echo",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 1.5,
+      "archive": 1.0,
+      "cloud": 1.0,
+      "firewall": 1.0,
+      "dream": 1.5,
+      "echo": 1.0,
+      "void": 0.5,
+      "corrupt": 0.5
+    },
+
+    "status_resistances": {
+      "sleep": 1,
+      "burn": 0,
+      "corrupt": 0,
+      "fear": 0,
+      "confuse": -1,
+      "slow": -2,
+      "shock": -2,
+      "poison": 0,
+      "silence": 0,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 72,
+      "attack": 78,
+      "defense": 40,
+      "speed": 92,
+      "stability": 44
+    },
+
+    "abilities": {
+      "basic": ["Reverb Peck", "Sound Warp"],
+      "advanced": ["Echo Spiral", "Distortion Pulse"],
+      "signature": "Raid Burst"
+    },
+
+    "evolution": {
+      "next": "resonarch",
+      "method": "bond",
+      "requirements": { "bond": 60 }
+    },
+
+    "tags": ["champion", "echo"]
+  }
+}

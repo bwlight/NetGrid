@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "pyrowall",
+    "name": "Pyrowall",
+    "family": "Firewall",
+    "sector": "Firewall",
+    "stage": "Champion",
+    "role": ["Tank", "Offense"],
+    "personality": ["Bold", "Defiant"],
+    "element": "firewall",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 1.5,
+      "archive": 1.0,
+      "cloud": 0.5,
+      "firewall": 1.0,
+      "dream": 0.5,
+      "echo": 1.0,
+      "void": 1.0,
+      "corrupt": 1.5
+    },
+
+    "status_resistances": {
+      "sleep": 1,
+      "burn": -2,
+      "corrupt": 0,
+      "fear": -1,
+      "confuse": 0,
+      "slow": 0,
+      "shock": 1,
+      "poison": 0,
+      "silence": 0,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 90,
+      "attack": 76,
+      "defense": 58,
+      "speed": 38,
+      "stability": 56
+    },
+
+    "abilities": {
+      "basic": ["Flare Peck", "Firewall Guard"],
+      "advanced": ["Heat Barrier", "Ignition Pulse"],
+      "signature": "Pyro Bulwark"
+    },
+
+    "evolution": {
+      "next": "infernode",
+      "method": "bond",
+      "requirements": { "bond": 60 }
+    },
+
+    "tags": ["champion", "firewall"]
+  }
+}

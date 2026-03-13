@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.memory_lock",
+    "name": "Memory Lock",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 3,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "status"],
+    "animation": "memory_lock",
+    "description": "Locks the target's ability to execute complex actions."
+  }
+}

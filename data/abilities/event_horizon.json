@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.advanced.event_horizon",
+    "name": "Event Horizon",
+    "element": "void",
+    "category": "digital",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "slow", "chance": 25 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "aoe"],
+    "animation": "event_horizon",
+    "description": "A collapsing field of anti‑data drags foes toward stillness."
+  }
+}

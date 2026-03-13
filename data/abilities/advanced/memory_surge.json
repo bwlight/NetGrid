@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.advanced.memory_surge",
+    "name": "Memory Surge",
+    "element": "archive",
+    "category": "digital",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 35 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "status"],
+    "animation": "memory_surge",
+    "description": "A violent surge of ancient data overwhelms the target's mind."
+  }
+}

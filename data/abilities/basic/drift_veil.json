@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.basic.drift_veil",
+    "name": "Drift Veil",
+    "element": "cloud",
+    "category": "digital",
+    "power": 30,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "quick"],
+    "animation": "drift_veil",
+    "description": "A drifting veil of data mist."
+  }
+}

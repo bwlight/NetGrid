@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.support.system_align",
+    "name": "System Align",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1, "defense": 1 },
+    "synergy_tags": ["core", "buff"],
+    "animation": "system_align",
+    "description": "The user's systems align into optimal configuration."
+  }
+}

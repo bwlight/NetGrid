@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.strike",
+    "name": "Strike",
+    "element": "core",
+    "category": "physical",
+    "power": 35,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["universal", "physical"],
+    "animation": "strike_basic",
+    "description": "A simple physical blow used by nearly all Cyberkin."
+  }
+}

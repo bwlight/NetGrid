@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "currend",
+    "name": "Currend",
+    "family": "Pulse",
+    "sector": "Pulse",
+    "stage": "Champion",
+    "role": ["Disruptor", "Speedster"],
+    "personality": ["Hyperactive", "Unpredictable"],
+    "element": "pulse",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 0.5,
+      "pulse": 1.0,
+      "archive": 1.0,
+      "cloud": 1.5,
+      "firewall": 0.5,
+      "dream": 1.5,
+      "echo": 1.0,
+      "void": 1.0,
+      "corrupt": 1.0
+    },
+
+    "status_resistances": {
+      "sleep": 2,
+      "burn": 0,
+      "corrupt": 0,
+      "fear": 0,
+      "confuse": 1,
+      "slow": -2,
+      "shock": -2,
+      "poison": 0,
+      "silence": 0,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 78,
+      "attack": 72,
+      "defense": 40,
+      "speed": 88,
+      "stability": 48
+    },
+
+    "abilities": {
+      "basic": ["Spark Jab", "Pulse Arc"],
+      "advanced": ["Voltage Spiral", "Charge Burst"],
+      "signature": "Currend Overload"
+    },
+
+    "evolution": {
+      "next": "ampflare",
+      "method": "bond",
+      "requirements": { "bond": 60 }
+    },
+
+    "tags": ["champion", "pulse"]
+  }
+}

@@ -1,127 +1,132 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Cyberkin Family Schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cyberkin",
   "type": "object",
   "required": ["cyberkin"],
-
   "properties": {
     "cyberkin": {
       "type": "object",
       "required": [
-        "family_id",
+        "id",
         "name",
+        "family",
         "sector",
-        "type",
-        "evolution_line",
+        "stage",
+        "role",
+        "personality",
+        "element",
+        "element_resistances",
+        "status_resistances",
+        "stats",
         "abilities",
-        "habitat",
-        "evolution_requirements",
-        "quest_hooks"
+        "evolution",
+        "tags"
       ],
-
       "properties": {
-        "family_id": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "family": { "type": "string" },
+        "sector": { "type": "string" },
+        "stage": {
           "type": "string",
-          "description": "Unique lowercase ID for the Cyberkin family."
+          "enum": ["Baby", "Rookie", "Champion", "Final"]
         },
-
-        "name": {
-          "type": "string",
-          "description": "Display name of the Cyberkin family."
+        "role": {
+          "type": "array",
+          "items": { "type": "string" }
         },
-
-        "sector": {
+        "personality": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "element": {
           "type": "string",
           "enum": [
+            "core",
             "root",
             "pulse",
+            "archive",
+            "cloud",
+            "firewall",
+            "dream",
             "echo",
             "void",
-            "fractal",
-            "quantum",
-            "neon",
-            "shadow",
-            "horizon",
-            "core"
-          ],
-          "description": "Sector this Cyberkin belongs to."
+            "corrupt"
+          ]
         },
-
-        "type": {
-          "type": "string",
-          "description": "Primary and secondary typing."
-        },
-
-        "evolution_line": {
+        "element_resistances": {
           "type": "object",
-          "required": ["baby", "rookie", "champion", "final"],
-
-          "properties": {
-            "baby": { "$ref": "#/$defs/evolutionStage" },
-            "rookie": { "$ref": "#/$defs/evolutionStage" },
-            "champion": { "$ref": "#/$defs/evolutionStage" },
-            "final": { "$ref": "#/$defs/evolutionStage" }
-          }
+          "description": "Element → damage multiplier (0.25, 0.5, 1.0, 1.5, 2.0)",
+          "patternProperties": {
+            "^(core|root|pulse|archive|cloud|firewall|dream|echo|void|corrupt)$": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
         },
-
-        "abilities": {
-          "type": "array",
-          "items": { "type": "string" },
-          "minItems": 1
+        "status_resistances": {
+          "type": "object",
+          "description": "Status → resistance weight (-2 to +2)",
+          "patternProperties": {
+            "^[a-z_]+$": {
+              "type": "integer",
+              "minimum": -2,
+              "maximum": 2
+            }
+          },
+          "additionalProperties": false
         },
-
-        "habitat": {
-          "type": "string",
-          "description": "Where this Cyberkin is found."
-        },
-
-        "evolution_requirements": {
-          "type": "array",
-          "items": { "type": "string" },
-          "minItems": 1
-        },
-
-        "quest_hooks": {
-          "type": "array",
-          "items": { "type": "string" },
-          "minItems": 1
-        }
-      }
-    }
-  },
-
-  "$defs": {
-    "evolutionStage": {
-      "type": "object",
-      "required": ["name", "stats"],
-
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Name of this evolution stage."
-        },
-
         "stats": {
           "type": "object",
-          "required": [
-            "hp",
-            "attack",
-            "defense",
-            "speed",
-            "intelligence",
-            "stability"
-          ],
-
+          "required": ["hp", "attack", "defense", "speed", "stability"],
           "properties": {
-            "hp": { "type": "number", "minimum": 0 },
-            "attack": { "type": "number", "minimum": 0 },
-            "defense": { "type": "number", "minimum": 0 },
-            "speed": { "type": "number", "minimum": 0 },
-            "intelligence": { "type": "number", "minimum": 0 },
-            "stability": { "type": "number", "minimum": 0 }
-          }
+            "hp": { "type": "integer", "minimum": 1 },
+            "attack": { "type": "integer", "minimum": 0 },
+            "defense": { "type": "integer", "minimum": 0 },
+            "speed": { "type": "integer", "minimum": 0 },
+            "stability": { "type": "integer", "minimum": 0 }
+          },
+          "additionalProperties": false
+        },
+        "abilities": {
+          "type": "object",
+          "required": ["basic", "advanced", "signature"],
+          "properties": {
+            "basic": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "advanced": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "signature": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "evolution": {
+          "type": "object",
+          "properties": {
+            "next": { "type": ["string", "null"] },
+            "method": { "type": ["string", "null"] },
+            "requirements": {
+              "type": ["object", "null"],
+              "properties": {
+                "level": { "type": "integer" },
+                "bond": { "type": "integer" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
         }
-      }
+      },
+      "additionalProperties": false
     }
-  }
+  },
+  "additionalProperties": false
 }

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.speed_shift",
+    "name": "Speed Shift",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["buff", "speed"],
+    "animation": "speed_shift",
+    "description": "A quick recalibration that boosts speed."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.advanced.slumber_wave",
+    "name": "Slumber Wave",
+    "element": "dream",
+    "category": "digital",
+    "power": 50,
+    "accuracy": 95,
+    "cost": 4,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "sleep", "chance": 15 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "aoe"],
+    "animation": "slumber_wave",
+    "description": "A gentle wave of dreamstuff washes over foes, lulling them."
+  }
+}

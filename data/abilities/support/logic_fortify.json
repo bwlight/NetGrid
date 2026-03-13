@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.support.logic_fortify",
+    "name": "Logic Fortify",
+    "element": "archive",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": 2 },
+    "synergy_tags": ["archive", "buff"],
+    "animation": "logic_fortify",
+    "description": "Reinforces internal logic structures, improving stability."
+  }
+}

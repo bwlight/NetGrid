@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.support.vine_aegis",
+    "name": "Vine Aegis",
+    "element": "root",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": { "status": "temp_hp", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "shield"],
+    "animation": "vine_aegis",
+    "description": "Thick vines weave into a protective shell, granting temporary HP."
+  }
+}

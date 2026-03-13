@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.break_guard",
+    "name": "Break Guard",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["debuff"],
+    "animation": "break_guard",
+    "description": "Weakens the target's defenses."
+  }
+}

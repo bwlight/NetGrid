@@ -1,0 +1,61 @@
+{
+  "cyberkin": {
+    "id": "archivalith",
+    "name": "Archivalith",
+    "title": "The Memory Monolith",
+    "family": "Archive",
+    "sector": "Archive",
+    "stage": "Final",
+    "role": ["Controller", "Support"],
+    "personality": ["Analytical", "Ancient"],
+    "element": "archive",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 0.5,
+      "archive": 1.0,
+      "cloud": 1.0,
+      "firewall": 1.0,
+      "dream": 0.5,
+      "echo": 1.0,
+      "void": 1.5,
+      "corrupt": 1.5
+    },
+
+    "status_resistances": {
+      "sleep": -2,
+      "burn": 0,
+      "corrupt": 2,
+      "fear": 0,
+      "confuse": -2,
+      "slow": 0,
+      "shock": 0,
+      "poison": 0,
+      "silence": -1,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 110,
+      "attack": 72,
+      "defense": 98,
+      "speed": 48,
+      "stability": 140
+    },
+
+    "abilities": {
+      "basic": ["Mind Anchor", "Glyph Tap"],
+      "advanced": ["Recall Surge", "Data Seal"],
+      "signature": "Monolith Recall"
+    },
+
+    "evolution": {
+      "next": null,
+      "method": null,
+      "requirements": null
+    },
+
+    "tags": ["final", "archive", "memory", "monolith"]
+  }
+}

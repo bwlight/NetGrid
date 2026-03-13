@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.unsteady_jolt",
+    "name": "Unsteady Jolt",
+    "element": "core",
+    "category": "disruptor",
+    "power": 20,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["disrupt", "status"],
+    "animation": "unsteady_jolt",
+    "description": "A small jolt that may confuse the target."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.advanced.arc_burst",
+    "name": "Arc Burst",
+    "element": "pulse",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 25 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "digital"],
+    "animation": "arc_burst",
+    "description": "A volatile arc of electricity erupts from the user."
+  }
+}

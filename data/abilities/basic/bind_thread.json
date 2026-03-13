@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.bind_thread",
+    "name": "Bind Thread",
+    "element": "root",
+    "category": "physical",
+    "power": 25,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "bind", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "status"],
+    "animation": "bind_thread",
+    "description": "A thin root-thread lashes out, possibly binding the target."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.advanced.reverb_spike",
+    "name": "Reverb Spike",
+    "element": "echo",
+    "category": "digital",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["echo", "debuff"],
+    "animation": "reverb_spike",
+    "description": "A resonant spike destabilizes the target's internal rhythm."
+  }
+}

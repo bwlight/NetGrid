@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.double_tap",
+    "name": "Double Tap",
+    "element": "core",
+    "category": "physical",
+    "power": 20,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["multi_hit", "physical"],
+    "animation": "double_tap",
+    "description": "A quick two-hit strike delivered in rapid succession."
+  }
+}

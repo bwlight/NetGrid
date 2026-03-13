@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.advanced.blackout_pulse",
+    "name": "Blackout Pulse",
+    "element": "void",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "blind", "chance": 35 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "status"],
+    "animation": "blackout_pulse",
+    "description": "A pulse of voidlight erases sensory data from the target."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.phase_strike",
+    "name": "Phase Strike",
+    "element": "core",
+    "category": "physical",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "blind", "chance": 10 },
+    "stat_modifiers": null,
+    "synergy_tags": ["hybrid"],
+    "animation": "phase_strike",
+    "description": "The user flickers between states, striking from an unexpected angle."
+  }
+}

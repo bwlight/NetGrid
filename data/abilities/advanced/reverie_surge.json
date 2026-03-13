@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.advanced.reverie_surge",
+    "name": "Reverie Surge",
+    "element": "dream",
+    "category": "digital",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 35 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "digital"],
+    "animation": "reverie_surge",
+    "description": "A powerful surge of dream energy warps the target's senses."
+  }
+}

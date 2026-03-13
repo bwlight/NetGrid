@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.advanced.overheat_burst",
+    "name": "Overheat Burst",
+    "element": "firewall",
+    "category": "digital",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["firewall", "heavy"],
+    "animation": "overheat_burst",
+    "description": "A volatile burst of heat overloads the target's systems."
+  }
+}

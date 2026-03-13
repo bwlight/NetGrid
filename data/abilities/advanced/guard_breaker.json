@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.guard_breaker",
+    "name": "Guard Breaker",
+    "element": "core",
+    "category": "physical",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["universal", "debuff"],
+    "animation": "guard_breaker",
+    "description": "A precise strike that shatters defensive posture."
+  }
+}

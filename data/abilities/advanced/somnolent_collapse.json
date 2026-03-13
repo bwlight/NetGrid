@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream_void.advanced.somnolent_collapse",
+    "name": "Somnolent Collapse",
+    "element": "dream",
+    "category": "digital",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 25 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["dream", "void"],
+    "animation": "somnolent_collapse",
+    "description": "A void‑laced dream implosion that drags the target into stillness."
+  }
+}

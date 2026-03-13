@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.support.flare_boost",
+    "name": "Flare Boost",
+    "element": "firewall",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1 },
+    "synergy_tags": ["firewall", "buff"],
+    "animation": "flare_boost",
+    "description": "A flare of internal heat amplifies offensive output."
+  }
+}

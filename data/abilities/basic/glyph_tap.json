@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.basic.glyph_tap",
+    "name": "Glyph Tap",
+    "element": "archive",
+    "category": "digital",
+    "power": 35,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "digital"],
+    "animation": "glyph_tap",
+    "description": "A tap of encoded glyph energy."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.data_barrier",
+    "name": "Data Barrier",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": 2 },
+    "synergy_tags": ["buff"],
+    "animation": "data_barrier",
+    "description": "A reinforced barrier of structured data protects the user."
+  }
+}

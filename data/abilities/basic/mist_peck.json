@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.basic.mist_peck",
+    "name": "Mist Peck",
+    "element": "cloud",
+    "category": "physical",
+    "power": 30,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 10 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "quick"],
+    "animation": "mist_peck",
+    "description": "A swift jab through drifting mist that may confuse the target."
+  }
+}

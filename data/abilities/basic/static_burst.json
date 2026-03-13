@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.static_burst",
+    "name": "Static Burst",
+    "element": "pulse",
+    "category": "digital",
+    "power": 35,
+    "accuracy": 95,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 15 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "digital"],
+    "animation": "static_burst",
+    "description": "A burst of static energy that may shock the target."
+  }
+}

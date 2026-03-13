@@ -1,0 +1,60 @@
+{
+  "cyberkin": {
+    "id": "bugmorph",
+    "name": "Bugmorph",
+    "family": "Corrupt",
+    "sector": "Corrupt",
+    "stage": "Rookie",
+    "role": ["Disruptor", "Offense"],
+    "personality": ["Chaotic", "Erratic"],
+    "element": "corrupt",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.5,
+      "pulse": 1.0,
+      "archive": 0.5,
+      "cloud": 1.0,
+      "firewall": 0.5,
+      "dream": 1.0,
+      "echo": 1.5,
+      "void": 1.0,
+      "corrupt": 1.0
+    },
+
+    "status_resistances": {
+      "sleep": 1,
+      "burn": 1,
+      "corrupt": -2,
+      "fear": 0,
+      "confuse": -1,
+      "slow": 0,
+      "shock": 0,
+      "poison": -1,
+      "silence": 0,
+      "bind": 0
+    },
+
+    "stats": {
+      "hp": 52,
+      "attack": 40,
+      "defense": 22,
+      "speed": 32,
+      "stability": 20
+    },
+
+    "abilities": {
+      "basic": ["Bug Bite", "Corrupt Peck"],
+      "advanced": ["Glitch Wave"],
+      "signature": "Morph Spike"
+    },
+
+    "evolution": {
+      "next": "malwarp",
+      "method": "level",
+      "requirements": { "level": 20 }
+    },
+
+    "tags": ["rookie", "corrupt"]
+  }
+}

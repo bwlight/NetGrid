@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.advanced.data_decay",
+    "name": "Data Decay",
+    "element": "corrupt",
+    "category": "digital",
+    "power": 70,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["corrupt", "debuff"],
+    "animation": "data_decay",
+    "description": "A corrosive wave of decay erodes the target's stability."
+  }
+}

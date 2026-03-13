@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.support.clarity_field",
+    "name": "Clarity Field",
+    "element": "dream",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": { "status": "confuse_resist", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "shield"],
+    "animation": "clarity_field",
+    "description": "A serene field of dreamstuff wards off confusion."
+  }
+}

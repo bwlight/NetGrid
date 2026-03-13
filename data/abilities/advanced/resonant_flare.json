@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall_echo.advanced.resonant_flare",
+    "name": "Resonant Flare",
+    "element": "firewall",
+    "category": "digital",
+    "power": 60,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "echo"],
+    "animation": "resonant_flare",
+    "description": "A flare of heat amplified by resonant frequencies."
+  }
+}

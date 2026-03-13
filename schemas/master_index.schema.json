@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MasterIndex",
+  "type": "object",
+  "properties": {
+    "species": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "family", "sector", "stage", "element", "file"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "family": { "type": "string" },
+          "sector": { "type": "string" },
+          "stage": { "type": "string" },
+          "element": {
+            "type": "string",
+            "enum": [
+              "core",
+              "root",
+              "pulse",
+              "archive",
+              "cloud",
+              "firewall",
+              "dream",
+              "echo",
+              "void",
+              "corrupt"
+            ]
+          },
+          "file": { "type": "string" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "category", "file"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "file": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "statuses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "category", "file"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "file": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

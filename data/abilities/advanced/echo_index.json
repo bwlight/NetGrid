@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.advanced.echo_index",
+    "name": "Echo Index",
+    "element": "archive",
+    "category": "digital",
+    "power": 50,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["archive", "debuff"],
+    "animation": "echo_index",
+    "description": "A recursive data ping destabilizes the target's core structure."
+  }
+}

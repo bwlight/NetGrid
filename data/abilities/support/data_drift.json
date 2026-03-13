@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.support.data_drift",
+    "name": "Data Drift",
+    "element": "cloud",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 3,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["cloud", "buff"],
+    "animation": "data_drift",
+    "description": "The user becomes lighter, drifting faster through the field."
+  }
+}

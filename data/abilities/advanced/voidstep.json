@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.voidstep",
+    "name": "Voidstep",
+    "element": "void",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 2,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 2 },
+    "synergy_tags": ["void", "hybrid"],
+    "animation": "voidstep",
+    "description": "The user slips partially out of phase, moving with impossible speed."
+  }
+}

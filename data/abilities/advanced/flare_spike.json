@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.advanced.flare_spike",
+    "name": "Flare Spike",
+    "element": "firewall",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 95,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "physical"],
+    "animation": "flare_spike",
+    "description": "A heated spike strike that may scorch the target."
+  }
+}

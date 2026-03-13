@@ -1,0 +1,61 @@
+{
+  "cyberkin": {
+    "id": "coreprime",
+    "name": "Coreprime",
+    "title": "The System Keystone",
+    "family": "Core",
+    "sector": "Core",
+    "stage": "Final",
+    "role": ["Tank", "Balanced", "Stabilizer"],
+    "personality": ["Calm", "Resolute"],
+    "element": "core",
+
+    "element_resistances": {
+      "core": 1.0,
+      "root": 1.0,
+      "pulse": 1.0,
+      "archive": 1.0,
+      "cloud": 1.0,
+      "firewall": 1.0,
+      "dream": 1.0,
+      "echo": 1.0,
+      "void": 1.0,
+      "corrupt": 1.0
+    },
+
+    "status_resistances": {
+      "sleep": 0,
+      "burn": 0,
+      "corrupt": 1,
+      "fear": 0,
+      "confuse": 0,
+      "slow": 1,
+      "shock": 0,
+      "poison": 0,
+      "silence": 0,
+      "bind": 1
+    },
+
+    "stats": {
+      "hp": 148,
+      "attack": 96,
+      "defense": 112,
+      "speed": 64,
+      "stability": 128
+    },
+
+    "abilities": {
+      "basic": ["Core Pulse", "Bit Bash"],
+      "advanced": ["Prime Guard", "Axis Anchor"],
+      "signature": "Keystone Lock"
+    },
+
+    "evolution": {
+      "next": null,
+      "method": null,
+      "requirements": null
+    },
+
+    "tags": ["final", "core", "keystone", "stabilizer"]
+  }
+}

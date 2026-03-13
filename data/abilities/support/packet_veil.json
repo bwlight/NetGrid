@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.support.packet_veil",
+    "name": "Packet Veil",
+    "element": "cloud",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "evasion": 1 },
+    "synergy_tags": ["cloud", "buff"],
+    "animation": "packet_veil",
+    "description": "A drifting veil of packets obscures the user's position."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.basic.leaf_snap",
+    "name": "Leaf Snap",
+    "element": "root",
+    "category": "physical",
+    "power": 35,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "physical"],
+    "animation": "leaf_snap",
+    "description": "A sharp snap of hardened foliage."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.signature.grove_breaker",
+    "name": "Grove Breaker",
+    "element": "root",
+    "category": "physical",
+    "power": 95,
+    "accuracy": 90,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["root", "finisher"],
+    "animation": "grove_breaker",
+    "description": "A devastating blow that shatters defenses."
+  }
+}

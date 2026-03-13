@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.data_wave",
+    "name": "Data Wave",
+    "element": "core",
+    "category": "digital",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["universal", "aoe"],
+    "animation": "data_wave",
+    "description": "A sweeping wave of raw data washes over all foes."
+  }
+}

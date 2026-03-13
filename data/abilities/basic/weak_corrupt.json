@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.weak_corrupt",
+    "name": "Weak Corrupt",
+    "element": "corrupt",
+    "category": "digital",
+    "power": 30,
+    "accuracy": 90,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 10 },
+    "stat_modifiers": null,
+    "synergy_tags": ["corrupt", "status"],
+    "animation": "weak_corrupt",
+    "description": "A minor corruption pulse that may infect the target."
+  }
+}

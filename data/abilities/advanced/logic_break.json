@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.advanced.logic_break",
+    "name": "Logic Break",
+    "element": "archive",
+    "category": "digital",
+    "power": 55,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["archive", "debuff"],
+    "animation": "logic_break",
+    "description": "A precise disruption that fractures the target's logical pathways."
+  }
+}

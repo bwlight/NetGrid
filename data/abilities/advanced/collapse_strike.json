@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.advanced.collapse_strike",
+    "name": "Collapse Strike",
+    "element": "void",
+    "category": "physical",
+    "power": 65,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["void", "heavy"],
+    "animation": "collapse_strike",
+    "description": "A crushing blow that destabilizes structural integrity."
+  }
+}

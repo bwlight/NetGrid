@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.disrupt",
+    "name": "Disrupt",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["debuff"],
+    "animation": "disrupt_basic",
+    "description": "A jamming pulse that lowers the target's attack."
+  }
+}

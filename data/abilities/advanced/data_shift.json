@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.advanced.data_shift",
+    "name": "Data Shift",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 2 },
+    "synergy_tags": ["buff", "speed"],
+    "animation": "data_shift",
+    "description": "Reorganizes internal data pathways to accelerate movement."
+  }
+}

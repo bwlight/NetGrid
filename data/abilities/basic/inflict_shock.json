@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.basic.inflict_shock",
+    "name": "Inflict Shock",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 85,
+    "cost": 0,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["status"],
+    "animation": "inflict_shock",
+    "description": "A sudden jolt that shocks the target's systems."
+  }
+}
