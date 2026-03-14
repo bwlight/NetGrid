@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.disruptor.binding_roots",
+    "name": "Binding Roots",
+    "element": "root",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": -2 },
+    "synergy_tags": ["root", "control"],
+    "animation": "binding_roots",
+    "description": "Thick roots erupt from below, drastically reducing the target's speed."
+  }
+}

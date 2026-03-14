@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.disruptor.drowsing_wave",
+    "name": "Drowsing Wave",
+    "element": "dream",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "status"],
+    "animation": "drowsing_wave",
+    "description": "A soft dream‑pulse lulls the target toward sleep."
+  }
+}

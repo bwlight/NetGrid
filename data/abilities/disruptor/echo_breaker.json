@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.disruptor.echo_breaker",
+    "name": "Echo Breaker",
+    "element": "echo",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1, "speed": -1 },
+    "synergy_tags": ["echo", "debuff"],
+    "animation": "echo_breaker",
+    "description": "A disruptive resonance collapses the target's rhythm and momentum."
+  }
+}

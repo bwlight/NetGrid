@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.disruptor.heat_suppress",
+    "name": "Heat Suppress",
+    "element": "firewall",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 20 },
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["firewall", "debuff"],
+    "animation": "heat_suppress",
+    "description": "A controlled thermal spike weakens the target's offensive output."
+  }
+}

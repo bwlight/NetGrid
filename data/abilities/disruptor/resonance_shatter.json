@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.disruptor.resonance_shatter",
+    "name": "Resonance Shatter",
+    "element": "echo",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1, "speed": -1, "defense": -1 },
+    "synergy_tags": ["echo", "exotic"],
+    "animation": "resonance_shatter",
+    "description": "A catastrophic resonance collapse shatters the target's rhythm entirely."
+  }
+}

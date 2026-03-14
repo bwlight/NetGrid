@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.support.shared_clarity",
+    "name": "Shared Clarity",
+    "element": "dream",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": { "status": "confuse_resist", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "team_shield"],
+    "animation": "shared_clarity",
+    "description": "A serene wave of dreamstuff clears the minds of the entire team."
+  }
+}

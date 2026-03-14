@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.disruptor.entangle_spores",
+    "name": "Entangle Spores",
+    "element": "root",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "debuff"],
+    "animation": "entangle_spores",
+    "description": "A burst of sticky spores slows the target's movements."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.disruptor.packet_unravel",
+    "name": "Packet Unravel",
+    "element": "cloud",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 40 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["cloud", "exotic"],
+    "animation": "packet_unravel",
+    "description": "Unravels the target's packet structure, corrupting and weakening them."
+  }
+}

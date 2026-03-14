@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.disruptor.mind_fog",
+    "name": "Mind Fog",
+    "element": "dream",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "status"],
+    "animation": "mind_fog",
+    "description": "A haze of dreamstuff clouds the target's thoughts."
+  }
+}

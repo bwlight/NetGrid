@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.disruptor.packet_corrupt",
+    "name": "Packet Corrupt",
+    "element": "cloud",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 30 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "status"],
+    "animation": "packet_corrupt",
+    "description": "A corrupted packet burst infects the target's data stream."
+  }
+}

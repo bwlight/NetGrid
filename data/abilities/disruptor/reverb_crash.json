@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.disruptor.reverb_crash",
+    "name": "Reverb Crash",
+    "element": "echo",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1, "defense": -1 },
+    "synergy_tags": ["echo", "debuff"],
+    "animation": "reverb_crash",
+    "description": "A destabilizing reverb collapses the target's offensive and defensive rhythm."
+  }
+}

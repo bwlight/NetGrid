@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.disruptor.system_crash",
+    "name": "System Crash",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["core", "control"],
+    "animation": "system_crash",
+    "description": "A catastrophic system‑level strike forces the target into severe lag."
+  }
+}

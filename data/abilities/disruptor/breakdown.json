@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.disruptor.breakdown",
+    "name": "Breakdown",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1, "stability": -1 },
+    "synergy_tags": ["debuff"],
+    "animation": "breakdown",
+    "description": "A precise interference pulse breaks down the target's offensive and structural integrity."
+  }
+}

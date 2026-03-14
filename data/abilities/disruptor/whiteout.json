@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.disruptor.whiteout",
+    "name": "Whiteout",
+    "element": "cloud",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "blind", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "field"],
+    "animation": "whiteout",
+    "description": "A blinding storm of mist reduces enemy accuracy drastically."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.support.null_sync",
+    "name": "Null Sync",
+    "element": "void",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": { "status": "silence_resist", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "team_shield"],
+    "animation": "null_sync",
+    "description": "A synchronized field of anti‑data protects the team from silence."
+  }
+}

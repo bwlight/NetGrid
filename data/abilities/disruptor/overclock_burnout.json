@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.disruptor.overclock_burnout",
+    "name": "Overclock Burnout",
+    "element": "pulse",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 85,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 50 },
+    "stat_modifiers": { "speed": -2 },
+    "synergy_tags": ["pulse", "exotic"],
+    "animation": "overclock_burnout",
+    "description": "Forces the target into a dangerous overclock, then burns them out."
+  }
+}

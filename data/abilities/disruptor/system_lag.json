@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.disruptor.system_lag",
+    "name": "System Lag",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["core", "control"],
+    "animation": "system_lag",
+    "description": "A system‑level interference pulse forces the target into lag."
+  }
+}

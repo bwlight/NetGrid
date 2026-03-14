@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.disruptor.glitch_swarm",
+    "name": "Glitch Swarm",
+    "element": "corrupt",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 7,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "corrupt", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["corrupt", "field"],
+    "animation": "glitch_swarm",
+    "description": "A swarm of unstable code fragments infects all enemies."
+  }
+}

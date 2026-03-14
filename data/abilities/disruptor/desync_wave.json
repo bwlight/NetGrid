@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.disruptor.desync_wave",
+    "name": "Desync Wave",
+    "element": "pulse",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 9,
+    "priority": -1,
+    "target": "all_enemies",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "field"],
+    "animation": "desync_wave",
+    "description": "A temporal desync wave forces all enemies out of rhythm."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.disruptor.signal_cut",
+    "name": "Signal Cut",
+    "element": "pulse",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "control"],
+    "animation": "signal_cut",
+    "description": "A precise kinetic pulse severs the target's ability to execute abilities."
+  }
+}

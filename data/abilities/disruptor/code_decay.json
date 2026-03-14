@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.disruptor.code_decay",
+    "name": "Code Decay",
+    "element": "corrupt",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 40 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["corrupt", "status"],
+    "animation": "code_decay",
+    "description": "A decaying code injection weakens the target's structural integrity."
+  }
+}

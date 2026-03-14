@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.disruptor.void_collapse",
+    "name": "Void Collapse",
+    "element": "void",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 60 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["void", "status"],
+    "animation": "void_collapse",
+    "description": "A crushing void pulse collapses the target's ability to act."
+  }
+}

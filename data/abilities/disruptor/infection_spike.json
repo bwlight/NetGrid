@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.disruptor.infection_spike",
+    "name": "Infection Spike",
+    "element": "corrupt",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 4,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["corrupt", "status"],
+    "animation": "infection_spike",
+    "description": "A sharp burst of corrupted code infects the target's systems."
+  }
+}

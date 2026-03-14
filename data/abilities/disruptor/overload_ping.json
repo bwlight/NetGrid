@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.disruptor.overload_ping",
+    "name": "Overload Ping",
+    "element": "pulse",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["pulse", "debuff"],
+    "animation": "overload_ping",
+    "description": "A sharp kinetic ping overloads the target's offensive circuits."
+  }
+}

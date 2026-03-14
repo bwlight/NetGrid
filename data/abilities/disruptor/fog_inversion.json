@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.disruptor.fog_inversion",
+    "name": "Fog Inversion",
+    "element": "cloud",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "blind", "chance": 60 },
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["cloud", "field"],
+    "animation": "fog_inversion",
+    "description": "A dense inversion fog blinds and slows all enemies."
+  }
+}

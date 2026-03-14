@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.disruptor.jitter_shock",
+    "name": "Jitter Shock",
+    "element": "pulse",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 5,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "status"],
+    "animation": "jitter_shock",
+    "description": "A chaotic burst of electricity causes system jitter and instability."
+  }
+}

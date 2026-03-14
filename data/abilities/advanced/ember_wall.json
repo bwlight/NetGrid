@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.support.ember_wall",
+    "name": "Ember Wall",
+    "element": "firewall",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": { "status": "burn_resist", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "team_shield"],
+    "animation": "ember_wall",
+    "description": "A radiant wall of embers shields the team from burn effects."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.support.system_wave",
+    "name": "System Wave",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": 1 },
+    "synergy_tags": ["core", "team_buff"],
+    "animation": "system_wave",
+    "description": "A stabilizing system‑wide pulse reinforces the team's defenses."
+  }
+}

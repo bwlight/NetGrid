@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.support.verdant_focus",
+    "name": "Verdant Focus",
+    "element": "root",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1, "defense": 1 },
+    "synergy_tags": ["root", "buff"],
+    "animation": "verdant_focus",
+    "description": "The user channels steady natural energy, boosting strength and resilience."
+  }
+}

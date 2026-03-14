@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.disruptor.scorch_break",
+    "name": "Scorch Break",
+    "element": "firewall",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 30 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["firewall", "debuff"],
+    "animation": "scorch_break",
+    "description": "A searing thermal burst weakens the target's guard and risks burning them."
+  }
+}

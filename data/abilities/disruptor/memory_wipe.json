@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.memory_wipe",
+    "name": "Memory Wipe",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "cooldown_increase", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "control"],
+    "animation": "memory_wipe",
+    "description": "A devastating logic strike forces the target's abilities into extended cooldown."
+  }
+}

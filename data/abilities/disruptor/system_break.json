@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.disruptor.system_break",
+    "name": "System Break",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["core", "debuff"],
+    "animation": "system_break",
+    "description": "A precise system‑level strike destabilizes the target's core functions."
+  }
+}

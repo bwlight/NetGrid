@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.logic_invert",
+    "name": "Logic Invert",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 50 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["archive", "status"],
+    "animation": "logic_invert",
+    "description": "The user's logic pulse inverts the target's reasoning pathways."
+  }
+}

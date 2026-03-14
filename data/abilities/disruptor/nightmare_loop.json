@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.disruptor.nightmare_loop",
+    "name": "Nightmare Loop",
+    "element": "dream",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 85,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 40 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["dream", "exotic"],
+    "animation": "nightmare_loop",
+    "description": "Traps the target in a looping nightmare, weakening their stability."
+  }
+}

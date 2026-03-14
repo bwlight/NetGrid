@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.disruptor.break_guard",
+    "name": "Break Guard",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["debuff"],
+    "animation": "break_guard",
+    "description": "A precise interference pulse weakens the target's guard."
+  }
+}

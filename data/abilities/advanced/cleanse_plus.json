@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.support.cleanse_plus",
+    "name": "Cleanse+",
+    "element": "archive",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 2,
+    "target": "self",
+    "status_inflict": { "status": "cleanse", "chance": 100 },
+    "stat_modifiers": { "stability": 1 },
+    "synergy_tags": ["archive", "cleanse"],
+    "animation": "cleanse_plus",
+    "description": "A rapid purge of corrupted data followed by a stabilizing pulse."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.memory_frag",
+    "name": "Memory Frag",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["archive", "debuff"],
+    "animation": "memory_frag",
+    "description": "A targeted memory fracture destabilizes the target's core logic."
+  }
+}

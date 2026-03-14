@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.support.fog_screen",
+    "name": "Fog Screen",
+    "element": "cloud",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": null,
+    "stat_modifiers": { "evasion": 1 },
+    "synergy_tags": ["cloud", "team_buff"],
+    "animation": "fog_screen",
+    "description": "A drifting fog obscures the team, increasing evasion."
+  }
+}

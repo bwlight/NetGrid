@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.data_corruptor",
+    "name": "Data Corruptor",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 30 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["archive", "status"],
+    "animation": "data_corruptor",
+    "description": "A targeted injection of corrupted data destabilizes the target."
+  }
+}

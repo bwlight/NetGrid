@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.disruptor.null_silence",
+    "name": "Null Silence",
+    "element": "void",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "status"],
+    "animation": "null_silence",
+    "description": "A void pulse erases the target's ability to execute techniques."
+  }
+}

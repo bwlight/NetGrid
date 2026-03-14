@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.disruptor.overheat_jam",
+    "name": "Overheat Jam",
+    "element": "pulse",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 30 },
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["pulse", "status"],
+    "animation": "overheat_jam",
+    "description": "A volatile surge overheats the target's systems, slowing them."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.memory_inversion",
+    "name": "Memory Inversion",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 85,
+    "cost": 9,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "cooldown_increase", "chance": 100 },
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["archive", "control"],
+    "animation": "memory_inversion",
+    "description": "Reverses memory pathways, forcing ability cooldowns to spike."
+  }
+}

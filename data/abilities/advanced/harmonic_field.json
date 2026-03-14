@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.support.harmonic_field",
+    "name": "Harmonic Field",
+    "element": "echo",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1 },
+    "synergy_tags": ["echo", "team_buff"],
+    "animation": "harmonic_field",
+    "description": "A resonant field amplifies the team's offensive rhythm."
+  }
+}

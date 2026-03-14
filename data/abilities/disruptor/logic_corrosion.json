@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.logic_corrosion",
+    "name": "Logic Corrosion",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 40 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["archive", "exotic"],
+    "animation": "logic_corrosion",
+    "description": "A corrosive logic pulse eats away at the target's reasoning."
+  }
+}

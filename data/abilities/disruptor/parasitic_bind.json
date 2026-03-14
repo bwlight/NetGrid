@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.disruptor.parasitic_bind",
+    "name": "Parasitic Bind",
+    "element": "root",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": { "attack": -1 },
+    "synergy_tags": ["root", "exotic"],
+    "animation": "parasitic_bind",
+    "description": "Vine‑like data latches onto the target, draining strength and movement."
+  }
+}

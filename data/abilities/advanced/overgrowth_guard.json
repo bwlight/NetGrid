@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.support.overgrowth_guard",
+    "name": "Overgrowth Guard",
+    "element": "root",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "team",
+    "status_inflict": { "status": "temp_hp", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "team_buff"],
+    "animation": "overgrowth_guard",
+    "description": "A surge of living data wraps the team in protective overgrowth."
+  }
+}

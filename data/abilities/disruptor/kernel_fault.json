@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.disruptor.kernel_fault",
+    "name": "Kernel Fault",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": { "stability": -3 },
+    "synergy_tags": ["core", "exotic"],
+    "animation": "kernel_fault",
+    "description": "A catastrophic kernel‑level fault cripples the target's stability."
+  }
+}

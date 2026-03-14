@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.support.feedback_guard",
+    "name": "Feedback Guard",
+    "element": "pulse",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 0,
+    "target": "self",
+    "status_inflict": { "status": "damage_reduction", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "shield"],
+    "animation": "feedback_guard",
+    "description": "A reactive voltage field reduces incoming damage and disperses impact."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.support.packet_refresh",
+    "name": "Packet Refresh",
+    "element": "cloud",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 4,
+    "priority": 1,
+    "target": "self",
+    "status_inflict": { "status": "regen", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "healing"],
+    "animation": "packet_refresh",
+    "description": "A soft mist of refreshed packets restores vitality over time."
+  }
+}

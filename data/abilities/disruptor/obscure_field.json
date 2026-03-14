@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.disruptor.obscure_field",
+    "name": "Obscure Field",
+    "element": "cloud",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "blind", "chance": 30 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "field"],
+    "animation": "obscure_field",
+    "description": "A drifting fog reduces enemy accuracy across the battlefield."
+  }
+}

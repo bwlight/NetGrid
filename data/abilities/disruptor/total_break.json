@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.disruptor.total_break",
+    "name": "Total Break",
+    "element": "core",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1, "defense": -1, "speed": -1 },
+    "synergy_tags": ["exotic"],
+    "animation": "total_break",
+    "description": "A devastating interference pulse breaks down all of the target's systems at once."
+  }
+}

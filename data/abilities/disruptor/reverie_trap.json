@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.disruptor.reverie_trap",
+    "name": "Reverie Trap",
+    "element": "dream",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 30 },
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["dream", "status"],
+    "animation": "reverie_trap",
+    "description": "A drifting dream‑pulse slows the target and may lull them into sleep."
+  }
+}

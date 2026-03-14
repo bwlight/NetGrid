@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.disruptor.dissonance_burst",
+    "name": "Dissonance Burst",
+    "element": "echo",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["echo", "debuff"],
+    "animation": "dissonance_burst",
+    "description": "A jarring burst of dissonant sound disrupts the target's guard."
+  }
+}

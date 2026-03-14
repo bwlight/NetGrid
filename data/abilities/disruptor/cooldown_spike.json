@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.disruptor.cooldown_spike",
+    "name": "Cooldown Spike",
+    "element": "archive",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "cooldown_increase", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["archive", "control"],
+    "animation": "cooldown_spike",
+    "description": "A logic spike forces the target's abilities into extended cooldown."
+  }
+}

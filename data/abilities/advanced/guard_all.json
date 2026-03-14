@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.support.guard_all",
+    "name": "Guard All",
+    "element": "core",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 5,
+    "priority": 1,
+    "target": "team",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": 1 },
+    "synergy_tags": ["team_buff"],
+    "animation": "guard_all",
+    "description": "A unified defensive stance strengthens the entire team."
+  }
+}

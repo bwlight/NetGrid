@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.disruptor.wilt_touch",
+    "name": "Wilt Touch",
+    "element": "root",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 95,
+    "cost": 5,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": -1, "defense": -1 },
+    "synergy_tags": ["root", "debuff"],
+    "animation": "wilt_touch",
+    "description": "A draining touch causes the target's strength and guard to wither."
+  }
+}

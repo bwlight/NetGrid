@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.disruptor.thermal_lock",
+    "name": "Thermal Lock",
+    "element": "firewall",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 25 },
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["firewall", "debuff"],
+    "animation": "thermal_lock",
+    "description": "A sudden thermal spike slows the target and risks burning them."
+  }
+}

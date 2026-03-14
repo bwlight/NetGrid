@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.disruptor.anti_reality_pulse",
+    "name": "Anti‑Reality Pulse",
+    "element": "void",
+    "category": "disruptor",
+    "power": 0,
+    "accuracy": 90,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 70 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["void", "exotic"],
+    "animation": "anti_reality_pulse",
+    "description": "A pulse of anti‑reality destabilizes and silences the target."
+  }
+}
