@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.signature.black_veil_surge",
+    "name": "Black Veil Surge",
+    "element": "void",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 95,
+    "cost": 9,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "signature"],
+    "animation": "black_veil_surge",
+    "description": "A surge of void energy cloaked in darkness that may silence the target."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PassiveAbility",
+  "type": "object",
+  "properties": {
+    "ability": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "element",
+        "category",
+        "triggers",
+        "effects",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_\\.]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "element": {
+          "type": "string",
+          "description": "Element identity for filtering and synergy.",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["passive"]
+        },
+        "triggers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "always_active",
+              "on_battle_start",
+              "on_turn_start",
+              "on_turn_end",
+              "on_hit",
+              "on_damage_taken",
+              "on_ko"
+            ]
+          }
+        },
+        "effects": {
+          "type": "object",
+          "description": "Key-value pairs defining passive mechanical effects.",
+          "additionalProperties": {
+            "type": [
+              "integer",
+              "number",
+              "boolean",
+              "string",
+              "array"
+            ]
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "power": {
+          "type": "number",
+          "description": "Optional numeric strength value for passives."
+        }
+      }
+    }
+  },
+  "required": ["ability"]
+}

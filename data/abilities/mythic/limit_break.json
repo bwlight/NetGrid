@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.limit_break",
+    "name": "Limit Break",
+    "element": "core",
+    "category": "mythic",
+    "power": 110,
+    "accuracy": 100,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 2 },
+    "synergy_tags": ["mythic"],
+    "animation": "limit_break",
+    "description": "The user pushes beyond all limits, unleashing a devastating empowered strike."
+  }
+}

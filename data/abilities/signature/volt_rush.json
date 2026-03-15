@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.signature.volt_rush",
+    "name": "Volt Rush",
+    "element": "pulse",
+    "category": "signature",
+    "power": 85,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 20 },
+    "stat_modifiers": null,
+    "synergy_tags": ["pulse", "signature"],
+    "animation": "volt_rush",
+    "description": "A lightning‑fast strike that hits before most opponents can react."
+  }
+}

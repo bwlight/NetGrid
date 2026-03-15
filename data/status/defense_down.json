@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "defense_down",
+    "name": "Defense Down",
+    "type": "debuff",
+    "duration_type": "turns",
+    "duration": 3,
+    "stackable": true,
+    "effects": { "defense": -1 },
+    "description": "Reduces defensive structure."
+  }
+}

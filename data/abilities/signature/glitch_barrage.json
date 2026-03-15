@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.signature.glitch_barrage",
+    "name": "Glitch Barrage",
+    "element": "corrupt",
+    "category": "signature",
+    "power": 90,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 60 },
+    "stat_modifiers": null,
+    "synergy_tags": ["corrupt", "signature"],
+    "animation": "glitch_barrage",
+    "description": "A rapid barrage of corrupted code that overwhelms the target's systems."
+  }
+}

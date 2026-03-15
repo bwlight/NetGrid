@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "confuse",
+    "name": "Confuse",
+    "type": "control",
+    "duration_type": "turns",
+    "duration": 2,
+    "stackable": false,
+    "effects": { "misfire_chance": 30 },
+    "description": "Unit may misfire and damage itself."
+  }
+}

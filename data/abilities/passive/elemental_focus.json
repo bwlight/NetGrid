@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.elemental_focus",
+    "name": "Elemental Focus",
+    "element": "core",
+    "category": "passive",
+    "triggers": ["always_active"],
+    "effects": { "elemental_damage_up": 10 },
+    "description": "Increases damage dealt by this unit’s own element."
+  }
+}

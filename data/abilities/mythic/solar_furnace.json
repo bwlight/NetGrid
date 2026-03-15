@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.mythic.solar_furnace",
+    "name": "Solar Furnace",
+    "element": "firewall",
+    "category": "mythic",
+    "power": 165,
+    "accuracy": 90,
+    "cost": 15,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "burn", "chance": 70 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "mythic", "exotic"],
+    "animation": "solar_furnace",
+    "description": "A miniature sun ignites above the battlefield, incinerating everything caught in its radiance."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "sleep",
+    "name": "Sleep",
+    "type": "control",
+    "duration_type": "turns",
+    "duration": 2,
+    "stackable": false,
+    "effects": { "skip_turn": true },
+    "description": "Unit becomes inactive until awakened."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.break_reality",
+    "name": "Break Reality",
+    "element": "core",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 90,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["mythic"],
+    "animation": "break_reality",
+    "description": "A fracture in the world itself tears through the target's defenses."
+  }
+}

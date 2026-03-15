@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.mythic.omniscient_purge",
+    "name": "Omniscient Purge",
+    "element": "archive",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 100,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -3 },
+    "synergy_tags": ["archive", "mythic"],
+    "animation": "omniscient_purge",
+    "description": "A perfect strike formed from total knowledge erases the target’s structural logic."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ability": {
+    "id": "cloud.mythic.white_mirage",
+    "name": "White Mirage",
+    "element": "cloud",
+    "category": "mythic",
+    "power": 120,
+    "accuracy": 100,
+    "cost": 11,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": {
+      "status": ["blind", "confuse"],
+      "chance": 40
+    },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "mythic"],
+    "animation": "white_mirage",
+    "description": "A battlefield-wide phasing event blinds and disorients all enemies."
+  }
+}

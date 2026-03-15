@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "slow",
+    "name": "Slow",
+    "type": "debuff",
+    "duration_type": "turns",
+    "duration": 2,
+    "stackable": false,
+    "effects": { "speed": -1 },
+    "description": "Reduces movement and processing speed."
+  }
+}

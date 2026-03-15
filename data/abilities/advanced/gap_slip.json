@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "void.advanced.gap_slip",
+    "name": "Gap Slip",
+    "element": "void",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "gap_slip",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

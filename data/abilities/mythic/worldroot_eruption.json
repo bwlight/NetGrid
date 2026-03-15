@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.mythic.worldroot_eruption",
+    "name": "Worldroot Eruption",
+    "element": "root",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 95,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "slow", "chance": 50 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["root", "mythic"],
+    "animation": "worldroot_eruption",
+    "description": "The battlefield ruptures as colossal roots surge upward, crushing enemies and slowing their movements."
+  }
+}

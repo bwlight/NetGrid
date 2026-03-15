@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "buff_lock",
+    "name": "Buff Lock",
+    "type": "special",
+    "duration_type": "turns",
+    "duration": 3,
+    "stackable": false,
+    "effects": { "block_buffs": true },
+    "description": "Prevents all units from receiving new buffs."
+  }
+}

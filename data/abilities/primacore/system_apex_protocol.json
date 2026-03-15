@@ -1,0 +1,17 @@
+{
+  "ability": {
+    "id": "primacore.system_apex_protocol",
+    "name": "System Apex Protocol",
+    "element": "core",
+    "category": "ultimate",
+    "power": 200,
+    "accuracy": 100,
+    "cost": 18,
+    "priority": 0,
+    "target": "all_enemies",
+    "stat_modifiers": { "stability": -2 },
+    "extra_effect": "cleanse_self",
+    "animation": "system_apex_protocol",
+    "description": "Primacore executes a top-level system command, unleashing a perfect wave of force and purging all corruption from itself."
+  }
+}

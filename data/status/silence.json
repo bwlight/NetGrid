@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "silence",
+    "name": "Silence",
+    "type": "control",
+    "duration_type": "turns",
+    "duration": 2,
+    "stackable": false,
+    "effects": { "block_abilities": ["mythic", "ultimate"] },
+    "description": "Prevents use of high-tier abilities."
+  }
+}

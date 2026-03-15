@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.advanced.axis_shift",
+    "name": "Axis Shift",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "axis_shift",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

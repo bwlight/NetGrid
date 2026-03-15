@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.final_resonance",
+    "name": "Final Resonance",
+    "element": "core",
+    "category": "signature",
+    "power": 115,
+    "accuracy": 95,
+    "cost": 9,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "final_resonance",
+    "description": "A devastating resonance blast that echoes across the entire battlefield."
+  }
+}

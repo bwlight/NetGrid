@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "blind",
+    "name": "Blind",
+    "type": "debuff",
+    "duration_type": "turns",
+    "duration": 2,
+    "stackable": false,
+    "effects": { "accuracy": -20 },
+    "description": "Reduces accuracy due to impaired vision."
+  }
+}

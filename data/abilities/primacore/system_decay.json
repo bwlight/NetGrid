@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "primacore_corrupt.system_decay",
+    "name": "System Decay",
+    "element": "corrupt",
+    "category": "passive",
+    "triggers" : ["always_active"],
+    "effects" : { "stability": -1 },
+    "description": "Primacore's corrupted core emits destabilizing entropy. All enemies suffer -1 Stability at the start of battle."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.mythic.hellstar_collapse",
+    "name": "Hellstar Collapse",
+    "element": "firewall",
+    "category": "mythic",
+    "power": 160,
+    "accuracy": 90,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "burn", "chance": 60 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "mythic"],
+    "animation": "hellstar_collapse",
+    "description": "A superheated star-core implodes, unleashing a catastrophic thermal shockwave."
+  }
+}

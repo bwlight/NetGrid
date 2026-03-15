@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "archive.signature.mnemo_fracture",
+    "name": "Mnemo Fracture",
+    "element": "archive",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "mnemo_fracture",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

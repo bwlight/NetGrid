@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "shock",
+    "name": "Shock",
+    "type": "control",
+    "duration_type": "turns",
+    "duration": 2,
+    "stackable": false,
+    "effects": { "speed": -1 },
+    "description": "Electrical disruption slows system response."
+  }
+}

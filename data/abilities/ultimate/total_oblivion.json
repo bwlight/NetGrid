@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.ultimate.total_oblivion",
+    "name": "Total Oblivion",
+    "element": "void",
+    "category": "ultimate",
+    "power": 210,
+    "accuracy": 90,
+    "cost": 20,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 100 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["void", "ultimate"],
+    "animation": "total_oblivion",
+    "description": "A spear of pure nothingness erases the target from the battlefield’s logic."
+  }
+}

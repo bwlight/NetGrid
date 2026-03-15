@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.focus_edge",
+    "name": "Focus Edge",
+    "element": "core",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["signature"],
+    "animation": "focus_edge",
+    "description": "A perfectly timed strike that sharpens the user's momentum."
+  }
+}

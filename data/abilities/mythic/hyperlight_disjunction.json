@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "pulse.mythic.hyperlight_disjunction",
+    "name": "Hyperlight Disjunction",
+    "element": "pulse",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 100,
+    "cost": 14,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 40 },
+    "stat_modifiers": { "speed": 2 },
+    "extra_effect": "user_turn_again",
+    "synergy_tags": ["pulse", "mythic", "exotic"],
+    "animation": "hyperlight_disjunction",
+    "description": "The user splits into hyperlight echoes, striking before time can react and acting again instantly."
+  }
+}

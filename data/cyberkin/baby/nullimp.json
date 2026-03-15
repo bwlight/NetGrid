@@ -26,7 +26,7 @@
     "abilities": {
       "basic": ["Void Flick"],
       "advanced": [],
-      "signature": "Null Dip"
+      "signature": []
     },
     "evolution": {
       "next": "gapshade",

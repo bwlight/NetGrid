@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "firewall.advanced.firewall_guard",
+    "name": "Firewall Guard",
+    "element": "firewall",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "firewall_guard",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

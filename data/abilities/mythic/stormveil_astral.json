@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.mythic.stormveil_astral",
+    "name": "Stormveil Astral",
+    "element": "cloud",
+    "category": "mythic",
+    "power": 130,
+    "accuracy": 100,
+    "cost": 12,
+    "priority": 1,
+    "target": "all_enemies",
+    "status_inflict": { "status": "blind", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "mythic"],
+    "animation": "stormveil_astral",
+    "description": "An astral storm of mist and lightning blinds enemies beneath a celestial veil."
+  }
+}

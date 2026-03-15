@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.mythic.infinity_index",
+    "name": "Infinity Index",
+    "element": "archive",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 100,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 40 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["archive", "mythic", "exotic"],
+    "animation": "infinity_index",
+    "description": "The user references an impossible archive of all outcomes, fracturing the target’s logic across infinite possibilities."
+  }
+}

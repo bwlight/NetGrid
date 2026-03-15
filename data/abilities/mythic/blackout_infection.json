@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.mythic.blackout_infection",
+    "name": "Blackout Infection",
+    "element": "corrupt",
+    "category": "mythic",
+    "power": 135,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "corrupt", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["corrupt", "mythic"],
+    "animation": "blackout_infection",
+    "description": "A viral blackout spreads across enemy systems, infecting all it touches."
+  }
+}

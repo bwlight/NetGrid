@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.omega_finality",
+    "name": "Omega Finality",
+    "element": "core",
+    "category": "mythic",
+    "power": 165,
+    "accuracy": 100,
+    "cost": 15,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["mythic", "exotic"],
+    "animation": "omega_finality",
+    "description": "A terminal convergence of all forces obliterates the battlefield."
+  }
+}

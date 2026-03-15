@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.breakpoint",
+    "name": "Breakpoint",
+    "element": "core",
+    "category": "signature",
+    "power": 85,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "stability_down", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "breakpoint",
+    "description": "A precise strike that targets the opponent's structural weak point."
+  }
+}

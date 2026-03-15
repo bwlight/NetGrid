@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "firewall.basic.flare_peck",
+    "name": "Flare Peck",
+    "element": "firewall",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "flare_peck",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

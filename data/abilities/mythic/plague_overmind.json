@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.mythic.plague_overmind",
+    "name": "Plague Overmind",
+    "element": "corrupt",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 95,
+    "cost": 13,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "corrupt", "chance": 60 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["corrupt", "mythic"],
+    "animation": "plague_overmind",
+    "description": "A viral intelligence spreads across enemy systems, infecting and weakening all targets."
+  }
+}

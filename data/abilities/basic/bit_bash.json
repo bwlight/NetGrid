@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.basic.bit_bash",
+    "name": "Bit Bash",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "bit_bash",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

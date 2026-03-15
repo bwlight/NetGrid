@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.ultimate.apocalypse_virus",
+    "name": "Apocalypse Virus",
+    "element": "corrupt",
+    "category": "ultimate",
+    "power": 195,
+    "accuracy": 95,
+    "cost": 18,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "corrupt", "chance": 80 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["corrupt", "ultimate"],
+    "animation": "apocalypse_virus",
+    "description": "A catastrophic viral bloom infects all enemies with terminal corruption."
+  }
+}

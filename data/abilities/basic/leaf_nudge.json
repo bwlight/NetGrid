@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "root.basic.leaf_nudge",
+    "name": "Leaf Nudge",
+    "element": "root",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "leaf_nudge",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

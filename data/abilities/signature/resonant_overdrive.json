@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.signature.resonant_overdrive",
+    "name": "Resonant Overdrive",
+    "element": "echo",
+    "category": "signature",
+    "power": 110,
+    "accuracy": 95,
+    "cost": 9,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["echo", "signature"],
+    "animation": "resonant_overdrive",
+    "description": "A deafening harmonic surge crashes across the battlefield, weakening all enemies."
+  }
+}

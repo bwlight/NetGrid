@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "stability_down",
+    "name": "Stability Down",
+    "type": "debuff",
+    "duration_type": "turns",
+    "duration": 3,
+    "stackable": true,
+    "effects": { "stability": -1 },
+    "description": "Reduces system stability."
+  }
+}

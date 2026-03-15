@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.mythic.celestial_resonance",
+    "name": "Celestial Resonance",
+    "element": "echo",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 95,
+    "cost": 13,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["echo", "mythic"],
+    "animation": "celestial_resonance",
+    "description": "A cosmic harmonic wave collapses enemy defenses with divine force."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.unstable_power",
+    "name": "Unstable Power",
+    "element": "corrupt",
+    "category": "passive",
+    "triggers": ["on_turn_start"],
+    "effects": { "attack": 1, "defense": -1 },
+    "description": "Power surges unpredictably, increasing attack but reducing defense each turn."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.mythic.antimatter_veil",
+    "name": "Antimatter Veil",
+    "element": "void",
+    "category": "mythic",
+    "power": 160,
+    "accuracy": 90,
+    "cost": 15,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 80 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["void", "mythic", "exotic"],
+    "animation": "antimatter_veil",
+    "description": "A veil of inverted matter erases sound, energy, and will from the target."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.signature.wild_bloom_surge",
+    "name": "Wild Bloom Surge",
+    "element": "root",
+    "category": "signature",
+    "power": 95,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "regen", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "signature"],
+    "animation": "wild_bloom_surge",
+    "description": "A violent burst of blooming energy strikes the target and restores the user's vitality over time."
+  }
+}

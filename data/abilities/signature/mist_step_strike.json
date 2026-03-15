@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.signature.mist_step_strike",
+    "name": "Mist Step Strike",
+    "element": "cloud",
+    "category": "signature",
+    "power": 95,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "evasion_up", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "signature"],
+    "animation": "mist_step_strike",
+    "description": "The user slips through mist and reappears with a precise, evasive strike."
+  }
+}

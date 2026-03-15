@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.mythic.eternal_slumberfield",
+    "name": "Eternal Slumberfield",
+    "element": "dream",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 95,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "sleep", "chance": 30 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["dream", "mythic", "exotic"],
+    "animation": "eternal_slumberfield",
+    "description": "A dream-saturated field pulls enemies toward an endless sleep horizon."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.signature.oneiric_crescendo",
+    "name": "Oneiric Crescendo",
+    "element": "dream",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 95,
+    "cost": 9,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 20 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["dream", "signature"],
+    "animation": "oneiric_crescendo",
+    "description": "A rising wave of dream energy overwhelms the target's senses."
+  }
+}

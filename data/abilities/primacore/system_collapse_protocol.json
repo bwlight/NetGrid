@@ -1,0 +1,17 @@
+{
+  "ability": {
+    "id": "primacore_corrupt.system_collapse_protocol",
+    "name": "System Collapse Protocol",
+    "element": "corrupt",
+    "category": "ultimate",
+    "power": 230,
+    "accuracy": 90,
+    "cost": 20,
+    "priority": 0,
+    "target": "all_enemies",
+    "stat_modifiers": { "stability": -3 },
+    "extra_effect": "corrupt_all_enemies",
+    "animation": "system_collapse_protocol",
+    "description": "A catastrophic system command triggers total collapse, corrupting and destabilizing all enemy systems."
+  }
+}

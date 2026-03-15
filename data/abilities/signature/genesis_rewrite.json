@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.signature.genesis_rewrite",
+    "name": "Genesis Rewrite",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "genesis_rewrite",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

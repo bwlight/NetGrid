@@ -1,0 +1,22 @@
+{
+  "ability": {
+    "id": "primacore.architect_overwrite",
+    "name": "Architect Overwrite",
+    "element": "core",
+    "category": "mythic",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 14,
+    "priority": 0,
+    "target": "all",
+    "stat_modifiers": {
+      "attack": 1,
+      "defense": 1,
+      "speed": 1,
+      "stability": 1
+    },
+    "field_effect": "buffs_locked_3_turns",
+    "animation": "architect_overwrite",
+    "description": "Primacore rewrites battlefield logic, enhancing itself while preventing further buffs from any source."
+  }
+}

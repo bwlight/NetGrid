@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "universal.signature.dual_strike",
+    "name": "Dual Strike",
+    "element": "core",
+    "category": "signature",
+    "power": 50,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "multi_hit": { "min": 2, "max": 2 },
+    "synergy_tags": ["signature"],
+    "animation": "dual_strike",
+    "description": "A precise two‑hit combo delivered with perfect timing."
+  }
+}

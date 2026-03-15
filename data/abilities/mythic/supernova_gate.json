@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.mythic.supernova_gate",
+    "name": "Supernova Gate",
+    "element": "firewall",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 90,
+    "cost": 13,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "burn", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "mythic"],
+    "animation": "supernova_gate",
+    "description": "A collapsing thermal core detonates outward like a dying star."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.reality_annulment",
+    "name": "Reality Annulment",
+    "element": "core",
+    "category": "mythic",
+    "power": 170,
+    "accuracy": 90,
+    "cost": 15,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["mythic", "exotic"],
+    "animation": "reality_annulment",
+    "description": "A catastrophic tear in existence erases the target’s defensive structure."
+  }
+}

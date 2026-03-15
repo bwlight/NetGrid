@@ -26,7 +26,7 @@
     "abilities": {
       "basic": ["Memory Ping"],
       "advanced": [],
-      "signature": "Recall Spark"
+      "signature": []
     },
     "evolution": {
       "next": "noteglyph",

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.mythic.omega_infection",
+    "name": "Omega Infection",
+    "element": "corrupt",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 95,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "corrupt", "chance": 70 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["corrupt", "mythic", "exotic"],
+    "animation": "omega_infection",
+    "description": "A catastrophic viral bloom infects all enemies with terminal corruption."
+  }
+}

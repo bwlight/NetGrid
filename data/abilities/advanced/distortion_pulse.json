@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "echo.advanced.distortion_pulse",
+    "name": "Distortion Pulse",
+    "element": "echo",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "distortion_pulse",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

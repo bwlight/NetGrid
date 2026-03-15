@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "pulse.ultimate.infinity_drive_zero",
+    "name": "Infinity Drive Zero",
+    "element": "pulse",
+    "category": "ultimate",
+    "power": 190,
+    "accuracy": 100,
+    "cost": 17,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 3 },
+    "extra_effect": "user_turn_again",
+    "synergy_tags": ["pulse", "ultimate"],
+    "animation": "infinity_drive_zero",
+    "description": "The user accelerates beyond the limits of time, striking with impossible velocity and acting again instantly."
+  }
+}

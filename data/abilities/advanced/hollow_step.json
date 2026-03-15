@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "void.advanced.hollow_step",
+    "name": "Hollow Step",
+    "element": "void",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "hollow_step",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

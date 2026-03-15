@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "echo.basic.echo_tap",
+    "name": "Echo Tap",
+    "element": "echo",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "echo_tap",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

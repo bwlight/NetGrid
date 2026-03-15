@@ -56,7 +56,6 @@
         },
         "element_resistances": {
           "type": "object",
-          "description": "Element → damage multiplier (0.25, 0.5, 1.0, 1.5, 2.0)",
           "patternProperties": {
             "^(core|root|pulse|archive|cloud|firewall|dream|echo|void|corrupt)$": {
               "type": "number"
@@ -66,7 +65,6 @@
         },
         "status_resistances": {
           "type": "object",
-          "description": "Status → resistance weight (-2 to +2)",
           "patternProperties": {
             "^[a-z_]+$": {
               "type": "integer",
@@ -90,17 +88,15 @@
         },
         "abilities": {
           "type": "object",
-          "required": ["basic", "advanced", "signature"],
           "properties": {
-            "basic": {
-              "type": "array",
-              "items": { "type": "string" }
-            },
-            "advanced": {
-              "type": "array",
-              "items": { "type": "string" }
-            },
-            "signature": { "type": "string" }
+            "basic": { "type": "array", "items": { "type": "string" } },
+            "advanced": { "type": "array", "items": { "type": "string" } },
+            "support": { "type": "array", "items": { "type": "string" } },
+            "disruptor": { "type": "array", "items": { "type": "string" } },
+            "signature": { "type": "string" },
+            "mythic": { "type": ["string", "null"] },
+            "ultimate": { "type": ["string", "null"] },
+            "passive": { "type": ["string", "null"] }
           },
           "additionalProperties": false
         },
@@ -120,9 +116,18 @@
           },
           "additionalProperties": false
         },
+        "title":{
+              "type": "string"
+        },
         "tags": {
           "type": "array",
           "items": { "type": "string" }
+        },
+        "ai_behavior": {
+          "type": ["string", "null"]
+        },
+        "description": {
+          "type": ["string", "null"]
         }
       },
       "additionalProperties": false

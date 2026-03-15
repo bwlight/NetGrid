@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "root.basic.root_snap",
+    "name": "Root Snap",
+    "element": "root",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "root_snap",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

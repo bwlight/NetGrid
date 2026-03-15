@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.breakline_surge",
+    "name": "Breakline Surge",
+    "element": "core",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "defense_down", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "breakline_surge",
+    "description": "A powerful strike that targets and collapses the opponent's defensive line."
+  }
+}

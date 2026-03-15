@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.mythic.harmonic_supernova",
+    "name": "Harmonic Supernova",
+    "element": "echo",
+    "category": "mythic",
+    "power": 155,
+    "accuracy": 95,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["echo", "mythic", "exotic"],
+    "animation": "harmonic_supernova",
+    "description": "A sonic star collapses into a devastating harmonic explosion that shreds enemy defenses."
+  }
+}

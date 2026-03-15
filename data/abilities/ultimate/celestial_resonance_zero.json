@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.ultimate.celestial_resonance_zero",
+    "name": "Celestial Resonance Zero",
+    "element": "echo",
+    "category": "ultimate",
+    "power": 200,
+    "accuracy": 95,
+    "cost": 18,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["echo", "ultimate"],
+    "animation": "celestial_resonance_zero",
+    "description": "A cosmic harmonic collapse shatters enemy defenses with divine sonic force."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.advanced.prime_lattice",
+    "name": "Prime Lattice",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "prime_lattice",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

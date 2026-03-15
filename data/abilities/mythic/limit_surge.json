@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.limit_surge",
+    "name": "Limit Surge",
+    "element": "core",
+    "category": "mythic",
+    "power": 120,
+    "accuracy": 100,
+    "cost": 11,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 2, "speed": 1 },
+    "synergy_tags": ["mythic"],
+    "animation": "limit_surge",
+    "description": "The user unleashes a surge of power beyond all constraints, striking hard and rising even higher."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.signature.core_pulse",
+    "name": "Core Pulse",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "core_pulse",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.impact_drive",
+    "name": "Impact Drive",
+    "element": "core",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "impact_drive",
+    "description": "A high‑force finishing blow delivered with unstoppable momentum."
+  }
+}

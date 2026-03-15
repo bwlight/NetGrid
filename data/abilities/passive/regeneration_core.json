@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.regeneration_core",
+    "name": "Regeneration Core",
+    "element": "root",
+    "category": "passive",
+    "triggers": ["on_turn_start"],
+    "effects": { "heal_percent": 5 },
+    "description": "Restores a small amount of health each turn."
+  }
+}

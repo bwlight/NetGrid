@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.echo_feedback",
+    "name": "Echo Feedback",
+    "element": "echo",
+    "category": "passive",
+    "triggers": ["on_hit"],
+    "effects": { "reflect_damage_percent": 10 },
+    "description": "Reflects a portion of damage back to the attacker."
+  }
+}

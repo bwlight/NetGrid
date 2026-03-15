@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.signature.flare_cannon",
+    "name": "Flare Cannon",
+    "element": "firewall",
+    "category": "signature",
+    "power": 110,
+    "accuracy": 90,
+    "cost": 9,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "signature"],
+    "animation": "flare_cannon",
+    "description": "A concentrated beam of searing heat that may ignite the target."
+  }
+}

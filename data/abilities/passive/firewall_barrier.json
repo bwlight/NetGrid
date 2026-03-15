@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.firewall_barrier",
+    "name": "Firewall Barrier",
+    "element": "firewall",
+    "category": "passive",
+    "triggers": ["always_active"],
+    "effects": { "burn_resistance": 50 },
+    "description": "Greatly reduces the chance of being burned."
+  }
+}

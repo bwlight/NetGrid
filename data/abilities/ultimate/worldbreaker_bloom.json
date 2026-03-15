@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.ultimate.worldbreaker_bloom",
+    "name": "Worldbreaker Bloom",
+    "element": "root",
+    "category": "ultimate",
+    "power": 200,
+    "accuracy": 95,
+    "cost": 18,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "slow", "chance": 100 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["root", "ultimate"],
+    "animation": "worldbreaker_bloom",
+    "description": "A colossal eruption of primordial growth tears open the battlefield, crushing enemies beneath living earth."
+  }
+}

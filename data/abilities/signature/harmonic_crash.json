@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.signature.harmonic_crash",
+    "name": "Harmonic Crash",
+    "element": "echo",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["echo", "signature"],
+    "animation": "harmonic_crash",
+    "description": "A resonant shockwave that fractures the target's defensive rhythm."
+  }
+}

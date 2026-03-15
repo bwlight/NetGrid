@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.ultimate.infinity_dreamgate",
+    "name": "Infinity Dreamgate",
+    "element": "dream",
+    "category": "ultimate",
+    "power": 190,
+    "accuracy": 95,
+    "cost": 18,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "sleep", "chance": 40 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["dream", "ultimate"],
+    "animation": "infinity_dreamgate",
+    "description": "A gateway to the infinite dream opens, pulling enemies toward eternal slumber."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.ultimate.limit_breaker_eternal",
+    "name": "Limit Breaker Eternal",
+    "element": "core",
+    "category": "ultimate",
+    "power": 185,
+    "accuracy": 100,
+    "cost": 17,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 3, "speed": 2 },
+    "synergy_tags": ["ultimate"],
+    "animation": "limit_breaker_eternal",
+    "description": "The user ascends beyond all constraints, unleashing a strike of unmatched force and velocity."
+  }
+}

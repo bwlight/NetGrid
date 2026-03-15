@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.mythic.system_rewrite",
+    "name": "System Rewrite",
+    "element": "core",
+    "category": "mythic",
+    "power": 130,
+    "accuracy": 100,
+    "cost": 12,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1, "defense": 1, "speed": 1},
+    "synergy_tags": ["core", "mythic"],
+    "animation": "system_rewrite",
+    "description": "The user rewrites its own system architecture, striking with perfect force and gaining balanced enhancements."
+  }
+}

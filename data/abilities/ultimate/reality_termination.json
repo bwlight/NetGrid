@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.ultimate.reality_termination",
+    "name": "Reality Termination",
+    "element": "core",
+    "category": "ultimate",
+    "power": 220,
+    "accuracy": 90,
+    "cost": 20,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -3 },
+    "synergy_tags": ["ultimate"],
+    "animation": "reality_termination",
+    "description": "A catastrophic tear in existence erases the target’s defensive structure entirely."
+  }
+}

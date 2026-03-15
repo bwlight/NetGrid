@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "dream.signature.somni_bloom",
+    "name": "Somni Bloom",
+    "element": "dream",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "somni_bloom",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

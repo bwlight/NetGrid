@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.limit_breaker_zenith",
+    "name": "Limit Breaker Zenith",
+    "element": "core",
+    "category": "mythic",
+    "power": 130,
+    "accuracy": 100,
+    "cost": 12,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 2, "speed": 2 },
+    "synergy_tags": ["mythic", "exotic"],
+    "animation": "limit_breaker_zenith",
+    "description": "The user ascends to its absolute peak, unleashing a strike of unmatched force and velocity."
+  }
+}

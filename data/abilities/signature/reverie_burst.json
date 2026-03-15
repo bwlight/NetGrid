@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.signature.reverie_burst",
+    "name": "Reverie Burst",
+    "element": "dream",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "signature"],
+    "animation": "reverie_burst",
+    "description": "A burst of dream energy that fractures the target's sense of reality."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.overgrowth_core",
+    "name": "Overgrowth Core",
+    "element": "root",
+    "category": "passive",
+    "triggers": ["on_ko"],
+    "effects": { "heal_percent_team": 10 },
+    "description": "When this unit is defeated, allies are healed by a surge of life energy."
+  }
+}

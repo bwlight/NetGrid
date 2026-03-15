@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.signature.structured_impact",
+    "name": "Structured Impact",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "structured_impact",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

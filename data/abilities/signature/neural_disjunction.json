@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.signature.neural_disjunction",
+    "name": "Neural Disjunction",
+    "element": "archive",
+    "category": "signature",
+    "power": 115,
+    "accuracy": 90,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 30 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["archive", "signature"],
+    "animation": "neural_disjunction",
+    "description": "A devastating logic rupture that fractures the target's neural pathways."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.shatter_wave",
+    "name": "Shatter Wave",
+    "element": "core",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "stability_down", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "shatter_wave",
+    "description": "A concussive wave that destabilizes every enemy it hits."
+  }
+}

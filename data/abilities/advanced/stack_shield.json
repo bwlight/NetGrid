@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.advanced.stack_shield",
+    "name": "Stack Shield",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "stack_shield",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

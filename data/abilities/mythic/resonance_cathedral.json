@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.mythic.resonance_cathedral",
+    "name": "Resonance Cathedral",
+    "element": "echo",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["echo", "mythic"],
+    "animation": "resonance_cathedral",
+    "description": "A towering harmonic structure collapses into a devastating sonic wave."
+  }
+}

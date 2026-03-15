@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.mythic.voidmist_ascent",
+    "name": "Voidmist Ascent",
+    "element": "cloud",
+    "category": "mythic",
+    "power": 135,
+    "accuracy": 100,
+    "cost": 13,
+    "priority": 1,
+    "target": "all_enemies",
+    "status_inflict": { "status": "blind", "chance": 60 },
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["cloud", "mythic", "exotic"],
+    "animation": "voidmist_ascent",
+    "description": "A rising mist infused with void energy blinds enemies while lifting the user into an untouchable state."
+  }
+}

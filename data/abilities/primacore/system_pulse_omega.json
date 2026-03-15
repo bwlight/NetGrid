@@ -1,0 +1,16 @@
+{
+  "ability": {
+    "id": "primacore_corrupt.system_pulse_omega",
+    "name": "System Pulse Omega",
+    "element": "corrupt",
+    "category": "signature",
+    "power": 135,
+    "accuracy": 95,
+    "cost": 9,
+    "priority": 1,
+    "target": "single",
+    "stat_modifiers": { "stability": -2 },
+    "animation": "system_pulse_omega",
+    "description": "A corrupted system pulse that violently destabilizes the target’s core structure."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.ultimate.collapse_infinity",
+    "name": "Collapse Infinity",
+    "element": "core",
+    "category": "ultimate",
+    "power": 200,
+    "accuracy": 100,
+    "cost": 18,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1, "stability": -1 },
+    "synergy_tags": ["ultimate"],
+    "animation": "collapse_infinity",
+    "description": "An infinite implosion collapses enemy structure and logic simultaneously."
+  }
+}

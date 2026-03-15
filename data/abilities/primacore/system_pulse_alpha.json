@@ -1,0 +1,16 @@
+{
+  "ability": {
+    "id": "primacore.system_pulse_alpha",
+    "name": "System Pulse Alpha",
+    "element": "core",
+    "category": "signature",
+    "power": 115,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 1,
+    "target": "single",
+    "stat_modifiers": { "stability": -1 },
+    "animation": "system_pulse_alpha",
+    "description": "A precise system-level pulse that destabilizes the target without damaging structural integrity."
+  }
+}

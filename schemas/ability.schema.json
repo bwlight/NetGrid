@@ -1,26 +1,137 @@
 {
-  "ability": {
-    "id": "string_id",
-    "name": "Readable Name",
-    "element": "core | root | pulse | archive | cloud | firewall | dream | echo | void | corrupt",
-    "category": "physical | digital | support | hybrid",
-    "power": 0,
-    "accuracy": 100,
-    "cost": 0,
-    "priority": 0,
-    "target": "single | multi | self | ally | all_enemies",
-    "status_inflict": {
-      "status": "sleep | burn | ...",
-      "chance": 0
-    },
-    "stat_modifiers": {
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "stability": 0
-    },
-    "synergy_tags": ["tag1", "tag2"],
-    "animation": "string_id",
-    "description": "Readable description text."
-  }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ability",
+  "type": "object",
+  "properties": {
+    "ability": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "element",
+        "category",
+        "power",
+        "accuracy",
+        "cost",
+        "priority",
+        "target",
+        "animation",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_\\.]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "element": {
+          "type": "string",
+          "enum": [
+            "core",
+            "root",
+            "pulse",
+            "archive",
+            "cloud",
+            "firewall",
+            "dream",
+            "echo",
+            "void",
+            "corrupt"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "physical",
+            "digital",
+            "support",
+            "disruptor",
+            "signature",
+            "mythic",
+            "ultimate",
+            "passive",
+            "NEW"
+          ]
+        },
+        "power": {
+          "type": "number",
+          "minimum": 0
+        },
+        "accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 999
+        },
+        "cost": {
+          "type": "number",
+          "minimum": 0
+        },
+        "priority": {
+          "type": "number"
+        },
+        "target": {
+          "type": "string",
+          "enum": [
+            "single",
+            "multi",
+            "self",
+            "ally",
+            "all_enemies",
+            "all",
+            "team"
+          ]
+        },
+        "status_inflict": {
+          "type": ["object", "null"],
+          "required": ["status", "chance"],
+          "properties": {
+            "status": {
+              "type": ["string", "array"]
+            },
+            "chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        },
+        "stat_modifiers": {
+          "type": ["object", "null"],
+          "properties": {
+            "attack": { "type": "number" },
+            "defense": { "type": "number" },
+            "speed": { "type": "number" },
+            "stability": { "type": "number" },
+            "crit_rate": { "type": "number" },
+            "evasion" : { "type": "number" }
+          },
+          "additionalProperties": false
+        },
+        "synergy_tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "extra_effect": {
+          "type": ["string", "null"]
+        },
+        "field_effect": {
+          "type": ["string", "null"]
+        },
+        "animation": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        }
+      }
+    }
+  },
+  "required": ["ability"]
 }

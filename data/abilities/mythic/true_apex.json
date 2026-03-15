@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.true_apex",
+    "name": "True Apex",
+    "element": "core",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 999,
+    "cost": 13,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "crit_rate": 2 },
+    "synergy_tags": ["mythic", "exotic"],
+    "animation": "true_apex",
+    "description": "A perfect, unavoidable strike delivered at the peak of power."
+  }
+}

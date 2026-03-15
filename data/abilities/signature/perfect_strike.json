@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.perfect_strike",
+    "name": "Perfect Strike",
+    "element": "core",
+    "category": "signature",
+    "power": 120,
+    "accuracy": 100,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "perfect_strike",
+    "description": "A flawlessly executed finishing blow delivered with absolute precision."
+  }
+}

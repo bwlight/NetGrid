@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.signature.thermal_burst",
+    "name": "Thermal Burst",
+    "element": "firewall",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 90,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "signature"],
+    "animation": "thermal_burst",
+    "description": "A concentrated thermal explosion that may scorch the target."
+  }
+}

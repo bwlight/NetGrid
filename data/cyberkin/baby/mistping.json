@@ -26,7 +26,7 @@
     "abilities": {
       "basic": ["Mist Puff"],
       "advanced": [],
-      "signature": "Cloud Drift"
+      "signature": []
     },
     "evolution": {
       "next": "driftcache",

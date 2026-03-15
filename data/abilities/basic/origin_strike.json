@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "core.basic.origin_strike",
+    "name": "Origin Strike",
+    "element": "core",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "origin_strike",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.signature.system_pulse",
+    "name": "System Pulse",
+    "element": "core",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["core", "signature"],
+    "animation": "system_pulse",
+    "description": "A perfectly calibrated system shock that destabilizes the target."
+  }
+}

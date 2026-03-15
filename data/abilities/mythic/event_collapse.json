@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.mythic.event_collapse",
+    "name": "Event Collapse",
+    "element": "void",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 90,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 50 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["void", "mythic"],
+    "animation": "event_collapse",
+    "description": "A collapsing singularity devours sound, thought, and action."
+  }
+}

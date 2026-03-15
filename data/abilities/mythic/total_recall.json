@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "archive.mythic.total_recall",
+    "name": "Total Recall",
+    "element": "archive",
+    "category": "mythic",
+    "power": 125,
+    "accuracy": 100,
+    "cost": 11,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -2 },
+    "extra_effect": "cleanse_self",
+    "synergy_tags": ["archive", "mythic"],
+    "animation": "total_recall",
+    "description": "A perfect reconstruction of memory weaponized into a devastating logic strike."
+  }
+}

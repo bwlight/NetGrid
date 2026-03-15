@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.void_absorption",
+    "name": "Void Absorption",
+    "element": "void",
+    "category": "passive",
+    "triggers": ["on_damage_taken"],
+    "effects": { "heal_percent": 5 },
+    "description": "Absorbs a portion of incoming damage as health."
+  }
+}

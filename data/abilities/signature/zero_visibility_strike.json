@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.signature.zero_visibility_strike",
+    "name": "Zero Visibility Strike",
+    "element": "cloud",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 100,
+    "cost": 8,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": { "status": "blind", "chance": 40 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "signature"],
+    "animation": "zero_visibility_strike",
+    "description": "The user vanishes into dense fog and reappears with a blinding, instantaneous strike."
+  }
+}

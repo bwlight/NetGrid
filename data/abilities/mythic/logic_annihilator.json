@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.mythic.logic_annihilator",
+    "name": "Logic Annihilator",
+    "element": "archive",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["archive", "mythic"],
+    "animation": "logic_annihilator",
+    "description": "A catastrophic logic collapse that erases the target's structural reasoning."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.signature.phantom_slash",
+    "name": "Phantom Slash",
+    "element": "cloud",
+    "category": "signature",
+    "power": 90,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": { "status": "evasion_up", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "signature"],
+    "animation": "phantom_slash",
+    "description": "A phase‑shifted strike that leaves the user harder to hit after attacking."
+  }
+}

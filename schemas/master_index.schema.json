@@ -2,12 +2,21 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "MasterIndex",
   "type": "object",
+  "required": ["index"],
   "properties": {
-    "species": {
+    "index": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "family", "sector", "stage", "element", "file"],
+        "required": [
+          "id",
+          "name",
+          "family",
+          "sector",
+          "stage",
+          "element",
+          "file"
+        ],
         "properties": {
           "id": { "type": "string" },
           "name": { "type": "string" },
@@ -29,42 +38,51 @@
               "corrupt"
             ]
           },
-          "file": { "type": "string" },
-          "tags": {
-            "type": "array",
-            "items": { "type": "string" }
-          }
-        },
-        "additionalProperties": false
-      }
-    },
-    "abilities": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["id", "name", "category", "file"],
-        "properties": {
-          "id": { "type": "string" },
-          "name": { "type": "string" },
-          "category": { "type": "string" },
           "file": { "type": "string" }
         },
         "additionalProperties": false
       }
     },
-    "statuses": {
+
+    "core": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["id", "name", "category", "file"],
-        "properties": {
-          "id": { "type": "string" },
-          "name": { "type": "string" },
-          "category": { "type": "string" },
-          "file": { "type": "string" }
-        },
-        "additionalProperties": false
-      }
+      "items": { "type": "string" }
+    },
+    "root": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pulse": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "archive": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "cloud": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "firewall": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "dream": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "echo": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "void": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "corrupt": {
+      "type": "array",
+      "items": { "type": "string" }
     }
   },
   "additionalProperties": false

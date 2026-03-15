@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.true_strike",
+    "name": "True Strike",
+    "element": "core",
+    "category": "mythic",
+    "power": 120,
+    "accuracy": 999,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "crit_rate": 1 },
+    "synergy_tags": ["mythic"],
+    "animation": "true_strike",
+    "description": "A perfectly aligned blow that cannot miss and lands with critical precision."
+  }
+}

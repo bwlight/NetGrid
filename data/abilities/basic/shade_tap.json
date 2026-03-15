@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "void.basic.shade_tap",
+    "name": "Shade Tap",
+    "element": "void",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "shade_tap",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

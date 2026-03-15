@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.signature.thorn_maelstrom",
+    "name": "Thorn Maelstrom",
+    "element": "root",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "bleed", "chance": 30 },
+    "stat_modifiers": null,
+    "synergy_tags": ["root", "signature"],
+    "animation": "thorn_maelstrom",
+    "description": "A spiraling storm of razor thorns lashes all enemies, leaving deep cuts."
+  }
+}

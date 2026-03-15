@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.infinity_wave",
+    "name": "Infinity Wave",
+    "element": "core",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 100,
+    "cost": 12,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["mythic"],
+    "animation": "infinity_wave",
+    "description": "A wave of infinite force sweeps across the battlefield, destabilizing all enemies."
+  }
+}

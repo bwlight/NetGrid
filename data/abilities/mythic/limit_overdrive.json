@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.limit_overdrive",
+    "name": "Limit Overdrive",
+    "element": "core",
+    "category": "mythic",
+    "power": 115,
+    "accuracy": 100,
+    "cost": 11,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 2 },
+    "synergy_tags": ["mythic"],
+    "animation": "limit_overdrive",
+    "description": "The user pushes beyond all constraints, striking with overwhelming force and rising in power."
+  }
+}

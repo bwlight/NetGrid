@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.signature.overdrive_strike",
+    "name": "Overdrive Strike",
+    "element": "pulse",
+    "category": "signature",
+    "power": 100,
+    "accuracy": 95,
+    "cost": 8,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["pulse", "signature"],
+    "animation": "overdrive_strike",
+    "description": "A high‑velocity kinetic strike that boosts the user's speed after impact."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.ultimate.true_omega_strike",
+    "name": "True Omega Strike",
+    "element": "core",
+    "category": "ultimate",
+    "power": 180,
+    "accuracy": 999,
+    "cost": 17,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "crit_rate": 3 },
+    "synergy_tags": ["ultimate"],
+    "animation": "true_omega_strike",
+    "description": "A perfect, unavoidable finishing blow delivered at the peak of power."
+  }
+}

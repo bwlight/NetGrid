@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "regen",
+    "name": "Regen",
+    "type": "buff",
+    "duration_type": "turns",
+    "duration": 3,
+    "stackable": false,
+    "effects": { "heal_percent": 5 },
+    "description": "Restores health each turn."
+  }
+}

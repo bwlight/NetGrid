@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "archive.advanced.mind_anchor",
+    "name": "Mind Anchor",
+    "element": "archive",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "mind_anchor",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

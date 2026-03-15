@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.mythic.eternal_verdancy",
+    "name": "Eternal Verdancy",
+    "element": "root",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 100,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "regen", "chance": 100 },
+    "stat_modifiers": { "attack": 1 },
+    "synergy_tags": ["root", "mythic", "exotic"],
+    "animation": "eternal_verdancy",
+    "description": "An ancient surge of life erupts outward, damaging foes while empowering the user with unstoppable growth."
+  }
+}

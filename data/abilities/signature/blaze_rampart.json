@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "firewall.signature.blaze_rampart",
+    "name": "Blaze Rampart",
+    "element": "firewall",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "blaze_rampart",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

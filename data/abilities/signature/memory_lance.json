@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.signature.memory_lance",
+    "name": "Memory Lance",
+    "element": "archive",
+    "category": "signature",
+    "power": 90,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["archive", "signature"],
+    "animation": "memory_lance",
+    "description": "A piercing strike of crystallized memory that destabilizes the target's core logic."
+  }
+}

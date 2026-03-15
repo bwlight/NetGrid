@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.guard_breaker",
+    "name": "Guard Breaker",
+    "element": "core",
+    "category": "signature",
+    "power": 90,
+    "accuracy": 100,
+    "cost": 6,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["signature"],
+    "animation": "guard_breaker",
+    "description": "A crushing blow that shatters the target's guard."
+  }
+}

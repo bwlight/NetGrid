@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.mythic.primal_awakening",
+    "name": "Primal Awakening",
+    "element": "root",
+    "category": "mythic",
+    "power": 130,
+    "accuracy": 100,
+    "cost": 12,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "regen", "chance": 100 },
+    "stat_modifiers": { "attack": 1 },
+    "synergy_tags": ["root", "mythic"],
+    "animation": "primal_awakening",
+    "description": "Ancient life-force erupts from the earth, striking the target while empowering the user with regenerative strength."
+  }
+}

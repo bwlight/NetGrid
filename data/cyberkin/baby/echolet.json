@@ -26,7 +26,7 @@
     "abilities": {
       "basic": ["Echo Tap"],
       "advanced": [],
-      "signature": "Reverb Pop"
+      "signature": []
     },
     "evolution": {
       "next": "resonimp",

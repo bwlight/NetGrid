@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.mythic.oneiric_singularity",
+    "name": "Oneiric Singularity",
+    "element": "dream",
+    "category": "mythic",
+    "power": 130,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 20 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["dream", "mythic"],
+    "animation": "oneiric_singularity",
+    "description": "A dream-gravity well pulls the target into a collapsing psychic vortex."
+  }
+}

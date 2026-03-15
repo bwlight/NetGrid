@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.signature.force_convergence",
+    "name": "Force Convergence",
+    "element": "core",
+    "category": "signature",
+    "power": 110,
+    "accuracy": 95,
+    "cost": 9,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["core", "signature"],
+    "animation": "force_convergence",
+    "description": "A crushing convergence of force that destabilizes the target's core."
+  }
+}

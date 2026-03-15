@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "cloud.basic.mist_puff",
+    "name": "Mist Puff",
+    "element": "cloud",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "mist_puff",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

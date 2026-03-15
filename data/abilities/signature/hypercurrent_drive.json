@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.signature.hypercurrent_drive",
+    "name": "Hypercurrent Drive",
+    "element": "pulse",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 100,
+    "cost": 9,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 2 },
+    "synergy_tags": ["pulse", "signature"],
+    "animation": "hypercurrent_drive",
+    "description": "A blindingly fast kinetic strike that massively boosts the user's speed."
+  }
+}

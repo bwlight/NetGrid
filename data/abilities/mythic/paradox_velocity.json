@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "pulse.mythic.paradox_velocity",
+    "name": "Paradox Velocity",
+    "element": "pulse",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 100,
+    "cost": 13,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "speed": 2 },
+    "extra_effect": "user_turn_again",
+    "synergy_tags": ["pulse", "mythic"],
+    "animation": "paradox_velocity",
+    "description": "The user accelerates beyond causality, striking with impossible speed and acting again immediately."
+  }
+}

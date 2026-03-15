@@ -1,0 +1,17 @@
+{
+  "ability": {
+    "id": "primacore_corrupt.architect_overload",
+    "name": "Architect Overload",
+    "element": "corrupt",
+    "category": "mythic",
+    "power": 160,
+    "accuracy": 100,
+    "cost": 15,
+    "priority": 0,
+    "target": "all_enemies",
+    "stat_modifiers": { "defense": -1, "stability": -1 },
+    "field_effect": "random_logic_errors_3_turns",
+    "animation": "architect_overload",
+    "description": "A corrupted rewrite floods the battlefield with unstable logic, causing cascading structural failures."
+  }
+}

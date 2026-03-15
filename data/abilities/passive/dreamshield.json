@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.dreamshield",
+    "name": "Dreamshield",
+    "element": "dream",
+    "category": "passive",
+    "triggers": ["on_battle_start"],
+    "effects": { "stability": 1 },
+    "description": "A psychic barrier protects this unit’s stability."
+  }
+}

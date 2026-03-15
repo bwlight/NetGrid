@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.quickstart",
+    "name": "Quickstart",
+    "element": "pulse",
+    "category": "passive",
+    "triggers": ["on_battle_start"],
+    "effects": { "speed": 1 },
+    "description": "This unit begins battle with heightened speed."
+  }
+}

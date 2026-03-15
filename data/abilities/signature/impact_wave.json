@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.impact_wave",
+    "name": "Impact Wave",
+    "element": "core",
+    "category": "signature",
+    "power": 95,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["signature"],
+    "animation": "impact_wave",
+    "description": "A shockwave of force that strikes all enemies at once."
+  }
+}

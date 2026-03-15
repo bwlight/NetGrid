@@ -26,7 +26,7 @@
     "abilities": {
       "basic": ["Static Pop"],
       "advanced": [],
-      "signature": "Pulse Flicker"
+      "signature": []
     },
     "evolution": {
       "next": "voltling",

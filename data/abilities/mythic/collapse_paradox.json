@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.collapse_paradox",
+    "name": "Collapse Paradox",
+    "element": "core",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 100,
+    "cost": 14,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1, "stability": -1 },
+    "synergy_tags": ["mythic", "exotic"],
+    "animation": "collapse_paradox",
+    "description": "A paradoxical implosion collapses enemy structure and logic simultaneously."
+  }
+}

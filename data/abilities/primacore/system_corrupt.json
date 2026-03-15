@@ -1,0 +1,20 @@
+{
+  "ability": {
+    "id": "primacore_corrupt.system_corrupt",
+    "name": "System Corrupt",
+    "element": "corrupt",
+    "category": "support",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 10,
+    "priority": 1,
+    "target": "all_enemies",
+    "stat_modifiers": {
+      "defense": -1,
+      "stability": -1
+    },
+    "extra_effect": "apply_corrupt_status_30",
+    "animation": "system_corrupt",
+    "description": "A wave of corrupted system data destabilizes enemy architecture, weakening their defenses and risking viral infection."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "pulse.mythic.quantum_flash",
+    "name": "Quantum Flash",
+    "element": "pulse",
+    "category": "mythic",
+    "power": 125,
+    "accuracy": 100,
+    "cost": 11,
+    "priority": 2,
+    "target": "single",
+    "status_inflict": { "status": "shock", "chance": 30 },
+    "stat_modifiers": { "speed": 1 },
+    "synergy_tags": ["pulse", "mythic"],
+    "animation": "quantum_flash",
+    "description": "A strike delivered faster than perception, electrifying the target and accelerating the user."
+  }
+}

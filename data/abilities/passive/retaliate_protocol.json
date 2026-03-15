@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.retaliate_protocol",
+    "name": "Retaliate Protocol",
+    "element": "core",
+    "category": "passive",
+    "triggers": ["on_damage_taken"],
+    "effects": { "attack": 1 },
+    "description": "When damaged, this unit’s attack increases."
+  }
+}

@@ -1,37 +1,71 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Status",
+  "title": "StatusEffect",
   "type": "object",
-  "required": ["id", "name", "category", "tags"],
   "properties": {
-    "id": { "type": "string" },
-    "name": { "type": "string" },
-    "category": {
-      "type": "string",
-      "enum": ["major", "minor", "field", "buff", "debuff"]
-    },
-    "duration": {
-      "type": ["integer", "string", "null"],
-      "description": "Turns or 'permanent'"
-    },
-    "stack_limit": { "type": ["integer", "null"], "minimum": 1 },
-    "tags": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "effects": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["type"],
-        "properties": {
-          "type": { "type": "string" },
-          "value": {},
-          "timing": { "type": "string" }
+    "status": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "type",
+        "duration_type",
+        "duration",
+        "stackable",
+        "effects",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_\\.]+$"
         },
-        "additionalProperties": false
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "buff",
+            "debuff",
+            "control",
+            "damage_over_time",
+            "special"
+          ]
+        },
+        "duration_type": {
+          "type": "string",
+          "enum": [
+            "turns",
+            "permanent",
+            "conditional"
+          ]
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "stackable": {
+          "type": "boolean"
+        },
+        "effects": {
+          "type": "object",
+          "description": "Key-value pairs defining mechanical effects.",
+          "additionalProperties": {
+            "type": [
+              "integer",
+              "number",
+              "boolean",
+              "string",
+              "array"
+            ]
+          }
+        },
+        "description": {
+          "type": "string"
+        }
       }
     }
   },
-  "additionalProperties": false
+  "required": ["status"]
 }

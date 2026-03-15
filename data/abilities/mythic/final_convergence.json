@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.final_convergence",
+    "name": "Final Convergence",
+    "element": "core",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 100,
+    "cost": 12,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": null,
+    "synergy_tags": ["mythic"],
+    "animation": "final_convergence",
+    "description": "All forces collapse into a single devastating point of impact."
+  }
+}

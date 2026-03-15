@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.mythic.system_singularity",
+    "name": "System Singularity",
+    "element": "core",
+    "category": "mythic",
+    "power": 150,
+    "accuracy": 100,
+    "cost": 14,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 1, "speed": 1, "stability": 1 },
+    "synergy_tags": ["core", "mythic"],
+    "animation": "system_singularity",
+    "description": "The user compresses its entire system into a singular point of perfect destructive force."
+  }
+}

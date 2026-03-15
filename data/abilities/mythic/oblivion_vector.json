@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.mythic.oblivion_vector",
+    "name": "Oblivion Vector",
+    "element": "void",
+    "category": "mythic",
+    "power": 155,
+    "accuracy": 90,
+    "cost": 14,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 70 },
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["void", "mythic"],
+    "animation": "oblivion_vector",
+    "description": "A spear of pure nothingness pierces the target, erasing sound and thought."
+  }
+}

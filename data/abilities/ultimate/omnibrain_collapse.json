@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.ultimate.omnibrain_collapse",
+    "name": "Omnibrain Collapse",
+    "element": "archive",
+    "category": "ultimate",
+    "power": 185,
+    "accuracy": 100,
+    "cost": 17,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 50 },
+    "stat_modifiers": { "stability": -3 },
+    "synergy_tags": ["archive", "ultimate"],
+    "animation": "omnibrain_collapse",
+    "description": "A total logic implosion crushes the target’s cognitive structure under infinite informational weight."
+  }
+}

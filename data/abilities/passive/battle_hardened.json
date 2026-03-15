@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.battle_hardened",
+    "name": "Battle Hardened",
+    "element": "core",
+    "category": "passive",
+    "triggers": ["on_battle_start"],
+    "effects": { "defense": 1 },
+    "description": "This unit enters battle with increased defensive structure."
+  }
+}

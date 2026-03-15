@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.harmonic_resonance",
+    "name": "Harmonic Resonance",
+    "element": "echo",
+    "category": "passive",
+    "triggers": ["on_turn_start"],
+    "effects": { "speed": 1 },
+    "description": "This unit’s rhythm accelerates each turn."
+  }
+}

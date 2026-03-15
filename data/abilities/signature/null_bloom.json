@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "void.signature.null_bloom",
+    "name": "Null Bloom",
+    "element": "void",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "null_bloom",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

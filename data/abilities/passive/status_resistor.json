@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.status_resistor",
+    "name": "Status Resistor",
+    "element": "core",
+    "category": "passive",
+    "triggers": ["always_active"],
+    "effects": { "status_resistance": 20 },
+    "description": "Reduces the chance of receiving negative status effects."
+  }
+}

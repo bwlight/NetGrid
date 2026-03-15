@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "corrupt.mythic.redshift_decay",
+    "name": "Redshift Decay",
+    "element": "corrupt",
+    "category": "mythic",
+    "power": 135,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "corrupt", "chance": 60 },
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["corrupt", "mythic"],
+    "animation": "redshift_decay",
+    "description": "A quantum-level viral implosion accelerates the target's decay."
+  }
+}

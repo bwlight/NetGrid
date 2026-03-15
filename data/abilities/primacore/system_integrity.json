@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "primacore.system_integrity",
+    "name": "System Integrity",
+    "element": "core",
+    "category": "passive",
+    "triggers" : ["always_active"],
+    "effects" : { "status_resistance": 20 },
+    "description": "Primacore's system architecture resists destabilization. Confuse, Sleep, and Corrupt have their chances reduced by 50%."
+  }
+}

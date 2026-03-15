@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "root.mythic.eternal_wildheart",
+    "name": "Eternal Wildheart",
+    "element": "root",
+    "category": "mythic",
+    "power": 135,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": { "status": "regen", "chance": 100 },
+    "stat_modifiers": { "speed": -1 },
+    "synergy_tags": ["root", "mythic"],
+    "animation": "eternal_wildheart",
+    "description": "Ancient growth erupts across the battlefield, slowing enemies while restoring the user's vitality."
+  }
+}

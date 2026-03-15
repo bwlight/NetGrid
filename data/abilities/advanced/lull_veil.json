@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "dream.advanced.lull_veil",
+    "name": "Lull Veil",
+    "element": "dream",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "lull_veil",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

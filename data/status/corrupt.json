@@ -1,0 +1,15 @@
+{
+  "status": {
+    "id": "corrupt",
+    "name": "Corrupt",
+    "type": "damage_over_time",
+    "duration_type": "turns",
+    "duration": 3,
+    "stackable": false,
+    "effects": {
+      "damage_percent": 4,
+      "stability": -1
+    },
+    "description": "Viral corruption damages system integrity each turn."
+  }
+}

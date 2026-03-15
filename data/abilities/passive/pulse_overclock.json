@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.pulse_overclock",
+    "name": "Pulse Overclock",
+    "element": "pulse",
+    "category": "passive",
+    "triggers": ["on_turn_start"],
+    "effects": { "speed": 1, "stability": -1 },
+    "description": "Speed increases each turn at the cost of stability."
+  }
+}

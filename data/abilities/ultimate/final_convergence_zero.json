@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.ultimate.final_convergence_zero",
+    "name": "Final Convergence Zero",
+    "element": "core",
+    "category": "ultimate",
+    "power": 210,
+    "accuracy": 100,
+    "cost": 19,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -1 },
+    "synergy_tags": ["ultimate"],
+    "animation": "final_convergence_zero",
+    "description": "All forces collapse into a single annihilating point of absolute destruction."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.mythic.mindfall_requiem",
+    "name": "Mindfall Requiem",
+    "element": "dream",
+    "category": "mythic",
+    "power": 135,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "confuse", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["dream", "mythic"],
+    "animation": "mindfall_requiem",
+    "description": "A haunting psychic requiem collapses the target's sense of self."
+  }
+}

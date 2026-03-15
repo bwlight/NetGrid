@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "root.signature.treenode_aegis",
+    "name": "Treenode Aegis",
+    "element": "root",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "treenode_aegis",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

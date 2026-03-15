@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "echo.mythic.symphonic_breaker",
+    "name": "Symphonic Breaker",
+    "element": "echo",
+    "category": "mythic",
+    "power": 140,
+    "accuracy": 95,
+    "cost": 12,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1 },
+    "synergy_tags": ["echo", "mythic"],
+    "animation": "symphonic_breaker",
+    "description": "A grand harmonic collapse shatters enemy defenses in a single resonant blast."
+  }
+}

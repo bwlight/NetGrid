@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "void.mythic.absolute_zero_point",
+    "name": "Absolute Zero Point",
+    "element": "void",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 90,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "silence", "chance": 100 },
+    "stat_modifiers": null,
+    "synergy_tags": ["void", "mythic"],
+    "animation": "absolute_zero_point",
+    "description": "A reality-erasing cut that silences existence itself."
+  }
+}

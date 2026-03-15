@@ -1,0 +1,11 @@
+{
+  "ability": {
+    "id": "passive.corrupt_spread",
+    "name": "Corrupt Spread",
+    "element": "corrupt",
+    "category": "passive",
+    "triggers": ["on_hit"],
+    "effects": { "apply_corrupt_status_20": true },
+    "description": "Attacks have a chance to spread corruption."
+  }
+}

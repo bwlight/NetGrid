@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.signature.pyroclast_lance",
+    "name": "Pyroclast Lance",
+    "element": "firewall",
+    "category": "signature",
+    "power": 120,
+    "accuracy": 90,
+    "cost": 10,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 50 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "signature"],
+    "animation": "pyroclast_lance",
+    "description": "A molten spear of thermal energy pierces the target with explosive force."
+  }
+}

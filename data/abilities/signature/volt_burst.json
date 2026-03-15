@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "pulse.signature.volt_burst",
+    "name": "Volt Burst",
+    "element": "pulse",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "volt_burst",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

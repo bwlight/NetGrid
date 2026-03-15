@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "core.ultimate.system_omega",
+    "name": "System Omega",
+    "element": "core",
+    "category": "ultimate",
+    "power": 200,
+    "accuracy": 100,
+    "cost": 19,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "attack": 2, "speed": 1, "stability": 1 },
+    "synergy_tags": ["core", "ultimate"],
+    "animation": "system_omega",
+    "description": "The user reaches its final system state, unleashing a perfect destructive strike."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "archive.signature.data_sunder",
+    "name": "Data Sunder",
+    "element": "archive",
+    "category": "signature",
+    "power": 105,
+    "accuracy": 90,
+    "cost": 8,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["archive", "signature"],
+    "animation": "data_sunder",
+    "description": "A devastating logic strike that tears through the target's structural data."
+  }
+}

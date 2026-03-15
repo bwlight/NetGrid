@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "archive.basic.memory_ping",
+    "name": "Memory Ping",
+    "element": "archive",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "memory_ping",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

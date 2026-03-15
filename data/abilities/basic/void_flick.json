@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "void.basic.void_flick",
+    "name": "Void Flick",
+    "element": "void",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "void_flick",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "cloud.ultimate.astral_zero_fog",
+    "name": "Astral Zero Fog",
+    "element": "cloud",
+    "category": "ultimate",
+    "power": 180,
+    "accuracy": 100,
+    "cost": 16,
+    "priority": 1,
+    "target": "all_enemies",
+    "status_inflict": { "status": "blind", "chance": 80 },
+    "stat_modifiers": null,
+    "synergy_tags": ["cloud", "ultimate"],
+    "animation": "astral_zero_fog",
+    "description": "A divine fog descends from the astral plane, erasing sight and clarity from all enemies."
+  }
+}

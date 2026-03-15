@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "firewall.mythic.ignition_cataclysm",
+    "name": "Ignition Cataclysm",
+    "element": "firewall",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 90,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "burn", "chance": 60 },
+    "stat_modifiers": null,
+    "synergy_tags": ["firewall", "mythic"],
+    "animation": "ignition_cataclysm",
+    "description": "A devastating ignition event engulfs the target in superheated flame."
+  }
+}

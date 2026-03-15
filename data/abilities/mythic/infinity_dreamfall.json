@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "dream.mythic.infinity_dreamfall",
+    "name": "Infinity Dreamfall",
+    "element": "dream",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 95,
+    "cost": 13,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": { "status": "sleep", "chance": 30 },
+    "stat_modifiers": { "stability": -2 },
+    "synergy_tags": ["dream", "mythic"],
+    "animation": "infinity_dreamfall",
+    "description": "The target is pulled into an endless dream horizon where consciousness dissolves."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "cloud.signature.buffer_bloom",
+    "name": "Buffer Bloom",
+    "element": "cloud",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "buffer_bloom",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

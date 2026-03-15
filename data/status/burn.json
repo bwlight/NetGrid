@@ -1,0 +1,12 @@
+{
+  "status": {
+    "id": "burn",
+    "name": "Burn",
+    "type": "damage_over_time",
+    "duration_type": "turns",
+    "duration": 3,
+    "stackable": false,
+    "effects": { "damage_percent": 5 },
+    "description": "Deals damage each turn due to thermal overload."
+  }
+}

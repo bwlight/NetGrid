@@ -1,0 +1,19 @@
+{
+  "ability": {
+    "id": "echo.signature.sovereign_resonance",
+    "name": "Sovereign Resonance",
+    "element": "echo",
+    "category": "NEW",
+    "power": 0,
+    "accuracy": 100,
+    "cost": 0,
+    "priority": 0,
+    "target": "self",
+    "animation": "sovereign_resonance",
+    "description": "[TODO: Fill in description]",
+    "tags": [
+      "auto-generated",
+      "stub"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.signature.critical_drive",
+    "name": "Critical Drive",
+    "element": "core",
+    "category": "signature",
+    "power": 90,
+    "accuracy": 100,
+    "cost": 7,
+    "priority": 1,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "crit_rate": 1 },
+    "synergy_tags": ["signature"],
+    "animation": "critical_drive",
+    "description": "A high‑speed strike that sharpens the user's critical precision."
+  }
+}

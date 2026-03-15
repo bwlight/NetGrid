@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.reality_fracture",
+    "name": "Reality Fracture",
+    "element": "core",
+    "category": "mythic",
+    "power": 160,
+    "accuracy": 90,
+    "cost": 14,
+    "priority": 0,
+    "target": "single",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -2 },
+    "synergy_tags": ["mythic"],
+    "animation": "reality_fracture",
+    "description": "A catastrophic tear in reality itself rips through the target's defenses."
+  }
+}

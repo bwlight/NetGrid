@@ -1,0 +1,18 @@
+{
+  "ability": {
+    "id": "universal.mythic.collapse_maelstrom",
+    "name": "Collapse Maelstrom",
+    "element": "core",
+    "category": "mythic",
+    "power": 145,
+    "accuracy": 100,
+    "cost": 13,
+    "priority": 0,
+    "target": "all_enemies",
+    "status_inflict": null,
+    "stat_modifiers": { "defense": -1, "stability": -1 },
+    "synergy_tags": ["mythic"],
+    "animation": "collapse_maelstrom",
+    "description": "A spiraling gravitational maelstrom crushes enemy structure and stability."
+  }
+}
