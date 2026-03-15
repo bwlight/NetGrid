@@ -1,0 +1,458 @@
+{
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\axis_anchor.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\axis_shift.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\bark_shield.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\charge_burst.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\distortion_pulse.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\dream_spiral.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\echo_spiral.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\firewall_guard.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\forge_guard.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\gap_slip.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\glitch_wave.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\heat_barrier.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\hollow_step.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\ignition_pulse.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\lull_veil.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\mal_surge.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\mind_anchor.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\mist_screen.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\prime_guard.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\prime_lattice.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\sap_pulse.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\sky_ripple.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\soft_bind.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\sound_warp.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\stack_shield.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\verdant_wall.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\void_spiral.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\advanced\\warp_spike.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\bit_bash.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\bug_bite.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\core_tap.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\corrupt_peck.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\dream_puff.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\echo_tap.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\flare_peck.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\kernel_pulse.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\leaf_nudge.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\memory_ping.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\mind_wink.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\mist_puff.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\origin_strike.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\reverb_peck.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\root_snap.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\shade_tap.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\static_pop.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\void_flick.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\basic\\warm_snap.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\abyss_refraction.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\blaze_rampart.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\branch_guard.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\buffer_bloom.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\cache_fade.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\cascade_spiral.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\core_pulse.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\corrupt_spiral.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\currend_overload.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\genesis_rewrite.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\grove_eternal.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\hive_collapse.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\inferno_gate.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\keystone_lock.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\mnemo_fracture.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\morph_spike.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\null_bloom.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\pyro_bulwark.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\raid_burst.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\recall_burst.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\reson_burst.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\reverie_bloom.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\rift_bloom.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\somni_bloom.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\sovereign_resonance.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\structured_impact.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\treenode_aegis.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\vis_ripple.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ],
+  "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\abilities\\signature\\volt_burst.json": [
+    {
+      "line": 13,
+      "text": "    \"description\": \"[TODO: Fill in description]\","
+    }
+  ]
+}
