@@ -38,7 +38,7 @@ SCAN_EXTENSIONS = {
 # ============================================================
 
 BASE = Path(__file__).resolve().parent.parent
-OUTPUT = BASE / "data" / "indexes" / "todo_report.json"
+OUTPUT = BASE / "tools" / "todo_report.json"
 
 
 def should_exclude(path: Path) -> bool:
