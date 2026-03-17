@@ -1,142 +1,142 @@
-# 🌐 Netgrid — A Digital Creature RPG
+# Netgrid
 
-**Netgrid** is a creature‑collecting RPG set inside a living digital universe.  
-You play as a **Codeborn**, a human who links into the Netgrid to partner with digital creatures called **Cyberkin**.  
-Your mission is to stabilize corrupted Sectors, uncover the truth behind a growing digital collapse, and shape the future of the world through your Resonance.
+A digital‑mythic creature RPG built on a modular, schema‑validated engine. Netgrid blends tactical combat, emotional creature‑raising, and a data‑driven world into a unified experience set inside the Grid — a vast, living network shaped by elemental families, ancient systems, and evolving digital life.
 
 ---
 
-## 🎮 What Is Netgrid?
+## 🌐 What Is Netgrid?
 
-Netgrid blends exploration, creature evolution, and a dynamic battle system inside a world built from living code.  
-Players choose a starting **Sector**, each with its own culture, starter Cyberkin, and gameplay style:
+Netgrid is a creature‑raising RPG where players bond with Cyberkin, explore the fractured sectors of the Grid, and uncover the mysteries of Primacore — the mythic origin system that once unified all digital life. The game blends:
 
-- 🌱 Root — Stability & defense  
-- ⚡ Pulse — Speed & signal  
-- 📚 Archive — Memory & strategy  
-- 🔥 Firewall — Security & purification  
-- 🌈 Dream — Creativity & emotion  
-- ☁️ Cloud — Freedom & evasion  
-- 🕳️ Corrupt — Locked… for now  
+- Tactical, turn‑based combat  
+- Emotional bonding and evolution  
+- Exploration across diverse sectors  
+- A deep elemental identity system  
+- A fully data‑driven world powered by JSON and schemas  
 
-Every choice affects the story, the world, and the Cyberkin you bond with.
+This repository serves as the public mirror for the project’s data, engine, and documentation.
 
 ---
 
-## ⚔️ Core Features
+## 🔮 Elemental Families
 
-### 🧬 Cyberkin Families
-Each Sector has its own evolution line with unique stats, abilities, and lore.
+Every Cyberkin belongs to one of ten elemental families, each with its own identity, combat role, and visual theme:
 
-### ⚡ Energy‑Based Battle System
-Abilities use **Energy Levels**, not PP.  
-Combat is fast, tactical, and reactive to corruption and resonance.
+- **Root** — growth, nature, regeneration  
+- **Pulse** — energy, motion, voltage  
+- **Cloud** — mist, illusion, wind  
+- **Dream** — mind, memory, psychic data  
+- **Void** — shadow, null, anti‑signal  
+- **Firewall** — heat, defense, overload  
+- **Corrupt** — virus, decay, glitch  
+- **Archive** — knowledge, order, data integrity  
+- **Core** — metal, structure, stability  
+- **Primacore** — origin, apex, mythic system  
 
-### 🧭 Sector Exploration
-Each Sector has:
-- Unique environments  
-- Starter quests  
-- Node interactions  
-- Corrupt Rift events  
-
-### 🕳️ Corruption System
-Corruption affects:
-- Battles  
-- UI  
-- Story events  
-- Sector stability  
-
-### 🔮 Resonance
-Your bond with Cyberkin unlocks:
-- Evolutions  
-- Ultimate abilities  
-- Story‑driven transformations  
+These families shape combat, evolution, lore, and the world itself.
 
 ---
 
-## 🛠️ Project Structure (WIP)
-```text
-Netgrid/
-│
-├── data/               # JSON data for Cyberkin, Sectors, abilities
-├── src/                # Python source code
-│   ├── core/           # Core engine logic
-│   ├── battle/         # Battle system
-│   ├── world/          # Sector & Node logic
-│   └── ui/             # UI systems (HUD, menus)
-│
-├── assets/             # Art, audio, animations (placeholder)
-├── tests/              # Automated tests
-├── README.md
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── ROADMAP.md
-├── FEATURE_CHECKLIST.md
-└── DEVLOG_TEMPLATE.md
+## 📘 Explore the Game Bible
+
+The full world lore, sector pages, species index, and system documentation are available on the Netgrid website:
+
+**https://<your-pages-site-url>**
+
+---
+
+# Developer Documentation
+
+This section provides a technical overview of the repository, engine, data architecture, and development workflow.
+
+---
+
+## 📁 Repository Structure
+
+data/       → All game content (Cyberkin, abilities, statuses, AI, world data)
+schemas/    → JSON schemas for validation
+src/netgrid → Python engine (battle, AI, runtime models, loaders)
+tools/      → Generators, validators, index builders, debugging utilities
+docs/       → Game Bible (lore, design, systems)
+tests/      → Pytest suite and runtime tests
+
+
+---
+
+## ⚙️ Engine Features
+
+- Schema‑validated data loading  
+- Ability system (all categories)  
+- Status effect system  
+- Cyberkin runtime models  
+- AI behavior and scoring logic  
+- Battle engine foundations  
+- World and sector data structures  
+- Automated index generation  
+- Validation and debugging pipelines  
+
+---
+
+## 🚀 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 ```
----
 
-## 🚧 Current Status
+Install dependencies:
 
-Netgrid is in **early development**.  
-We are actively building:
-- Cyberkin families  
-- Type system  
-- Evolution requirements  
-- Sector selection UI  
-- Battle HUD  
-- Story intro sequence  
-
----
-
-## 🤝 Contributing
-
-This is a personal passion project.  
-Contributions, ideas, and feedback are welcome — especially around:
-- UI/UX  
-- Creature design  
-- Python architecture  
-- Game balance  
-
-See **CONTRIBUTING.md** for details.
-
----
-
-## 📜 License
-
-This project is currently unlicensed.  
-All content is original and protected by copyright.
-
----
-
-## 💬 Contact
-
-Created by **Bryan Lightbody**  
-GitHub: `bwlight`
-
-```text
-███╗   ██╗███████╗████████╗ ██████╗ ██████╗ ██╗██████╗ 
-████╗  ██║██╔════╝╚══██╔══╝██╔════╝ ██╔══██╗██║██╔══██╗
-██╔██╗ ██║█████╗     ██║   ██║  ███╗██████╔╝██║██║  ██║
-██║╚██╗██║██╔══╝     ██║   ██║   ██║██╔══██╗██║██║  ██║
-██║ ╚████║███████╗   ██║   ╚██████╔╝██║  ██║██║██████╔╝
-╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝ 
-              N   E   T   G   R   I   D      
-                        
-                 ████████████████████
-              ████░░░░░░░░░░░░░░░░░░████
-           ███░░░░░░░░░░░░░░░░░░░░░░░░░███
-         ██░░░░███░░░░░░░░░░░░░░███░░░░░░██
-        ██░░░██░░░██░░░░░░░░░░██░░░██░░░░███
-      ██░░░██░░░░░░██░░░░░░░░██░░░░░░██░░░███
-      ██░░██░░░░░░░░██░░░░░░██░░░░░░░░██░░███
-      ██░░██░░░░░░░░░████████░░░░░░░░░██░░███
-      ██░░██░░░░░░░░░████████░░░░░░░░░██░░███
-      ██░░██░░░░░░░░██░░░░░░██░░░░░░░░██░░███
-      ██░░░██░░░░░░██░░░░░░░░██░░░░░░██░░░███
-       ██░░░██░░░██░░░░░░░░░░██░░░██░░░█████
-        ██░░░░███░░░░░░░░░░░░░░███░░░░████
-          ███░░░░░░░░░░░░░░░░░░░░░░░█████
-              ████░░░░░░░░░░░░░░██████
-                  ████████████████
+```bash
+pip install -r requirements.txt
 ```
+Run validation:
+```bash
+python tools/validate_all.py
+```
+Run tests:
+```bash
+pytest
+```
+
+## 🛠 Development Workflow
+Add new Cyberkin → create a species JSON file → validate → rebuild indexes
+
+Add new abilities → place in correct category folder → validate
+
+Update schemas → run full validation suite
+
+Modify engine → run tests to ensure compatibility
+
+Use tools/ for automated generation and debugging
+
+## 🗺 Roadmap
+Short‑term
+
+Finalize Cyberkin families
+
+Complete ability and status libraries
+
+Expand battle engine
+
+Add world traversal logic
+
+Mid‑term
+
+Implement UI layer
+
+Add save/load system
+
+Build playable prototype
+
+Long‑term
+
+Full campaign
+
+Creature bonding system
+
+Sector‑based exploration loop
+
+## 📄 License
+All rights reserved. Netgrid is a proprietary creative project.
