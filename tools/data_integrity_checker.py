@@ -4,16 +4,14 @@ import json
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
-DATA = BASE / "data"
-CYBERKIN = DATA / "cyberkin"
-FAMILIES = DATA / "families"
-INDEXES = DATA / "indexes"
+CYBERKIN = BASE / "data" / "cyberkin"
+FAMILIES = BASE / "data" / "families"
+INDEX = BASE / "data" / "indexes" / "cyberkin_index.json"
 
 
-def load_json(path):
+def load_json(path: Path):
     try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        return json.load(open(path, "r", encoding="utf-8"))
     except Exception:
         return None
 
@@ -22,24 +20,33 @@ def run_integrity_check():
     critical = []
     warnings = []
     grouped = {
-        "Missing Cyberkin JSON Files": [],
-        "Malformed Cyberkin JSON Files": [],
-        "Index Stage Mismatches": [],
-        "Missing Family JSON Files": [],
-        "Malformed Family JSON Files": [],
-        "Families With No Members": [],
+        "Malformed Cyberkin JSON": [],
+        "Missing Cyberkin Wrapper": [],
+        "Missing Required Cyberkin Fields": [],
+        "Stage Mismatches": [],
+        "Missing Families": [],
+        "Empty Families": [],
+        "Invalid Family Members": [],
+        "Unknown Family References": [],
+        "Orphaned Family Files": [],
     }
 
-    # Load index (if missing, warn but do not fail — index_rebuilder will fix it)
-    index_path = INDEXES / "cyberkin_index.json"
-    index = load_json(index_path)
-    if not index:
+    # -----------------------------
+    # Load index (if exists)
+    # -----------------------------
+    index_data = load_json(INDEX)
+    if not index_data:
         warnings.append("cyberkin_index.json missing or unreadable — will be rebuilt.")
-        index = {"cyberkin": {}}
+        index = {}
+    else:
+        index = index_data.get("cyberkin", {})
 
-    index = index.get("cyberkin", {})
+    # -----------------------------
+    # Scan Cyberkin JSON
+    # -----------------------------
+    cyberkin_families = {}  # family -> list of members
+    cyberkin_seen = set()
 
-    # Validate Cyberkin JSON files (source of truth)
     for stage_dir in CYBERKIN.iterdir():
         if not stage_dir.is_dir():
             continue
@@ -50,50 +57,78 @@ def run_integrity_check():
 
             if not data:
                 critical.append(f"{name}.json is unreadable or malformed.")
-                grouped["Malformed Cyberkin JSON Files"].append(name)
+                grouped["Malformed Cyberkin JSON"].append(name)
                 continue
 
             ck = data.get("cyberkin")
             if not ck:
                 critical.append(f"{name}.json missing required 'cyberkin' wrapper.")
-                grouped["Malformed Cyberkin JSON Files"].append(name)
+                grouped["Missing Cyberkin Wrapper"].append(name)
                 continue
 
-            if "stage" not in ck:
-                critical.append(f"{name}.json missing required field 'stage'.")
-                grouped["Malformed Cyberkin JSON Files"].append(name)
+            # Required fields
+            required = ["id", "name", "family", "stage"]
+            missing = [f for f in required if f not in ck]
+            if missing:
+                critical.append(f"{name}.json missing required fields: {missing}")
+                grouped["Missing Required Cyberkin Fields"].append(f"{name}: {missing}")
                 continue
 
+            cid = ck["id"]
+            cyberkin_seen.add(cid)
+
+            # Stage mismatch check
             json_stage = ck["stage"]
-            index_stage = index.get(name, {}).get("stage")
-
+            index_stage = index.get(cid, {}).get("stage")
             if index_stage and index_stage != json_stage:
                 warnings.append(
-                    f"Index stage mismatch for {name}: index='{index_stage}', json='{json_stage}'."
+                    f"Stage mismatch for {cid}: index='{index_stage}', json='{json_stage}'."
                 )
-                grouped["Index Stage Mismatches"].append(
-                    f"{name}: index='{index_stage}', json='{json_stage}'"
+                grouped["Stage Mismatches"].append(
+                    f"{cid}: index='{index_stage}', json='{json_stage}'"
                 )
 
+            # Family collection
+            fam = ck["family"].lower()
+            if fam not in cyberkin_families:
+                cyberkin_families[fam] = []
+            cyberkin_families[fam].append(cid)
 
-    # Validate family JSON files
-    for fam_json in FAMILIES.glob("*.json"):
-        fam = load_json(fam_json)
-        name = fam_json.stem
+    # -----------------------------
+    # Validate Family JSON files
+    # -----------------------------
+    family_files = {f.stem.lower(): f for f in FAMILIES.glob("*.json")}
 
-        if not fam:
-            warnings.append(f"{name}.json unreadable or malformed.")
-            grouped["Malformed Family JSON Files"].append(name)
+    # Families referenced by Cyberkin but missing JSON
+    for fam in cyberkin_families:
+        if fam not in family_files:
+            warnings.append(f"Family '{fam}' referenced by Cyberkin but no JSON file exists.")
+            grouped["Missing Families"].append(fam)
+
+    # Validate existing family JSON files
+    for fam_name, fam_file in family_files.items():
+        data = load_json(fam_file)
+        if not data:
+            warnings.append(f"Family file '{fam_name}' is unreadable.")
+            grouped["Orphaned Family Files"].append(fam_name)
             continue
 
-        if "members" not in fam:
-            warnings.append(f"{name}.json missing 'members' list.")
-            grouped["Malformed Family JSON Files"].append(name)
-            continue
+        members = data.get("members", [])
+        if not members:
+            warnings.append(f"Family '{fam_name}' has no members.")
+            grouped["Empty Families"].append(fam_name)
 
-        if not fam["members"]:
-            warnings.append(f"Family '{name}' has no members.")
-            grouped["Families With No Members"].append(name)
+        # Members that don't exist as Cyberkin
+        for m in members:
+            if m not in cyberkin_seen:
+                warnings.append(f"Family '{fam_name}' lists unknown Cyberkin '{m}'.")
+                grouped["Invalid Family Members"].append(f"{fam_name}: {m}")
+
+    # Cyberkin referencing families that don't exist
+    for fam in cyberkin_families:
+        if fam not in family_files:
+            warnings.append(f"Cyberkin reference unknown family '{fam}'.")
+            grouped["Unknown Family References"].append(fam)
 
     return {
         "critical": critical,
