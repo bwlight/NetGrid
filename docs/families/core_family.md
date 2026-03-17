@@ -1,29 +1,26 @@
-# Dream Family
-
-
----
+# Core Family
 
 ## Family Members
 
-### Drowseed
+### Bitling
 - **Stage:** Baby
-- **Element:** Dream
-- **Roles:** Support
-- **Personality:** Sleepy, Sweet
-- **Tags:** baby, dream
+- **Element:** Core
+- **Roles:** Balanced
+- **Personality:** Neutral, Calm
+- **Tags:** baby, core
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 36
-- Attack: 14
-- Defense: 16
-- Speed: 14
-- Stability: 26
+- Hp: 38
+- Attack: 18
+- Defense: 18
+- Speed: 18
+- Stability: 18
 
 **Abilities**
-- Basic — Dream Puff
+- Basic — Core Tap
 - Advanced — None
 - Support — None
 - Disruptor — None
@@ -57,36 +54,36 @@
 - Bind — 0
 
 **Evolution**
-- next: visprout
+- next: stackhart
 - method: level
 - requirements:
   - level: 10
 
 ---
 
-### Visprout
+### Stackhart
 - **Stage:** Rookie
-- **Element:** Dream
-- **Roles:** Support, Controller
-- **Personality:** Sleepy, Insightful
-- **Tags:** rookie, dream
+- **Element:** Core
+- **Roles:** Balanced, Tank
+- **Personality:** Calm, Centered
+- **Tags:** rookie, core
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 50
-- Attack: 22
-- Defense: 26
-- Speed: 24
-- Stability: 40
+- Hp: 58
+- Attack: 30
+- Defense: 34
+- Speed: 22
+- Stability: 34
 
 **Abilities**
-- Basic — Dream Puff, Mind Wink
-- Advanced — Lull Veil
+- Basic — Core Tap, Bit Bash
+- Advanced — Stack Shield
 - Support — None
 - Disruptor — None
-- Signature — Vis Ripple
+- Signature — Core Pulse
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -94,58 +91,58 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 0.5
-- Archive — 0.5
+- Pulse — 1.0
+- Archive — 1.0
 - Cloud — 1.0
-- Firewall — 1.5
+- Firewall — 1.0
 - Dream — 1.0
-- Echo — 1.5
+- Echo — 1.0
 - Void — 1.0
 - Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — -2
+- Sleep — 0
 - Burn — 0
-- Corrupt — 1
-- Fear — -1
-- Confuse — -2
+- Corrupt — 0
+- Fear — 0
+- Confuse — 0
 - Slow — 0
 - Shock — 0
 - Poison — 0
-- Silence — 1
+- Silence — 0
 - Bind — 0
 
 **Evolution**
-- next: somnivine
+- next: coreforge
 - method: level
 - requirements:
   - level: 20
 
 ---
 
-### Somnivine
+### Coreforge — *The Structured Sentinel*
 - **Stage:** Champion
-- **Element:** Dream
-- **Roles:** Controller, Support
-- **Personality:** Calm, Ethereal
-- **Tags:** champion, dream
+- **Element:** Core
+- **Roles:** Balanced, Tank
+- **Personality:** Calm, Methodical
+- **Tags:** champion, core, sentinel
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 74
-- Attack: 40
-- Defense: 44
-- Speed: 40
-- Stability: 86
+- Hp: 96
+- Attack: 58
+- Defense: 76
+- Speed: 38
+- Stability: 72
 
 **Abilities**
-- Basic — Mind Wink, Lull Veil
-- Advanced — Dream Spiral, Soft Bind
+- Basic — Bit Bash, Stack Shield
+- Advanced — Core Pulse, Forge Guard
 - Support — None
 - Disruptor — None
-- Signature — Somni Bloom
+- Signature — Structured Impact
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -153,58 +150,58 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 0.5
-- Archive — 0.5
+- Pulse — 1.0
+- Archive — 1.0
 - Cloud — 1.0
-- Firewall — 1.5
+- Firewall — 1.0
 - Dream — 1.0
-- Echo — 1.5
+- Echo — 1.0
 - Void — 1.0
 - Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — -2
+- Sleep — 0
 - Burn — 0
 - Corrupt — 1
-- Fear — -1
-- Confuse — -2
-- Slow — 0
+- Fear — 0
+- Confuse — 0
+- Slow — 1
 - Shock — 0
 - Poison — 0
-- Silence — 1
-- Bind — 0
+- Silence — 0
+- Bind — 1
 
 **Evolution**
-- next: reverieweald
+- next: coreprime
 - method: bond
 - requirements:
   - bond: 60
 
 ---
 
-### Reverieweald — *The Dreaming Canopy*
+### Coreprime — *The System Keystone*
 - **Stage:** Final
-- **Element:** Dream
-- **Roles:** Controller, Support
-- **Personality:** Ethereal, Serene
-- **Tags:** final, dream, canopy, reverie
+- **Element:** Core
+- **Roles:** Tank, Balanced, Stabilizer
+- **Personality:** Calm, Resolute
+- **Tags:** final, core, keystone, stabilizer
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 120
-- Attack: 60
-- Defense: 70
-- Speed: 62
-- Stability: 142
+- Hp: 148
+- Attack: 96
+- Defense: 112
+- Speed: 64
+- Stability: 128
 
 **Abilities**
-- Basic — Mind Wink, Lull Veil
-- Advanced — Dream Spiral, Soft Bind
+- Basic — Core Pulse, Bit Bash
+- Advanced — Prime Guard, Axis Anchor
 - Support — None
 - Disruptor — None
-- Signature — Reverie Bloom
+- Signature — Keystone Lock
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -212,26 +209,26 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 0.5
-- Archive — 0.5
+- Pulse — 1.0
+- Archive — 1.0
 - Cloud — 1.0
-- Firewall — 1.5
+- Firewall — 1.0
 - Dream — 1.0
-- Echo — 1.5
+- Echo — 1.0
 - Void — 1.0
 - Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — -2
+- Sleep — 0
 - Burn — 0
 - Corrupt — 1
-- Fear — -1
-- Confuse — -2
-- Slow — 0
+- Fear — 0
+- Confuse — 0
+- Slow — 1
 - Shock — 0
 - Poison — 0
-- Silence — 2
-- Bind — 0
+- Silence — 0
+- Bind — 1
 
 **Evolution**
 - next: None
@@ -240,9 +237,5 @@
 
 ---
 
-## Json File
-```json
-{}
-```
 
 This file is auto-generated from NetGrid indexes and reference lore.

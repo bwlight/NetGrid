@@ -1,29 +1,26 @@
-# Firewall Family
-
-
----
+# Echo Family
 
 ## Family Members
 
-### Embercub
+### Echolet
 - **Stage:** Baby
-- **Element:** Firewall
-- **Roles:** Offense
-- **Personality:** Bold, Fiery
-- **Tags:** baby, firewall
+- **Element:** Echo
+- **Roles:** Disruptor
+- **Personality:** Skippy, Reactive
+- **Tags:** baby, echo
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 38
-- Attack: 24
-- Defense: 16
-- Speed: 18
+- Hp: 34
+- Attack: 18
+- Defense: 14
+- Speed: 22
 - Stability: 18
 
 **Abilities**
-- Basic — Warm Snap
+- Basic — Echo Tap
 - Advanced — None
 - Support — None
 - Disruptor — None
@@ -57,36 +54,36 @@
 - Bind — 0
 
 **Evolution**
-- next: blazeguard
+- next: resonimp
 - method: level
 - requirements:
   - level: 10
 
 ---
 
-### Blazeguard
+### Resonimp
 - **Stage:** Rookie
-- **Element:** Firewall
-- **Roles:** Offense, Tank
-- **Personality:** Bold, Protective
-- **Tags:** rookie, firewall
+- **Element:** Echo
+- **Roles:** Disruptor, Speedster
+- **Personality:** Reactive, Energetic
+- **Tags:** rookie, echo
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 58
-- Attack: 42
-- Defense: 32
-- Speed: 24
-- Stability: 30
+- Hp: 48
+- Attack: 34
+- Defense: 22
+- Speed: 42
+- Stability: 26
 
 **Abilities**
-- Basic — Warm Snap, Flare Peck
-- Advanced — Firewall Guard
+- Basic — Echo Tap, Reverb Peck
+- Advanced — Sound Warp
 - Support — None
 - Disruptor — None
-- Signature — Blaze Rampart
+- Signature — Reson Burst
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -96,56 +93,56 @@
 - Root — 1.0
 - Pulse — 1.5
 - Archive — 1.0
-- Cloud — 0.5
+- Cloud — 1.0
 - Firewall — 1.0
-- Dream — 0.5
+- Dream — 1.5
 - Echo — 1.0
-- Void — 1.0
-- Corrupt — 1.5
+- Void — 0.5
+- Corrupt — 0.5
 
 **Status Resistances**
 - Sleep — 1
-- Burn — -2
+- Burn — 0
 - Corrupt — 0
-- Fear — -1
-- Confuse — 0
-- Slow — 0
-- Shock — 1
+- Fear — 0
+- Confuse — -1
+- Slow — -2
+- Shock — -1
 - Poison — 0
 - Silence — 0
 - Bind — 0
 
 **Evolution**
-- next: pyrowall
+- next: echoraid
 - method: level
 - requirements:
   - level: 20
 
 ---
 
-### Pyrowall
+### Echoraid
 - **Stage:** Champion
-- **Element:** Firewall
-- **Roles:** Tank, Offense
-- **Personality:** Bold, Defiant
-- **Tags:** champion, firewall
+- **Element:** Echo
+- **Roles:** Disruptor, Speedster
+- **Personality:** Reactive, Sharp
+- **Tags:** champion, echo
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 90
-- Attack: 76
-- Defense: 58
-- Speed: 38
-- Stability: 56
+- Hp: 72
+- Attack: 78
+- Defense: 40
+- Speed: 92
+- Stability: 44
 
 **Abilities**
-- Basic — Flare Peck, Firewall Guard
-- Advanced — Heat Barrier, Ignition Pulse
+- Basic — Reverb Peck, Sound Warp
+- Advanced — Echo Spiral, Distortion Pulse
 - Support — None
 - Disruptor — None
-- Signature — Pyro Bulwark
+- Signature — Raid Burst
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -155,56 +152,56 @@
 - Root — 1.0
 - Pulse — 1.5
 - Archive — 1.0
-- Cloud — 0.5
+- Cloud — 1.0
 - Firewall — 1.0
-- Dream — 0.5
+- Dream — 1.5
 - Echo — 1.0
-- Void — 1.0
-- Corrupt — 1.5
+- Void — 0.5
+- Corrupt — 0.5
 
 **Status Resistances**
 - Sleep — 1
-- Burn — -2
+- Burn — 0
 - Corrupt — 0
-- Fear — -1
-- Confuse — 0
-- Slow — 0
-- Shock — 1
+- Fear — 0
+- Confuse — -1
+- Slow — -2
+- Shock — -2
 - Poison — 0
 - Silence — 0
 - Bind — 0
 
 **Evolution**
-- next: infernode
+- next: resonarch
 - method: bond
 - requirements:
   - bond: 60
 
 ---
 
-### Infernode — *The Living Firewall*
+### Resonarch — *The Echo Sovereign*
 - **Stage:** Final
-- **Element:** Firewall
-- **Roles:** Tank, Offense
-- **Personality:** Defiant, Blazing
-- **Tags:** final, firewall, living_firewall
+- **Element:** Echo
+- **Roles:** Disruptor, Speedster
+- **Personality:** Sharp, Reactive
+- **Tags:** final, echo, sovereign
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 142
-- Attack: 118
-- Defense: 86
-- Speed: 52
-- Stability: 84
+- Hp: 118
+- Attack: 128
+- Defense: 58
+- Speed: 148
+- Stability: 66
 
 **Abilities**
-- Basic — Firewall Guard, Flare Peck
-- Advanced — Heat Barrier, Ignition Pulse
+- Basic — Sound Warp, Reverb Peck
+- Advanced — Echo Spiral, Distortion Pulse
 - Support — None
 - Disruptor — None
-- Signature — Inferno Gate
+- Signature — Sovereign Resonance
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -214,21 +211,21 @@
 - Root — 1.0
 - Pulse — 1.5
 - Archive — 1.0
-- Cloud — 0.5
+- Cloud — 1.0
 - Firewall — 1.0
-- Dream — 0.5
+- Dream — 1.5
 - Echo — 1.0
-- Void — 1.0
-- Corrupt — 1.5
+- Void — 0.5
+- Corrupt — 0.5
 
 **Status Resistances**
 - Sleep — 1
-- Burn — -2
+- Burn — 0
 - Corrupt — 0
-- Fear — -1
-- Confuse — 0
-- Slow — 0
-- Shock — 2
+- Fear — 0
+- Confuse — -2
+- Slow — -2
+- Shock — -2
 - Poison — 0
 - Silence — 0
 - Bind — 0
@@ -240,9 +237,5 @@
 
 ---
 
-## Json File
-```json
-{}
-```
 
 This file is auto-generated from NetGrid indexes and reference lore.

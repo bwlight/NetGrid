@@ -2,7 +2,11 @@
   "sector": "Core",
   "type": "Core",
   "habitat": "Root Sector \u2014 Origin Loop",
-  "themes": [],
+  "themes": [
+    "Team synergy",
+    "Healing",
+    "Buffing"
+  ],
   "evolution_requirements": [
     "Forms a Resonance Link with a Codeborn"
   ],
@@ -13,6 +17,7 @@
   "example_abilities": [
     "Axis Shift",
     "Core Pulse",
+    "Kernel Pulse",
     "Origin Strike",
     "Prime Lattice"
   ]

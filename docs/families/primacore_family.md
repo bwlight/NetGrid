@@ -63,9 +63,5 @@
 
 ---
 
-## Json File
-```json
-{}
-```
 
 This file is auto-generated from NetGrid indexes and reference lore.

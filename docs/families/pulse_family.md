@@ -1,29 +1,26 @@
-# Corrupt Family
-
-
----
+# Pulse Family
 
 ## Family Members
 
-### Glitchlet
+### Pulspore
 - **Stage:** Baby
-- **Element:** Corrupt
+- **Element:** Pulse
 - **Roles:** Disruptor
-- **Personality:** Chaotic, Erratic
-- **Tags:** baby, corrupt
+- **Personality:** Sparky, Playful
+- **Tags:** baby, pulse
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 34
+- Hp: 36
 - Attack: 22
 - Defense: 14
-- Speed: 20
-- Stability: 14
+- Speed: 22
+- Stability: 18
 
 **Abilities**
-- Basic — Bug Bite
+- Basic — Static Pop
 - Advanced — None
 - Support — None
 - Disruptor — None
@@ -57,179 +54,179 @@
 - Bind — 0
 
 **Evolution**
-- next: bugmorph
+- next: voltling
 - method: level
 - requirements:
   - level: 10
 
 ---
 
-### Bugmorph
+### Voltling
 - **Stage:** Rookie
-- **Element:** Corrupt
-- **Roles:** Disruptor, Offense
-- **Personality:** Chaotic, Erratic
-- **Tags:** rookie, corrupt
+- **Element:** Pulse
+- **Roles:** Disruptor, Speedster
+- **Personality:** Energetic, Impulsive
+- **Tags:** rookie, pulse
 
 **Description**
 *Description coming soon.*
 
 **Stats**
 - Hp: 52
-- Attack: 40
-- Defense: 22
-- Speed: 32
-- Stability: 20
+- Attack: 38
+- Defense: 24
+- Speed: 40
+- Stability: 28
 
 **Abilities**
-- Basic — Bug Bite, Corrupt Peck
-- Advanced — Glitch Wave
+- Basic — Static Pop, Spark Jab
+- Advanced — Pulse Arc
 - Support — None
 - Disruptor — None
-- Signature — Morph Spike
+- Signature — Volt Burst
 - Mythic — None
 - Ultimate — None
 - Passive — None
 
 **Element Resistances**
 - Core — 1.0
-- Root — 1.5
+- Root — 0.5
 - Pulse — 1.0
-- Archive — 0.5
-- Cloud — 1.0
+- Archive — 1.0
+- Cloud — 1.5
 - Firewall — 0.5
-- Dream — 1.0
-- Echo — 1.5
+- Dream — 1.5
+- Echo — 1.0
 - Void — 1.0
 - Corrupt — 1.0
 
 **Status Resistances**
 - Sleep — 1
-- Burn — 1
-- Corrupt — -2
+- Burn — 0
+- Corrupt — 0
 - Fear — 0
-- Confuse — -1
-- Slow — 0
-- Shock — 0
-- Poison — -1
+- Confuse — 1
+- Slow — -2
+- Shock — -1
+- Poison — 0
 - Silence — 0
 - Bind — 0
 
 **Evolution**
-- next: malwarp
+- next: currend
 - method: level
 - requirements:
   - level: 20
 
 ---
 
-### Malwarp
+### Currend
 - **Stage:** Champion
-- **Element:** Corrupt
-- **Roles:** Offense, Disruptor
-- **Personality:** Chaotic, Erratic
-- **Tags:** champion, corrupt
+- **Element:** Pulse
+- **Roles:** Disruptor, Speedster
+- **Personality:** Hyperactive, Unpredictable
+- **Tags:** champion, pulse
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 82
-- Attack: 88
+- Hp: 78
+- Attack: 72
 - Defense: 40
-- Speed: 64
-- Stability: 34
+- Speed: 88
+- Stability: 48
 
 **Abilities**
-- Basic — Corrupt Peck, Glitch Wave
-- Advanced — Mal Surge, Warp Spike
+- Basic — Spark Jab, Pulse Arc
+- Advanced — Voltage Spiral, Charge Burst
 - Support — None
 - Disruptor — None
-- Signature — Corrupt Spiral
+- Signature — Currend Overload
 - Mythic — None
 - Ultimate — None
 - Passive — None
 
 **Element Resistances**
 - Core — 1.0
-- Root — 1.5
+- Root — 0.5
 - Pulse — 1.0
-- Archive — 0.5
-- Cloud — 1.0
+- Archive — 1.0
+- Cloud — 1.5
 - Firewall — 0.5
-- Dream — 1.0
-- Echo — 1.5
+- Dream — 1.5
+- Echo — 1.0
 - Void — 1.0
 - Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — 1
-- Burn — 1
-- Corrupt — -2
+- Sleep — 2
+- Burn — 0
+- Corrupt — 0
 - Fear — 0
-- Confuse — -2
-- Slow — 0
-- Shock — 0
-- Poison — -1
+- Confuse — 1
+- Slow — -2
+- Shock — -2
+- Poison — 0
 - Silence — 0
 - Bind — 0
 
 **Evolution**
-- next: chaoshive
+- next: ampflare
 - method: bond
 - requirements:
   - bond: 60
 
 ---
 
-### Chaoshive — *The Corrupt Swarmmind*
+### Ampflare — *The Storm Conductor*
 - **Stage:** Final
-- **Element:** Corrupt
-- **Roles:** Offense, Disruptor
-- **Personality:** Chaotic, Unstable
-- **Tags:** final, corrupt, swarmmind
+- **Element:** Pulse
+- **Roles:** Disruptor, Speedster
+- **Personality:** Electric, Unrestrained
+- **Tags:** final, pulse, storm, conductor
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 130
-- Attack: 142
+- Hp: 118
+- Attack: 112
 - Defense: 58
-- Speed: 96
-- Stability: 48
+- Speed: 138
+- Stability: 70
 
 **Abilities**
-- Basic — Glitch Wave, Corrupt Peck
-- Advanced — Mal Surge, Warp Spike
+- Basic — Spark Jab, Pulse Arc
+- Advanced — Voltage Spiral, Charge Burst
 - Support — None
 - Disruptor — None
-- Signature — Hive Collapse
+- Signature — Ampstorm Nova
 - Mythic — None
 - Ultimate — None
 - Passive — None
 
 **Element Resistances**
 - Core — 1.0
-- Root — 1.5
+- Root — 0.5
 - Pulse — 1.0
-- Archive — 0.5
-- Cloud — 1.0
+- Archive — 1.0
+- Cloud — 1.5
 - Firewall — 0.5
-- Dream — 1.0
-- Echo — 1.5
+- Dream — 1.5
+- Echo — 1.0
 - Void — 1.0
 - Corrupt — 1.0
 
 **Status Resistances**
 - Sleep — 2
-- Burn — 1
-- Corrupt — -2
+- Burn — 0
+- Corrupt — 0
 - Fear — 0
-- Confuse — -2
-- Slow — 0
-- Shock — 0
-- Poison — -2
+- Confuse — 2
+- Slow — -2
+- Shock — -2
+- Poison — 0
 - Silence — 0
 - Bind — 0
 
@@ -240,9 +237,5 @@
 
 ---
 
-## Json File
-```json
-{}
-```
 
 This file is auto-generated from NetGrid indexes and reference lore.

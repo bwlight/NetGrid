@@ -1,36 +1,10 @@
 {
-  "family": "Corrupt",
-  "sector": "Corrupt",
-  "type": "Corrupt",
-  "habitat": "Corrupt Sector \u2014 Fractured Abyss",
-  "themes": [
-    "Debuffs",
-    "Power",
-    "Control",
-    "Aggression",
-    "Interference"
-  ],
-  "evolution_requirements": [
-    "Exposure to corrupted Nodes",
-    "High instability",
-    "Complete a mutation\u2011based trial"
-  ],
-  "quest_hooks": [
-    "Contain a spreading corruption leak",
-    "Rescue a Glitchmaw trapped in a corrupted loop",
-    "Stop a Malwaregeist infecting Sector boundaries"
-  ],
-  "example_abilities": [
-    "Bug Bite",
-    "Corrupt Peck",
-    "Glitch Wave",
-    "Mal Surge",
-    "Warp Spike"
-  ],
-  "members": [
-    "Bugmorph",
-    "Chaoshive",
-    "Glitchlet",
-    "Malwarp"
-  ]
+    "family": "corrupt",
+    "members": [
+        "bugmorph",
+        "chaoshive",
+        "glitchlet",
+        "malwarp"
+    ],
+    "_generated_from": "tools/cyberkin/family_autofill.py"
 }

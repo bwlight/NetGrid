@@ -1,34 +1,10 @@
 {
-  "family": "Void",
-  "sector": "Void",
-  "type": "Void",
-  "habitat": "Void Sector \u2014 Null Basin",
-  "themes": [
-    "Debuffs",
-    "Control",
-    "Interference"
-  ],
-  "evolution_requirements": [
-    "Exposure to null storms",
-    "High corruption resistance",
-    "Complete a purification trial"
-  ],
-  "quest_hooks": [
-    "Purify a corrupted Node",
-    "Rescue a Hollowbyte from data starvation",
-    "Stop a Voidreaver absorbing too much data"
-  ],
-  "example_abilities": [
-    "Gap Slip",
-    "Hollow Step",
-    "Shade Tap",
-    "Void Flick",
-    "Void Spiral"
-  ],
-  "members": [
-    "Abyssynth",
-    "Gapshade",
-    "Nullimp",
-    "Riftveil"
-  ]
+    "family": "void",
+    "members": [
+        "abyssynth",
+        "gapshade",
+        "nullimp",
+        "riftveil"
+    ],
+    "_generated_from": "tools/cyberkin/family_autofill.py"
 }

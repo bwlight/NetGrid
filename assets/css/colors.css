@@ -1,0 +1,276 @@
+/* Base variables (default theme = dark) */
+:root {
+  --bg: #0d0f12;
+  --text: #d7d9df;
+  --accent: #9cd3ff;
+  --accent-soft: rgba(80,150,255,0.25);
+  --muted: #7f8694;
+  --code-bg: #1a1d22;
+}
+
+/* Apply variables */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4 {
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent-soft);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 6px var(--accent-soft);
+}
+
+pre, code {
+  background: var(--code-bg);
+  color: var(--accent);
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.3rem 0;
+}
+
+/* Section dividers */
+hr {
+  border: none;
+  border-top: 1px solid rgba(80, 150, 255, 0.2);
+  margin: 2rem 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.6rem;
+}
+
+th {
+  background: #1a1d22;
+  color: #9cd3ff;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #6ab8ff;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: #c7d4e8;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Navigation links (if you add them later) */
+.navbar {
+  background: #111317;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(80, 150, 255, 0.2);
+}
+
+.navbar a {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(80, 150, 255, 0.2);
+  color: #7f8694;
+  font-size: 0.9rem;
+}
+
+/* Sidebar container */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  background: var(--code-bg);
+  border-right: 1px solid var(--accent-soft);
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+/* Sidebar title */
+.sidebar-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent-soft);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Navigation links */
+.sidebar-nav a {
+  display: block;
+  padding: 0.5rem 0.3rem;
+  margin: 0.2rem 0;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-shadow: 0 0 6px var(--accent-soft);
+}
+
+/* Toggle button (mobile) */
+#sidebar-toggle {
+  display: none;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-soft);
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Page content shifts right to make room */
+body {
+  margin-left: 260px;
+}
+
+/* Mobile layout */
+@media (max-width: 800px) {
+  #sidebar {
+    transform: translateX(-260px);
+    transition: 0.3s ease;
+  }
+
+  #sidebar.open {
+    transform: translateX(0);
+  }
+
+  #sidebar-toggle {
+    display: block;
+  }
+
+  body {
+    margin-left: 0;
+  }
+}
+
+
+/*colors for themese*/
+body.theme-primacore {
+  --bg: #0e0c07;
+  --text: #f2e9d0;
+  --accent: #ffcc66;
+  --accent-soft: rgba(255, 204, 102, 0.35);
+  --muted: #c7b89a;
+  --code-bg: #1a1712;
+}
+
+body.theme-void {
+  --bg: #07050a;
+  --text: #e3d7ff;
+  --accent: #b388ff;
+  --accent-soft: rgba(179, 136, 255, 0.35);
+  --muted: #9a8bb8;
+  --code-bg: #1a1324;
+}
+
+body.theme-firewall {
+  --bg: #120808;
+  --text: #ffd6d6;
+  --accent: #ff6b6b;
+  --accent-soft: rgba(255, 107, 107, 0.35);
+  --muted: #c49a9a;
+  --code-bg: #1e0f0f;
+}
+
+body.theme-cloud {
+  --bg: #0a1012;
+  --text: #d8faff;
+  --accent: #6ff2ff;
+  --accent-soft: rgba(111, 242, 255, 0.35);
+  --muted: #9ac7cc;
+  --code-bg: #112024;
+}
+
+body.theme-root {
+  --bg: #0c110c;
+  --text: #d8f5d8;
+  --accent: #7aff7a;
+  --accent-soft: rgba(122, 255, 122, 0.35);
+  --muted: #9fbf9f;
+  --code-bg: #142014;
+}
+
+body.theme-pulse {
+  --bg: #0b0f12;
+  --text: #dff3ff;
+  --accent: #6fd0ff;
+  --accent-soft: rgba(111, 208, 255, 0.35);
+  --muted: #9bb6c7;
+  --code-bg: #132029;
+}
+
+body.theme-dream {
+  --bg: #0d0a12;
+  --text: #f0e4ff;
+  --accent: #d59aff;
+  --accent-soft: rgba(213, 154, 255, 0.35);
+  --muted: #bba4cc;
+  --code-bg: #1c1424;
+}
+
+body.theme-corrupt {
+  --bg: #0d0a0a;
+  --text: #ffe8f0;
+  --accent: #ff66b3;
+  --accent-soft: rgba(255, 102, 179, 0.35);
+  --muted: #c79ab3;
+  --code-bg: #1c1218;
+}
+
+body.theme-archive {
+  --bg: #0e0e10;
+  --text: #f0f0ff;
+  --accent: #8aa8ff;
+  --accent-soft: rgba(138, 168, 255, 0.35);
+  --muted: #a8b0cc;
+  --code-bg: #1a1c24;
+}
+
+body.theme-core {
+  --bg: #0d0f11;
+  --text: #e2e8ec;
+  --accent: #8cd0e6;
+  --accent-soft: rgba(140, 208, 230, 0.35);
+  --muted: #a3b1b8;
+  --code-bg: #1a2024;
+}
+

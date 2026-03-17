@@ -1,29 +1,26 @@
-# Echo Family
-
-
----
+# Dream Family
 
 ## Family Members
 
-### Echolet
+### Drowseed
 - **Stage:** Baby
-- **Element:** Echo
-- **Roles:** Disruptor
-- **Personality:** Skippy, Reactive
-- **Tags:** baby, echo
+- **Element:** Dream
+- **Roles:** Support
+- **Personality:** Sleepy, Sweet
+- **Tags:** baby, dream
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 34
-- Attack: 18
-- Defense: 14
-- Speed: 22
-- Stability: 18
+- Hp: 36
+- Attack: 14
+- Defense: 16
+- Speed: 14
+- Stability: 26
 
 **Abilities**
-- Basic — Echo Tap
+- Basic — Dream Puff
 - Advanced — None
 - Support — None
 - Disruptor — None
@@ -57,36 +54,36 @@
 - Bind — 0
 
 **Evolution**
-- next: resonimp
+- next: visprout
 - method: level
 - requirements:
   - level: 10
 
 ---
 
-### Resonimp
+### Visprout
 - **Stage:** Rookie
-- **Element:** Echo
-- **Roles:** Disruptor, Speedster
-- **Personality:** Reactive, Energetic
-- **Tags:** rookie, echo
+- **Element:** Dream
+- **Roles:** Support, Controller
+- **Personality:** Sleepy, Insightful
+- **Tags:** rookie, dream
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 48
-- Attack: 34
-- Defense: 22
-- Speed: 42
-- Stability: 26
+- Hp: 50
+- Attack: 22
+- Defense: 26
+- Speed: 24
+- Stability: 40
 
 **Abilities**
-- Basic — Echo Tap, Reverb Peck
-- Advanced — Sound Warp
+- Basic — Dream Puff, Mind Wink
+- Advanced — Lull Veil
 - Support — None
 - Disruptor — None
-- Signature — Reson Burst
+- Signature — Vis Ripple
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -94,58 +91,58 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 1.5
-- Archive — 1.0
+- Pulse — 0.5
+- Archive — 0.5
 - Cloud — 1.0
-- Firewall — 1.0
-- Dream — 1.5
-- Echo — 1.0
-- Void — 0.5
-- Corrupt — 0.5
+- Firewall — 1.5
+- Dream — 1.0
+- Echo — 1.5
+- Void — 1.0
+- Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — 1
+- Sleep — -2
 - Burn — 0
-- Corrupt — 0
-- Fear — 0
-- Confuse — -1
-- Slow — -2
-- Shock — -1
+- Corrupt — 1
+- Fear — -1
+- Confuse — -2
+- Slow — 0
+- Shock — 0
 - Poison — 0
-- Silence — 0
+- Silence — 1
 - Bind — 0
 
 **Evolution**
-- next: echoraid
+- next: somnivine
 - method: level
 - requirements:
   - level: 20
 
 ---
 
-### Echoraid
+### Somnivine
 - **Stage:** Champion
-- **Element:** Echo
-- **Roles:** Disruptor, Speedster
-- **Personality:** Reactive, Sharp
-- **Tags:** champion, echo
+- **Element:** Dream
+- **Roles:** Controller, Support
+- **Personality:** Calm, Ethereal
+- **Tags:** champion, dream
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 72
-- Attack: 78
-- Defense: 40
-- Speed: 92
-- Stability: 44
+- Hp: 74
+- Attack: 40
+- Defense: 44
+- Speed: 40
+- Stability: 86
 
 **Abilities**
-- Basic — Reverb Peck, Sound Warp
-- Advanced — Echo Spiral, Distortion Pulse
+- Basic — Mind Wink, Lull Veil
+- Advanced — Dream Spiral, Soft Bind
 - Support — None
 - Disruptor — None
-- Signature — Raid Burst
+- Signature — Somni Bloom
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -153,58 +150,58 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 1.5
-- Archive — 1.0
+- Pulse — 0.5
+- Archive — 0.5
 - Cloud — 1.0
-- Firewall — 1.0
-- Dream — 1.5
-- Echo — 1.0
-- Void — 0.5
-- Corrupt — 0.5
+- Firewall — 1.5
+- Dream — 1.0
+- Echo — 1.5
+- Void — 1.0
+- Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — 1
+- Sleep — -2
 - Burn — 0
-- Corrupt — 0
-- Fear — 0
-- Confuse — -1
-- Slow — -2
-- Shock — -2
+- Corrupt — 1
+- Fear — -1
+- Confuse — -2
+- Slow — 0
+- Shock — 0
 - Poison — 0
-- Silence — 0
+- Silence — 1
 - Bind — 0
 
 **Evolution**
-- next: resonarch
+- next: reverieweald
 - method: bond
 - requirements:
   - bond: 60
 
 ---
 
-### Resonarch — *The Echo Sovereign*
+### Reverieweald — *The Dreaming Canopy*
 - **Stage:** Final
-- **Element:** Echo
-- **Roles:** Disruptor, Speedster
-- **Personality:** Sharp, Reactive
-- **Tags:** final, echo, sovereign
+- **Element:** Dream
+- **Roles:** Controller, Support
+- **Personality:** Ethereal, Serene
+- **Tags:** final, dream, canopy, reverie
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 118
-- Attack: 128
-- Defense: 58
-- Speed: 148
-- Stability: 66
+- Hp: 120
+- Attack: 60
+- Defense: 70
+- Speed: 62
+- Stability: 142
 
 **Abilities**
-- Basic — Sound Warp, Reverb Peck
-- Advanced — Echo Spiral, Distortion Pulse
+- Basic — Mind Wink, Lull Veil
+- Advanced — Dream Spiral, Soft Bind
 - Support — None
 - Disruptor — None
-- Signature — Sovereign Resonance
+- Signature — Reverie Bloom
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -212,25 +209,25 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 1.5
-- Archive — 1.0
+- Pulse — 0.5
+- Archive — 0.5
 - Cloud — 1.0
-- Firewall — 1.0
-- Dream — 1.5
-- Echo — 1.0
-- Void — 0.5
-- Corrupt — 0.5
+- Firewall — 1.5
+- Dream — 1.0
+- Echo — 1.5
+- Void — 1.0
+- Corrupt — 1.0
 
 **Status Resistances**
-- Sleep — 1
+- Sleep — -2
 - Burn — 0
-- Corrupt — 0
-- Fear — 0
+- Corrupt — 1
+- Fear — -1
 - Confuse — -2
-- Slow — -2
-- Shock — -2
+- Slow — 0
+- Shock — 0
 - Poison — 0
-- Silence — 0
+- Silence — 2
 - Bind — 0
 
 **Evolution**
@@ -240,9 +237,5 @@
 
 ---
 
-## Json File
-```json
-{}
-```
 
 This file is auto-generated from NetGrid indexes and reference lore.

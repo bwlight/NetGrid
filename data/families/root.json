@@ -1,35 +1,10 @@
 {
-  "family": "Root",
-  "sector": "Root",
-  "type": "Root",
-  "habitat": "Root Sector \u2014 Archive Pillar",
-  "themes": [
-    "Team synergy",
-    "Buffing",
-    "Discovery",
-    "Healing"
-  ],
-  "evolution_requirements": [
-    "High stability",
-    "Exposure to Root-aligned Nodes",
-    "Complete a Stabilization Trial"
-  ],
-  "quest_hooks": [
-    "Help a Rootling stabilize",
-    "Repair a damaged Root Node",
-    "Investigate a Rootspire that has gone dormant"
-  ],
-  "example_abilities": [
-    "Bark Shield",
-    "Leaf Nudge",
-    "Root Snap",
-    "Sap Pulse",
-    "Verdant Wall"
-  ],
-  "members": [
-    "Branchbyte",
-    "Overgrove",
-    "Sproutbit",
-    "Treenode"
-  ]
+    "family": "root",
+    "members": [
+        "branchbyte",
+        "overgrove",
+        "sproutbit",
+        "treenode"
+    ],
+    "_generated_from": "tools/cyberkin/family_autofill.py"
 }

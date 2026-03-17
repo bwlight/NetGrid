@@ -4,7 +4,7 @@
 - **Sector:** Corrupt
 - **Type:** Corrupt
 - **Habitat:** Corrupt Sector — Fractured Abyss
-- **Themes:** Debuffs, Power, Control, Aggression, Interference
+- **Themes:** Power, Debuffs, Control, Interference, Aggression
 - **Evolution Requirements:** Exposure to corrupted Nodes, High instability, Complete a mutation‑based trial
 - **Quest Hooks:** Contain a spreading corruption leak, Rescue a Glitchmaw trapped in a corrupted loop, Stop a Malwaregeist infecting Sector boundaries
 - **Example Abilities:** Bug Bite, Corrupt Peck, Glitch Wave, Mal Surge, Warp Spike

@@ -1,25 +1,10 @@
 {
-  "family": "Firewall",
-  "sector": "Firewall",
-  "type": "Firewall",
-  "habitat": "Varied habitats across the sector",
-  "themes": [
-    "Power",
-    "Aggression"
-  ],
-  "evolution_requirements": [],
-  "quest_hooks": [],
-  "example_abilities": [
-    "Firewall Guard",
-    "Flare Peck",
-    "Heat Barrier",
-    "Ignition Pulse",
-    "Warm Snap"
-  ],
-  "members": [
-    "Blazeguard",
-    "Embercub",
-    "Infernode",
-    "Pyrowall"
-  ]
+    "family": "firewall",
+    "members": [
+        "blazeguard",
+        "embercub",
+        "infernode",
+        "pyrowall"
+    ],
+    "_generated_from": "tools/cyberkin/family_autofill.py"
 }

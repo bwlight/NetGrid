@@ -1,29 +1,26 @@
-# Core Family
-
-
----
+# Firewall Family
 
 ## Family Members
 
-### Bitling
+### Embercub
 - **Stage:** Baby
-- **Element:** Core
-- **Roles:** Balanced
-- **Personality:** Neutral, Calm
-- **Tags:** baby, core
+- **Element:** Firewall
+- **Roles:** Offense
+- **Personality:** Bold, Fiery
+- **Tags:** baby, firewall
 
 **Description**
 *Description coming soon.*
 
 **Stats**
 - Hp: 38
-- Attack: 18
-- Defense: 18
+- Attack: 24
+- Defense: 16
 - Speed: 18
 - Stability: 18
 
 **Abilities**
-- Basic — Core Tap
+- Basic — Warm Snap
 - Advanced — None
 - Support — None
 - Disruptor — None
@@ -57,36 +54,36 @@
 - Bind — 0
 
 **Evolution**
-- next: stackhart
+- next: blazeguard
 - method: level
 - requirements:
   - level: 10
 
 ---
 
-### Stackhart
+### Blazeguard
 - **Stage:** Rookie
-- **Element:** Core
-- **Roles:** Balanced, Tank
-- **Personality:** Calm, Centered
-- **Tags:** rookie, core
+- **Element:** Firewall
+- **Roles:** Offense, Tank
+- **Personality:** Bold, Protective
+- **Tags:** rookie, firewall
 
 **Description**
 *Description coming soon.*
 
 **Stats**
 - Hp: 58
-- Attack: 30
-- Defense: 34
-- Speed: 22
-- Stability: 34
+- Attack: 42
+- Defense: 32
+- Speed: 24
+- Stability: 30
 
 **Abilities**
-- Basic — Core Tap, Bit Bash
-- Advanced — Stack Shield
+- Basic — Warm Snap, Flare Peck
+- Advanced — Firewall Guard
 - Support — None
 - Disruptor — None
-- Signature — Core Pulse
+- Signature — Blaze Rampart
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -94,58 +91,58 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 1.0
+- Pulse — 1.5
 - Archive — 1.0
-- Cloud — 1.0
+- Cloud — 0.5
 - Firewall — 1.0
-- Dream — 1.0
+- Dream — 0.5
 - Echo — 1.0
 - Void — 1.0
-- Corrupt — 1.0
+- Corrupt — 1.5
 
 **Status Resistances**
-- Sleep — 0
-- Burn — 0
+- Sleep — 1
+- Burn — -2
 - Corrupt — 0
-- Fear — 0
+- Fear — -1
 - Confuse — 0
 - Slow — 0
-- Shock — 0
+- Shock — 1
 - Poison — 0
 - Silence — 0
 - Bind — 0
 
 **Evolution**
-- next: coreforge
+- next: pyrowall
 - method: level
 - requirements:
   - level: 20
 
 ---
 
-### Coreforge — *The Structured Sentinel*
+### Pyrowall
 - **Stage:** Champion
-- **Element:** Core
-- **Roles:** Balanced, Tank
-- **Personality:** Calm, Methodical
-- **Tags:** champion, core, sentinel
+- **Element:** Firewall
+- **Roles:** Tank, Offense
+- **Personality:** Bold, Defiant
+- **Tags:** champion, firewall
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 96
-- Attack: 58
-- Defense: 76
+- Hp: 90
+- Attack: 76
+- Defense: 58
 - Speed: 38
-- Stability: 72
+- Stability: 56
 
 **Abilities**
-- Basic — Bit Bash, Stack Shield
-- Advanced — Core Pulse, Forge Guard
+- Basic — Flare Peck, Firewall Guard
+- Advanced — Heat Barrier, Ignition Pulse
 - Support — None
 - Disruptor — None
-- Signature — Structured Impact
+- Signature — Pyro Bulwark
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -153,58 +150,58 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 1.0
+- Pulse — 1.5
 - Archive — 1.0
-- Cloud — 1.0
+- Cloud — 0.5
 - Firewall — 1.0
-- Dream — 1.0
+- Dream — 0.5
 - Echo — 1.0
 - Void — 1.0
-- Corrupt — 1.0
+- Corrupt — 1.5
 
 **Status Resistances**
-- Sleep — 0
-- Burn — 0
-- Corrupt — 1
-- Fear — 0
+- Sleep — 1
+- Burn — -2
+- Corrupt — 0
+- Fear — -1
 - Confuse — 0
-- Slow — 1
-- Shock — 0
+- Slow — 0
+- Shock — 1
 - Poison — 0
 - Silence — 0
-- Bind — 1
+- Bind — 0
 
 **Evolution**
-- next: coreprime
+- next: infernode
 - method: bond
 - requirements:
   - bond: 60
 
 ---
 
-### Coreprime — *The System Keystone*
+### Infernode — *The Living Firewall*
 - **Stage:** Final
-- **Element:** Core
-- **Roles:** Tank, Balanced, Stabilizer
-- **Personality:** Calm, Resolute
-- **Tags:** final, core, keystone, stabilizer
+- **Element:** Firewall
+- **Roles:** Tank, Offense
+- **Personality:** Defiant, Blazing
+- **Tags:** final, firewall, living_firewall
 
 **Description**
 *Description coming soon.*
 
 **Stats**
-- Hp: 148
-- Attack: 96
-- Defense: 112
-- Speed: 64
-- Stability: 128
+- Hp: 142
+- Attack: 118
+- Defense: 86
+- Speed: 52
+- Stability: 84
 
 **Abilities**
-- Basic — Core Pulse, Bit Bash
-- Advanced — Prime Guard, Axis Anchor
+- Basic — Firewall Guard, Flare Peck
+- Advanced — Heat Barrier, Ignition Pulse
 - Support — None
 - Disruptor — None
-- Signature — Keystone Lock
+- Signature — Inferno Gate
 - Mythic — None
 - Ultimate — None
 - Passive — None
@@ -212,26 +209,26 @@
 **Element Resistances**
 - Core — 1.0
 - Root — 1.0
-- Pulse — 1.0
+- Pulse — 1.5
 - Archive — 1.0
-- Cloud — 1.0
+- Cloud — 0.5
 - Firewall — 1.0
-- Dream — 1.0
+- Dream — 0.5
 - Echo — 1.0
 - Void — 1.0
-- Corrupt — 1.0
+- Corrupt — 1.5
 
 **Status Resistances**
-- Sleep — 0
-- Burn — 0
-- Corrupt — 1
-- Fear — 0
+- Sleep — 1
+- Burn — -2
+- Corrupt — 0
+- Fear — -1
 - Confuse — 0
-- Slow — 1
-- Shock — 0
+- Slow — 0
+- Shock — 2
 - Poison — 0
 - Silence — 0
-- Bind — 1
+- Bind — 0
 
 **Evolution**
 - next: None
@@ -240,9 +237,5 @@
 
 ---
 
-## Json File
-```json
-{}
-```
 
 This file is auto-generated from NetGrid indexes and reference lore.

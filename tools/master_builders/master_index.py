@@ -108,7 +108,7 @@ def main():
 
     write_index(OUTPUT_DIR / "abilities_index.json", {"abilities": abilities})
     write_index(OUTPUT_DIR / "cyberkin_index.json", {"cyberkin": cyberkin})
-    write_index(OUTPUT_DIR / "family_index.json", {"families": families})
+    write_index(OUTPUT_DIR / "family_index1scheckme.json", {"families": families})
 
     print("Master index build complete.")
 

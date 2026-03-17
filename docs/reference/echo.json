@@ -3,9 +3,9 @@
   "type": "Echo",
   "habitat": "Echo Sector \u2014 Reverberation Hall",
   "themes": [
+    "Interference",
     "Debuffs",
-    "Control",
-    "Interference"
+    "Control"
   ],
   "evolution_requirements": [
     "Exposure to repeated signals",

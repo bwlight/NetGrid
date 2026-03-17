@@ -1,34 +1,10 @@
 {
-  "family": "Pulse",
-  "sector": "Pulse",
-  "type": "Pulse",
-  "habitat": "Pulse Sector \u2014 Resonance Corridor",
-  "themes": [
-    "Debuffs",
-    "Control",
-    "Interference"
-  ],
-  "evolution_requirements": [
-    "High speed stat",
-    "Travel through Pulse Streams",
-    "Sync with rhythmic data patterns"
-  ],
-  "quest_hooks": [
-    "Stop a runaway Pulse Stream",
-    "Help a Beatbyte sync its rhythm",
-    "Track a Pulsebreaker causing overload surges"
-  ],
-  "example_abilities": [
-    "Charge Burst",
-    "Pulse Arc",
-    "Spark Jab",
-    "Static Pop",
-    "Voltage Spiral"
-  ],
-  "members": [
-    "Ampflare",
-    "Currend",
-    "Pulspore",
-    "Voltling"
-  ]
+    "family": "pulse",
+    "members": [
+        "ampflare",
+        "currend",
+        "pulspore",
+        "voltling"
+    ],
+    "_generated_from": "tools/cyberkin/family_autofill.py"
 }

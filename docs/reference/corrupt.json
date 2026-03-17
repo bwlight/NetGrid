@@ -3,11 +3,11 @@
   "type": "Corrupt",
   "habitat": "Corrupt Sector \u2014 Fractured Abyss",
   "themes": [
-    "Debuffs",
     "Power",
+    "Debuffs",
     "Control",
-    "Aggression",
-    "Interference"
+    "Interference",
+    "Aggression"
   ],
   "evolution_requirements": [
     "Exposure to corrupted Nodes",

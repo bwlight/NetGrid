@@ -3,9 +3,9 @@
   "type": "Void",
   "habitat": "Void Sector \u2014 Null Basin",
   "themes": [
+    "Interference",
     "Debuffs",
-    "Control",
-    "Interference"
+    "Control"
   ],
   "evolution_requirements": [
     "Exposure to null storms",

@@ -3,9 +3,9 @@
   "type": "Pulse",
   "habitat": "Pulse Sector \u2014 Resonance Corridor",
   "themes": [
+    "Interference",
     "Debuffs",
-    "Control",
-    "Interference"
+    "Control"
   ],
   "evolution_requirements": [
     "High speed stat",

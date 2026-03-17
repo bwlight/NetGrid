@@ -1,34 +1,10 @@
 {
-  "family": "Cloud",
-  "sector": "Cloud",
-  "type": "Cloud",
-  "habitat": "Cloud Sector \u2014 Skybound Expanse",
-  "themes": [
-    "Team synergy",
-    "Buffing",
-    "Healing"
-  ],
-  "evolution_requirements": [
-    "Travel across multiple Sectors",
-    "Demonstrate adaptability in varied environments",
-    "Balanced stat growth"
-  ],
-  "quest_hooks": [
-    "Chart a newly opened Cloud Route",
-    "Help a Puffdrift navigate a shifting landscape",
-    "Assist a Cloudeer in stabilizing a collapsing sky-bridge"
-  ],
-  "example_abilities": [
-    "Cloud Tap",
-    "Drift Veil",
-    "Mist Puff",
-    "Mist Screen",
-    "Sky Ripple"
-  ],
-  "members": [
-    "Driftcache",
-    "Mistping",
-    "Skybuffer",
-    "Stratoflux"
-  ]
+    "family": "cloud",
+    "members": [
+        "driftcache",
+        "mistping",
+        "skybuffer",
+        "stratoflux"
+    ],
+    "_generated_from": "tools/cyberkin/family_autofill.py"
 }
