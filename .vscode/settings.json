@@ -12,7 +12,6 @@
     "markdown.preview.openMarkdownLinks": "inPreview",
     "markdown.preview.breaks": true,
     "markdown.preview.scrollEditorWithPreview": true,
-    "markdown.preview.scrollPreviewWithEditor": true
-
-
+    "markdown.preview.scrollPreviewWithEditor": true,
+    "git.useIntegratedTerminal": true,
 }
