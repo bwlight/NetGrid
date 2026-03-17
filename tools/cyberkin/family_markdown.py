@@ -1,44 +1,41 @@
-# tools/cyberkin/family_markdown.py
-
-import json
 from pathlib import Path
+import json
+from tools.dependency_graph import update_family_entry
 
-BASE = Path(__file__).resolve().parents[2]
-FAM_JSON = BASE / "data" / "families"
-OUT = BASE / "docs" / "lore" / "families"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "docs" / "families"
+
+def generate_family_markdown(family: dict):
+    fid = family.get("id", "Unknown")
+    members = family.get("members", [])
+
+    md = []
+    md.append(f"# Family: {fid}")
+    md.append("")
+    md.append("## Members")
+    for m in members:
+        md.append(f"- {m}")
+    md.append("")
+
+    return "\n".join(md)
 
 
-def run():
-    """
-    Generates Markdown pages for each family based on their JSON files.
-    The JSON files are created earlier by family_json.py.
-    """
+def save_family_markdown(family: dict):
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    fid = family["id"]
+    path = OUTPUT_DIR / f"{fid}.md"
+    path.write_text(generate_family_markdown(family), encoding="utf-8")
 
-    OUT.mkdir(parents=True, exist_ok=True)
+    # Update dependency graph
+    update_family_entry(fid, markdown_path=str(path))
 
-    for fam_file in FAM_JSON.glob("*.json"):
-        try:
-            data = json.load(open(fam_file, "r", encoding="utf-8"))
-        except Exception:
-            # Malformed JSON is handled by integrity checker
-            continue
+    print(f"Saved family markdown: {path}")
 
-        family_name = data.get("family", fam_file.stem)
-        members = data.get("members", [])
 
-        out_path = OUT / f"{family_name}.md"
+def run_for_family(family_path: Path):
+    try:
+        family = json.load(open(family_path, "r", encoding="utf-8"))
+    except Exception as e:
+        print(f"Error loading {family_path}: {e}")
+        return
 
-        md = f"# {family_name}\n\n"
-
-        if members:
-            md += "## Members\n\n"
-            for m in members:
-                md += f"- {m}\n"
-            md += "\n"
-        else:
-            md += "_This family currently has no registered members._\n\n"
-
-        md += f"---\nThis file was created from → {fam_file.as_posix()}"
-
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(md)
+    save_family_markdown(family)

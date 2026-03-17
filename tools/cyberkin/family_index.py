@@ -1,65 +1,28 @@
-# tools/cyberkin/family_index.py
-
-import json
 from pathlib import Path
+import json
 
-BASE = Path(__file__).resolve().parents[2]
-FAM_JSON = BASE / "data" / "families"
-INDEX = BASE / "data" / "indexes" / "cyberkin_index.json"
-OUT = BASE / "docs" / "lore" / "family_index.md"
+INDEX_PATH = Path(__file__).resolve().parents[2] / "docs" / "family_index.json"
+
+def update_family_index_entry(family: dict, index: dict):
+    fid = family["id"]
+    index[fid] = {
+        "members": family.get("members", [])
+    }
 
 
-def run():
-    """
-    Builds a global Family Index page.
-    Includes:
-    - All families
-    - Their members (if any)
-    - A stage listing sourced from the rebuilt cyberkin_index.json
-    """
-
-    # Load the rebuilt Cyberkin index
+def run_for_family(family_path: Path):
     try:
-        index_data = json.load(open(INDEX, "r", encoding="utf-8"))
-        ck_index = index_data.get("cyberkin", {})
-    except Exception:
-        ck_index = {}
+        family = json.load(open(family_path, "r", encoding="utf-8"))
+    except Exception as e:
+        print(f"Error loading {family_path}: {e}")
+        return
 
-    # Load all family JSON files
-    families = []
-    for fam_file in FAM_JSON.glob("*.json"):
-        try:
-            data = json.load(open(fam_file, "r", encoding="utf-8"))
-        except Exception:
-            continue
+    if INDEX_PATH.exists():
+        index = json.load(open(INDEX_PATH, "r", encoding="utf-8"))
+    else:
+        index = {}
 
-        families.append({
-            "name": data.get("family", fam_file.stem),
-            "members": data.get("members", []),
-            "source": fam_file.as_posix()
-        })
+    update_family_index_entry(family, index)
 
-    # Sort families alphabetically
-    families.sort(key=lambda f: f["name"].lower())
-
-    # Build Markdown
-    md = "# Family Index\n\n"
-    md += "A complete index of all families and their known members.\n\n"
-
-    for fam in families:
-        md += f"## {fam['name']}\n\n"
-
-        if fam["members"]:
-            for m in fam["members"]:
-                stage = ck_index.get(m, {}).get("stage", "unknown")
-                md += f"- **{m}** — stage: {stage}\n"
-            md += "\n"
-        else:
-            md += "_No registered members._\n\n"
-
-    md += f"---\nThis file was created from → {FAM_JSON.as_posix()}"
-
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write(md)
+    INDEX_PATH.write_text(json.dumps(index, indent=4), encoding="utf-8")
+    print(f"Updated family index entry for {family_path.name}")

@@ -1,0 +1,81 @@
+# NetGrid TODO List
+
+Generated from integrity_report.json
+
+---
+
+## Empty Families (1)
+
+- family_template.json: no members
+
+## Stat Errors (69)
+
+- drowseed: stability=26 outside Baby range 5-20
+- echolet: speed=22 outside Baby range 5-20
+- embercub: attack=24 outside Baby range 5-20
+- glitchlet: attack=22 outside Baby range 5-20
+- mindlet: stability=24 outside Baby range 5-20
+- mistping: speed=24 outside Baby range 5-20
+- nullimp: speed=24 outside Baby range 5-20
+- primacore_seed: stability=30 outside Baby range 5-20
+- pulspore: attack=22 outside Baby range 5-20
+- pulspore: speed=22 outside Baby range 5-20
+- coreforge: hp=96 outside Champion range 100-200
+- coreforge: defense=76 outside Champion range 30-70
+- coreforge: stability=72 outside Champion range 30-70
+- currend: hp=78 outside Champion range 100-200
+- currend: attack=72 outside Champion range 30-70
+- currend: speed=88 outside Champion range 30-70
+- echoraid: hp=72 outside Champion range 100-200
+- echoraid: attack=78 outside Champion range 30-70
+- echoraid: speed=92 outside Champion range 30-70
+- malwarp: hp=82 outside Champion range 100-200
+- malwarp: attack=88 outside Champion range 30-70
+- mnemoshard: hp=70 outside Champion range 100-200
+- mnemoshard: stability=88 outside Champion range 30-70
+- pyrowall: hp=90 outside Champion range 100-200
+- pyrowall: attack=76 outside Champion range 30-70
+- riftveil: hp=70 outside Champion range 100-200
+- riftveil: speed=88 outside Champion range 30-70
+- skybuffer: hp=66 outside Champion range 100-200
+- skybuffer: speed=78 outside Champion range 30-70
+- somnivine: hp=74 outside Champion range 100-200
+- somnivine: stability=86 outside Champion range 30-70
+- treenode: hp=92 outside Champion range 100-200
+- treenode: defense=78 outside Champion range 30-70
+- abyssynth: hp=116 outside Final range 150-300
+- abyssynth: attack=102 outside Final range 50-100
+- abyssynth: speed=140 outside Final range 50-100
+- ampflare: hp=118 outside Final range 150-300
+- ampflare: attack=112 outside Final range 50-100
+- ampflare: speed=138 outside Final range 50-100
+- archivalith: hp=110 outside Final range 150-300
+- archivalith: speed=48 outside Final range 50-100
+- archivalith: stability=140 outside Final range 50-100
+- chaoshive: hp=130 outside Final range 150-300
+- chaoshive: attack=142 outside Final range 50-100
+- chaoshive: stability=48 outside Final range 50-100
+- coreprime: hp=148 outside Final range 150-300
+- coreprime: defense=112 outside Final range 50-100
+- coreprime: stability=128 outside Final range 50-100
+- infernode: hp=142 outside Final range 150-300
+- infernode: attack=118 outside Final range 50-100
+- overgrove: hp=140 outside Final range 150-300
+- overgrove: defense=118 outside Final range 50-100
+- overgrove: speed=42 outside Final range 50-100
+- primacore: attack=110 outside Final range 50-100
+- primacore: stability=120 outside Final range 50-100
+- resonarch: hp=118 outside Final range 150-300
+- resonarch: attack=128 outside Final range 50-100
+- resonarch: speed=148 outside Final range 50-100
+- reverieweald: hp=120 outside Final range 150-300
+- reverieweald: stability=142 outside Final range 50-100
+- stratoflux: hp=104 outside Final range 150-300
+- stratoflux: speed=132 outside Final range 50-100
+- blazeguard: attack=42 outside Rookie range 15-40
+- driftcache: hp=46 outside Rookie range 50-120
+- gapshade: hp=46 outside Rookie range 50-120
+- noteglyph: hp=48 outside Rookie range 50-120
+- noteglyph: stability=42 outside Rookie range 15-40
+- resonimp: hp=48 outside Rookie range 50-120
+- resonimp: speed=42 outside Rookie range 15-40

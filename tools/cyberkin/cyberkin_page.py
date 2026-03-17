@@ -1,49 +1,49 @@
-# tools/cyberkin/cyberkin_page.py
-
-import json
 from pathlib import Path
+import json
+from tools.dependency_graph import update_cyberkin_entry
 
-BASE = Path(__file__).resolve().parents[2]
-CYBERKIN = BASE / "data" / "cyberkin"
-OUT = BASE / "docs" / "cyberkin"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "docs" / "cyberkin"
 
+def generate_markdown(ck: dict):
+    name = ck.get("name", "Unknown")
+    cid = ck.get("id", "Unknown")
+    stage = ck.get("stage", "Unknown")
+    family = ck.get("family", "Unknown")
+    tags = ", ".join(ck.get("tags", []))
+    stats = ck.get("stats", {})
 
-def run():
-    """
-    Generates Markdown pages for each Cyberkin based on their JSON files.
-    JSON files are the source of truth for all Cyberkin data.
-    """
+    md = []
+    md.append(f"# {name} ({cid})")
+    md.append("")
+    md.append(f"**Stage:** {stage}")
+    md.append(f"**Family:** {family}")
+    md.append(f"**Tags:** {tags}")
+    md.append("")
+    md.append("## Stats")
+    for key, value in stats.items():
+        md.append(f"- **{key.capitalize()}** — {value}")
+    md.append("")
 
-    OUT.mkdir(parents=True, exist_ok=True)
-
-    # Iterate through stage folders
-    for stage_dir in CYBERKIN.iterdir():
-        if not stage_dir.is_dir():
-            continue
-
-        # Iterate through Cyberkin JSON files
-        for ck_json in stage_dir.glob("*.json"):
-            try:
-                data = json.load(open(ck_json, "r", encoding="utf-8"))
-            except Exception:
-                # Malformed JSON is handled by integrity checker
-                continue
-
-            ck = data.get("cyberkin", {})
-            name = ck.get("name", ck_json.stem)
-            stage = ck.get("stage", stage_dir.name)
-            description = ck.get("description", "")
+    return "\n".join(md)
 
 
-            out_path = OUT / f"{name}.md"
+def save_markdown(ck: dict):
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    cid = ck["id"]
+    path = OUTPUT_DIR / f"{cid}.md"
+    path.write_text(generate_markdown(ck), encoding="utf-8")
 
-            md = f"# {name}\n\n"
-            md += f"**Stage:** {stage}\n\n"
+    # Update dependency graph
+    update_cyberkin_entry(cid, markdown_path=str(path))
 
-            if description:
-                md += f"{description}\n\n"
+    print(f"Saved markdown: {path}")
 
-            md += f"---\nThis file was created from → {ck_json.as_posix()}"
 
-            with open(out_path, "w", encoding="utf-8") as f:
-                f.write(md)
+def run_single(cyberkin_path: Path):
+    try:
+        ck = json.load(open(cyberkin_path, "r", encoding="utf-8"))
+    except Exception as e:
+        print(f"Error loading {cyberkin_path}: {e}")
+        return
+
+    save_markdown(ck)

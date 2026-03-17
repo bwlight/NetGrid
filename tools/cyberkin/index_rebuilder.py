@@ -1,58 +1,31 @@
-# tools/cyberkin/index_rebuilder.py
-
-import json
 from pathlib import Path
+import json
 
-BASE = Path(__file__).resolve().parents[2]
-CYBERKIN = BASE / "data" / "cyberkin"
-OUT = BASE / "data" / "indexes" / "cyberkin_index.json"
+INDEX_PATH = Path(__file__).resolve().parents[2] / "docs" / "cyberkin_index.json"
 
-
-def run():
-    """
-    Rebuilds cyberkin_index.json using JSON files as the source of truth.
-    The index is alphabetized and overwritten every run.
-    """
-
-    index = {}
-
-    # Scan all stage folders
-    for stage_dir in CYBERKIN.iterdir():
-        if not stage_dir.is_dir():
-            continue
-
-    for ck_json in stage_dir.glob("*.json"):
-        try:
-            data = json.load(open(ck_json, "r", encoding="utf-8"))
-        except Exception:
-            # Skip malformed JSON — integrity checker will warn
-            continue
-
-        ck = data.get("cyberkin")
-        if not ck:
-            # Skip files missing the wrapper
-            continue
-
-        name = ck.get("id", ck_json.stem)
-        stage = ck.get("stage", stage_dir.name)
-
-        index[name] = {
-            "stage": stage,
-            "path": ck_json.as_posix()
-        }
-
-
-
-    # Alphabetize the index
-    sorted_index = dict(sorted(index.items(), key=lambda x: x[0].lower()))
-
-    # Wrap in top-level structure
-    output = {
-        "cyberkin": sorted_index,
-        "_generated_from": "tools/cyberkin/index_rebuilder.py"
+def update_index_entry(ck: dict, index: dict):
+    cid = ck["id"]
+    index[cid] = {
+        "name": ck.get("name"),
+        "stage": ck.get("stage"),
+        "family": ck.get("family"),
+        "tags": ck.get("tags", [])
     }
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
 
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=4)
+def run_single(cyberkin_path: Path):
+    try:
+        ck = json.load(open(cyberkin_path, "r", encoding="utf-8"))
+    except Exception as e:
+        print(f"Error loading {cyberkin_path}: {e}")
+        return
+
+    if INDEX_PATH.exists():
+        index = json.load(open(INDEX_PATH, "r", encoding="utf-8"))
+    else:
+        index = {}
+
+    update_index_entry(ck, index)
+
+    INDEX_PATH.write_text(json.dumps(index, indent=4), encoding="utf-8")
+    print(f"Updated index entry for {cyberkin_path.name}")

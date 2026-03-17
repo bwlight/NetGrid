@@ -8,5 +8,11 @@
     "editor.suggest.showSnippets": true,
     "markdown.editor.quickSuggestions": true,
     "markdown.editor.suggest.showSnippets": true,
-    "python.analysis.extraPaths": ["./src"]
+    "python.analysis.extraPaths": ["./src"],
+    "markdown.preview.openMarkdownLinks": "inPreview",
+    "markdown.preview.breaks": true,
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": true
+
+
 }

@@ -1,76 +1,44 @@
-# tools/cyberkin/family_autofill.py
-
-import json
 from pathlib import Path
+import json
+from tools.dependency_graph import update_cyberkin_entry, update_family_entry
 
-BASE = Path(__file__).resolve().parents[2]
-CYBERKIN = BASE / "data" / "cyberkin"
-FAM_JSON = BASE / "data" / "families"
+FAMILY_DIR = Path(__file__).resolve().parents[2] / "data" / "families"
+
+def update_family_file(family_path: Path, ck: dict):
+    family_id = ck.get("family")
+    cid = ck.get("id")
+
+    # Load or create family file
+    if not family_path.exists():
+        family = {"id": family_id, "members": []}
+    else:
+        family = json.load(open(family_path, "r", encoding="utf-8"))
+
+    # Update members
+    members = set(family.get("members", []))
+    members.add(cid)
+    family["members"] = sorted(members)
+
+    # Save updated family file
+    family_path.write_text(json.dumps(family, indent=4), encoding="utf-8")
+    print(f"Updated family file: {family_path}")
+
+    # Update dependency graph
+    update_cyberkin_entry(cid, family_id=family_id)
+    update_family_entry(family_id, members=family["members"])
 
 
-def run():
-    """
-    Auto-populates family JSON files based on Cyberkin JSON data.
-    Reads each Cyberkin's 'family' field and assigns them to the correct family.
-    This replaces the old family_json.py behavior entirely.
-    """
+def run_for_cyberkin(cyberkin_path: Path):
+    try:
+        ck = json.load(open(cyberkin_path, "r", encoding="utf-8"))
+    except Exception as e:
+        print(f"Error loading {cyberkin_path}: {e}")
+        return
 
-    FAM_JSON.mkdir(parents=True, exist_ok=True)
+    family_id = ck.get("family")
+    if not family_id:
+        print(f"{cyberkin_path.name} has no family assigned.")
+        return
 
-    # Build a dictionary: family_name -> list of members
-    families = {}
-
-    # Scan all Cyberkin JSON files
-    for stage_dir in CYBERKIN.iterdir():
-        if not stage_dir.is_dir():
-            continue
-
-        for ck_json in stage_dir.glob("*.json"):
-            try:
-                data = json.load(open(ck_json, "r", encoding="utf-8"))
-            except Exception:
-                continue
-
-            ck = data.get("cyberkin")
-            if not ck:
-                continue
-
-            name = ck.get("id") or ck.get("name") or ck_json.stem
-            family = ck.get("family")
-
-            if not family:
-                continue
-
-            family = family.lower()
-
-            if family not in families:
-                families[family] = []
-
-            families[family].append(name)
-
-    # Write out family JSON files based on Cyberkin data
-    for family_name, members in families.items():
-        out_path = FAM_JSON / f"{family_name}.json"
-
-        data = {
-            "family": family_name,
-            "members": sorted(members),
-            "_generated_from": "tools/cyberkin/family_autofill.py"
-        }
-
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4)
-
-    # Preserve existing families with no members
-    for fam_file in FAM_JSON.glob("*.json"):
-        try:
-            data = json.load(open(fam_file, "r", encoding="utf-8"))
-        except Exception:
-            continue
-
-        name = data.get("family", fam_file.stem).lower()
-
-        if name not in families:
-            data["members"] = []
-            with open(fam_file, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=4)
+    family_path = FAMILY_DIR / f"{family_id}.json"
+    update_family_file(family_path, ck)

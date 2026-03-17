@@ -6,19 +6,17 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parents[1]
 CYBERKIN = BASE / "data" / "cyberkin"
 FAMILIES = BASE / "data" / "families"
-INDEX = BASE / "data" / "indexes" / "cyberkin_index.json"
+SCHEMAS = BASE / "schemas"
+ALLOWED_TAGS_PATH = SCHEMAS / "allowed_tags.json"
 
-
-def load_json(path: Path):
+def load_json(path):
     try:
         return json.load(open(path, "r", encoding="utf-8"))
     except Exception:
         return None
 
 
-def run_integrity_check():
-    critical = []
-    warnings = []
+def run():
     grouped = {
         "Malformed Cyberkin JSON": [],
         "Missing Cyberkin Wrapper": [],
@@ -29,23 +27,50 @@ def run_integrity_check():
         "Invalid Family Members": [],
         "Unknown Family References": [],
         "Orphaned Family Files": [],
+        "Invalid Tags": [],
+        "Stat Errors": []
     }
 
-    # -----------------------------
-    # Load index (if exists)
-    # -----------------------------
-    index_data = load_json(INDEX)
-    if not index_data:
-        warnings.append("cyberkin_index.json missing or unreadable — will be rebuilt.")
-        index = {}
-    else:
-        index = index_data.get("cyberkin", {})
+    # Load allowed tags
+    try:
+        allowed_tags = set(json.load(open(ALLOWED_TAGS_PATH, "r", encoding="utf-8")))
+    except Exception:
+        allowed_tags = set()
 
-    # -----------------------------
-    # Scan Cyberkin JSON
-    # -----------------------------
-    cyberkin_families = {}  # family -> list of members
-    cyberkin_seen = set()
+    # Stage-based stat rules
+    stage_stat_rules = {
+        "Baby": {
+            "hp": (20, 60),
+            "attack": (5, 20),
+            "defense": (5, 20),
+            "speed": (5, 20),
+            "stability": (5, 20)
+        },
+        "Rookie": {
+            "hp": (50, 120),
+            "attack": (15, 40),
+            "defense": (15, 40),
+            "speed": (15, 40),
+            "stability": (15, 40)
+        },
+        "Champion": {
+            "hp": (100, 200),
+            "attack": (30, 70),
+            "defense": (30, 70),
+            "speed": (30, 70),
+            "stability": (30, 70)
+        },
+        "Final": {
+            "hp": (150, 300),
+            "attack": (50, 100),
+            "defense": (50, 100),
+            "speed": (50, 100),
+            "stability": (50, 100)
+        }
+    }
+
+    # Collect all Cyberkin IDs for cross-reference
+    all_cyberkin_ids = set()
 
     for stage_dir in CYBERKIN.iterdir():
         if not stage_dir.is_dir():
@@ -53,85 +78,135 @@ def run_integrity_check():
 
         for ck_json in stage_dir.glob("*.json"):
             data = load_json(ck_json)
-            name = ck_json.stem
-
             if not data:
-                critical.append(f"{name}.json is unreadable or malformed.")
-                grouped["Malformed Cyberkin JSON"].append(name)
+                grouped["Malformed Cyberkin JSON"].append(str(ck_json))
                 continue
 
             ck = data.get("cyberkin")
             if not ck:
-                critical.append(f"{name}.json missing required 'cyberkin' wrapper.")
-                grouped["Missing Cyberkin Wrapper"].append(name)
+                grouped["Missing Cyberkin Wrapper"].append(str(ck_json))
                 continue
 
-            # Required fields
-            required = ["id", "name", "family", "stage"]
-            missing = [f for f in required if f not in ck]
-            if missing:
-                critical.append(f"{name}.json missing required fields: {missing}")
-                grouped["Missing Required Cyberkin Fields"].append(f"{name}: {missing}")
-                continue
+            cid = ck.get("id")
+            if cid:
+                all_cyberkin_ids.add(cid)
 
-            cid = ck["id"]
-            cyberkin_seen.add(cid)
-
-            # Stage mismatch check
-            json_stage = ck["stage"]
-            index_stage = index.get(cid, {}).get("stage")
-            if index_stage and index_stage != json_stage:
-                warnings.append(
-                    f"Stage mismatch for {cid}: index='{index_stage}', json='{json_stage}'."
-                )
-                grouped["Stage Mismatches"].append(
-                    f"{cid}: index='{index_stage}', json='{json_stage}'"
-                )
-
-            # Family collection
-            fam = ck["family"].lower()
-            if fam not in cyberkin_families:
-                cyberkin_families[fam] = []
-            cyberkin_families[fam].append(cid)
-
-    # -----------------------------
-    # Validate Family JSON files
-    # -----------------------------
-    family_files = {f.stem.lower(): f for f in FAMILIES.glob("*.json")}
-
-    # Families referenced by Cyberkin but missing JSON
-    for fam in cyberkin_families:
-        if fam not in family_files:
-            warnings.append(f"Family '{fam}' referenced by Cyberkin but no JSON file exists.")
-            grouped["Missing Families"].append(fam)
-
-    # Validate existing family JSON files
-    for fam_name, fam_file in family_files.items():
-        data = load_json(fam_file)
-        if not data:
-            warnings.append(f"Family file '{fam_name}' is unreadable.")
-            grouped["Orphaned Family Files"].append(fam_name)
+    # Validate each Cyberkin
+    for stage_dir in CYBERKIN.iterdir():
+        if not stage_dir.is_dir():
             continue
 
-        members = data.get("members", [])
+        stage_name = stage_dir.name.capitalize()
+
+        for ck_json in stage_dir.glob("*.json"):
+            data = load_json(ck_json)
+            if not data:
+                continue
+
+            ck = data.get("cyberkin")
+            if not ck:
+                continue
+
+            cid = ck.get("id", "UNKNOWN")
+
+            # Required fields
+            required_fields = [
+                "id", "name", "family", "sector", "stage", "role",
+                "personality", "element", "element_resistances",
+                "status_resistances", "stats", "abilities",
+                "evolution", "tags"
+            ]
+
+            for field in required_fields:
+                if field not in ck:
+                    grouped["Missing Required Cyberkin Fields"].append(f"{cid}: missing '{field}'")
+
+            # Stage mismatch
+            if ck.get("stage") != stage_name:
+                grouped["Stage Mismatches"].append(f"{cid}: stage folder '{stage_name}' but JSON says '{ck.get('stage')}'")
+
+            # Tag validation
+            tags = ck.get("tags", [])
+
+            if not isinstance(tags, list):
+                grouped["Invalid Tags"].append(f"{cid}: tags must be a list")
+            else:
+                if len(tags) == 0:
+                    grouped["Invalid Tags"].append(f"{cid}: has no tags")
+
+                # Required stage tag
+                required_stage_tag = stage_name.lower()
+                if required_stage_tag not in tags:
+                    grouped["Invalid Tags"].append(f"{cid}: missing required stage tag '{required_stage_tag}'")
+
+                # Forbidden stage tags
+                forbidden = {"baby", "rookie", "champion", "final"} - {required_stage_tag}
+                for t in tags:
+                    if t in forbidden:
+                        grouped["Invalid Tags"].append(f"{cid}: forbidden tag '{t}' for stage {stage_name}")
+
+                # Unknown tags
+                for t in tags:
+                    if t not in allowed_tags:
+                        grouped["Invalid Tags"].append(f"{cid}: unknown tag '{t}'")
+
+            # Stat validation
+            stats = ck.get("stats", {})
+            rules = stage_stat_rules.get(stage_name)
+
+            if rules:
+                for stat_name, (low, high) in rules.items():
+                    value = stats.get(stat_name)
+
+                    if value is None:
+                        grouped["Stat Errors"].append(f"{cid}: missing stat '{stat_name}'")
+                        continue
+
+                    if not isinstance(value, int):
+                        grouped["Stat Errors"].append(
+                            f"{cid}: stat '{stat_name}' must be an integer, got {type(value).__name__}"
+                        )
+                        continue
+
+                    if not (low <= value <= high):
+                        grouped["Stat Errors"].append(
+                            f"{cid}: {stat_name}={value} outside {stage_name} range {low}-{high}"
+                        )
+
+    # Validate families
+    for fam_json in FAMILIES.glob("*.json"):
+        fam = load_json(fam_json)
+        if not fam:
+            grouped["Malformed Cyberkin JSON"].append(str(fam_json))
+            continue
+
+        members = fam.get("members", [])
         if not members:
-            warnings.append(f"Family '{fam_name}' has no members.")
-            grouped["Empty Families"].append(fam_name)
+            grouped["Empty Families"].append(f"{fam_json.name}: no members")
+            continue
 
-        # Members that don't exist as Cyberkin
         for m in members:
-            if m not in cyberkin_seen:
-                warnings.append(f"Family '{fam_name}' lists unknown Cyberkin '{m}'.")
-                grouped["Invalid Family Members"].append(f"{fam_name}: {m}")
+            if m not in all_cyberkin_ids:
+                grouped["Invalid Family Members"].append(f"{fam_json.name}: unknown member '{m}'")
 
-    # Cyberkin referencing families that don't exist
-    for fam in cyberkin_families:
-        if fam not in family_files:
-            warnings.append(f"Cyberkin reference unknown family '{fam}'.")
-            grouped["Unknown Family References"].append(fam)
+    # Orphaned family files
+    for fam_json in FAMILIES.glob("*.json"):
+        fam = load_json(fam_json)
+        if not fam:
+            continue
 
-    return {
-        "critical": critical,
-        "warnings": warnings,
-        "grouped": grouped,
-    }
+        if "members" not in fam:
+            grouped["Orphaned Family Files"].append(str(fam_json))
+
+    # Output
+    output_path = BASE / "data" / "todo" / "integrity_report.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(grouped, f, indent=4)
+
+    print("Integrity check complete. Report written to:", output_path)
+
+
+if __name__ == "__main__":
+    run()

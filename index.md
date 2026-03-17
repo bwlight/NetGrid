@@ -2,7 +2,7 @@
   <div class="sidebar-title">NETGRID</div>
 
   <nav class="sidebar-nav">
-    <a href="/Netgrid">🏠 Home</a>
+    <a href="/NetGrid">🏠 Home</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/data">📁 Data</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/docs">📚 Game Bible</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/schemas">🧩 Schemas</a>
