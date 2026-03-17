@@ -26,7 +26,7 @@
 
 <link rel="stylesheet" href="assets/css/colors.css">
 <div style="font-size:1.15rem; color:#9cd3ff; margin-top:-0.5rem; text-shadow:0 0 8px rgba(100,180,255,0.4);">
-A Digital‑Mythic Creature RPG!
+A Digital‑Mythic Creature RPG
 </div>
 
 <div style="border-bottom:1px solid rgba(80,150,255,0.25); margin:1.2rem 0;"></div>
