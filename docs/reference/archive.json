@@ -1,0 +1,27 @@
+{
+  "sector": "Archive",
+  "type": "Archive",
+  "habitat": "Varied habitats across the sector",
+  "themes": [
+    "Team synergy",
+    "Buffing",
+    "Healing"
+  ],
+  "evolution_requirements": [
+    "Solve recursive puzzles",
+    "Maintain high logic stat",
+    "Exposure to archive Nodes"
+  ],
+  "quest_hooks": [
+    "Solve a recursive anomaly",
+    "Help a Memorix complete its pattern",
+    "Investigate an Archivorn generating unstable loops"
+  ],
+  "example_abilities": [
+    "Data Seal",
+    "Glyph Tap",
+    "Memory Ping",
+    "Mind Anchor",
+    "Recall Surge"
+  ]
+}

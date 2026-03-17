@@ -1,0 +1,288 @@
+{
+  "family_id": "archive",
+  "members": [
+    "Mindlet",
+    "Noteglyph",
+    "Mnemoshard",
+    "Archivalith"
+  ],
+  "lore_json": {},
+  "lore_md": "",
+  "cyberkin": [
+    {
+      "id": "mindlet",
+      "name": "Mindlet",
+      "family": "Archive",
+      "sector": "Archive",
+      "stage": "Baby",
+      "role": [
+        "Support"
+      ],
+      "personality": [
+        "Quiet",
+        "Observant"
+      ],
+      "element": "archive",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 34,
+        "attack": 16,
+        "defense": 20,
+        "speed": 14,
+        "stability": 24
+      },
+      "abilities": {
+        "basic": [
+          "Memory Ping"
+        ],
+        "advanced": [],
+        "signature": []
+      },
+      "evolution": {
+        "next": "noteglyph",
+        "method": "level",
+        "requirements": {
+          "level": 10
+        }
+      },
+      "tags": [
+        "baby",
+        "archive"
+      ],
+      "source_file": "data\\cyberkin\\baby\\Mindlet.json"
+    },
+    {
+      "id": "noteglyph",
+      "name": "Noteglyph",
+      "family": "Archive",
+      "sector": "Archive",
+      "stage": "Rookie",
+      "role": [
+        "Support",
+        "Controller"
+      ],
+      "personality": [
+        "Analytical",
+        "Quiet"
+      ],
+      "element": "archive",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 0.5,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 0.5,
+        "echo": 1.0,
+        "void": 1.5,
+        "corrupt": 1.5
+      },
+      "status_resistances": {
+        "sleep": -1,
+        "burn": 0,
+        "corrupt": 1,
+        "fear": 0,
+        "confuse": -1,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": -1,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 48,
+        "attack": 26,
+        "defense": 34,
+        "speed": 22,
+        "stability": 42
+      },
+      "abilities": {
+        "basic": [
+          "Memory Ping",
+          "Glyph Tap"
+        ],
+        "advanced": [
+          "Mind Anchor"
+        ],
+        "signature": "Recall Burst"
+      },
+      "evolution": {
+        "next": "mnemoshard",
+        "method": "level",
+        "requirements": {
+          "level": 20
+        }
+      },
+      "tags": [
+        "rookie",
+        "archive"
+      ],
+      "source_file": "data\\cyberkin\\rookie\\Noteglyph.json"
+    },
+    {
+      "id": "mnemoshard",
+      "name": "Mnemoshard",
+      "family": "Archive",
+      "sector": "Archive",
+      "stage": "Champion",
+      "role": [
+        "Controller",
+        "Support"
+      ],
+      "personality": [
+        "Analytical",
+        "Detached"
+      ],
+      "element": "archive",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 0.5,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 0.5,
+        "echo": 1.0,
+        "void": 1.5,
+        "corrupt": 1.5
+      },
+      "status_resistances": {
+        "sleep": -2,
+        "burn": 0,
+        "corrupt": 2,
+        "fear": 0,
+        "confuse": -2,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": -1,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 70,
+        "attack": 48,
+        "defense": 62,
+        "speed": 36,
+        "stability": 88
+      },
+      "abilities": {
+        "basic": [
+          "Glyph Tap",
+          "Mind Anchor"
+        ],
+        "advanced": [
+          "Recall Surge",
+          "Data Seal"
+        ],
+        "signature": "Mnemo Fracture"
+      },
+      "evolution": {
+        "next": "archivalith",
+        "method": "bond",
+        "requirements": {
+          "bond": 60
+        }
+      },
+      "tags": [
+        "champion",
+        "archive"
+      ],
+      "source_file": "data\\cyberkin\\champion\\Mnemoshard.json"
+    },
+    {
+      "id": "archivalith",
+      "name": "Archivalith",
+      "title": "The Memory Monolith",
+      "family": "Archive",
+      "sector": "Archive",
+      "stage": "Final",
+      "role": [
+        "Controller",
+        "Support"
+      ],
+      "personality": [
+        "Analytical",
+        "Ancient"
+      ],
+      "element": "archive",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 0.5,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 0.5,
+        "echo": 1.0,
+        "void": 1.5,
+        "corrupt": 1.5
+      },
+      "status_resistances": {
+        "sleep": -2,
+        "burn": 0,
+        "corrupt": 2,
+        "fear": 0,
+        "confuse": -2,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": -1,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 110,
+        "attack": 72,
+        "defense": 98,
+        "speed": 48,
+        "stability": 140
+      },
+      "abilities": {
+        "basic": [
+          "Mind Anchor",
+          "Glyph Tap"
+        ],
+        "advanced": [
+          "Recall Surge",
+          "Data Seal"
+        ],
+        "signature": "Monolith Recall"
+      },
+      "evolution": {
+        "next": null,
+        "method": null,
+        "requirements": null
+      },
+      "tags": [
+        "final",
+        "archive",
+        "memory",
+        "monolith"
+      ],
+      "source_file": "data\\cyberkin\\final\\Archivalith.json"
+    }
+  ]
+}

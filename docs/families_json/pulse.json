@@ -1,0 +1,288 @@
+{
+  "family_id": "pulse",
+  "members": [
+    "Pulspore",
+    "Voltling",
+    "Currend",
+    "Ampflare"
+  ],
+  "lore_json": {},
+  "lore_md": "",
+  "cyberkin": [
+    {
+      "id": "pulspore",
+      "name": "Pulspore",
+      "family": "Pulse",
+      "sector": "Pulse",
+      "stage": "Baby",
+      "role": [
+        "Disruptor"
+      ],
+      "personality": [
+        "Sparky",
+        "Playful"
+      ],
+      "element": "pulse",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 36,
+        "attack": 22,
+        "defense": 14,
+        "speed": 22,
+        "stability": 18
+      },
+      "abilities": {
+        "basic": [
+          "Static Pop"
+        ],
+        "advanced": [],
+        "signature": []
+      },
+      "evolution": {
+        "next": "voltling",
+        "method": "level",
+        "requirements": {
+          "level": 10
+        }
+      },
+      "tags": [
+        "baby",
+        "pulse"
+      ],
+      "source_file": "data\\cyberkin\\baby\\Pulspore.json"
+    },
+    {
+      "id": "voltling",
+      "name": "Voltling",
+      "family": "Pulse",
+      "sector": "Pulse",
+      "stage": "Rookie",
+      "role": [
+        "Disruptor",
+        "Speedster"
+      ],
+      "personality": [
+        "Energetic",
+        "Impulsive"
+      ],
+      "element": "pulse",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 0.5,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.5,
+        "firewall": 0.5,
+        "dream": 1.5,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 1,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 1,
+        "slow": -2,
+        "shock": -1,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 52,
+        "attack": 38,
+        "defense": 24,
+        "speed": 40,
+        "stability": 28
+      },
+      "abilities": {
+        "basic": [
+          "Static Pop",
+          "Spark Jab"
+        ],
+        "advanced": [
+          "Pulse Arc"
+        ],
+        "signature": "Volt Burst"
+      },
+      "evolution": {
+        "next": "currend",
+        "method": "level",
+        "requirements": {
+          "level": 20
+        }
+      },
+      "tags": [
+        "rookie",
+        "pulse"
+      ],
+      "source_file": "data\\cyberkin\\rookie\\Voltling.json"
+    },
+    {
+      "id": "currend",
+      "name": "Currend",
+      "family": "Pulse",
+      "sector": "Pulse",
+      "stage": "Champion",
+      "role": [
+        "Disruptor",
+        "Speedster"
+      ],
+      "personality": [
+        "Hyperactive",
+        "Unpredictable"
+      ],
+      "element": "pulse",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 0.5,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.5,
+        "firewall": 0.5,
+        "dream": 1.5,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 2,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 1,
+        "slow": -2,
+        "shock": -2,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 78,
+        "attack": 72,
+        "defense": 40,
+        "speed": 88,
+        "stability": 48
+      },
+      "abilities": {
+        "basic": [
+          "Spark Jab",
+          "Pulse Arc"
+        ],
+        "advanced": [
+          "Voltage Spiral",
+          "Charge Burst"
+        ],
+        "signature": "Currend Overload"
+      },
+      "evolution": {
+        "next": "ampflare",
+        "method": "bond",
+        "requirements": {
+          "bond": 60
+        }
+      },
+      "tags": [
+        "champion",
+        "pulse"
+      ],
+      "source_file": "data\\cyberkin\\champion\\Currend.json"
+    },
+    {
+      "id": "ampflare",
+      "name": "Ampflare",
+      "title": "The Storm Conductor",
+      "family": "Pulse",
+      "sector": "Pulse",
+      "stage": "Final",
+      "role": [
+        "Disruptor",
+        "Speedster"
+      ],
+      "personality": [
+        "Electric",
+        "Unrestrained"
+      ],
+      "element": "pulse",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 0.5,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.5,
+        "firewall": 0.5,
+        "dream": 1.5,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 2,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 2,
+        "slow": -2,
+        "shock": -2,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 118,
+        "attack": 112,
+        "defense": 58,
+        "speed": 138,
+        "stability": 70
+      },
+      "abilities": {
+        "basic": [
+          "Spark Jab",
+          "Pulse Arc"
+        ],
+        "advanced": [
+          "Voltage Spiral",
+          "Charge Burst"
+        ],
+        "signature": "Ampstorm Nova"
+      },
+      "evolution": {
+        "next": null,
+        "method": null,
+        "requirements": null
+      },
+      "tags": [
+        "final",
+        "pulse",
+        "storm",
+        "conductor"
+      ],
+      "source_file": "data\\cyberkin\\final\\Ampflare.json"
+    }
+  ]
+}

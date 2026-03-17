@@ -1,0 +1,288 @@
+{
+  "family_id": "cloud",
+  "members": [
+    "Mistping",
+    "Driftcache",
+    "Skybuffer",
+    "Stratoflux"
+  ],
+  "lore_json": {},
+  "lore_md": "",
+  "cyberkin": [
+    {
+      "id": "mistping",
+      "name": "Mistping",
+      "family": "Cloud",
+      "sector": "Cloud",
+      "stage": "Baby",
+      "role": [
+        "Evasion"
+      ],
+      "personality": [
+        "Airy",
+        "Skittish"
+      ],
+      "element": "cloud",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 32,
+        "attack": 14,
+        "defense": 14,
+        "speed": 24,
+        "stability": 18
+      },
+      "abilities": {
+        "basic": [
+          "Mist Puff"
+        ],
+        "advanced": [],
+        "signature": []
+      },
+      "evolution": {
+        "next": "driftcache",
+        "method": "level",
+        "requirements": {
+          "level": 10
+        }
+      },
+      "tags": [
+        "baby",
+        "cloud"
+      ],
+      "source_file": "data\\cyberkin\\baby\\Mistping.json"
+    },
+    {
+      "id": "driftcache",
+      "name": "Driftcache",
+      "family": "Cloud",
+      "sector": "Cloud",
+      "stage": "Rookie",
+      "role": [
+        "Evasion",
+        "Support"
+      ],
+      "personality": [
+        "Airy",
+        "Forgetful"
+      ],
+      "element": "cloud",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 0.5,
+        "pulse": 0.5,
+        "archive": 1.5,
+        "cloud": 1.0,
+        "firewall": 1.5,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 1,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": -1,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": -2
+      },
+      "stats": {
+        "hp": 46,
+        "attack": 22,
+        "defense": 22,
+        "speed": 38,
+        "stability": 28
+      },
+      "abilities": {
+        "basic": [
+          "Mist Puff",
+          "Cloud Tap"
+        ],
+        "advanced": [
+          "Drift Veil"
+        ],
+        "signature": "Cache Fade"
+      },
+      "evolution": {
+        "next": "skybuffer",
+        "method": "level",
+        "requirements": {
+          "level": 20
+        }
+      },
+      "tags": [
+        "rookie",
+        "cloud"
+      ],
+      "source_file": "data\\cyberkin\\rookie\\Driftcache.json"
+    },
+    {
+      "id": "skybuffer",
+      "name": "Skybuffer",
+      "family": "Cloud",
+      "sector": "Cloud",
+      "stage": "Champion",
+      "role": [
+        "Evasion",
+        "Support"
+      ],
+      "personality": [
+        "Airy",
+        "Unpredictable"
+      ],
+      "element": "cloud",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 0.5,
+        "pulse": 0.5,
+        "archive": 1.5,
+        "cloud": 1.0,
+        "firewall": 1.5,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 1,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": -2,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": -2
+      },
+      "stats": {
+        "hp": 66,
+        "attack": 40,
+        "defense": 40,
+        "speed": 78,
+        "stability": 52
+      },
+      "abilities": {
+        "basic": [
+          "Cloud Tap",
+          "Drift Veil"
+        ],
+        "advanced": [
+          "Sky Ripple",
+          "Mist Screen"
+        ],
+        "signature": "Buffer Bloom"
+      },
+      "evolution": {
+        "next": "stratoflux",
+        "method": "bond",
+        "requirements": {
+          "bond": 60
+        }
+      },
+      "tags": [
+        "champion",
+        "cloud"
+      ],
+      "source_file": "data\\cyberkin\\champion\\Skybuffer.json"
+    },
+    {
+      "id": "stratoflux",
+      "name": "Stratoflux",
+      "title": "The Sky Cascade",
+      "family": "Cloud",
+      "sector": "Cloud",
+      "stage": "Final",
+      "role": [
+        "Evasion",
+        "Support"
+      ],
+      "personality": [
+        "Airy",
+        "Unbound"
+      ],
+      "element": "cloud",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 0.5,
+        "pulse": 0.5,
+        "archive": 1.5,
+        "cloud": 1.0,
+        "firewall": 1.5,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 2,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": -2,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": -2
+      },
+      "stats": {
+        "hp": 104,
+        "attack": 62,
+        "defense": 60,
+        "speed": 132,
+        "stability": 78
+      },
+      "abilities": {
+        "basic": [
+          "Drift Veil",
+          "Cloud Tap"
+        ],
+        "advanced": [
+          "Sky Ripple",
+          "Mist Screen"
+        ],
+        "signature": "Cascade Spiral"
+      },
+      "evolution": {
+        "next": null,
+        "method": null,
+        "requirements": null
+      },
+      "tags": [
+        "final",
+        "cloud",
+        "sky",
+        "cascade"
+      ],
+      "source_file": "data\\cyberkin\\final\\Stratoflux.json"
+    }
+  ]
+}

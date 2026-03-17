@@ -1,0 +1,24 @@
+{
+  "family": "Primacore",
+  "sector": "Core",
+  "type": "Core",
+  "habitat": "Root Sector \u2014 Origin Loop",
+  "themes": [],
+  "evolution_requirements": [
+    "Forms a Resonance Link with a Codeborn"
+  ],
+  "quest_hooks": [
+    "Investigate a disturbance sensed by Primacore",
+    "Protect the First Thread from corruption"
+  ],
+  "example_abilities": [
+    "Axis Shift",
+    "Core Pulse",
+    "Origin Strike",
+    "Prime Lattice"
+  ],
+  "members": [
+    "Primacore",
+    "Primacore_Seed"
+  ]
+}

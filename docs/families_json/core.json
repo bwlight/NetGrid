@@ -1,0 +1,291 @@
+{
+  "family_id": "core",
+  "members": [
+    "Bitling",
+    "Stackhart",
+    "Coreforge",
+    "Coreprime"
+  ],
+  "lore_json": {},
+  "lore_md": "",
+  "cyberkin": [
+    {
+      "id": "bitling",
+      "name": "Bitling",
+      "family": "Core",
+      "sector": "Core",
+      "stage": "Baby",
+      "role": [
+        "Balanced"
+      ],
+      "personality": [
+        "Neutral",
+        "Calm"
+      ],
+      "element": "core",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 38,
+        "attack": 18,
+        "defense": 18,
+        "speed": 18,
+        "stability": 18
+      },
+      "abilities": {
+        "basic": [
+          "Core Tap"
+        ],
+        "advanced": [],
+        "signature": []
+      },
+      "evolution": {
+        "next": "stackhart",
+        "method": "level",
+        "requirements": {
+          "level": 10
+        }
+      },
+      "tags": [
+        "baby",
+        "core"
+      ],
+      "source_file": "data\\cyberkin\\baby\\Bitling.json"
+    },
+    {
+      "id": "stackhart",
+      "name": "Stackhart",
+      "family": "Core",
+      "sector": "Core",
+      "stage": "Rookie",
+      "role": [
+        "Balanced",
+        "Tank"
+      ],
+      "personality": [
+        "Calm",
+        "Centered"
+      ],
+      "element": "core",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 58,
+        "attack": 30,
+        "defense": 34,
+        "speed": 22,
+        "stability": 34
+      },
+      "abilities": {
+        "basic": [
+          "Core Tap",
+          "Bit Bash"
+        ],
+        "advanced": [
+          "Stack Shield"
+        ],
+        "signature": "Core Pulse"
+      },
+      "evolution": {
+        "next": "coreforge",
+        "method": "level",
+        "requirements": {
+          "level": 20
+        }
+      },
+      "tags": [
+        "rookie",
+        "core"
+      ],
+      "source_file": "data\\cyberkin\\rookie\\Stackhart.json"
+    },
+    {
+      "id": "coreforge",
+      "name": "Coreforge",
+      "title": "The Structured Sentinel",
+      "family": "Core",
+      "sector": "Core",
+      "stage": "Champion",
+      "role": [
+        "Balanced",
+        "Tank"
+      ],
+      "personality": [
+        "Calm",
+        "Methodical"
+      ],
+      "element": "core",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 1,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 1,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 1
+      },
+      "stats": {
+        "hp": 96,
+        "attack": 58,
+        "defense": 76,
+        "speed": 38,
+        "stability": 72
+      },
+      "abilities": {
+        "basic": [
+          "Bit Bash",
+          "Stack Shield"
+        ],
+        "advanced": [
+          "Core Pulse",
+          "Forge Guard"
+        ],
+        "signature": "Structured Impact"
+      },
+      "evolution": {
+        "next": "coreprime",
+        "method": "bond",
+        "requirements": {
+          "bond": 60
+        }
+      },
+      "tags": [
+        "champion",
+        "core",
+        "sentinel"
+      ],
+      "source_file": "data\\cyberkin\\champion\\Coreforge.json"
+    },
+    {
+      "id": "coreprime",
+      "name": "Coreprime",
+      "title": "The System Keystone",
+      "family": "Core",
+      "sector": "Core",
+      "stage": "Final",
+      "role": [
+        "Tank",
+        "Balanced",
+        "Stabilizer"
+      ],
+      "personality": [
+        "Calm",
+        "Resolute"
+      ],
+      "element": "core",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 1,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 1,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 1
+      },
+      "stats": {
+        "hp": 148,
+        "attack": 96,
+        "defense": 112,
+        "speed": 64,
+        "stability": 128
+      },
+      "abilities": {
+        "basic": [
+          "Core Pulse",
+          "Bit Bash"
+        ],
+        "advanced": [
+          "Prime Guard",
+          "Axis Anchor"
+        ],
+        "signature": "Keystone Lock"
+      },
+      "evolution": {
+        "next": null,
+        "method": null,
+        "requirements": null
+      },
+      "tags": [
+        "final",
+        "core",
+        "keystone",
+        "stabilizer"
+      ],
+      "source_file": "data\\cyberkin\\final\\Coreprime.json"
+    }
+  ]
+}

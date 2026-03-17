@@ -1,0 +1,289 @@
+{
+  "family_id": "root",
+  "members": [
+    "Sproutbit",
+    "Branchbyte",
+    "Treenode",
+    "Overgrove"
+  ],
+  "lore_json": {},
+  "lore_md": "",
+  "cyberkin": [
+    {
+      "id": "sproutbit",
+      "name": "Sproutbit",
+      "family": "Root",
+      "sector": "Root",
+      "stage": "Baby",
+      "role": [
+        "Support"
+      ],
+      "personality": [
+        "Gentle",
+        "Curious"
+      ],
+      "element": "root",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.0,
+        "archive": 1.0,
+        "cloud": 1.0,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 1.0,
+        "corrupt": 1.0
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": 0,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": 0,
+        "shock": 0,
+        "poison": 0,
+        "silence": 0,
+        "bind": 0
+      },
+      "stats": {
+        "hp": 40,
+        "attack": 20,
+        "defense": 18,
+        "speed": 16,
+        "stability": 20
+      },
+      "abilities": {
+        "basic": [
+          "Leaf Nudge"
+        ],
+        "advanced": [],
+        "signature": []
+      },
+      "evolution": {
+        "next": "branchbyte",
+        "method": "level",
+        "requirements": {
+          "level": 10
+        }
+      },
+      "tags": [
+        "baby",
+        "root",
+        "starter"
+      ],
+      "source_file": "data\\cyberkin\\baby\\Sproutbit.json"
+    },
+    {
+      "id": "branchbyte",
+      "name": "Branchbyte",
+      "family": "Root",
+      "sector": "Root",
+      "stage": "Rookie",
+      "role": [
+        "Support",
+        "Tank"
+      ],
+      "personality": [
+        "Steady",
+        "Protective"
+      ],
+      "element": "root",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.5,
+        "archive": 1.0,
+        "cloud": 1.5,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 0.5,
+        "corrupt": 0.5
+      },
+      "status_resistances": {
+        "sleep": 0,
+        "burn": -1,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": -1,
+        "shock": 0,
+        "poison": 1,
+        "silence": 0,
+        "bind": -1
+      },
+      "stats": {
+        "hp": 60,
+        "attack": 32,
+        "defense": 40,
+        "speed": 22,
+        "stability": 34
+      },
+      "abilities": {
+        "basic": [
+          "Leaf Nudge",
+          "Root Snap"
+        ],
+        "advanced": [
+          "Bark Shield"
+        ],
+        "signature": "Branch Guard"
+      },
+      "evolution": {
+        "next": "treenode",
+        "method": "level",
+        "requirements": {
+          "level": 20
+        }
+      },
+      "tags": [
+        "rookie",
+        "root"
+      ],
+      "source_file": "data\\cyberkin\\rookie\\Branchbyte.json"
+    },
+    {
+      "id": "treenode",
+      "name": "Treenode",
+      "family": "Root",
+      "sector": "Root",
+      "stage": "Champion",
+      "role": [
+        "Tank",
+        "Support"
+      ],
+      "personality": [
+        "Steadfast",
+        "Protective"
+      ],
+      "element": "root",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.5,
+        "archive": 1.0,
+        "cloud": 1.5,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 0.5,
+        "corrupt": 0.5
+      },
+      "status_resistances": {
+        "sleep": -1,
+        "burn": -1,
+        "corrupt": 0,
+        "fear": 0,
+        "confuse": 0,
+        "slow": -2,
+        "shock": 0,
+        "poison": 1,
+        "silence": 0,
+        "bind": -2
+      },
+      "stats": {
+        "hp": 92,
+        "attack": 54,
+        "defense": 78,
+        "speed": 34,
+        "stability": 62
+      },
+      "abilities": {
+        "basic": [
+          "Root Snap",
+          "Bark Shield"
+        ],
+        "advanced": [
+          "Verdant Wall",
+          "Sap Pulse"
+        ],
+        "signature": "Treenode Aegis"
+      },
+      "evolution": {
+        "next": "overgrove",
+        "method": "bond",
+        "requirements": {
+          "bond": 60
+        }
+      },
+      "tags": [
+        "champion",
+        "root"
+      ],
+      "source_file": "data\\cyberkin\\champion\\Treenode.json"
+    },
+    {
+      "id": "overgrove",
+      "name": "Overgrove",
+      "title": "The Verdant Bastion",
+      "family": "Root",
+      "sector": "Root",
+      "stage": "Final",
+      "role": [
+        "Tank",
+        "Support"
+      ],
+      "personality": [
+        "Steadfast",
+        "Guardian"
+      ],
+      "element": "root",
+      "element_resistances": {
+        "core": 1.0,
+        "root": 1.0,
+        "pulse": 1.5,
+        "archive": 1.0,
+        "cloud": 1.5,
+        "firewall": 1.0,
+        "dream": 1.0,
+        "echo": 1.0,
+        "void": 0.5,
+        "corrupt": 0.5
+      },
+      "status_resistances": {
+        "sleep": -1,
+        "burn": -1,
+        "corrupt": 1,
+        "fear": 0,
+        "confuse": 0,
+        "slow": -2,
+        "shock": 0,
+        "poison": 2,
+        "silence": 0,
+        "bind": -2
+      },
+      "stats": {
+        "hp": 140,
+        "attack": 78,
+        "defense": 118,
+        "speed": 42,
+        "stability": 96
+      },
+      "abilities": {
+        "basic": [
+          "Root Snap",
+          "Bark Shield"
+        ],
+        "advanced": [
+          "Verdant Wall",
+          "Sap Pulse"
+        ],
+        "signature": "Grove Eternal"
+      },
+      "evolution": {
+        "next": null,
+        "method": null,
+        "requirements": null
+      },
+      "tags": [
+        "final",
+        "root",
+        "guardian",
+        "bastion"
+      ],
+      "source_file": "data\\cyberkin\\final\\Overgrove.json"
+    }
+  ]
+}

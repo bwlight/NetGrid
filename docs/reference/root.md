@@ -1,70 +1,12 @@
-{
-  "cyberkin": {
-    "family_id": "root",
-    "name": "Root Family",
-    "sector": "root",
-    "type": "Stability / Logic",
-    "evolution_line": {
-      "baby": {
-        "name": "Rootlet",
-        "stats": {
-          "hp": 17,
-          "attack": 8,
-          "defense": 12,
-          "speed": 6,
-          "intelligence": 9,
-          "stability": 15
-        }
-      },
-      "rookie": {
-        "name": "Rootbloom",
-        "stats": {
-          "hp": 32,
-          "attack": 18,
-          "defense": 26,
-          "speed": 14,
-          "intelligence": 20,
-          "stability": 28
-        }
-      },
-      "champion": {
-        "name": "Trunkode",
-        "stats": {
-          "hp": 58,
-          "attack": 32,
-          "defense": 44,
-          "speed": 22,
-          "intelligence": 38,
-          "stability": 52
-        }
-      },
-      "final": {
-        "name": "Rootspire",
-        "stats": {
-          "hp": 105,
-          "attack": 60,
-          "defense": 85,
-          "speed": 35,
-          "intelligence": 70,
-          "stability": 100
-        }
-      }
-    },
-    "abilities": [
-      "Integrity Boost",
-      "Anchor Field",
-      "Data Shield"
-    ],
-    "habitat": "Root Sector — Archive Pillar",
-    "evolution_requirements": [
-      "High stability",
-      "Exposure to Root-aligned Nodes",
-      "Complete a Stabilization Trial"
-    ],
-    "quest_hooks": [
-      "Help a Rootling stabilize",
-      "Repair a damaged Root Node",
-      "Investigate a Rootspire that has gone dormant"
-    ]
-  }
-}
+# Root Family Lore
+
+## Summary
+- **Sector:** Root
+- **Type:** Root
+- **Habitat:** Root Sector — Archive Pillar
+- **Themes:** Team synergy, Buffing, Discovery, Healing
+- **Evolution Requirements:** High stability, Exposure to Root-aligned Nodes, Complete a Stabilization Trial
+- **Quest Hooks:** Help a Rootling stabilize, Repair a damaged Root Node, Investigate a Rootspire that has gone dormant
+- **Example Abilities:** Bark Shield, Leaf Nudge, Root Snap, Sap Pulse, Verdant Wall
+
+Auto-generated baseline lore.

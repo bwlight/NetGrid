@@ -1,0 +1,34 @@
+{
+  "family": "Dream",
+  "sector": "Dream",
+  "type": "Dream",
+  "habitat": "Dream Sector \u2014 Uncertainty Nexus",
+  "themes": [
+    "Team synergy",
+    "Buffing",
+    "Healing"
+  ],
+  "evolution_requirements": [
+    "High intelligence stat",
+    "Exposure to probability storms",
+    "Complete a logic\u2011based prediction trial"
+  ],
+  "quest_hooks": [
+    "Stabilize a collapsing probability field",
+    "Help a Dreamlet predict a branching outcome",
+    "Investigate a Reveria altering event timelines"
+  ],
+  "example_abilities": [
+    "Dream Puff",
+    "Dream Spiral",
+    "Lull Veil",
+    "Mind Wink",
+    "Soft Bind"
+  ],
+  "members": [
+    "Drowseed",
+    "Reverieweald",
+    "Somnivine",
+    "Visprout"
+  ]
+}

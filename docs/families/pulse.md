@@ -1,0 +1,19 @@
+# Pulse Family
+
+## Summary
+- **Sector:** Pulse
+- **Type:** Pulse
+- **Habitat:** Pulse Sector — Resonance Corridor
+- **Themes:** Debuffs, Control, Interference
+- **Evolution Requirements:** High speed stat, Travel through Pulse Streams, Sync with rhythmic data patterns
+- **Quest Hooks:** Stop a runaway Pulse Stream, Help a Beatbyte sync its rhythm, Track a Pulsebreaker causing overload surges
+- **Example Abilities:** Charge Burst, Pulse Arc, Spark Jab, Static Pop, Voltage Spiral
+
+## Members
+- Ampflare
+- Currend
+- Pulspore
+- Voltling
+
+## Lore
+Auto-generated baseline lore. Expand as needed.

@@ -9,7 +9,11 @@ INDEX_BUILDERS = [
     "master_ability_stats.py",
     "master_index.py",
     "master_move_learnset.py",
-    "master_element_index.py"
+    "master_element_index.py",
+    "cyberkin_page.py",
+    "family_index.py",
+    "family_json.py",
+    "family_markdown.py"
 ]
 
 

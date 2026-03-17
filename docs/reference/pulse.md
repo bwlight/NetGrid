@@ -1,70 +1,12 @@
-{
-  "cyberkin": {
-    "family_id": "pulse",
-    "name": "Pulse Family",
-    "sector": "pulse",
-    "type": "Electric / Signal",
-    "evolution_line": {
-      "baby": {
-        "name": "Sparklit",
-        "stats": {
-          "hp": 16,
-          "attack": 11,
-          "defense": 7,
-          "speed": 14,
-          "intelligence": 10,
-          "stability": 8
-        }
-      },
-      "rookie": {
-        "name": "Sparkline",
-        "stats": {
-          "hp": 30,
-          "attack": 22,
-          "defense": 15,
-          "speed": 27,
-          "intelligence": 19,
-          "stability": 17
-        }
-      },
-      "champion": {
-        "name": "Voltstride",
-        "stats": {
-          "hp": 52,
-          "attack": 38,
-          "defense": 26,
-          "speed": 46,
-          "intelligence": 36,
-          "stability": 31
-        }
-      },
-      "final": {
-        "name": "Voltflare",
-        "stats": {
-          "hp": 88,
-          "attack": 72,
-          "defense": 45,
-          "speed": 80,
-          "intelligence": 58,
-          "stability": 50
-        }
-      }
-    },
-    "abilities": [
-      "Surge Dash",
-      "Rhythm Burst",
-      "Overclock"
-    ],
-    "habitat": "Pulse Sector — Resonance Corridor",
-    "evolution_requirements": [
-      "High speed stat",
-      "Travel through Pulse Streams",
-      "Sync with rhythmic data patterns"
-    ],
-    "quest_hooks": [
-      "Stop a runaway Pulse Stream",
-      "Help a Beatbyte sync its rhythm",
-      "Track a Pulsebreaker causing overload surges"
-    ]
-  }
-}
+# Pulse Family Lore
+
+## Summary
+- **Sector:** Pulse
+- **Type:** Pulse
+- **Habitat:** Pulse Sector — Resonance Corridor
+- **Themes:** Debuffs, Control, Interference
+- **Evolution Requirements:** High speed stat, Travel through Pulse Streams, Sync with rhythmic data patterns
+- **Quest Hooks:** Stop a runaway Pulse Stream, Help a Beatbyte sync its rhythm, Track a Pulsebreaker causing overload surges
+- **Example Abilities:** Charge Burst, Pulse Arc, Spark Jab, Static Pop, Voltage Spiral
+
+Auto-generated baseline lore.

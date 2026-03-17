@@ -1,0 +1,32 @@
+{
+  "family": "Core",
+  "sector": "Core",
+  "type": "Core",
+  "habitat": "Core Sector \u2014 Central Nexus",
+  "themes": [],
+  "evolution_requirements": [
+    "High stability",
+    "Exposure to Prime Nodes",
+    "Complete a Guardian Protocol Trial"
+  ],
+  "quest_hooks": [
+    "Assist a Corelink in stabilizing a failing Node",
+    "Investigate a Corewarden guarding a sealed thread",
+    "Help a Coreprime reinforce a collapsing Sector boundary"
+  ],
+  "example_abilities": [
+    "Axis Anchor",
+    "Bit Bash",
+    "Core Pulse",
+    "Core Tap",
+    "Forge Guard",
+    "Prime Guard",
+    "Stack Shield"
+  ],
+  "members": [
+    "Bitling",
+    "Coreforge",
+    "Coreprime",
+    "Stackhart"
+  ]
+}

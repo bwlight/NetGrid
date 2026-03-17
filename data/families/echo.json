@@ -1,0 +1,34 @@
+{
+  "family": "Echo",
+  "sector": "Echo",
+  "type": "Echo",
+  "habitat": "Echo Sector \u2014 Reverberation Hall",
+  "themes": [
+    "Debuffs",
+    "Control",
+    "Interference"
+  ],
+  "evolution_requirements": [
+    "Exposure to repeated signals",
+    "Complete a memory-based puzzle",
+    "High intelligence stat"
+  ],
+  "quest_hooks": [
+    "Recover a lost memory fragment",
+    "Break a Echolume out of a reverberation trap",
+    "Investigate an Echomancer altering memories"
+  ],
+  "example_abilities": [
+    "Distortion Pulse",
+    "Echo Spiral",
+    "Echo Tap",
+    "Reverb Peck",
+    "Sound Warp"
+  ],
+  "members": [
+    "Echolet",
+    "Echoraid",
+    "Resonarch",
+    "Resonimp"
+  ]
+}
