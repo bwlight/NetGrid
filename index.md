@@ -5,7 +5,6 @@
     <a href="/NetGrid">🏠 Home</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/data">📁 Data</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/docs">📚 Game Bible</a>
-    <a href="https://github.com/bwlight/netgrid/tree/about.md">About</b>
     <a href="https://github.com/bwlight/netgrid/tree/main/schemas">🧩 Schemas</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/src/netgrid">⚙️ Engine</a>
     <a href="https://github.com/bwlight/netgrid/tree/main/tools">🛠 Tools</a>
