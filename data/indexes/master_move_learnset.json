@@ -1,0 +1,664 @@
+{
+  "Absolute Zero Point": [],
+  "Abyss Refraction": [
+    "Abyssynth"
+  ],
+  "Ampstorm Nova": [
+    "Ampflare"
+  ],
+  "Antimatter Veil": [],
+  "Anti\u2011Reality Pulse": [],
+  "Apocalypse Virus": [],
+  "Arc Burst": [],
+  "Architect Overload": [],
+  "Architect Overwrite": [],
+  "Astral Whiteout": [],
+  "Astral Zero Fog": [],
+  "Axis Anchor": [
+    "Coreprime"
+  ],
+  "Axis Shift": [
+    "Primacore"
+  ],
+  "Bark Bash": [],
+  "Bark Guard": [],
+  "Bark Shield": [
+    "Branchbyte",
+    "Overgrove",
+    "Treenode"
+  ],
+  "Bash": [],
+  "Battle Hardened": [],
+  "Bind Thread": [],
+  "Binding Roots": [],
+  "Biocharge Strike": [],
+  "Biojam Field": [],
+  "Bit Bash": [
+    "Coreforge",
+    "Coreprime",
+    "Stackhart"
+  ],
+  "Black Veil Surge": [],
+  "Blackout Infection": [],
+  "Blackout Pulse": [],
+  "Blaze Rampart": [
+    "Blazeguard"
+  ],
+  "Bramble Crush": [],
+  "Branch Guard": [
+    "Branchbyte"
+  ],
+  "Break Focus": [],
+  "Break Guard": [],
+  "Break Reality": [],
+  "Breakdown": [],
+  "Breakline Surge": [],
+  "Breakpoint": [],
+  "Breakpoint Omega": [],
+  "Buffer Bloom": [
+    "Skybuffer"
+  ],
+  "Bug Bite": [
+    "Bugmorph",
+    "Glitchlet"
+  ],
+  "Cache Fade": [
+    "Driftcache"
+  ],
+  "Cascade Spiral": [
+    "Stratoflux"
+  ],
+  "Celestial Resonance": [],
+  "Celestial Resonance Zero": [],
+  "Chain Overclock": [],
+  "Charge Burst": [
+    "Ampflare",
+    "Currend"
+  ],
+  "Charge Field": [],
+  "Clarity Field": [],
+  "Cleanse Minor": [],
+  "Cleanse+": [],
+  "Cloud Tap": [
+    "Driftcache",
+    "Skybuffer",
+    "Stratoflux"
+  ],
+  "Code Decay": [],
+  "Collapse Infinity": [],
+  "Collapse Maelstrom": [],
+  "Collapse Paradox": [],
+  "Collapse Sphere": [],
+  "Collapse Strike": [],
+  "Collapse Wave": [],
+  "Cooldown Spike": [],
+  "Core Lunge": [],
+  "Core Pulse": [
+    "Coreforge",
+    "Coreprime",
+    "Primacore",
+    "Stackhart"
+  ],
+  "Core Tap": [
+    "Bitling",
+    "Stackhart"
+  ],
+  "Corrupt Peck": [
+    "Bugmorph",
+    "Chaoshive",
+    "Malwarp"
+  ],
+  "Corrupt Spiral": [
+    "Malwarp"
+  ],
+  "Corrupt Spread": [],
+  "Critical Drive": [],
+  "Currend Overload": [
+    "Currend"
+  ],
+  "Data Barrier": [],
+  "Data Burst": [],
+  "Data Corruptor": [],
+  "Data Decay": [],
+  "Data Drift": [],
+  "Data Flicker": [],
+  "Data Rend": [],
+  "Data Scramble": [],
+  "Data Seal": [
+    "Archivalith",
+    "Mnemoshard"
+  ],
+  "Data Shift": [],
+  "Data Sunder": [],
+  "Data Wave": [],
+  "Desync Wave": [],
+  "Disrupt": [],
+  "Disrupt Lock": [],
+  "Disrupt Wave": [],
+  "Dissonance Burst": [],
+  "Distortion Pulse": [
+    "Echoraid",
+    "Resonarch"
+  ],
+  "Double Tap": [],
+  "Dream Puff": [
+    "Drowseed",
+    "Visprout"
+  ],
+  "Dream Spiral": [
+    "Reverieweald",
+    "Somnivine"
+  ],
+  "Dreamshield": [],
+  "Dreamstep": [],
+  "Drift Veil": [
+    "Driftcache",
+    "Skybuffer",
+    "Stratoflux"
+  ],
+  "Drowsing Wave": [],
+  "Dual Strike": [],
+  "Echo Breaker": [],
+  "Echo Cut": [],
+  "Echo Feedback": [],
+  "Echo Index": [],
+  "Echo Ping": [],
+  "Echo Slap": [],
+  "Echo Spiral": [
+    "Echoraid",
+    "Resonarch"
+  ],
+  "Echo Tap": [
+    "Echolet",
+    "Resonimp"
+  ],
+  "Echo Wave": [],
+  "Elemental Focus": [],
+  "Ember Rush": [],
+  "Ember Wall": [],
+  "Entangle Spike": [],
+  "Entangle Spores": [],
+  "Eternal Slumberfield": [],
+  "Eternal Verdancy": [],
+  "Eternal Wildheart": [],
+  "Event Collapse": [],
+  "Event Horizon": [],
+  "Event Horizon Cut": [],
+  "Feedback Guard": [],
+  "Final Convergence": [],
+  "Final Convergence Zero": [],
+  "Final Drive": [],
+  "Final Resonance": [],
+  "Firewall Barrier": [],
+  "Firewall Guard": [
+    "Blazeguard",
+    "Infernode",
+    "Pyrowall"
+  ],
+  "Flare Boost": [],
+  "Flare Cannon": [],
+  "Flare Peck": [
+    "Blazeguard",
+    "Infernode",
+    "Pyrowall"
+  ],
+  "Flare Spike": [],
+  "Flick": [],
+  "Focus": [],
+  "Focus Edge": [],
+  "Focused Burst": [],
+  "Fog Inversion": [],
+  "Fog Screen": [],
+  "Fog Spear": [],
+  "Force Barrier": [],
+  "Force Convergence": [],
+  "Forge Guard": [
+    "Coreforge"
+  ],
+  "Gap Slip": [
+    "Abyssynth",
+    "Gapshade",
+    "Riftveil"
+  ],
+  "Genesis Rewrite": [
+    "Primacore"
+  ],
+  "Glitch Barrage": [],
+  "Glitch Lunge": [],
+  "Glitch Swarm": [],
+  "Glitch Wave": [
+    "Bugmorph",
+    "Chaoshive",
+    "Malwarp"
+  ],
+  "Glyph Tap": [
+    "Archivalith",
+    "Mnemoshard",
+    "Noteglyph"
+  ],
+  "Grove Breaker": [],
+  "Grove Eternal": [
+    "Overgrove"
+  ],
+  "Guard All": [],
+  "Guard Breaker": [],
+  "Guard Matrix": [],
+  "Guard Up": [],
+  "Harmonic Crash": [],
+  "Harmonic Field": [],
+  "Harmonic Resonance": [],
+  "Harmonic Supernova": [],
+  "Heat Barrier": [
+    "Infernode",
+    "Pyrowall"
+  ],
+  "Heat Bloom": [],
+  "Heat Guard": [],
+  "Heat Shift": [],
+  "Heat Suppress": [],
+  "Hellstar Collapse": [],
+  "Hive Collapse": [
+    "Chaoshive"
+  ],
+  "Hollow Step": [
+    "Abyssynth",
+    "Riftveil"
+  ],
+  "Hypercurrent Drive": [],
+  "Hyperlight Disjunction": [],
+  "Ignition Cataclysm": [],
+  "Ignition Pulse": [
+    "Infernode",
+    "Pyrowall"
+  ],
+  "Impact Drive": [],
+  "Impact Wave": [],
+  "Infect Burst": [],
+  "Infection Spike": [],
+  "Inferno Gate": [
+    "Infernode"
+  ],
+  "Infinity Dreamfall": [],
+  "Infinity Dreamgate": [],
+  "Infinity Drive Zero": [],
+  "Infinity Index": [],
+  "Infinity Overdrive": [],
+  "Infinity Wave": [],
+  "Inflict Confuse": [],
+  "Inflict Shock": [],
+  "Inflict Slow": [],
+  "Jitter Shock": [],
+  "Kernel Fault": [],
+  "Kernel Pulse": [
+    "Primacore_Seed"
+  ],
+  "Keystone Lock": [
+    "Coreprime"
+  ],
+  "Leaf Nudge": [
+    "Branchbyte",
+    "Sproutbit"
+  ],
+  "Leaf Snap": [],
+  "Limit Break": [],
+  "Limit Breaker Eternal": [],
+  "Limit Breaker Zenith": [],
+  "Limit Overdrive": [],
+  "Limit Surge": [],
+  "Logic Annihilator": [],
+  "Logic Break": [],
+  "Logic Corrosion": [],
+  "Logic Fortify": [],
+  "Logic Invert": [],
+  "Logic Matrix": [],
+  "Logic Scramble": [],
+  "Lucid Spike": [],
+  "Lucid Spiral": [],
+  "Lull Veil": [
+    "Reverieweald",
+    "Somnivine",
+    "Visprout"
+  ],
+  "Mal Surge": [
+    "Chaoshive",
+    "Malwarp"
+  ],
+  "Malware Bloom": [],
+  "Malware Wave": [],
+  "Memory Cleanse": [],
+  "Memory Frag": [],
+  "Memory Inversion": [],
+  "Memory Lance": [],
+  "Memory Lock": [],
+  "Memory Mist": [],
+  "Memory Peck": [],
+  "Memory Ping": [
+    "Mindlet",
+    "Noteglyph"
+  ],
+  "Memory Surge": [],
+  "Memory Wipe": [],
+  "Mind Anchor": [
+    "Archivalith",
+    "Mnemoshard",
+    "Noteglyph"
+  ],
+  "Mind Fog": [],
+  "Mind Wink": [
+    "Reverieweald",
+    "Somnivine",
+    "Visprout"
+  ],
+  "Mindfall Requiem": [],
+  "Mist Blade": [],
+  "Mist Blind": [],
+  "Mist Lash": [],
+  "Mist Peck": [],
+  "Mist Puff": [
+    "Driftcache",
+    "Mistping"
+  ],
+  "Mist Screen": [
+    "Skybuffer",
+    "Stratoflux"
+  ],
+  "Mist Shield": [],
+  "Mist Step Strike": [],
+  "Mnemo Fracture": [
+    "Mnemoshard"
+  ],
+  "Monolith Recall": [
+    "Archivalith"
+  ],
+  "Morph Spike": [
+    "Bugmorph"
+  ],
+  "Multi Strike": [],
+  "Nature Sync": [],
+  "Neural Disjunction": [],
+  "Nightmare Loop": [],
+  "Null Barrier": [],
+  "Null Bloom": [
+    "Gapshade"
+  ],
+  "Null Field": [],
+  "Null Silence": [],
+  "Null Slash": [],
+  "Null Sync": [],
+  "Oblivion Vector": [],
+  "Obscure Field": [],
+  "Omega Convergence": [],
+  "Omega Finality": [],
+  "Omega Infection": [],
+  "Omnibrain Collapse": [],
+  "Omniscient Purge": [],
+  "Oneiric Crescendo": [],
+  "Oneiric Singularity": [],
+  "Origin Strike": [
+    "Primacore"
+  ],
+  "Overcharge Strike": [],
+  "Overclock Burnout": [],
+  "Overdrive Strike": [],
+  "Overgrowth Core": [],
+  "Overgrowth Guard": [],
+  "Overheat Burst": [],
+  "Overheat Jam": [],
+  "Overload Ping": [],
+  "Packet Corrupt": [],
+  "Packet Fog": [],
+  "Packet Jam": [],
+  "Packet Leak": [],
+  "Packet Refresh": [],
+  "Packet Storm": [],
+  "Packet Unravel": [],
+  "Packet Veil": [],
+  "Paradox Velocity": [],
+  "Parasitic Bind": [],
+  "Peck": [],
+  "Perfect Strike": [],
+  "Phantom Slash": [],
+  "Phase Strike": [],
+  "Plague Overmind": [],
+  "Primal Awakening": [],
+  "Prime Guard": [
+    "Coreprime"
+  ],
+  "Prime Lattice": [
+    "Primacore"
+  ],
+  "Priority Break": [],
+  "Pulse Arc": [
+    "Ampflare",
+    "Currend",
+    "Voltling"
+  ],
+  "Pulse Overclock": [],
+  "Pulse Tap": [],
+  "Pyro Bulwark": [
+    "Pyrowall"
+  ],
+  "Pyroclast Lance": [],
+  "Quantum Flash": [],
+  "Quick Patch": [],
+  "Quick Realign": [],
+  "Quickstart": [],
+  "Raid Burst": [
+    "Echoraid"
+  ],
+  "Realign": [],
+  "Realign+": [],
+  "Reality Annulment": [],
+  "Reality Fracture": [],
+  "Reality Termination": [],
+  "Recall Burst": [
+    "Noteglyph"
+  ],
+  "Recall Surge": [
+    "Archivalith",
+    "Mnemoshard"
+  ],
+  "Redshift Decay": [],
+  "Regen Bloom": [],
+  "Regeneration Core": [],
+  "Reson Burst": [
+    "Resonimp"
+  ],
+  "Resonance Cathedral": [],
+  "Resonance Shatter": [],
+  "Resonance Sync": [],
+  "Resonant Flare": [],
+  "Resonant Overdrive": [],
+  "Retaliate Protocol": [],
+  "Reverb Crash": [],
+  "Reverb Peck": [
+    "Echoraid",
+    "Resonarch",
+    "Resonimp"
+  ],
+  "Reverb Spike": [],
+  "Reverie Bloom": [
+    "Reverieweald"
+  ],
+  "Reverie Burst": [],
+  "Reverie Surge": [],
+  "Reverie Trap": [],
+  "Rift Bloom": [
+    "Riftveil"
+  ],
+  "Risk Boost": [],
+  "Risk Chain": [],
+  "Root Lock": [],
+  "Root Snap": [
+    "Branchbyte",
+    "Overgrove",
+    "Treenode"
+  ],
+  "Root Snare": [],
+  "Sap Drain": [],
+  "Sap Guard": [],
+  "Sap Pulse": [
+    "Overgrove",
+    "Treenode"
+  ],
+  "Scan": [],
+  "Scorch Break": [],
+  "Shade Tap": [
+    "Abyssynth",
+    "Gapshade",
+    "Riftveil"
+  ],
+  "Shared Clarity": [],
+  "Shatter Wave": [],
+  "Shockwave Burst": [],
+  "Signal Cut": [],
+  "Singularity Edge": [],
+  "Sky Pulse": [],
+  "Sky Ripple": [
+    "Skybuffer",
+    "Stratoflux"
+  ],
+  "Skyfall Array": [],
+  "Slumber Wave": [],
+  "Snare Field": [],
+  "Soft Bind": [
+    "Reverieweald",
+    "Somnivine"
+  ],
+  "Solar Furnace": [],
+  "Somni Bloom": [
+    "Somnivine"
+  ],
+  "Somnolent Collapse": [],
+  "Sonic Breakline": [],
+  "Sonic Lunge": [],
+  "Sound Warp": [
+    "Echoraid",
+    "Resonarch",
+    "Resonimp"
+  ],
+  "Sovereign Resonance": [
+    "Resonarch"
+  ],
+  "Spark Jab": [
+    "Ampflare",
+    "Currend",
+    "Voltling"
+  ],
+  "Speed Shift": [],
+  "Stability Boost": [],
+  "Stack Shield": [
+    "Coreforge",
+    "Stackhart"
+  ],
+  "Static Burst": [],
+  "Static Disrupt": [],
+  "Static Field": [],
+  "Static Lock": [],
+  "Static Pop": [
+    "Pulspore",
+    "Voltling"
+  ],
+  "Status Resistor": [],
+  "Stormveil Astral": [],
+  "Strike": [],
+  "Structured Impact": [
+    "Coreforge"
+  ],
+  "Supernova Ascendant": [],
+  "Supernova Gate": [],
+  "Symphonic Breaker": [],
+  "System Align": [],
+  "System Apex Protocol": [],
+  "System Apotheosis": [],
+  "System Break": [],
+  "System Collapse Protocol": [],
+  "System Corrupt": [],
+  "System Crash": [],
+  "System Decay": [],
+  "System Integrity": [],
+  "System Lag": [],
+  "System Omega": [],
+  "System Overclock": [],
+  "System Pulse": [],
+  "System Pulse Alpha": [],
+  "System Pulse Omega": [],
+  "System Resonate": [],
+  "System Rewrite": [],
+  "System Shock": [],
+  "System Singularity": [],
+  "System Stabilize": [],
+  "System Wave": [],
+  "Thermal Burst": [],
+  "Thermal Inversion": [],
+  "Thermal Lock": [],
+  "Thorn Barrage": [],
+  "Thorn Maelstrom": [],
+  "Total Break": [],
+  "Total Oblivion": [],
+  "Total Recall": [],
+  "Treenode Aegis": [
+    "Treenode"
+  ],
+  "True Apex": [],
+  "True Cascade": [],
+  "True Finale": [],
+  "True Omega Strike": [],
+  "True Strike": [],
+  "Unstable Power": [],
+  "Unsteady Jolt": [],
+  "Verdant Cataclysm": [],
+  "Verdant Crush": [],
+  "Verdant Focus": [],
+  "Verdant Surge": [],
+  "Verdant Wall": [
+    "Overgrove",
+    "Treenode"
+  ],
+  "Vine Aegis": [],
+  "Vine Flick": [],
+  "Viral Implosion": [],
+  "Viral Overflow": [],
+  "Viral Spike": [],
+  "Vis Ripple": [
+    "Visprout"
+  ],
+  "Void Absorption": [],
+  "Void Collapse": [],
+  "Void Flick": [
+    "Gapshade",
+    "Nullimp"
+  ],
+  "Void Spiral": [
+    "Abyssynth",
+    "Riftveil"
+  ],
+  "Voidmist Ascent": [],
+  "Voidstep": [],
+  "Volt Barrier": [],
+  "Volt Burst": [
+    "Voltling"
+  ],
+  "Volt Lunge": [],
+  "Volt Rush": [],
+  "Voltage Spiral": [
+    "Ampflare",
+    "Currend"
+  ],
+  "Warm Snap": [
+    "Blazeguard",
+    "Embercub"
+  ],
+  "Warp Spike": [
+    "Chaoshive",
+    "Malwarp"
+  ],
+  "Weak Corrupt": [],
+  "White Mirage": [],
+  "Whiteout": [],
+  "Wild Bloom Surge": [],
+  "Wilt Touch": [],
+  "Worldbreaker Bloom": [],
+  "Worldroot Eruption": [],
+  "Zero Visibility Strike": []
+}

@@ -1,0 +1,23 @@
+{
+    "quest_code": "SIDE.02",
+    "title": "The Last Ranger",
+    "type": "Side Quest",
+    "sector": "Sector Two \u2014 Shattered Frontier",
+    "summary": "",
+    "steps": [
+        "Follow the Ranger\u2019s patrol route",
+        "Clear corruption along the path",
+        "Reach the Ranger\u2019s final post",
+        "Witness its final stand"
+    ],
+    "objectives": [
+        "Follow the Ranger\u2019s patrol route",
+        "Clear corruption along the path",
+        "Reach the Ranger\u2019s final post",
+        "Witness its final stand"
+    ],
+    "rewards": [
+        "Ranger\u2019s Badge",
+        "Frontier Map (reveals hidden nodes)"
+    ]
+}

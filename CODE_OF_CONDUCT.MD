@@ -1,4 +1,4 @@
-# Netgrid Code of Conduct
+## Netgrid Code of Conduct
 
 ## Our Pledge
 We pledge to make participation in this project a harassment‑free experience for everyone.
@@ -21,3 +21,4 @@ Project maintainers may remove or block contributors who violate this Code of Co
 
 ## Contact
 For concerns, contact the project owner.
+

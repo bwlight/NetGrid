@@ -1,0 +1,12 @@
+{
+    "quests": [
+        {
+            "code": "STABILIZATION.02",
+            "title": "Frontier Node Repair",
+            "type": "Stabilization Quest",
+            "sector": "Sector Two \u2014 Inner Frontier",
+            "summary": "The corruption has damaged the Frontier\u2019s primary travel node. The player must repair the node by gathering resonance cores, defeating corruption tendrils, and aligning the node\u2019s energy flow. Once repaired, the node unlocks fast travel across Sector Two.",
+            "path": "stabilization_quests/STABILIZATION.02.json"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "quest_code": "CORE.01",
+    "title": "First Sector Dive",
+    "type": "Main Story",
+    "sector": "Sector 1 (starting region)",
+    "summary": "The player dives into the first Sector through the stabilized Threshold Gate. The environment is partially corrupted, with flickering terrain and unstable nodes. The Sector Guardian is missing or weakened. The player must explore the area, stabilize the first real-world node, and confront a corrupted creature that blocks the path deeper into the Sector.",
+    "steps": [
+        "Enter the first Sector",
+        "Survey the corrupted terrain",
+        "Locate the missing or weakened Guardian",
+        "Stabilize the first Sector Node",
+        "Defeat the Corrupted Beast",
+        "Unlock the Sector\u2019s main path"
+    ],
+    "objectives": [
+        "Enter the first Sector",
+        "Survey the corrupted terrain",
+        "Locate the missing or weakened Guardian",
+        "Stabilize the first Sector Node",
+        "Defeat the Corrupted Beast",
+        "Unlock the Sector\u2019s main path"
+    ],
+    "rewards": [
+        "Sector Map unlocked",
+        "Resonance Level 4",
+        "First real-world ability upgrade",
+        "Access to deeper Sector regions"
+    ]
+}

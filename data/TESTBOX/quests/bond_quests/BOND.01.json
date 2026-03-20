@@ -1,0 +1,23 @@
+{
+    "quest_code": "BOND.01",
+    "title": "First Resonance",
+    "type": "Bond Quest",
+    "sector": "Unknown",
+    "summary": "",
+    "steps": [
+        "Travel to a quiet location",
+        "Begin resonance meditation",
+        "Match your Cyberkin\u2019s emotional frequency",
+        "Stabilize its resonance"
+    ],
+    "objectives": [
+        "Travel to a quiet location",
+        "Begin resonance meditation",
+        "Match your Cyberkin\u2019s emotional frequency",
+        "Stabilize its resonance"
+    ],
+    "rewards": [
+        "Bond Level +1",
+        "Resonance Sync ability"
+    ]
+}

@@ -1,4 +1,4 @@
-# Netgrid
+## Netgrid
 
 A digital‑mythic creature RPG built on a modular, schema‑validated engine. Netgrid blends tactical combat, emotional creature‑raising, and a data‑driven world into a unified experience set inside the Grid — a vast, living network shaped by elemental families, ancient systems, and evolving digital life.
 
@@ -45,7 +45,7 @@ The full world lore, sector pages, species index, and system documentation are a
 
 ---
 
-# Developer Documentation
+## Developer Documentation
 
 This section provides a technical overview of the repository, engine, data architecture, and development workflow.
 
@@ -140,3 +140,4 @@ Sector‑based exploration loop
 
 ## 📄 License
 All rights reserved. Netgrid is a proprietary creative project.
+

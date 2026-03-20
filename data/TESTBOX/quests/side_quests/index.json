@@ -1,0 +1,76 @@
+{
+    "quests": [
+        {
+            "code": "SIDE.01",
+            "title": "The Lantern Keeper",
+            "type": "Side Quest",
+            "sector": "Sector One \u2014 Lantern Fields",
+            "summary": "",
+            "path": "side_quests/SIDE.01.json"
+        },
+        {
+            "code": "SIDE.02",
+            "title": "The Last Ranger",
+            "type": "Side Quest",
+            "sector": "Sector Two \u2014 Shattered Frontier",
+            "summary": "",
+            "path": "side_quests/SIDE.02.json"
+        },
+        {
+            "code": "SIDE.03",
+            "title": "Song of the Iron Choir",
+            "type": "Side Quest",
+            "sector": "Sector Three \u2014 Iron Choir Hall",
+            "summary": "",
+            "path": "side_quests/SIDE.03.json"
+        },
+        {
+            "code": "SIDE.04",
+            "title": "The Silent Library",
+            "type": "Side Quest",
+            "sector": "Sector Four \u2014 Frozen Archive",
+            "summary": "",
+            "path": "side_quests/SIDE.04.json"
+        },
+        {
+            "code": "SIDE.05",
+            "title": "Flame of the Forgotten",
+            "type": "Side Quest",
+            "sector": "Sector Five \u2014 Ember Warrens",
+            "summary": "",
+            "path": "side_quests/SIDE.05.json"
+        },
+        {
+            "code": "SIDE.06",
+            "title": "Wings of the Fallen",
+            "type": "Side Quest",
+            "sector": "Sector Six \u2014 Skyforge Isles",
+            "summary": "",
+            "path": "side_quests/SIDE.06.json"
+        },
+        {
+            "code": "SIDE.07",
+            "title": "The Broken Signal",
+            "type": "Side Quest",
+            "sector": "Sector Seven \u2014 Deep Circuit",
+            "summary": "",
+            "path": "side_quests/SIDE.07.json"
+        },
+        {
+            "code": "SIDE.08",
+            "title": "The Green Sanctuary",
+            "type": "Side Quest",
+            "sector": "Sector Eight \u2014 Verdant Grid",
+            "summary": "",
+            "path": "side_quests/SIDE.08.json"
+        },
+        {
+            "code": "SIDE.09",
+            "title": "The Erased Path",
+            "type": "Side Quest",
+            "sector": "Sector Nine \u2014 Lost Sector",
+            "summary": "",
+            "path": "side_quests/SIDE.09.json"
+        }
+    ]
+}

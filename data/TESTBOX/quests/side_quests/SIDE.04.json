@@ -1,0 +1,23 @@
+{
+    "quest_code": "SIDE.04",
+    "title": "The Silent Library",
+    "type": "Side Quest",
+    "sector": "Sector Four \u2014 Frozen Archive",
+    "summary": "",
+    "steps": [
+        "Thaw frozen memory crystals",
+        "Restore the stories",
+        "Defeat corruption that emerges from the memories",
+        "Return the stories to the Librarian"
+    ],
+    "objectives": [
+        "Thaw frozen memory crystals",
+        "Restore the stories",
+        "Defeat corruption that emerges from the memories",
+        "Return the stories to the Librarian"
+    ],
+    "rewards": [
+        "Archive Bookmark",
+        "Memory Insight passive"
+    ]
+}

@@ -1,12 +1,27 @@
+## Quest Code
+STABILIZATION.06
+
+## Quest Type
+Stabilization Quest
+
 ## Quest Title
 Skyforge Stabilizer
 
 ## Sector
 Sector Six
 
-## Summary
-You repair floating stabilizers to prevent island collapse.
+## Quest Summary
+
+## Steps
+
+## Objectives
 
 ## Rewards
 - Skyforge Node  
 - Air Step ability
+
+## Notes
+
+## Summary
+You repair floating stabilizers to prevent island collapse.
+

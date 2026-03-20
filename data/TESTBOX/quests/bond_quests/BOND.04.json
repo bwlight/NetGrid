@@ -1,0 +1,23 @@
+{
+    "quest_code": "BOND.04",
+    "title": "When the Echo Calls",
+    "type": "Bond Quest",
+    "sector": "Unknown",
+    "summary": "",
+    "steps": [
+        "Track the echo",
+        "Confront the Echo\u2011Kin",
+        "Anchor your Cyberkin\u2019s identity",
+        "Break the echo\u2019s influence"
+    ],
+    "objectives": [
+        "Track the echo",
+        "Confront the Echo\u2011Kin",
+        "Anchor your Cyberkin\u2019s identity",
+        "Break the echo\u2019s influence"
+    ],
+    "rewards": [
+        "Bond Level +1",
+        "Echo Ward ability"
+    ]
+}

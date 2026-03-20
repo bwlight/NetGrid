@@ -1,0 +1,28 @@
+{
+    "quest_code": "CORE.07",
+    "title": "Sector Two: The Shattered Frontier",
+    "type": "Main Story",
+    "sector": "Sector Two \u2014 Shattered Frontier",
+    "summary": "The player arrives in the Shattered Frontier, where Dream fractals have begun appearing in the physical world. The corruption reacts violently to the convergence, creating unstable zones and hybrid enemies. The player must stabilize the Frontier, rescue trapped Cyberkin, and locate the Guardian, who is struggling to contain the collapse.",
+    "steps": [
+        "Survey the Shattered Frontier",
+        "Stabilize corrupted Frontier Nodes",
+        "Rescue trapped Cyberkin",
+        "Defeat hybrid corruption packs",
+        "Locate the Guardian",
+        "Prepare for the next convergence wave"
+    ],
+    "objectives": [
+        "Survey the Shattered Frontier",
+        "Stabilize corrupted Frontier Nodes",
+        "Rescue trapped Cyberkin",
+        "Defeat hybrid corruption packs",
+        "Locate the Guardian",
+        "Prepare for the next convergence wave"
+    ],
+    "rewards": [
+        "Resonance Level 12",
+        "Frontier Stabilizer ability",
+        "Access to the Frontier\u2019s inner region"
+    ]
+}

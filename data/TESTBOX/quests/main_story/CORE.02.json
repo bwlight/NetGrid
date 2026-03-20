@@ -1,0 +1,29 @@
+{
+    "quest_code": "CORE.02",
+    "title": "Guardian in the Dark",
+    "type": "Main Story",
+    "sector": "Sector 1 \u2014 Deep Corruption Zone",
+    "summary": "After stabilizing the first Sector Node, the player follows a faint resonance trail deeper into the Sector. The environment becomes darker and more unstable. Corrupted wildlife attacks in coordinated patterns, suggesting intelligence behind the corruption. The player eventually finds the Guardian, weakened and partially corrupted, unable to maintain control of the Sector.",
+    "steps": [
+        "Follow the Guardian\u2019s resonance trail",
+        "Navigate the Deep Corruption Zone",
+        "Defeat corrupted wildlife packs",
+        "Locate the Guardian",
+        "Purify the Guardian\u2019s resonance",
+        "Stabilize the Deep Node"
+    ],
+    "objectives": [
+        "Follow the Guardian\u2019s resonance trail",
+        "Navigate the Deep Corruption Zone",
+        "Defeat corrupted wildlife packs",
+        "Locate the Guardian",
+        "Purify the Guardian\u2019s resonance",
+        "Stabilize the Deep Node"
+    ],
+    "rewards": [
+        "Resonance Level 5",
+        "Purification Pulse ability",
+        "Deep Node unlocked",
+        "Guardian\u2019s trust"
+    ]
+}

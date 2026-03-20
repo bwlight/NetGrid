@@ -1,0 +1,57 @@
+name: Quest Pipeline
+
+on:
+  push:
+    paths:
+      - "docs/quests/**"
+      - "tools/generate_quests_from_docs.py"
+      - "tools/validate_quests.py"
+      - "quest.schema.json"
+  workflow_dispatch:
+
+jobs:
+  generate-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Needed for diffing
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install jsonschema
+
+      - name: Run quest generator
+        run: |
+          python tools/generate_quests_from_docs.py <<EOF
+          y
+          EOF
+
+      - name: Run quest validator
+        run: |
+          python tools/validate_quests.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git add data/quests
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit updated quests
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git commit -m "Auto-regenerated quest JSON files"
+          git push
