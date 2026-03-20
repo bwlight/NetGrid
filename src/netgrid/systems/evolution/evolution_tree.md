@@ -1,24 +1,4 @@
-## Quest Code
-evolution
-
-## Quest Type
-Unknown
-
-## Quest Title
-
-## Sector
-
-## Quest Summary
-
-## Steps
-
-## Objectives
-
-## Rewards
-
-## Notes
-
-## Netgrid Evolution Tree
+# Netgrid Evolution Tree  
 A complete visual overview of all Cyberkin evolution paths.
 
 ---
@@ -91,4 +71,3 @@ A complete visual overview of all Cyberkin evolution paths.
 → corrupt_rookie 
 → corrupt_champion_glitch / corrupt_champion_error / corrupt_champion_patchfail
 → corrupt_final_overrun / corrupt_final_corruptcore
-

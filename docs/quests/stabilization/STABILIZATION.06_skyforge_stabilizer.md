@@ -11,17 +11,19 @@ Skyforge Stabilizer
 Sector Six
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Skyforge Node  
-- Air Step ability
+- Skyforge Node
 
 ## Notes
+TO-DO
 
 ## Summary
 You repair floating stabilizers to prevent island collapse.
-

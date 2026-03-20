@@ -14,29 +14,22 @@ Sector Two — Inner Frontier
 The corruption has damaged the Frontier’s primary travel node. The player must repair the node by gathering resonance cores, defeating corruption tendrils, and aligning the node’s energy flow. Once repaired, the node unlocks fast travel across Sector Two.
 
 ## Steps
+TO-DO
 
 ## Objectives
-- Locate the damaged Frontier Node  
-- Gather resonance cores  
-- Defeat corruption tendrils  
-- Align the node’s energy flow  
-- Activate the Frontier Node  
+- Locate the damaged Frontier Node
 
 ## Rewards
-- Frontier Fast Travel unlocked  
-- Resonance Level +1  
-- Node Stabilizer passive
+- Frontier Fast Travel unlocked
 
 ## Notes
+TO-DO
 
 ## Narrative Purpose
 This quest stabilizes the Inner Frontier, unlocking fast travel and preparing the region for deeper exploration.
 
 ## Gameplay Mechanics
-- Node repair  
-- Energy alignment puzzle  
-- Corruption clearing  
+- Node repair
 
 ## Follow-Up Quests Unlocked
 - STABILIZATION.03 — Heartbound Node Alignment
-

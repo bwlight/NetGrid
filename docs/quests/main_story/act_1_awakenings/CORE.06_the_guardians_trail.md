@@ -14,63 +14,40 @@ Sector Two — Corrupted Wilds
 After stabilizing the Arrival Zone, the player follows the Guardian’s resonance deeper into Sector Two. The corruption becomes more aggressive, forming coordinated ambushes. The player must navigate the Corrupted Wilds, defeat corruption packs, and locate the Guardian hiding within a resonance cocoon. The Guardian reveals that the Dream Sector is collapsing and that a convergence event is imminent.
 
 ## Steps
+TO-DO
 
 ## Objectives
-- Follow the Guardian’s resonance trail  
-- Navigate the Corrupted Wilds  
-- Defeat coordinated corruption packs  
-- Locate the Guardian’s cocoon  
-- Break the corruption seal  
-- Receive the Guardian’s warning  
+- Follow the Guardian’s resonance trail
 
 ## Rewards
-- Resonance Level 9  
-- Guardian’s Insight ability  
-- Path to the convergence point unlocked  
+- Resonance Level 9
 
 ## Notes
+TO-DO
 
 ## Narrative Purpose
 This quest pushes the Core Sector arc toward the convergence point. The player tracks the Sector Two Guardian through increasingly corrupted terrain, discovering that the corruption is preparing a coordinated strike. The Guardian reveals that the Dream Sector is collapsing, tying the arcs together.
 
 ## Sector State
-The Corrupted Wilds are unstable and hostile.  
-Corruption clusters pulse with coordinated rhythm.  
-Wild Cyberkin are fully feral.  
-The Guardian’s cocoon flickers with weak resonance.
+The Corrupted Wilds are unstable and hostile.
 
 ## Key Characters
-- **Guardian:** Sector Two Guardian  
-- **Allies:** Your starter Cyberkin  
-- **Enemies:** Corruption packs, Corruption Seal Warden
+- **Guardian:** Sector Two Guardian
 
 ## Cyberkin Emotional Beat
-Your Cyberkin senses the Guardian’s fear and becomes protective.  
-It hesitates when facing coordinated corruption packs but pushes through.  
-During the Seal Warden battle, it channels your determination to break the corruption seal.
+Your Cyberkin senses the Guardian’s fear and becomes protective.
 
 ## Gameplay Mechanics Introduced or Highlighted
-- Coordinated corruption pack behavior  
-- Resonance cocoon mechanics  
-- Seal Warden battle  
-- Guardian‑level resonance synchronization  
+- Coordinated corruption pack behavior
 
 ## Major Story Revelations
-- The corruption is preparing a coordinated strike across Sectors.  
-- The Dream Sector is collapsing — Somnia is in danger.  
-- A convergence event is forming between Dream and Core layers.  
-- The Guardian urges the player to reach the convergence point.
+- The corruption is preparing a coordinated strike across Sectors.
 
 ## Memory / Lore Fragment Awarded
-- **Fragment Name:** The Convergence Warning  
-- **Fragment Meaning:** A memory of a past Guardian warning the player about a convergence event that ended a previous cycle.
+- **Fragment Name:** The Convergence Warning
 
 ## Quest Completion State
-The Guardian stabilizes but remains weakened.  
-The path to the convergence rift opens.  
-The corruption grows silent — as if waiting.
+The Guardian stabilizes but remains weakened.
 
 ## Follow-Up Quests Unlocked
-- CONVERGENCE.01 — Rift of Echoes  
-- DREAM.08 — Somnia’s Last Stand
-
+- CONVERGENCE.01 — Rift of Echoes

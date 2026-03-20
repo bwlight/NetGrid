@@ -11,17 +11,19 @@ Heartbound Node Alignment
 Sector Three
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Node Stabilizer  
-- Resonance Level +1
+- Node Stabilizer
 
 ## Notes
+TO-DO
 
 ## Summary
 You align three resonance pillars to stabilize the Iron Choir region.
-

@@ -11,17 +11,19 @@ The Verdant Grid
 Sector Eight
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Verdant Seed  
-- Sector Lore
+- Verdant Seed
 
 ## Notes
+TO-DO
 
 ## Summary
 You explore a lush biome where nature and code intertwine.
-

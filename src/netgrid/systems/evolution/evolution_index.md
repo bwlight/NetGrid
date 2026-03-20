@@ -1,24 +1,4 @@
-## Quest Code
-evolution
-
-## Quest Type
-Unknown
-
-## Quest Title
-
-## Sector
-
-## Quest Summary
-
-## Steps
-
-## Objectives
-
-## Rewards
-
-## Notes
-
-## Netgrid Evolution Index
+# Netgrid Evolution Index  
 Master directory for all evolution data files in the Netgrid creature system.
 
 This index lists each Cyberkin family, its evolution file, and a short description of its branching evolution identity.
@@ -68,4 +48,3 @@ This index is used for:
 - Families remain modular and isolated.  
 - Void and Corrupt include rare cross-family evolution paths.  
 - All files are schema-validated and safe for engine loading.  
-

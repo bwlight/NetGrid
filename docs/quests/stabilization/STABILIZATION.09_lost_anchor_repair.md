@@ -11,17 +11,19 @@ Lost Sector Anchor Repair
 Sector Nine
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Lost Anchor Node  
-- Anchor Pulse ability
+- Lost Anchor Node
 
 ## Notes
+TO-DO
 
 ## Summary
 You repair the ancient anchor that keeps the Lost Sector from collapsing.
-

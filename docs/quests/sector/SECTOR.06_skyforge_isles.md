@@ -11,17 +11,19 @@ The Skyforge Isles
 Sector Six
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Skyforge Alloy  
-- Sector Lore
+- Skyforge Alloy
 
 ## Notes
+TO-DO
 
 ## Summary
 You explore floating islands where Cyberkin once forged resonance weapons.
-

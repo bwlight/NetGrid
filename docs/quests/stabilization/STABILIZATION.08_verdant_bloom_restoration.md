@@ -11,17 +11,19 @@ Verdant Bloom Restoration
 Sector Eight
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Verdant Node  
-- Nature’s Grace passive
+- Verdant Node
 
 ## Notes
+TO-DO
 
 ## Summary
 You restore a corrupted biome by reactivating the Verdant Bloom.
-

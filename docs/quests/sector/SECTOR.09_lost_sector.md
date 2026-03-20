@@ -11,17 +11,19 @@ The Lost Sector
 Sector Nine
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Lost Memory  
-- Hidden Lore
+- Lost Memory
 
 ## Notes
+TO-DO
 
 ## Summary
 You uncover a forgotten region erased from the map in past cycles.
-

@@ -11,24 +11,22 @@ The Erased Path
 Sector Nine — Lost Sector
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
-- Walk the Erased Path  
-- Restore memory fragments  
-- Confront the Path‑Shade  
-- Reveal the path’s true history  
+- Walk the Erased Path
 
 ## Rewards
-- Lost Memory cosmetic  
-- Forgotten Path passive
+- Lost Memory cosmetic
 
 ## Notes
+TO-DO
 
 ## Summary
 You find a path that has been erased from memory. A mysterious Cyberkin asks you to walk the path and restore what was lost.
 
 ## Emotional Beat
 The Cyberkin reveals it was erased from the cycle — and thanks you for remembering it.
-

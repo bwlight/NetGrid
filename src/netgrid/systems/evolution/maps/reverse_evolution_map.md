@@ -1,24 +1,4 @@
-## Quest Code
-reverse
-
-## Quest Type
-Unknown
-
-## Quest Title
-
-## Sector
-
-## Quest Summary
-
-## Steps
-
-## Objectives
-
-## Rewards
-
-## Notes
-
-## Netgrid Reverse Evolution Map
+# Netgrid Reverse Evolution Map  
 This map shows every Final form and all possible paths leading back to its Baby form.
 
 ---
@@ -93,4 +73,3 @@ This map shows every Final form and all possible paths leading back to its Baby 
 
 ## CROSS-FAMILY (Void → Corrupt)
 **corrupt_final_glitch** ← void_champion_entropy ← void_rookie ← void_baby  
-

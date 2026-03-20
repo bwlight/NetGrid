@@ -11,17 +11,19 @@ Deep Circuit Purge
 Sector Seven
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Circuit Node  
-- Data Shield passive
+- Circuit Node
 
 ## Notes
+TO-DO
 
 ## Summary
 You purge corrupted code from the underground circuitry.
-

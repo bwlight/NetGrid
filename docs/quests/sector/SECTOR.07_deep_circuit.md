@@ -11,17 +11,19 @@ The Deep Circuit
 Sector Seven
 
 ## Quest Summary
+TO-DO
 
 ## Steps
+TO-DO
 
 ## Objectives
+TO-DO
 
 ## Rewards
-- Circuit Key  
-- Sector Lore
+- Circuit Key
 
 ## Notes
+TO-DO
 
 ## Summary
 You descend into an underground labyrinth of ancient circuitry.
-
