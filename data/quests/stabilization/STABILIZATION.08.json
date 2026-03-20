@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.08",
+  "type": "Stabilization Quest",
+  "title": "Verdant Bloom Restoration",
+  "sector": "Sector Eight",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:verdant_node"
+  ],
+  "notes": null
+}

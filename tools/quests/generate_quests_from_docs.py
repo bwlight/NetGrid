@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-Quest Markdown → JSON Generator
+Quest Generator — Converts canonical markdown quests into structured JSON.
 
-Matches the Fixer and Linter exactly:
-
-- Flex-mode Quest Type resolution (filename primary, first matching markdown type wins)
-- WARN (not ERROR) when no Quest Type matches filename type
-- Canonical header parsing (handles ## **Objectives**, ### *Quest Summary*, etc.)
-- Reads canonical quest-system section order
-- Preserves unknown sections (ignored for JSON)
-- Keeps empty sections
-- Produces clean, validated quest JSON files
+Pipeline:
+1. Parse Fixer-formatted markdown
+2. Extract canonical sections
+3. Convert to structured JSON (Mode C: TO-DO → null/[])
+4. Build structured steps (Option C)
+5. Tokenize rewards + follow-ups
+6. Validate (Mode B: warn but generate)
+7. Mirror folder structure into data/quests/
+8. Ask once before overwriting existing JSON files
+9. Rebuild global + per-folder indexes
+10. Write generator log to logs/quest_generator_report.json
 """
 
 from __future__ import annotations
@@ -18,25 +20,14 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
+from datetime import datetime
 
-# -----------------------------
+# ---------------------------------------------------------
 # Canonical configuration
-# -----------------------------
+# ---------------------------------------------------------
 
-VALID_QUEST_TYPES: set[str] = {
-    "Main Story",
-    "Dream Story",
-    "Bond Quest",
-    "Side Quest",
-    "Event Quest",
-    "Sector Quest",
-    "Stabilization Quest",
-}
-
-QUEST_HEADERS_ORDER: List[str] = [
+QUEST_HEADERS_ORDER = [
     "Quest Code",
     "Quest Type",
     "Quest Title",
@@ -48,7 +39,19 @@ QUEST_HEADERS_ORDER: List[str] = [
     "Notes",
 ]
 
-FILENAME_PREFIX_TO_TYPE: Dict[str, str] = {
+LIST_SECTIONS = {"Steps", "Objectives", "Rewards"}
+
+VALID_QUEST_TYPES = {
+    "Main Story",
+    "Dream Story",
+    "Bond Quest",
+    "Side Quest",
+    "Event Quest",
+    "Sector Quest",
+    "Stabilization Quest",
+}
+
+FILENAME_PREFIX_TO_TYPE = {
     "MAIN": "Main Story",
     "DREAM": "Dream Story",
     "BOND": "Bond Quest",
@@ -59,246 +62,251 @@ FILENAME_PREFIX_TO_TYPE: Dict[str, str] = {
     "STABILIZATION": "Stabilization Quest",
 }
 
-
-@dataclass
-class Section:
-    header: str
-    lines: List[str]
-
-
-# -----------------------------
-# Filename inference
-# -----------------------------
-
-def infer_quest_code_from_filename(path: Path) -> str:
-    stem = path.stem
-    return stem.split("_", 1)[0]
-
-
-def infer_quest_type_from_filename(path: Path) -> Optional[str]:
-    stem = path.stem
-    prefix = stem.split(".", 1)[0].upper()
-    return FILENAME_PREFIX_TO_TYPE.get(prefix)
-
-
-# -----------------------------
-# Header parsing helpers
-# -----------------------------
+# ---------------------------------------------------------
+# Markdown parsing helpers
+# ---------------------------------------------------------
 
 def clean_header_name(raw: str) -> str:
     text = re.sub(r"^#+\s*", "", raw).strip()
-    text = re.sub(r"^\*+\s*", "", text)
-    text = re.sub(r"\s*\*+$", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    lower = text.lower()
+    text = re.sub(r"\s+", " ", text)
     for canonical in QUEST_HEADERS_ORDER:
-        if lower == canonical.lower():
+        if text.lower() == canonical.lower():
             return canonical
-
     return text
 
 
-def is_header_line(line: str) -> bool:
-    return line.lstrip().startswith("#")
+def parse_markdown_sections(path: Path):
+    """Parse Fixer-formatted markdown into {header: content}."""
+    text = path.read_text(encoding="utf-8")
+    lines = text.split("\n")
 
-
-def parse_sections(lines: List[str]) -> List[Section]:
-    sections: List[Section] = []
-    current_header: Optional[str] = None
-    current_lines: List[str] = []
+    sections = {}
+    current_header = None
+    current_content = None
 
     for line in lines:
-        if is_header_line(line):
+        if line.startswith("## "):
             if current_header is not None:
-                sections.append(Section(header=current_header, lines=current_lines))
+                sections[current_header] = current_content
             current_header = clean_header_name(line)
-            current_lines = []
+            current_content = None
         else:
-            current_lines.append(line.rstrip("\n"))
+            if current_header is not None and current_content is None:
+                current_content = line.strip()
 
     if current_header is not None:
-        sections.append(Section(header=current_header, lines=current_lines))
+        sections[current_header] = current_content
 
     return sections
 
 
-# -----------------------------
-# Quest Type resolution
-# -----------------------------
+# ---------------------------------------------------------
+# Conversion helpers
+# ---------------------------------------------------------
 
-def extract_all_quest_types_from_sections(sections: List[Section]) -> List[str]:
-    types: List[str] = []
-    for sec in sections:
-        if sec.header.lower() == "quest type":
-            for raw in sec.lines:
-                stripped = raw.strip()
-                if not stripped:
-                    continue
-                stripped = re.sub(r"^\d+\.\s*", "", stripped)
-                stripped = re.sub(r"^[-*]\s*", "", stripped)
-                candidate = stripped.title()
-                if candidate in VALID_QUEST_TYPES:
-                    types.append(candidate)
-    return types
+def convert_text_field(value: str):
+    """Mode C: TO-DO → null, else string."""
+    if value is None or value.strip().upper() == "TO-DO":
+        return None
+    return value
 
 
-def resolve_quest_type(
-    sections: List[Section],
-    inferred_type: Optional[str],
-) -> Tuple[str, bool, List[str]]:
-    all_types = extract_all_quest_types_from_sections(sections)
-    base = inferred_type or "Unknown"
-
-    if not all_types:
-        return base, False, all_types
-
-    for t in all_types:
-        if t == base:
-            return t, False, all_types
-
-    return base, True, all_types
-
-
-# -----------------------------
-# Section extraction helpers
-# -----------------------------
-
-def extract_single_line(sections: List[Section], header: str) -> str:
-    sec = next((s for s in sections if s.header.lower() == header.lower()), None)
-    if not sec or not sec.lines:
-        return ""
-    return sec.lines[0].strip()
-
-
-def extract_multiline_list(sections: List[Section], header: str) -> List[str]:
-    sec = next((s for s in sections if s.header.lower() == header.lower()), None)
-    if not sec:
+def convert_list_field(value: str):
+    """Mode C: TO-DO → [], else parse bullet list."""
+    if value is None or value.strip().upper() == "TO-DO":
         return []
-
-    out: List[str] = []
-    for raw in sec.lines:
-        stripped = raw.strip()
-        if not stripped:
-            continue
-        stripped = re.sub(r"^\d+\.\s*", "", stripped)
-        stripped = re.sub(r"^[-*]\s*", "", stripped)
-        stripped = stripped.strip()
-        if stripped:
-            out.append(stripped)
-    return out
+    items = []
+    for line in value.split("\n"):
+        line = line.strip()
+        if line.startswith("- "):
+            items.append(line[2:].strip())
+    return items
 
 
-# -----------------------------
-# JSON builder
-# -----------------------------
+def convert_steps(raw_list):
+    """Option C: Fully structured steps."""
+    steps = []
+    for i, text in enumerate(raw_list, start=1):
+        steps.append({
+            "id": f"step_{i}",
+            "text": text,
+            "conditions": [],
+            "triggers": [],
+            "optional": False,
+        })
+    return steps
 
-def build_quest_json(
-    path: Path,
-    sections: List[Section],
-    quest_code: str,
-    quest_type: str,
-) -> Dict:
-    """
-    Build the final JSON structure for a quest.
-    """
-    title = extract_single_line(sections, "Quest Title")
-    sector = extract_single_line(sections, "Sector")
-    summary = extract_single_line(sections, "Quest Summary")
-    steps = extract_multiline_list(sections, "Steps")
-    objectives = extract_multiline_list(sections, "Objectives")
-    rewards = extract_multiline_list(sections, "Rewards")
-    notes = extract_multiline_list(sections, "Notes")
 
-    return {
-        "quest_code": quest_code,
-        "quest_type": quest_type,
+def convert_rewards(raw_list):
+    """Convert reward names → reward tokens."""
+    tokens = []
+    for item in raw_list:
+        slug = item.lower().replace(" ", "_")
+        tokens.append(f"reward:{slug}")
+    return tokens
+
+
+def convert_followups(raw_list):
+    """Convert follow-up quest codes → unlock tokens."""
+    tokens = []
+    for item in raw_list:
+        tokens.append(f"unlock:{item}")
+    return tokens
+
+
+# ---------------------------------------------------------
+# Quest JSON builder
+# ---------------------------------------------------------
+
+def build_quest_json(sections, folder_name, filename, warnings):
+    """Convert parsed sections into structured JSON."""
+    code = sections.get("Quest Code")
+    qtype = sections.get("Quest Type")
+    title = sections.get("Quest Title")
+    sector = sections.get("Sector")
+
+    summary = convert_text_field(sections.get("Quest Summary"))
+    if summary is None:
+        warnings.append("Quest Summary is TO-DO")
+
+    # Steps
+    raw_steps = convert_list_field(sections.get("Steps"))
+    if not raw_steps:
+        warnings.append("Steps are TO-DO")
+    steps = convert_steps(raw_steps)
+
+    # Objectives
+    raw_obj = convert_list_field(sections.get("Objectives"))
+    if not raw_obj:
+        warnings.append("Objectives are TO-DO")
+
+    # Rewards
+    raw_rewards = convert_list_field(sections.get("Rewards"))
+    rewards = convert_rewards(raw_rewards)
+
+    # Notes
+    notes = convert_text_field(sections.get("Notes"))
+
+    # Build JSON
+    quest = {
+        "code": code,
+        "type": qtype,
         "title": title,
         "sector": sector,
         "summary": summary,
         "steps": steps,
-        "objectives": objectives,
+        "objectives": raw_obj,
         "rewards": rewards,
         "notes": notes,
-        "source_markdown": str(path),
     }
 
-
-# -----------------------------
-# Main generator logic
-# -----------------------------
-
-def process_file(path: Path, out_root: Path) -> None:
-    text = path.read_text(encoding="utf-8")
-    lines = text.splitlines()
-    sections = parse_sections(lines)
-
-    inferred_code = infer_quest_code_from_filename(path)
-    inferred_type = infer_quest_type_from_filename(path)
-
-    quest_type, overridden, all_types = resolve_quest_type(sections, inferred_type)
-
-    if overridden:
-        print(
-            f"[WARN] {path}: Quest Type {all_types} -> '{quest_type}' "
-            f"(overridden from filename)"
-        )
-    elif not all_types:
-        print(
-            f"[WARN] {path}: No Quest Type lines found; using '{quest_type}' "
-            f"(from filename)"
-        )
-
-    quest_json = build_quest_json(
-        path=path,
-        sections=sections,
-        quest_code=inferred_code,
-        quest_type=quest_type,
-    )
-
-    # Output path
-    out_path = out_root / f"{inferred_code}.json"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(quest_json, indent=2), encoding="utf-8")
-
-    print(f"[OK]  {path} -> {out_path}")
+    return quest
 
 
-def find_markdown_files(root: Path) -> List[Path]:
-    return sorted(root.rglob("*.md"))
+# ---------------------------------------------------------
+# Index building
+# ---------------------------------------------------------
+
+def build_indexes(data_root: Path):
+    """Rebuild global + per-folder indexes."""
+    all_entries = []
+
+    for folder in sorted(data_root.iterdir()):
+        if not folder.is_dir():
+            continue
+
+        entries = []
+        for json_file in sorted(folder.glob("*.json")):
+            data = json.loads(json_file.read_text(encoding="utf-8"))
+            entries.append({
+                "code": data["code"],
+                "type": data["type"],
+                "title": data["title"],
+                "path": str(json_file),
+            })
+
+        # Write per-folder index
+        with open(folder / "index.json", "w", encoding="utf-8") as f:
+            json.dump(entries, f, indent=2)
+
+        all_entries.extend(entries)
+
+    # Write global index
+    with open(data_root / "index.json", "w", encoding="utf-8") as f:
+        json.dump(all_entries, f, indent=2)
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Generate quest JSON files from markdown."
-    )
-    parser.add_argument(
-        "root",
-        nargs="?",
-        default=".",
-        help="Root directory to scan for .md files (default: current directory)",
-    )
-    parser.add_argument(
-        "--out",
-        default="generated_quests",
-        help="Output directory for JSON files",
-    )
+# ---------------------------------------------------------
+# Main generator
+# ---------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("root", nargs="?", default="docs/quests")
     args = parser.parse_args()
 
-    root = Path(args.root).resolve()
-    out_root = Path(args.out).resolve()
+    docs_root = Path(args.root).resolve()
+    data_root = Path("data/quests").resolve()
+    logs_root = Path("logs").resolve()
 
-    md_files = find_markdown_files(root)
-    if not md_files:
-        print(f"[INFO] No markdown files found under {root}")
-        return
+    logs_root.mkdir(exist_ok=True)
+    data_root.mkdir(parents=True, exist_ok=True)
 
-    print(f"[INFO] Generating quests from {len(md_files)} markdown files")
+    md_files = sorted(docs_root.rglob("*.md"))
+    existing_json = list(data_root.rglob("*.json"))
 
-    for path in md_files:
-        process_file(path, out_root=out_root)
+    overwrite = True
+    if existing_json:
+        ans = input("Overwrite existing quest JSON files? (y/n): ").strip().lower()
+        if ans != "y":
+            overwrite = False
 
-    print("[DONE]")
+    report = {
+        "timestamp": datetime.now().isoformat(),
+        "overwrite": overwrite,
+        "files": [],
+        "summary": {},
+    }
+
+    for md_path in md_files:
+        rel_folder = md_path.parent.relative_to(docs_root)
+        out_folder = data_root / rel_folder
+        out_folder.mkdir(parents=True, exist_ok=True)
+
+        sections = parse_markdown_sections(md_path)
+        warnings = []
+
+        # Build JSON
+        quest_json = build_quest_json(
+            sections,
+            rel_folder,
+            md_path.name,
+            warnings
+        )
+
+        out_path = out_folder / f"{quest_json['code']}.json"
+
+        if overwrite:
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(quest_json, f, indent=2)
+
+        report["files"].append({
+            "file": str(md_path),
+            "output": str(out_path),
+            "warnings": warnings,
+            "status": "warn" if warnings else "ok",
+        })
+
+    # Build indexes if overwriting
+    if overwrite:
+        build_indexes(data_root)
+
+    # Write generator log
+    log_path = logs_root / "quest_generator_report.json"
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=2)
+
+    print(f"\nQuest generation complete. Report written to {log_path}")
 
 
 if __name__ == "__main__":

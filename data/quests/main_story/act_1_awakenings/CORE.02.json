@@ -1,0 +1,15 @@
+{
+  "code": "CORE.02",
+  "type": "Unknown",
+  "title": "Guardian in the Dark",
+  "sector": "Sector 1 \u2014 Deep Corruption Zone",
+  "summary": "After stabilizing the first Sector Node, the player follows a faint resonance trail deeper into the Sector. The environment becomes darker and more unstable. Corrupted wildlife attacks in coordinated patterns, suggesting intelligence behind the corruption. The player eventually finds the Guardian, weakened and partially corrupted, unable to maintain control of the Sector.",
+  "steps": [],
+  "objectives": [
+    "Follow the Guardian\u2019s resonance trail"
+  ],
+  "rewards": [
+    "reward:resonance_level_5"
+  ],
+  "notes": null
+}

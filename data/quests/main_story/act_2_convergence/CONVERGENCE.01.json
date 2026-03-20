@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.01",
+  "type": "Unknown",
+  "title": "Rift of Echoes",
+  "sector": "The Convergence Rift \u2014 Between Dream and Core",
+  "summary": "After Somnia\u2019s sacrifice and the Guardian\u2019s warning, the player is dragged into the Convergence Rift \u2014 a chaotic realm where Dream and Core overlap. The player must navigate shifting terrain, confront hybrid Echo\u2011Beasts, and face the Rift\u2011Warden, a corruption entity that spans both layers. The Rift reveals a memory of the player\u2019s past cycle failing at this exact moment. Stabilizing the Rift opens the path deeper into Act II.",
+  "steps": [],
+  "objectives": [
+    "Survive the fall into the Convergence Rift"
+  ],
+  "rewards": [
+    "reward:resonance_level_10"
+  ],
+  "notes": null
+}

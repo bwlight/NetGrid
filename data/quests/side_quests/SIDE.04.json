@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.04",
+  "type": "Side Quest",
+  "title": "The Silent Library",
+  "sector": "Sector Four \u2014 Frozen Archive",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Thaw frozen memory crystals"
+  ],
+  "rewards": [
+    "reward:archive_bookmark"
+  ],
+  "notes": null
+}

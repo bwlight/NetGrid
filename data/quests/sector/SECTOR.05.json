@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.05",
+  "type": "Sector Quest",
+  "title": "The Ember Warrens",
+  "sector": "Sector Five",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:ember_core"
+  ],
+  "notes": null
+}

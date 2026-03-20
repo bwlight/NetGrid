@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.04",
+  "type": "Unknown",
+  "title": "Storm of the Forgotten",
+  "sector": "Convergence Expanse \u2014 Stormheart",
+  "summary": "The corruption storm erupts into a full-scale maelstrom. The Forgotten emerge \u2014 twisted remnants of Codeborn who failed in past cycles. The player must navigate the storm, protect their Cyberkin from resonance collapse, and confront the Stormheart Entity. Defeating it reveals the truth: the Prime Heart is awakening, and the cycle is nearing its breaking point.",
+  "steps": [],
+  "objectives": [
+    "Enter the Stormheart"
+  ],
+  "rewards": [
+    "reward:resonance_level_14"
+  ],
+  "notes": null
+}

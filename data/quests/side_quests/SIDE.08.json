@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.08",
+  "type": "Side Quest",
+  "title": "The Green Sanctuary",
+  "sector": "Sector Eight \u2014 Verdant Grid",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Gather Verdant Seeds"
+  ],
+  "rewards": [
+    "reward:verdant_bloom_cosmetic"
+  ],
+  "notes": null
+}

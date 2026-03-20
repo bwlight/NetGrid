@@ -1,0 +1,386 @@
+{
+  "bond_quests": [
+    {
+      "file": "BOND.01_first_resonance.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "BOND.02_echo_of_the_heart.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "BOND.03_the_cyberkins_name.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "BOND.04_when_the_echo_calls.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "BOND.05_heart_of_two.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "BOND.06_memory_of_us.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    }
+  ],
+  "act_1_awakenings": [
+    {
+      "file": "CORE.00_system_breach.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.01_first_sector_dive.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.02_guardian_in_the_dark.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.03_heart_of_corruption.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.04_path_to_sector_two.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.05_into_sector_two.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.06_the_guardians_trail.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.01_dream_resonance.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.02_echos_in_the_mist.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.03_sleepless_threshold.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.04_somnias_warning.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.05_echo_that_knows_your_name.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.06_fractured_dreamline.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.07_breach_of_the_dreamline.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.08_somnias_last_stand.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    }
+  ],
+  "act_2_convergence": [
+    {
+      "file": "CONVERGENCE.01_rift_of_echoes.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CONVERGENCE.02_echoing_path.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CONVERGENCE.03_convergence_expanse.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CONVERGENCE.04_storm_of_the_forgotten.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CONVERGENCE.05_depths_of_the_prime_heart.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CONVERGENCE.06_prime_hearts_call.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CONVERGENCE.07_heart_that_remembers.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.07_shattered_frontier.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.08_guardians_stand.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.09_toward_the_prime_heart.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "CORE.10_guardians_last_oath.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.09_the_dream_that_remains.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "DREAM.10_last_lullaby.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    }
+  ],
+  "sector": [
+    {
+      "file": "SECTOR.01_guardians_garden.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.02_frontier_legends.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.03_iron_choir.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.04_frozen_archive.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.05_ember_warrens.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.06_skyforge_isles.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.07_deep_circuit.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.08_verdant_grid.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SECTOR.09_lost_sector.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    }
+  ],
+  "side_quests": [
+    {
+      "file": "DREAM.EP01_last_echo_of_somnia.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.01_the_lantern_keeper.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.02_the_last_ranger.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.03_song_of_the_iron_choir.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.04_the_silent_library.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.05_flame_of_the_forgotten.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.06_wings_of_the_fallen.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.07_the_broken_signal.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.08_the_green_sanctuary.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "SIDE.09_the_erased_path.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    }
+  ],
+  "stabilization": [
+    {
+      "file": "STABILIZATION.01_first_sector_purification.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.02_frontier_node_repair.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.03_heartbound_alignment.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.04_frozen_conduit.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.05_ember_core_reignition.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.06_skyforge_stabilizer.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.07_deep_circuit_purge.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.08_verdant_bloom_restoration.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    },
+    {
+      "file": "STABILIZATION.09_lost_anchor_repair.md",
+      "errors": [],
+      "warnings": [],
+      "status": "ok"
+    }
+  ]
+}

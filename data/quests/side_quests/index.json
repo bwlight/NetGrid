@@ -1,0 +1,62 @@
+[
+  {
+    "code": "DREAM.EP01",
+    "type": "Dream Story",
+    "title": "Last Echo of Somnia",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\DREAM.EP01.json"
+  },
+  {
+    "code": "SIDE.01",
+    "type": "Side Quest",
+    "title": "The Lantern Keeper",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.01.json"
+  },
+  {
+    "code": "SIDE.02",
+    "type": "Side Quest",
+    "title": "The Last Ranger",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.02.json"
+  },
+  {
+    "code": "SIDE.03",
+    "type": "Side Quest",
+    "title": "Song of the Iron Choir",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.03.json"
+  },
+  {
+    "code": "SIDE.04",
+    "type": "Side Quest",
+    "title": "The Silent Library",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.04.json"
+  },
+  {
+    "code": "SIDE.05",
+    "type": "Side Quest",
+    "title": "Flame of the Forgotten",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.05.json"
+  },
+  {
+    "code": "SIDE.06",
+    "type": "Side Quest",
+    "title": "Wings of the Fallen",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.06.json"
+  },
+  {
+    "code": "SIDE.07",
+    "type": "Side Quest",
+    "title": "The Broken Signal",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.07.json"
+  },
+  {
+    "code": "SIDE.08",
+    "type": "Side Quest",
+    "title": "The Green Sanctuary",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.08.json"
+  },
+  {
+    "code": "SIDE.09",
+    "type": "Side Quest",
+    "title": "The Erased Path",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.09.json"
+  }
+]

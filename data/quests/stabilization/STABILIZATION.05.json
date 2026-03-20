@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.05",
+  "type": "Stabilization Quest",
+  "title": "Ember Core Re\u2011Ignition",
+  "sector": "Sector Five",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:ember_travel_node"
+  ],
+  "notes": null
+}

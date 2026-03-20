@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.02",
+  "type": "Side Quest",
+  "title": "The Last Ranger",
+  "sector": "Sector Two \u2014 Shattered Frontier",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Follow the Ranger\u2019s patrol route"
+  ],
+  "rewards": [
+    "reward:ranger\u2019s_badge"
+  ],
+  "notes": null
+}

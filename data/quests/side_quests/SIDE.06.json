@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.06",
+  "type": "Side Quest",
+  "title": "Wings of the Fallen",
+  "sector": "Sector Six \u2014 Skyforge Isles",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Collect Skyforge Alloy"
+  ],
+  "rewards": [
+    "reward:skyforge_wings_cosmetic"
+  ],
+  "notes": null
+}

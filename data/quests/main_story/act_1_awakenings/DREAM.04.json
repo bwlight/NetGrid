@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.04",
+  "type": "Dream Story",
+  "title": "Somnia\u2019s Warning",
+  "sector": "Dream Sector \u2014 Somnia\u2019s Sanctuary",
+  "summary": "After stabilizing the Threshold Gate, the player returns to Somnia\u2019s Sanctuary. Somnia is visibly strained, surrounded by flickering dream fractals. She explains that the corruption is beginning to mimic resonance patterns, something it has never done before. The player must help Somnia cleanse the Sanctuary, confront a new type of Echo, and receive a final warning before being sent deeper into the real Sectors.",
+  "steps": [],
+  "objectives": [
+    "Return to Somnia\u2019s Sanctuary"
+  ],
+  "rewards": [
+    "reward:resonance_level_5"
+  ],
+  "notes": null
+}

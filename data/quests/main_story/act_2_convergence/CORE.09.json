@@ -1,0 +1,15 @@
+{
+  "code": "CORE.09",
+  "type": "Unknown",
+  "title": "Toward the Prime Heart",
+  "sector": "Sector Two \u2014 Heartbound Passage",
+  "summary": "After breaking the siege in the Inner Frontier, the Guardian leads the player to the Heartbound Passage, a hidden corridor that connects Sector Two to the Prime Heart\u2019s domain. The corruption has fortified the passage with Heartbound Sentinels. The player must clear the passage, stabilize its resonance, and prepare for the final convergence.",
+  "steps": [],
+  "objectives": [
+    "Follow the Guardian to the Heartbound Passage"
+  ],
+  "rewards": [
+    "reward:resonance_level_15"
+  ],
+  "notes": null
+}

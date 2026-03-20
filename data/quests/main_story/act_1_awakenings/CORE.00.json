@@ -1,0 +1,15 @@
+{
+  "code": "CORE.00",
+  "type": "Unknown",
+  "title": "System Breach",
+  "sector": "Simulation Chamber \u2192 NetGrid Entry Layer",
+  "summary": "The player completes a friendly onboarding simulation with a temporary Cyberkin. Upon finishing, the congratulatory sequence glitches, the simulation collapses, and the player is forcibly pulled into the real NetGrid. The rookie Cyberkin dissolves, and the player awakens in the unstable entry layer with their true starter Cyberkin.",
+  "steps": [],
+  "objectives": [
+    "Complete the Beta Test tutorial"
+  ],
+  "rewards": [
+    "reward:true_starter_cyberkin"
+  ],
+  "notes": null
+}

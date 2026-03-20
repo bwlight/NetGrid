@@ -1,0 +1,38 @@
+[
+  {
+    "code": "BOND.01",
+    "type": "Bond Quest",
+    "title": "First Resonance",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.01.json"
+  },
+  {
+    "code": "BOND.02",
+    "type": "Bond Quest",
+    "title": "Echo of the Heart",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.02.json"
+  },
+  {
+    "code": "BOND.03",
+    "type": "Bond Quest",
+    "title": "The Cyberkin\u2019s Name",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.03.json"
+  },
+  {
+    "code": "BOND.04",
+    "type": "Bond Quest",
+    "title": "When the Echo Calls",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.04.json"
+  },
+  {
+    "code": "BOND.05",
+    "type": "Bond Quest",
+    "title": "Heart of Two",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.05.json"
+  },
+  {
+    "code": "BOND.06",
+    "type": "Bond Quest",
+    "title": "Memory of Us",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.06.json"
+  }
+]

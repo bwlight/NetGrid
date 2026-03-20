@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.08",
+  "type": "Dream Story",
+  "title": "Somnia\u2019s Last Stand",
+  "sector": "Dream Sector \u2014 Somnia\u2019s Fading Sanctuary",
+  "summary": "The Dreamline Core\u2019s temporary stabilization fails, triggering a catastrophic breach. Somnia summons the player to her Sanctuary, now nearly consumed by corruption. The player must defend Somnia from waves of Echoes, stabilize collapsing Dream Nodes, and confront the Echo\u2011Harbinger \u2014 a corruption entity that speaks with the player\u2019s voice from a past cycle. Somnia sacrifices her remaining strength to open a path to the convergence point.",
+  "steps": [],
+  "objectives": [
+    "Return to Somnia\u2019s Sanctuary"
+  ],
+  "rewards": [
+    "reward:resonance_level_9"
+  ],
+  "notes": null
+}

@@ -1,0 +1,15 @@
+{
+  "code": "CORE.04",
+  "type": "Unknown",
+  "title": "The Path to Sector Two",
+  "sector": "Sector 1 \u2014 Guardian\u2019s Refuge \u2192 Sector Two Gate",
+  "summary": "After purifying the Corruption Heart, the Guardian leads the player to the Sector Two Gate. The path is filled with corruption remnants and unstable terrain. The player must clear corruption clusters, stabilize the Gate\u2019s resonance, and confront a lingering corruption entity attempting to block the path. Once the Gate is stabilized, the Guardian opens the way to Sector Two.",
+  "steps": [],
+  "objectives": [
+    "Meet the Guardian at the Refuge"
+  ],
+  "rewards": [
+    "reward:resonance_level_7"
+  ],
+  "notes": null
+}

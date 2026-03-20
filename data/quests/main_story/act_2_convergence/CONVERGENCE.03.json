@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.03",
+  "type": "Unknown",
+  "title": "The Convergence Expanse",
+  "sector": "The Convergence Expanse \u2014 Hybrid Dream/Core Region",
+  "summary": "After stabilizing the Echoing Path, the player emerges into the Convergence Expanse \u2014 a massive hybrid region where Dream fractals and Core terrain blend seamlessly. The player must explore the Expanse, confront hybrid corruption entities, and locate the Resonance Pillars that stabilize the region. A massive corruption storm forms overhead, signaling the approach of a major threat.",
+  "steps": [],
+  "objectives": [
+    "Explore the Convergence Expanse"
+  ],
+  "rewards": [
+    "reward:resonance_level_12"
+  ],
+  "notes": null
+}

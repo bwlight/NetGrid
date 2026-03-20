@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.01",
+  "type": "Stabilization Quest",
+  "title": "First Sector Purification",
+  "sector": "Sector One",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:fast_travel_node"
+  ],
+  "notes": null
+}

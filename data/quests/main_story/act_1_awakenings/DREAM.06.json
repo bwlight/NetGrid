@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.06",
+  "type": "Dream Story",
+  "title": "The Fractured Dreamline",
+  "sector": "Dream Sector \u2014 Dreamline Rift",
+  "summary": "After defeating the Name\u2011Echo, Somnia sends the player to investigate a rupture in the Dreamline. The Dreamline Rift is a chaotic space where memories, emotions, and corrupted resonance collide. The player must navigate shifting dream geometry, protect their Cyberkin from memory distortion, and confront the Memory\u2011Thief Echo\u2014an entity that steals and rewrites memories. Defeating it stabilizes the Dreamline temporarily and reveals a memory fragment showing the player\u2019s past self interacting with Somnia.",
+  "steps": [],
+  "objectives": [
+    "Travel to the Dreamline Rift"
+  ],
+  "rewards": [
+    "reward:resonance_level_7"
+  ],
+  "notes": null
+}

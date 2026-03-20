@@ -1,0 +1,15 @@
+{
+  "code": "BOND.06",
+  "type": "Bond Quest",
+  "title": "Memory of Us",
+  "sector": "TO-DO",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Recover the memory shard"
+  ],
+  "rewards": [
+    "reward:bond_level_+1"
+  ],
+  "notes": null
+}

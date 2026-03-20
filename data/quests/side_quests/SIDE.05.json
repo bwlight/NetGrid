@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.05",
+  "type": "Side Quest",
+  "title": "Flame of the Forgotten",
+  "sector": "Sector Five \u2014 Ember Warrens",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Gather ember shards"
+  ],
+  "rewards": [
+    "reward:ember_spark_cosmetic"
+  ],
+  "notes": null
+}

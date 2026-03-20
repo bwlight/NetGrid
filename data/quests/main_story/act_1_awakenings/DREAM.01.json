@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.01",
+  "type": "Dream Story",
+  "title": "Dream Resonance",
+  "sector": "Dream Sector (Entry Layer)",
+  "summary": "Introduce the Dream Sector, establish the emotional bond with the true starter Cyberkin, and reveal the first hints of the corruption cycle\u2019s deeper meaning. This quest grounds the player after the chaos of the System Breach.",
+  "steps": [],
+  "objectives": [
+    "Regain consciousness in the Dream Sector"
+  ],
+  "rewards": [
+    "reward:resonance_level_1"
+  ],
+  "notes": null
+}

@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.05",
+  "type": "Unknown",
+  "title": "Depths of the Prime Heart",
+  "sector": "Convergence Depths \u2014 The Heart\u2019s Veil",
+  "summary": "After defeating the Stormheart Entity, the player descends into the Convergence Depths, a region where Dream and Core energy collapse into a single, pulsing reality. The Prime Heart\u2019s whispers echo through the void, calling the player by name. The player must navigate the Depths, confront Heart\u2011Shades of past Codeborn, and reach the Heart\u2019s Veil \u2014 the final barrier before the Prime Heart\u2019s domain.",
+  "steps": [],
+  "objectives": [
+    "Descend into the Convergence Depths"
+  ],
+  "rewards": [
+    "reward:resonance_level_15"
+  ],
+  "notes": null
+}

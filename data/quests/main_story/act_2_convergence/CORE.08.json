@@ -1,0 +1,15 @@
+{
+  "code": "CORE.08",
+  "type": "Unknown",
+  "title": "The Guardian\u2019s Stand",
+  "sector": "Sector Two \u2014 Inner Frontier",
+  "summary": "The player reaches the Inner Frontier, where the Guardian is barely holding back a massive corruption surge. The corruption forms a siege around the Guardian\u2019s position. The player must break the siege, stabilize the Frontier Nodes, and confront the Siege\u2011Breaker \u2014 a massive corruption entity leading the assault. The Guardian reveals that the corruption is preparing to awaken the Prime Heart.",
+  "steps": [],
+  "objectives": [
+    "Reach the Inner Frontier"
+  ],
+  "rewards": [
+    "reward:resonance_level_13"
+  ],
+  "notes": null
+}

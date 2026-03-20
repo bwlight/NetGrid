@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.04",
+  "type": "Stabilization Quest",
+  "title": "Frozen Conduit",
+  "sector": "Sector Four",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:conduit_access"
+  ],
+  "notes": null
+}

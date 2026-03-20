@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.10",
+  "type": "Dream Story",
+  "title": "The Last Lullaby",
+  "sector": "Dream Sector Remnant \u2014 Somnia\u2019s Heart",
+  "summary": "After preserving the Last Dream, the player follows a faint resonance trail to Somnia\u2019s Heart \u2014 the final fragment of the Dream Sector. The region is nearly gone, held together only by Somnia\u2019s fading will. The player must gather the last pieces of her essence, confront the Echo\u2011Requiem (a corruption entity feeding on her final memories), and witness Somnia\u2019s final message before the Dream Sector dissolves forever.",
+  "steps": [],
+  "objectives": [
+    "Enter Somnia\u2019s Heart"
+  ],
+  "rewards": [
+    "reward:resonance_level_13"
+  ],
+  "notes": null
+}

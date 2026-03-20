@@ -1,0 +1,56 @@
+[
+  {
+    "code": "STABILIZATION.01",
+    "type": "Stabilization Quest",
+    "title": "First Sector Purification",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.01.json"
+  },
+  {
+    "code": "STABILIZATION.02",
+    "type": "Stabilization Quest",
+    "title": "Frontier Node Repair",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.02.json"
+  },
+  {
+    "code": "STABILIZATION.03",
+    "type": "Stabilization Quest",
+    "title": "Heartbound Node Alignment",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.03.json"
+  },
+  {
+    "code": "STABILIZATION.04",
+    "type": "Stabilization Quest",
+    "title": "Frozen Conduit",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.04.json"
+  },
+  {
+    "code": "STABILIZATION.05",
+    "type": "Stabilization Quest",
+    "title": "Ember Core Re\u2011Ignition",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.05.json"
+  },
+  {
+    "code": "STABILIZATION.06",
+    "type": "Stabilization Quest",
+    "title": "Skyforge Stabilizer",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.06.json"
+  },
+  {
+    "code": "STABILIZATION.07",
+    "type": "Stabilization Quest",
+    "title": "Deep Circuit Purge",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.07.json"
+  },
+  {
+    "code": "STABILIZATION.08",
+    "type": "Stabilization Quest",
+    "title": "Verdant Bloom Restoration",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.08.json"
+  },
+  {
+    "code": "STABILIZATION.09",
+    "type": "Stabilization Quest",
+    "title": "Lost Sector Anchor Repair",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.09.json"
+  }
+]

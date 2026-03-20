@@ -1,0 +1,15 @@
+{
+  "code": "BOND.02",
+  "type": "Bond Quest",
+  "title": "Echo of the Heart",
+  "sector": "TO-DO",
+  "summary": "After leaving the Chamber of Cycles, the Cyberkin becomes withdrawn and unstable. It keeps hearing echoes of its past selves \u2014 some corrupted, some lost. The player must take it to a quiet region of the Convergence Expanse, help it confront its fractured memories, and anchor its identity through resonance.",
+  "steps": [],
+  "objectives": [
+    "Travel to the Quiet Expanse"
+  ],
+  "rewards": [
+    "reward:bond_level_+1"
+  ],
+  "notes": null
+}

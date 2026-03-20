@@ -1,0 +1,15 @@
+{
+  "code": "CORE.10",
+  "type": "Unknown",
+  "title": "The Guardian\u2019s Last Oath",
+  "sector": "Sector Two \u2014 Heartbound Gate",
+  "summary": "The player reaches the Heartbound Gate, where the Guardian stands ready to fulfill their final oath. The corruption launches a massive assault to prevent the Gate from opening. The player must defend the Guardian, stabilize the Gate\u2019s resonance, and defeat the Heartbound Colossus. The Guardian reveals the truth: the Prime Heart is awakening, and only the player can confront it.",
+  "steps": [],
+  "objectives": [
+    "Reach the Heartbound Gate"
+  ],
+  "rewards": [
+    "reward:resonance_level_16"
+  ],
+  "notes": null
+}

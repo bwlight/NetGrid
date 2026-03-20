@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.EP01",
+  "type": "Dream Story",
+  "title": "Last Echo of Somnia",
+  "sector": "Dream Remnant \u2014 The Quiet Place",
+  "summary": "After the events of Somnia\u2019s Heart, a faint resonance calls to the player from a small, untouched fragment of the Dream Sector. This place, known as the Quiet Place, is a peaceful pocket of dreamlight that survived the collapse. The player must follow the resonance, gather lingering dream petals, and confront a gentle Echo that carries Somnia\u2019s final lullaby. Completing the quest preserves Somnia\u2019s memory and deepens the emotional bond with the Cyberkin.",
+  "steps": [],
+  "objectives": [
+    "Follow the faint dream resonance"
+  ],
+  "rewards": [
+    "reward:resonance_level_+1_(emotional_bonus)"
+  ],
+  "notes": null
+}

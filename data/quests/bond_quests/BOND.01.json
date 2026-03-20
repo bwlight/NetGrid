@@ -1,0 +1,15 @@
+{
+  "code": "BOND.01",
+  "type": "Bond Quest",
+  "title": "First Resonance",
+  "sector": "TO-DO",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Travel to a quiet location"
+  ],
+  "rewards": [
+    "reward:bond_level_+1"
+  ],
+  "notes": null
+}

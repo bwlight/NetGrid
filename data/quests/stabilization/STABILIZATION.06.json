@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.06",
+  "type": "Stabilization Quest",
+  "title": "Skyforge Stabilizer",
+  "sector": "Sector Six",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:skyforge_node"
+  ],
+  "notes": null
+}

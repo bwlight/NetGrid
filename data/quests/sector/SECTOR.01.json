@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.01",
+  "type": "Sector Quest",
+  "title": "The Guardian\u2019s Garden",
+  "sector": "Sector One",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:garden_relic"
+  ],
+  "notes": null
+}

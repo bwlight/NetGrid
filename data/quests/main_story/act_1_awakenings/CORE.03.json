@@ -1,0 +1,15 @@
+{
+  "code": "CORE.03",
+  "type": "Unknown",
+  "title": "The Heart of Corruption",
+  "sector": "Sector 1 \u2014 Corruption Heart Chamber",
+  "summary": "Following the Guardian\u2019s purified resonance, the player enters the Corruption Heart Chamber, a pulsating cavern filled with corrupted energy. The corruption reacts violently to the player\u2019s presence. The player must navigate the chamber, avoid corruption pulses, and confront the Heart\u2011Beast \u2014 a massive corruption entity that seems to recognize the player. Defeating it stabilizes the Sector and reveals a memory fragment tied to the player\u2019s past cycle.",
+  "steps": [],
+  "objectives": [
+    "Enter the Corruption Heart Chamber"
+  ],
+  "rewards": [
+    "reward:resonance_level_6"
+  ],
+  "notes": null
+}

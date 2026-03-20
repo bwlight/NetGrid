@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.02",
+  "type": "Dream Story",
+  "title": "Echoes in the Mist",
+  "sector": "Dream Sector \u2014 Mistway Corridor",
+  "summary": "After stabilizing in the Dream Sector, the player follows Somnia\u2019s guidance into the Mistway Corridor, a fog\u2011shrouded path where memories and corruption overlap. Strange Echoes flicker in and out of existence, mimicking past Codeborn voices. The player must navigate the corridor, protect their Cyberkin from emotional overload, and confront a stronger Echo that tries to latch onto their resonance. Completing the quest unlocks the Dream Sector\u2019s first stable travel node and reveals a fragment of a past Codeborn\u2019s final moments.",
+  "steps": [],
+  "objectives": [
+    "Speak with Somnia at the Dream Sector\u2019s edge"
+  ],
+  "rewards": [
+    "reward:resonance_level_2"
+  ],
+  "notes": null
+}

@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.09",
+  "type": "Dream Story",
+  "title": "The Dream That Remains",
+  "sector": "Dream Sector Remnant \u2014 The Last Dream",
+  "summary": "The player enters the Last Dream, a floating remnant of the Dream Sector. Somnia\u2019s essence flickers weakly, scattered across the region. The player must gather her fragments, confront the Echo\u2011Somnia \u2014 a corruption entity mimicking her \u2014 and preserve what remains of the Dream Sector before it fades forever.",
+  "steps": [],
+  "objectives": [
+    "Enter the Last Dream"
+  ],
+  "rewards": [
+    "reward:resonance_level_12"
+  ],
+  "notes": null
+}

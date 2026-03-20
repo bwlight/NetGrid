@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.07",
+  "type": "Dream Story",
+  "title": "Breach of the Dreamline",
+  "sector": "Dream Sector \u2014 Dreamline Core",
+  "summary": "The Dreamline Core begins to rupture, sending shockwaves across the Dream Sector. Somnia summons the player urgently. Together, they travel to the Core, where corruption tendrils are attempting to overwrite the Dreamline\u2019s structure. The player must stabilize the Core, protect Somnia from corruption backlash, and defeat the Echo\u2011Overmind \u2014 a powerful entity that speaks in the voices of past Codeborn. The battle reveals a memory fragment showing the player\u2019s past self failing to protect the Dreamline.",
+  "steps": [],
+  "objectives": [
+    "Respond to Somnia\u2019s urgent summons"
+  ],
+  "rewards": [
+    "reward:resonance_level_8"
+  ],
+  "notes": null
+}

@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.09",
+  "type": "Sector Quest",
+  "title": "The Lost Sector",
+  "sector": "Sector Nine",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:lost_memory"
+  ],
+  "notes": null
+}

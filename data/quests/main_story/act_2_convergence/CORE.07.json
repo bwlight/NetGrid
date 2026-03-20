@@ -1,0 +1,15 @@
+{
+  "code": "CORE.07",
+  "type": "Unknown",
+  "title": "Sector Two: The Shattered Frontier",
+  "sector": "Sector Two \u2014 Shattered Frontier",
+  "summary": "The player arrives in the Shattered Frontier, where Dream fractals have begun appearing in the physical world. The corruption reacts violently to the convergence, creating unstable zones and hybrid enemies. The player must stabilize the Frontier, rescue trapped Cyberkin, and locate the Guardian, who is struggling to contain the collapse.",
+  "steps": [],
+  "objectives": [
+    "Survey the Shattered Frontier"
+  ],
+  "rewards": [
+    "reward:resonance_level_12"
+  ],
+  "notes": null
+}

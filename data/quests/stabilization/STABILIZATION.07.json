@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.07",
+  "type": "Stabilization Quest",
+  "title": "Deep Circuit Purge",
+  "sector": "Sector Seven",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:circuit_node"
+  ],
+  "notes": null
+}

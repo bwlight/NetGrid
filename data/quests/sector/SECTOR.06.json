@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.06",
+  "type": "Sector Quest",
+  "title": "The Skyforge Isles",
+  "sector": "Sector Six",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:skyforge_alloy"
+  ],
+  "notes": null
+}

@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.03",
+  "type": "Sector Quest",
+  "title": "The Iron Choir",
+  "sector": "Sector Three",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:choir_fragment"
+  ],
+  "notes": null
+}

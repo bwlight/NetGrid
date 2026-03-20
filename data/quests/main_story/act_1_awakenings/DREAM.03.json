@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.03",
+  "type": "Dream Story",
+  "title": "The Sleepless Threshold",
+  "sector": "Dream Sector \u2014 Threshold Gate",
+  "summary": "The player and their Cyberkin follow Somnia to the Threshold Gate, a shimmering boundary between the Dream Sector and the physical Sectors of NetGrid. The gate is flickering, destabilized by corruption. The player must help Somnia anchor the gate, confront a stronger Echo that has breached the Dream Layer, and learn how to use resonance to open Sector pathways. Completing the quest unlocks the ability to travel to the first real Sector.",
+  "steps": [],
+  "objectives": [
+    "Meet Somnia at the Threshold Gate"
+  ],
+  "rewards": [
+    "reward:resonance_level_3"
+  ],
+  "notes": null
+}

@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.03",
+  "type": "Stabilization Quest",
+  "title": "Heartbound Node Alignment",
+  "sector": "Sector Three",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:node_stabilizer"
+  ],
+  "notes": null
+}

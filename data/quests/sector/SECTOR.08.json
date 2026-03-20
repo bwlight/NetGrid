@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.08",
+  "type": "Sector Quest",
+  "title": "The Verdant Grid",
+  "sector": "Sector Eight",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:verdant_seed"
+  ],
+  "notes": null
+}

@@ -1,0 +1,15 @@
+{
+  "code": "BOND.05",
+  "type": "Bond Quest",
+  "title": "Heart of Two",
+  "sector": "TO-DO",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Begin the Heart Resonance Ritual"
+  ],
+  "rewards": [
+    "reward:bond_level_+1"
+  ],
+  "notes": null
+}

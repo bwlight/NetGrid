@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.04",
+  "type": "Sector Quest",
+  "title": "The Frozen Archive",
+  "sector": "Sector Four",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:archive_crystal"
+  ],
+  "notes": null
+}

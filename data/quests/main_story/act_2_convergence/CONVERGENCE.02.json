@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.02",
+  "type": "Unknown",
+  "title": "The Echoing Path",
+  "sector": "The Convergence Pathway \u2014 Between Layers",
+  "summary": "After escaping the Rift of Echoes, the player finds themselves on the Echoing Path \u2014 a long, shifting corridor where past cycles bleed into the present. Echo\u2011shades of previous Codeborn appear, some warning the player, others attacking them. The player must navigate the unstable path, confront the Echo\u2011Shade of their own past self, and stabilize the corridor long enough to reach the next region of Act II.",
+  "steps": [],
+  "objectives": [
+    "Enter the Echoing Path"
+  ],
+  "rewards": [
+    "reward:resonance_level_11"
+  ],
+  "notes": null
+}

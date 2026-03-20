@@ -1,0 +1,13 @@
+{
+  "code": "STABILIZATION.09",
+  "type": "Stabilization Quest",
+  "title": "Lost Sector Anchor Repair",
+  "sector": "Sector Nine",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:lost_anchor_node"
+  ],
+  "notes": null
+}

@@ -1,41 +1,26 @@
 #!/usr/bin/env python3
 """
-Quest Markdown Linter
-
-- Flex-mode Quest Type resolution (filename primary, first matching markdown type wins)
-- WARN (not ERROR) when no Quest Type matches filename type
-- Canonical header parsing (handles ## **Objectives**, ### *Quest Summary*, etc.)
-- Validates canonical quest-system section order
-- Validates Quest Code and Quest Type
-- Validates required sections exist (but does NOT insert them)
-- Supports --diff mode to preview what the Fixer would rewrite
-- Color-coded output for readability
+Quest Markdown Linter — Corrected Version
+- Accurate spacing detection using real line numbers
+- One-line-per-section validation
+- TO-DO placeholder enforcement
+- Folder-grouped JSON output
+- Human-readable console output
 """
 
 from __future__ import annotations
 
 import argparse
-import difflib
+import json
 import re
-from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
+from dataclasses import dataclass
+from typing import List, Dict
 
 # -----------------------------
 # Canonical configuration
 # -----------------------------
-
-VALID_QUEST_TYPES: set[str] = {
-    "Main Story",
-    "Dream Story",
-    "Bond Quest",
-    "Side Quest",
-    "Event Quest",
-    "Sector Quest",
-    "Stabilization Quest",
-}
-
-QUEST_HEADERS_ORDER: List[str] = [
+QUEST_HEADERS_ORDER = [
     "Quest Code",
     "Quest Type",
     "Quest Title",
@@ -47,7 +32,17 @@ QUEST_HEADERS_ORDER: List[str] = [
     "Notes",
 ]
 
-FILENAME_PREFIX_TO_TYPE: Dict[str, str] = {
+VALID_QUEST_TYPES = {
+    "Main Story",
+    "Dream Story",
+    "Bond Quest",
+    "Side Quest",
+    "Event Quest",
+    "Sector Quest",
+    "Stabilization Quest",
+}
+
+FILENAME_PREFIX_TO_TYPE = {
     "MAIN": "Main Story",
     "DREAM": "Dream Story",
     "BOND": "Bond Quest",
@@ -58,235 +53,186 @@ FILENAME_PREFIX_TO_TYPE: Dict[str, str] = {
     "STABILIZATION": "Stabilization Quest",
 }
 
-# ANSI colors
-RED = "\033[91m"
-YELLOW = "\033[93m"
-GREEN = "\033[92m"
-RESET = "\033[0m"
-
+UPPER_PREFIX_RE = re.compile(r"^[A-Z][A-Z0-9_]*")
 
 @dataclass
 class Section:
     header: str
     lines: List[str]
+    header_line_index: int
 
 
 # -----------------------------
-# Filename inference
+# Parsing helpers
 # -----------------------------
-
-def infer_quest_code_from_filename(path: Path) -> str:
-    stem = path.stem
-    return stem.split("_", 1)[0]
-
-
-def infer_quest_type_from_filename(path: Path) -> Optional[str]:
-    stem = path.stem
-    prefix = stem.split(".", 1)[0].upper()
-    return FILENAME_PREFIX_TO_TYPE.get(prefix)
-
-
-# -----------------------------
-# Header parsing helpers
-# -----------------------------
-
 def clean_header_name(raw: str) -> str:
     text = re.sub(r"^#+\s*", "", raw).strip()
-    text = re.sub(r"^\*+\s*", "", text)
-    text = re.sub(r"\s*\*+$", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    lower = text.lower()
+    text = re.sub(r"\s+", " ", text)
     for canonical in QUEST_HEADERS_ORDER:
-        if lower == canonical.lower():
+        if text.lower() == canonical.lower():
             return canonical
-
     return text
 
 
 def is_header_line(line: str) -> bool:
-    return line.lstrip().startswith("#")
+    return line.startswith("## ")
 
 
 def parse_sections(lines: List[str]) -> List[Section]:
-    sections: List[Section] = []
-    current_header: Optional[str] = None
-    current_lines: List[str] = []
+    sections = []
+    current_header = None
+    current_lines = []
+    header_line_index = None
 
-    for line in lines:
+    for i, line in enumerate(lines):
         if is_header_line(line):
             if current_header is not None:
-                sections.append(Section(header=current_header, lines=current_lines))
+                sections.append(Section(current_header, current_lines, header_line_index))
             current_header = clean_header_name(line)
+            header_line_index = i
             current_lines = []
         else:
-            current_lines.append(line.rstrip("\n"))
+            # Only treat non-header lines as content if they are NOT blank
+            if line.strip() != "":
+                current_lines.append(line.rstrip("\n"))
+
 
     if current_header is not None:
-        sections.append(Section(header=current_header, lines=current_lines))
+        sections.append(Section(current_header, current_lines, header_line_index))
 
     return sections
 
 
 # -----------------------------
-# Quest Type resolution
+# Fixer-style rebuild (for drift detection)
 # -----------------------------
+def rebuild_markdown(sections):
+    parts = []
 
-def extract_all_quest_types_from_sections(sections: List[Section]) -> List[str]:
-    types: List[str] = []
     for sec in sections:
-        if sec.header.lower() == "quest type":
-            for raw in sec.lines:
-                stripped = raw.strip()
-                if not stripped:
-                    continue
-                stripped = re.sub(r"^\d+\.\s*", "", stripped)
-                stripped = re.sub(r"^[-*]\s*", "", stripped)
-                candidate = stripped.title()
-                if candidate in VALID_QUEST_TYPES:
-                    types.append(candidate)
-    return types
+        parts.append(f"## {sec.header}")
 
+        cleaned = [line.rstrip() for line in sec.lines]
 
-def resolve_quest_type(
-    sections: List[Section],
-    inferred_type: Optional[str],
-) -> Tuple[str, bool, List[str]]:
-    all_types = extract_all_quest_types_from_sections(sections)
-    base = inferred_type or "Unknown"
+        if not any(line.strip() for line in cleaned):
+            parts.append("TO-DO")
+        else:
+            parts.append(cleaned[0])
 
-    if not all_types:
-        return base, False, all_types
+        parts.append("")
 
-    for t in all_types:
-        if t == base:
-            return t, False, all_types
+    while parts and parts[-1] == "":
+        parts.pop()
 
-    return base, True, all_types
+    return "\n".join(parts) + "\n"
 
 
 # -----------------------------
 # Linting logic
 # -----------------------------
-
-def lint_file(path: Path, show_diff: bool = False) -> Tuple[int, int]:
-    """
-    Returns (num_errors, num_warnings)
-    """
-    text = path.read_text(encoding="utf-8")
-    lines = text.splitlines()
-    sections = parse_sections(lines)
-
+def lint_file(path: Path):
     errors = []
     warnings = []
 
-    # Quest Code
-    inferred_code = infer_quest_code_from_filename(path)
-    code_section = next((s for s in sections if s.header.lower() == "quest code"), None)
-    if not code_section:
-        errors.append(f"Missing Quest Code section")
-    else:
-        if not code_section.lines:
-            warnings.append("Quest Code section is empty")
-        else:
-            md_code = code_section.lines[0].strip()
-            if md_code != inferred_code:
-                warnings.append(
-                    f"Quest Code '{md_code}' does not match filename '{inferred_code}'"
-                )
+    original_text = path.read_text(encoding="utf-8")
 
-    # Quest Type
-    inferred_type = infer_quest_type_from_filename(path)
-    quest_type, overridden, all_types = resolve_quest_type(sections, inferred_type)
+    # CRITICAL FIX: preserve blank lines exactly
+    lines = original_text.split("\n")
 
-    if not all_types:
-        warnings.append("Missing Quest Type lines")
-    else:
-        if inferred_type and inferred_type not in all_types:
-            warnings.append(
-                f"Quest Type(s) {all_types} do not include filename type '{inferred_type}'"
-            )
+    sections = parse_sections(lines)
 
-    # Required sections
-    present_headers = {s.header for s in sections}
-    for header in QUEST_HEADERS_ORDER:
-        if header not in present_headers:
-            warnings.append(f"Missing section: {header}")
+    # Validate section presence
+    found_headers = [s.header for s in sections]
+    for expected in QUEST_HEADERS_ORDER:
+        if expected not in found_headers:
+            errors.append(f"Missing section: {expected}")
 
-    # Diff mode (show what Fixer would rewrite)
-    if show_diff:
-        from tempfile import TemporaryDirectory
-        from quest_markdown_fixer import process_file as fixer_process  # type: ignore
+    # Validate each section
+    for idx, sec in enumerate(sections):
+        cleaned = [line.rstrip() for line in sec.lines]
+        nonempty = [line for line in cleaned if line.strip()]
 
-        with TemporaryDirectory() as tmp:
-            tmp_path = Path(tmp) / path.name
-            tmp_path.write_text(text, encoding="utf-8")
-            fixer_process(tmp_path, dry_run=False)
-            fixed_text = tmp_path.read_text(encoding="utf-8")
+        # Content rules
+        if len(nonempty) == 0:
+            if cleaned != ["TO-DO"]:
+                warnings.append(f"Empty section not using TO-DO: {sec.header}")
+        elif len(nonempty) > 1:
+            errors.append(f"Section has multiple content lines: {sec.header}")
 
-        diff = difflib.unified_diff(
-            text.splitlines(),
-            fixed_text.splitlines(),
-            fromfile=str(path),
-            tofile=str(path) + " (fixed)",
-            lineterm="",
-        )
-        for line in diff:
-            print(line)
+        # Spacing rules (Option C)
+        if idx < len(sections) - 1:
+            next_sec = sections[idx + 1]
 
-    # Print results
-    if errors:
-        print(f"{RED}[ERROR]{RESET} {path}")
-        for e in errors:
-            print(f"  {RED}- {e}{RESET}")
-    if warnings:
-        print(f"{YELLOW}[WARN]{RESET}  {path}")
-        for w in warnings:
-            print(f"  {YELLOW}- {w}{RESET}")
-    if not errors and not warnings:
-        print(f"{GREEN}[OK]{RESET}    {path}")
+            current_end = sec.header_line_index + 1 + len(sec.lines)
+            next_start = next_sec.header_line_index
 
-    return len(errors), len(warnings)
+            blank_count = sum(1 for j in range(current_end, next_start) if lines[j].strip() == "")
+
+            if blank_count == 0:
+                errors.append(f"Missing blank line after section: {sec.header}")
+            elif blank_count > 1:
+                warnings.append(f"Extra blank lines after section: {sec.header}")
+
+    # Filename validation
+    prefix = path.stem.split("_", 1)[0].upper()
+    if not UPPER_PREFIX_RE.match(prefix):
+        warnings.append("Filename prefix is not uppercase or valid")
+
+    # Drift detection
+    rebuilt = rebuild_markdown(sections)
+    if rebuilt != original_text:
+        warnings.append("Formatting drift detected — run Fixer")
+
+    # Status resolution
+    status = "fail" if errors else ("warn" if warnings else "ok")
+
+    return {
+        "file": path.name,
+        "errors": errors,
+        "warnings": warnings,
+        "status": status,
+    }
 
 
 # -----------------------------
 # Main
 # -----------------------------
-
-def find_markdown_files(root: Path) -> List[Path]:
-    return sorted(root.rglob("*.md"))
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Lint quest markdown files.")
-    parser.add_argument(
-        "root",
-        nargs="?",
-        default=".",
-        help="Root directory to scan (default: current directory)",
-    )
-    parser.add_argument(
-        "--diff",
-        action="store_true",
-        help="Show diff of what the Fixer would change",
-    )
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("root", nargs="?", default="docs/quests")
     args = parser.parse_args()
 
     root = Path(args.root).resolve()
-    md_files = find_markdown_files(root)
+    md_files = sorted(root.rglob("*.md"))
 
-    total_errors = 0
-    total_warnings = 0
+    report = {}
 
     for path in md_files:
-        e, w = lint_file(path, show_diff=args.diff)
-        total_errors += e
-        total_warnings += w
+        folder_key = path.parent.name
+        file_report = lint_file(path)
 
-    print()
-    print("=== Lint Summary ===")
-    print(f"Errors:   {total_errors}")
-    print(f"Warnings: {total_warnings}")
+        # Console output
+        print(f"\n=== {path.name} ===")
+        for e in file_report["errors"]:
+            print(f"[ERROR] {e}")
+        for w in file_report["warnings"]:
+            print(f"[WARN]  {w}")
+        if file_report["status"] == "ok":
+            print("[OK]    File is clean")
+
+        # JSON grouping
+        report.setdefault(folder_key, []).append(file_report)
+
+        # Ensure logs folder exists
+        logs_dir = Path("logs")
+        logs_dir.mkdir(exist_ok=True)
+
+        # Write combined JSON to logs folder
+        output_path = logs_dir / "lint_report.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2)
+
+        print(f"\nLinting complete. JSON report written to {output_path}")
 
 
 if __name__ == "__main__":

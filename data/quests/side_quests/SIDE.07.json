@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.07",
+  "type": "Side Quest",
+  "title": "The Broken Signal",
+  "sector": "Sector Seven \u2014 Deep Circuit",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Repair signal nodes"
+  ],
+  "rewards": [
+    "reward:signal_runner_cosmetic"
+  ],
+  "notes": null
+}

@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.09",
+  "type": "Side Quest",
+  "title": "The Erased Path",
+  "sector": "Sector Nine \u2014 Lost Sector",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Walk the Erased Path"
+  ],
+  "rewards": [
+    "reward:lost_memory_cosmetic"
+  ],
+  "notes": null
+}

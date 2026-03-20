@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.07",
+  "type": "Unknown",
+  "title": "The Heart That Remembers",
+  "sector": "Prime Heart Domain \u2014 Chamber of Cycles",
+  "summary": "After stabilizing the Heart\u2019s Threshold and opening the Heartbound Gate, the player enters the Chamber of Cycles \u2014 the Prime Heart\u2019s true domain. The Prime Heart awakens fully, calling the player by name and showing visions of every past cycle. The player must survive the Heart\u2019s resonance waves, confront the Echo of Their Past Self, and endure the Heart\u2019s judgment. The Prime Heart reveals the truth: the player once chose to reset the cycle, and the corruption is the echo of that choice.",
+  "steps": [],
+  "objectives": [
+    "Enter the Chamber of Cycles"
+  ],
+  "rewards": [
+    "reward:resonance_level_17"
+  ],
+  "notes": null
+}

@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.01",
+  "type": "Side Quest",
+  "title": "The Lantern Keeper",
+  "sector": "Sector One \u2014 Lantern Fields",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Speak to the Lantern Cyberkin"
+  ],
+  "rewards": [
+    "reward:lantern_glow_cosmetic"
+  ],
+  "notes": null
+}

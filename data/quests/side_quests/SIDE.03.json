@@ -1,0 +1,15 @@
+{
+  "code": "SIDE.03",
+  "type": "Side Quest",
+  "title": "Song of the Iron Choir",
+  "sector": "Sector Three \u2014 Iron Choir Hall",
+  "summary": null,
+  "steps": [],
+  "objectives": [
+    "Collect resonance notes"
+  ],
+  "rewards": [
+    "reward:iron_hymn_cosmetic"
+  ],
+  "notes": null
+}

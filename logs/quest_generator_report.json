@@ -1,0 +1,549 @@
+{
+  "timestamp": "2026-03-20T00:54:18.941556",
+  "overwrite": true,
+  "files": [
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\bond_quests\\BOND.01_first_resonance.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.01.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\bond_quests\\BOND.02_echo_of_the_heart.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.02.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\bond_quests\\BOND.03_the_cyberkins_name.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.03.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\bond_quests\\BOND.04_when_the_echo_calls.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.04.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\bond_quests\\BOND.05_heart_of_two.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.05.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\bond_quests\\BOND.06_memory_of_us.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\bond_quests\\BOND.06.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.00_system_breach.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.00.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.01_first_sector_dive.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.01.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.02_guardian_in_the_dark.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.02.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.03_heart_of_corruption.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.03.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.04_path_to_sector_two.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.04.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.05_into_sector_two.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.05.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\CORE.06_the_guardians_trail.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\CORE.06.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.01_dream_resonance.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.01.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.02_echos_in_the_mist.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.02.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.03_sleepless_threshold.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.03.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.04_somnias_warning.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.04.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.05_echo_that_knows_your_name.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.05.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.06_fractured_dreamline.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.06.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.07_breach_of_the_dreamline.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.07.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_1_awakenings\\DREAM.08_somnias_last_stand.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_1_awakenings\\DREAM.08.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.01_rift_of_echoes.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.01.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.02_echoing_path.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.02.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.03_convergence_expanse.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.03.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.04_storm_of_the_forgotten.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.04.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.05_depths_of_the_prime_heart.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.05.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.06_prime_hearts_call.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.06.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CONVERGENCE.07_heart_that_remembers.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CONVERGENCE.07.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CORE.07_shattered_frontier.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CORE.07.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CORE.08_guardians_stand.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CORE.08.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CORE.09_toward_the_prime_heart.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CORE.09.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\CORE.10_guardians_last_oath.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\CORE.10.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\DREAM.09_the_dream_that_remains.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\DREAM.09.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\main_story\\act_2_convergence\\DREAM.10_last_lullaby.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\main_story\\act_2_convergence\\DREAM.10.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.01_guardians_garden.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.01.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.02_frontier_legends.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.02.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.03_iron_choir.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.03.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.04_frozen_archive.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.04.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.05_ember_warrens.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.05.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.06_skyforge_isles.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.06.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.07_deep_circuit.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.07.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.08_verdant_grid.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.08.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\sector\\SECTOR.09_lost_sector.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.09.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\DREAM.EP01_last_echo_of_somnia.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\DREAM.EP01.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.01_the_lantern_keeper.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.01.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.02_the_last_ranger.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.02.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.03_song_of_the_iron_choir.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.03.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.04_the_silent_library.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.04.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.05_flame_of_the_forgotten.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.05.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.06_wings_of_the_fallen.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.06.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.07_the_broken_signal.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.07.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.08_the_green_sanctuary.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.08.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\side_quests\\SIDE.09_the_erased_path.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\side_quests\\SIDE.09.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.01_first_sector_purification.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.01.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.02_frontier_node_repair.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.02.json",
+      "warnings": [
+        "Steps are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.03_heartbound_alignment.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.03.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.04_frozen_conduit.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.04.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.05_ember_core_reignition.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.05.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.06_skyforge_stabilizer.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.06.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.07_deep_circuit_purge.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.07.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.08_verdant_bloom_restoration.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.08.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    },
+    {
+      "file": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\docs\\quests\\stabilization\\STABILIZATION.09_lost_anchor_repair.md",
+      "output": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\stabilization\\STABILIZATION.09.json",
+      "warnings": [
+        "Quest Summary is TO-DO",
+        "Steps are TO-DO",
+        "Objectives are TO-DO"
+      ],
+      "status": "warn"
+    }
+  ],
+  "summary": {}
+}

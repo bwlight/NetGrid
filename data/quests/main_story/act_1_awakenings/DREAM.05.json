@@ -1,0 +1,15 @@
+{
+  "code": "DREAM.05",
+  "type": "Dream Story",
+  "title": "The Echo That Knows Your Name",
+  "sector": "Dream Sector \u2014 Whispering Vale",
+  "summary": "After Somnia\u2019s warning, the player follows a resonance disturbance into the Whispering Vale, a dreamscape filled with drifting memory fragments. An Echo begins whispering the player\u2019s name, mimicking their voice and emotional tone. The player must navigate the Vale, confront the Echo, and resist its attempts to overwrite their resonance. Defeating it reveals a memory fragment that suggests the player has lived through multiple cycles.",
+  "steps": [],
+  "objectives": [
+    "Enter the Whispering Vale"
+  ],
+  "rewards": [
+    "reward:resonance_level_6"
+  ],
+  "notes": null
+}

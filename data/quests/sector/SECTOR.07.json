@@ -1,0 +1,13 @@
+{
+  "code": "SECTOR.07",
+  "type": "Sector Quest",
+  "title": "The Deep Circuit",
+  "sector": "Sector Seven",
+  "summary": null,
+  "steps": [],
+  "objectives": [],
+  "rewards": [
+    "reward:circuit_key"
+  ],
+  "notes": null
+}

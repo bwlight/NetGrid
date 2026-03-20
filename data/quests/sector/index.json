@@ -1,0 +1,56 @@
+[
+  {
+    "code": "SECTOR.01",
+    "type": "Sector Quest",
+    "title": "The Guardian\u2019s Garden",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.01.json"
+  },
+  {
+    "code": "SECTOR.02",
+    "type": "Sector Quest",
+    "title": "Frontier Legends",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.02.json"
+  },
+  {
+    "code": "SECTOR.03",
+    "type": "Sector Quest",
+    "title": "The Iron Choir",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.03.json"
+  },
+  {
+    "code": "SECTOR.04",
+    "type": "Sector Quest",
+    "title": "The Frozen Archive",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.04.json"
+  },
+  {
+    "code": "SECTOR.05",
+    "type": "Sector Quest",
+    "title": "The Ember Warrens",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.05.json"
+  },
+  {
+    "code": "SECTOR.06",
+    "type": "Sector Quest",
+    "title": "The Skyforge Isles",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.06.json"
+  },
+  {
+    "code": "SECTOR.07",
+    "type": "Sector Quest",
+    "title": "The Deep Circuit",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.07.json"
+  },
+  {
+    "code": "SECTOR.08",
+    "type": "Sector Quest",
+    "title": "The Verdant Grid",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.08.json"
+  },
+  {
+    "code": "SECTOR.09",
+    "type": "Sector Quest",
+    "title": "The Lost Sector",
+    "path": "C:\\Users\\BMan\\Documents\\GitHub\\NetGrid\\data\\quests\\sector\\SECTOR.09.json"
+  }
+]

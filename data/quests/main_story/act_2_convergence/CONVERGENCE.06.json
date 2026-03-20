@@ -1,0 +1,15 @@
+{
+  "code": "CONVERGENCE.06",
+  "type": "Unknown",
+  "title": "The Prime Heart\u2019s Call",
+  "sector": "Convergence Depths \u2014 Heart\u2019s Threshold",
+  "summary": "After reaching the Heart\u2019s Veil, the player steps into the Heart\u2019s Threshold \u2014 a region where the Prime Heart\u2019s influence is absolute. The Prime Heart calls to the player by name, showing visions of past cycles and offering cryptic warnings. The player must navigate the shifting terrain, confront Heartbound Echoes, and stabilize the final resonance anchors before entering the Prime Heart\u2019s chamber.",
+  "steps": [],
+  "objectives": [
+    "Enter the Heart\u2019s Threshold"
+  ],
+  "rewards": [
+    "reward:resonance_level_16"
+  ],
+  "notes": null
+}

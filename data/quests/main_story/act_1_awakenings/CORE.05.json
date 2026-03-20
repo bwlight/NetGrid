@@ -1,0 +1,15 @@
+{
+  "code": "CORE.05",
+  "type": "Unknown",
+  "title": "Into Sector Two",
+  "sector": "Sector Two \u2014 Arrival Zone",
+  "summary": "After stabilizing the Gate, the player enters Sector Two. The environment is heavily corrupted, with terrain shifting unpredictably and wildlife behaving erratically. The player must explore the Arrival Zone, locate the Sector Two Guardian, and stabilize the first node. Along the way, they encounter a new type of corruption entity that reacts to the player\u2019s resonance in unpredictable ways.",
+  "steps": [],
+  "objectives": [
+    "Enter Sector Two"
+  ],
+  "rewards": [
+    "reward:resonance_level_8"
+  ],
+  "notes": null
+}
