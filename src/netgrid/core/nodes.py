@@ -12,7 +12,7 @@ class Node:
         return f"<Node {self.id} ({self.type}) in {self.sector}>"
 
 def load_nodes():
-    data_path = Path(__file__).parent.parent / "data" / "nodes.json"
+    data_path = Path(__file__).parent.parent.parent.parent / "data" / "world" / "nodes.json"
     with open(data_path, "r") as f:
         raw = json.load(f)
 
