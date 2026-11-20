@@ -10,1175 +10,1175 @@
 <title>EvolutionTree</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-2038 800.25,-2038 800.25,4 -4,4"/>
 <g id="clust1" class="cluster">
-<title>cluster_cloud</title>
-<path fill="#f5f5f5" stroke="black" d="M33.88,-8C33.88,-8 538.88,-8 538.88,-8 544.88,-8 550.88,-14 550.88,-20 550.88,-20 550.88,-181 550.88,-181 550.88,-187 544.88,-193 538.88,-193 538.88,-193 33.88,-193 33.88,-193 27.88,-193 21.88,-187 21.88,-181 21.88,-181 21.88,-20 21.88,-20 21.88,-14 27.88,-8 33.88,-8"/>
-<text xml:space="preserve" text-anchor="middle" x="286.38" y="-175.7" font-family="Times,serif" font-size="14.00">CLOUD</text>
+<title>cluster_void</title>
+<path fill="#f5f5f5" stroke="black" d="M38,-8C38,-8 541.5,-8 541.5,-8 547.5,-8 553.5,-14 553.5,-20 553.5,-20 553.5,-181 553.5,-181 553.5,-187 547.5,-193 541.5,-193 541.5,-193 38,-193 38,-193 32,-193 26,-187 26,-181 26,-181 26,-20 26,-20 26,-14 32,-8 38,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="289.75" y="-175.7" font-family="Times,serif" font-size="14.00">VOID</text>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_codeborn</title>
-<path fill="#f5f5f5" stroke="black" d="M20,-201C20,-201 528.38,-201 528.38,-201 534.38,-201 540.38,-207 540.38,-213 540.38,-213 540.38,-266 540.38,-266 540.38,-272 534.38,-278 528.38,-278 528.38,-278 20,-278 20,-278 14,-278 8,-272 8,-266 8,-266 8,-213 8,-213 8,-207 14,-201 20,-201"/>
-<text xml:space="preserve" text-anchor="middle" x="274.19" y="-260.7" font-family="Times,serif" font-size="14.00">CODEBORN</text>
+<title>cluster_pulse</title>
+<path fill="#f5f5f5" stroke="black" d="M33.88,-201C33.88,-201 554.25,-201 554.25,-201 560.25,-201 566.25,-207 566.25,-213 566.25,-213 566.25,-374 566.25,-374 566.25,-380 560.25,-386 554.25,-386 554.25,-386 33.88,-386 33.88,-386 27.87,-386 21.88,-380 21.88,-374 21.88,-374 21.88,-213 21.88,-213 21.88,-207 27.88,-201 33.88,-201"/>
+<text xml:space="preserve" text-anchor="middle" x="294.06" y="-368.7" font-family="Times,serif" font-size="14.00">PULSE</text>
 </g>
 <g id="clust3" class="cluster">
-<title>cluster_pulse</title>
-<path fill="#f5f5f5" stroke="black" d="M33.88,-286C33.88,-286 554.25,-286 554.25,-286 560.25,-286 566.25,-292 566.25,-298 566.25,-298 566.25,-459 566.25,-459 566.25,-465 560.25,-471 554.25,-471 554.25,-471 33.88,-471 33.88,-471 27.87,-471 21.88,-465 21.88,-459 21.88,-459 21.88,-298 21.88,-298 21.88,-292 27.88,-286 33.88,-286"/>
-<text xml:space="preserve" text-anchor="middle" x="294.06" y="-453.7" font-family="Times,serif" font-size="14.00">PULSE</text>
+<title>cluster_dream</title>
+<path fill="#f5f5f5" stroke="black" d="M30.12,-394C30.12,-394 558.75,-394 558.75,-394 564.75,-394 570.75,-400 570.75,-406 570.75,-406 570.75,-567 570.75,-567 570.75,-573 564.75,-579 558.75,-579 558.75,-579 30.12,-579 30.12,-579 24.12,-579 18.12,-573 18.12,-567 18.12,-567 18.12,-406 18.12,-406 18.12,-400 24.12,-394 30.12,-394"/>
+<text xml:space="preserve" text-anchor="middle" x="294.44" y="-561.7" font-family="Times,serif" font-size="14.00">DREAM</text>
 </g>
 <g id="clust4" class="cluster">
-<title>cluster_root</title>
-<path fill="#f5f5f5" stroke="black" d="M38.38,-490C38.38,-490 535.12,-490 535.12,-490 541.12,-490 547.12,-496 547.12,-502 547.12,-502 547.12,-663 547.12,-663 547.12,-669 541.12,-675 535.12,-675 535.12,-675 38.38,-675 38.38,-675 32.38,-675 26.38,-669 26.38,-663 26.38,-663 26.38,-502 26.38,-502 26.38,-496 32.38,-490 38.38,-490"/>
-<text xml:space="preserve" text-anchor="middle" x="286.75" y="-657.7" font-family="Times,serif" font-size="14.00">ROOT</text>
+<title>cluster_firewall</title>
+<path fill="#f5f5f5" stroke="black" d="M26.38,-587C26.38,-587 552.75,-587 552.75,-587 558.75,-587 564.75,-593 564.75,-599 564.75,-599 564.75,-760 564.75,-760 564.75,-766 558.75,-772 552.75,-772 552.75,-772 26.38,-772 26.38,-772 20.37,-772 14.38,-766 14.38,-760 14.38,-760 14.38,-599 14.38,-599 14.38,-593 20.38,-587 26.38,-587"/>
+<text xml:space="preserve" text-anchor="middle" x="289.56" y="-754.7" font-family="Times,serif" font-size="14.00">FIREWALL</text>
 </g>
 <g id="clust5" class="cluster">
-<title>cluster_archive</title>
-<path fill="#f5f5f5" stroke="black" d="M26.75,-683C26.75,-683 558,-683 558,-683 564,-683 570,-689 570,-695 570,-695 570,-856 570,-856 570,-862 564,-868 558,-868 558,-868 26.75,-868 26.75,-868 20.75,-868 14.75,-862 14.75,-856 14.75,-856 14.75,-695 14.75,-695 14.75,-689 20.75,-683 26.75,-683"/>
-<text xml:space="preserve" text-anchor="middle" x="292.38" y="-850.7" font-family="Times,serif" font-size="14.00">ARCHIVE</text>
+<title>cluster_cloud</title>
+<path fill="#f5f5f5" stroke="black" d="M33.88,-780C33.88,-780 538.88,-780 538.88,-780 544.88,-780 550.88,-786 550.88,-792 550.88,-792 550.88,-953 550.88,-953 550.88,-959 544.88,-965 538.88,-965 538.88,-965 33.88,-965 33.88,-965 27.88,-965 21.88,-959 21.88,-953 21.88,-953 21.88,-792 21.88,-792 21.88,-786 27.88,-780 33.88,-780"/>
+<text xml:space="preserve" text-anchor="middle" x="286.38" y="-947.7" font-family="Times,serif" font-size="14.00">CLOUD</text>
 </g>
 <g id="clust6" class="cluster">
-<title>cluster_corrupt</title>
-<path fill="#f5f5f5" stroke="black" d="M26.38,-876C26.38,-876 556.5,-876 556.5,-876 562.5,-876 568.5,-882 568.5,-888 568.5,-888 568.5,-1049 568.5,-1049 568.5,-1055 562.5,-1061 556.5,-1061 556.5,-1061 26.38,-1061 26.38,-1061 20.38,-1061 14.38,-1055 14.38,-1049 14.38,-1049 14.38,-888 14.38,-888 14.38,-882 20.38,-876 26.38,-876"/>
-<text xml:space="preserve" text-anchor="middle" x="291.44" y="-1043.7" font-family="Times,serif" font-size="14.00">CORRUPT</text>
+<title>cluster_archive</title>
+<path fill="#f5f5f5" stroke="black" d="M26.75,-973C26.75,-973 558,-973 558,-973 564,-973 570,-979 570,-985 570,-985 570,-1146 570,-1146 570,-1152 564,-1158 558,-1158 558,-1158 26.75,-1158 26.75,-1158 20.75,-1158 14.75,-1152 14.75,-1146 14.75,-1146 14.75,-985 14.75,-985 14.75,-979 20.75,-973 26.75,-973"/>
+<text xml:space="preserve" text-anchor="middle" x="292.38" y="-1140.7" font-family="Times,serif" font-size="14.00">ARCHIVE</text>
 </g>
 <g id="clust7" class="cluster">
-<title>cluster_core</title>
-<path fill="#f5f5f5" stroke="black" d="M37.62,-1069C37.62,-1069 536.25,-1069 536.25,-1069 542.25,-1069 548.25,-1075 548.25,-1081 548.25,-1081 548.25,-1242 548.25,-1242 548.25,-1248 542.25,-1254 536.25,-1254 536.25,-1254 37.62,-1254 37.62,-1254 31.63,-1254 25.62,-1248 25.62,-1242 25.62,-1242 25.62,-1081 25.62,-1081 25.62,-1075 31.62,-1069 37.62,-1069"/>
-<text xml:space="preserve" text-anchor="middle" x="286.94" y="-1236.7" font-family="Times,serif" font-size="14.00">CORE</text>
+<title>cluster_root</title>
+<path fill="#f5f5f5" stroke="black" d="M38.38,-1177C38.38,-1177 535.12,-1177 535.12,-1177 541.12,-1177 547.12,-1183 547.12,-1189 547.12,-1189 547.12,-1350 547.12,-1350 547.12,-1356 541.12,-1362 535.12,-1362 535.12,-1362 38.38,-1362 38.38,-1362 32.38,-1362 26.38,-1356 26.38,-1350 26.38,-1350 26.38,-1189 26.38,-1189 26.38,-1183 32.38,-1177 38.38,-1177"/>
+<text xml:space="preserve" text-anchor="middle" x="286.75" y="-1344.7" font-family="Times,serif" font-size="14.00">ROOT</text>
 </g>
 <g id="clust8" class="cluster">
 <title>cluster_echo</title>
-<path fill="#f5f5f5" stroke="black" d="M36.5,-1262C36.5,-1262 546.38,-1262 546.38,-1262 552.38,-1262 558.38,-1268 558.38,-1274 558.38,-1274 558.38,-1435 558.38,-1435 558.38,-1441 552.38,-1447 546.38,-1447 546.38,-1447 36.5,-1447 36.5,-1447 30.5,-1447 24.5,-1441 24.5,-1435 24.5,-1435 24.5,-1274 24.5,-1274 24.5,-1268 30.5,-1262 36.5,-1262"/>
-<text xml:space="preserve" text-anchor="middle" x="291.44" y="-1429.7" font-family="Times,serif" font-size="14.00">ECHO</text>
+<path fill="#f5f5f5" stroke="black" d="M36.5,-1370C36.5,-1370 546.38,-1370 546.38,-1370 552.38,-1370 558.38,-1376 558.38,-1382 558.38,-1382 558.38,-1543 558.38,-1543 558.38,-1549 552.38,-1555 546.38,-1555 546.38,-1555 36.5,-1555 36.5,-1555 30.5,-1555 24.5,-1549 24.5,-1543 24.5,-1543 24.5,-1382 24.5,-1382 24.5,-1376 30.5,-1370 36.5,-1370"/>
+<text xml:space="preserve" text-anchor="middle" x="291.44" y="-1537.7" font-family="Times,serif" font-size="14.00">ECHO</text>
 </g>
 <g id="clust9" class="cluster">
-<title>cluster_dream</title>
-<path fill="#f5f5f5" stroke="black" d="M30.12,-1455C30.12,-1455 558.75,-1455 558.75,-1455 564.75,-1455 570.75,-1461 570.75,-1467 570.75,-1467 570.75,-1628 570.75,-1628 570.75,-1634 564.75,-1640 558.75,-1640 558.75,-1640 30.12,-1640 30.12,-1640 24.12,-1640 18.12,-1634 18.12,-1628 18.12,-1628 18.12,-1467 18.12,-1467 18.12,-1461 24.12,-1455 30.12,-1455"/>
-<text xml:space="preserve" text-anchor="middle" x="294.44" y="-1622.7" font-family="Times,serif" font-size="14.00">DREAM</text>
+<title>cluster_codeborn</title>
+<path fill="#f5f5f5" stroke="black" d="M20,-1563C20,-1563 528.38,-1563 528.38,-1563 534.38,-1563 540.38,-1569 540.38,-1575 540.38,-1575 540.38,-1628 540.38,-1628 540.38,-1634 534.38,-1640 528.38,-1640 528.38,-1640 20,-1640 20,-1640 14,-1640 8,-1634 8,-1628 8,-1628 8,-1575 8,-1575 8,-1569 14,-1563 20,-1563"/>
+<text xml:space="preserve" text-anchor="middle" x="274.19" y="-1622.7" font-family="Times,serif" font-size="14.00">CODEBORN</text>
 </g>
 <g id="clust10" class="cluster">
-<title>cluster_firewall</title>
-<path fill="#f5f5f5" stroke="black" d="M26.38,-1648C26.38,-1648 552.75,-1648 552.75,-1648 558.75,-1648 564.75,-1654 564.75,-1660 564.75,-1660 564.75,-1821 564.75,-1821 564.75,-1827 558.75,-1833 552.75,-1833 552.75,-1833 26.38,-1833 26.38,-1833 20.37,-1833 14.38,-1827 14.38,-1821 14.38,-1821 14.38,-1660 14.38,-1660 14.38,-1654 20.38,-1648 26.38,-1648"/>
-<text xml:space="preserve" text-anchor="middle" x="289.56" y="-1815.7" font-family="Times,serif" font-size="14.00">FIREWALL</text>
+<title>cluster_corrupt</title>
+<path fill="#f5f5f5" stroke="black" d="M26.38,-1648C26.38,-1648 556.5,-1648 556.5,-1648 562.5,-1648 568.5,-1654 568.5,-1660 568.5,-1660 568.5,-1821 568.5,-1821 568.5,-1827 562.5,-1833 556.5,-1833 556.5,-1833 26.38,-1833 26.38,-1833 20.38,-1833 14.38,-1827 14.38,-1821 14.38,-1821 14.38,-1660 14.38,-1660 14.38,-1654 20.38,-1648 26.38,-1648"/>
+<text xml:space="preserve" text-anchor="middle" x="291.44" y="-1815.7" font-family="Times,serif" font-size="14.00">CORRUPT</text>
 </g>
 <g id="clust11" class="cluster">
-<title>cluster_void</title>
-<path fill="#f5f5f5" stroke="black" d="M38,-1841C38,-1841 541.5,-1841 541.5,-1841 547.5,-1841 553.5,-1847 553.5,-1853 553.5,-1853 553.5,-2014 553.5,-2014 553.5,-2020 547.5,-2026 541.5,-2026 541.5,-2026 38,-2026 38,-2026 32,-2026 26,-2020 26,-2014 26,-2014 26,-1853 26,-1853 26,-1847 32,-1841 38,-1841"/>
-<text xml:space="preserve" text-anchor="middle" x="289.75" y="-2008.7" font-family="Times,serif" font-size="14.00">VOID</text>
+<title>cluster_core</title>
+<path fill="#f5f5f5" stroke="black" d="M37.62,-1841C37.62,-1841 536.25,-1841 536.25,-1841 542.25,-1841 548.25,-1847 548.25,-1853 548.25,-1853 548.25,-2014 548.25,-2014 548.25,-2020 542.25,-2026 536.25,-2026 536.25,-2026 37.62,-2026 37.62,-2026 31.63,-2026 25.62,-2020 25.62,-2014 25.62,-2014 25.62,-1853 25.62,-1853 25.62,-1847 31.62,-1841 37.62,-1841"/>
+<text xml:space="preserve" text-anchor="middle" x="286.94" y="-2008.7" font-family="Times,serif" font-size="14.00">CORE</text>
 </g>
-<!-- cloud_baby -->
+<!-- void_baby -->
 <g id="node1" class="node">
-<title>cloud_baby</title>
-<path fill="#90caf9" stroke="black" d="M113.38,-106C113.38,-106 41.88,-106 41.88,-106 35.87,-106 29.88,-100 29.88,-94 29.88,-94 29.88,-82 29.88,-82 29.88,-76 35.88,-70 41.88,-70 41.88,-70 113.38,-70 113.38,-70 119.38,-70 125.38,-76 125.38,-82 125.38,-82 125.38,-94 125.38,-94 125.38,-100 119.38,-106 113.38,-106"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-83.33" font-family="Times,serif" font-size="14.00">cloud_baby</text>
+<title>void_baby</title>
+<path fill="#b0bec5" stroke="black" d="M109.25,-106C109.25,-106 46,-106 46,-106 40,-106 34,-100 34,-94 34,-94 34,-82 34,-82 34,-76 40,-70 46,-70 46,-70 109.25,-70 109.25,-70 115.25,-70 121.25,-76 121.25,-82 121.25,-82 121.25,-94 121.25,-94 121.25,-100 115.25,-106 109.25,-106"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-83.33" font-family="Times,serif" font-size="14.00">void_baby</text>
 </g>
-<!-- cloud_rookie -->
+<!-- void_rookie -->
 <g id="node2" class="node">
-<title>cloud_rookie</title>
-<path fill="#90caf9" stroke="black" d="M282.38,-106C282.38,-106 201.12,-106 201.12,-106 195.12,-106 189.12,-100 189.12,-94 189.12,-94 189.12,-82 189.12,-82 189.12,-76 195.12,-70 201.12,-70 201.12,-70 282.38,-70 282.38,-70 288.38,-70 294.38,-76 294.38,-82 294.38,-82 294.38,-94 294.38,-94 294.38,-100 288.38,-106 282.38,-106"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-83.33" font-family="Times,serif" font-size="14.00">cloud_rookie</text>
+<title>void_rookie</title>
+<path fill="#b0bec5" stroke="black" d="M278.25,-106C278.25,-106 205.25,-106 205.25,-106 199.25,-106 193.25,-100 193.25,-94 193.25,-94 193.25,-82 193.25,-82 193.25,-76 199.25,-70 205.25,-70 205.25,-70 278.25,-70 278.25,-70 284.25,-70 290.25,-76 290.25,-82 290.25,-82 290.25,-94 290.25,-94 290.25,-100 284.25,-106 278.25,-106"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-83.33" font-family="Times,serif" font-size="14.00">void_rookie</text>
 </g>
-<!-- cloud_baby&#45;&gt;cloud_rookie -->
+<!-- void_baby&#45;&gt;void_rookie -->
 <g id="edge1" class="edge">
-<title>cloud_baby&#45;&gt;cloud_rookie</title>
-<path fill="none" stroke="black" d="M125.52,-88C141.78,-88 160.29,-88 177.64,-88"/>
-<polygon fill="black" stroke="black" points="177.33,-91.5 187.33,-88 177.33,-84.5 177.33,-91.5"/>
+<title>void_baby&#45;&gt;void_rookie</title>
+<path fill="none" stroke="black" d="M121.65,-88C140,-88 161.71,-88 181.54,-88"/>
+<polygon fill="black" stroke="black" points="181.44,-91.5 191.44,-88 181.44,-84.5 181.44,-91.5"/>
 </g>
-<!-- cloud_champion_wind -->
+<!-- void_champion_entropy -->
 <g id="node3" class="node">
-<title>cloud_champion_wind</title>
-<path fill="#90caf9" stroke="black" d="M527.12,-52C527.12,-52 379.88,-52 379.88,-52 373.88,-52 367.88,-46 367.88,-40 367.88,-40 367.88,-28 367.88,-28 367.88,-22 373.88,-16 379.88,-16 379.88,-16 527.12,-16 527.12,-16 533.12,-16 539.12,-22 539.12,-28 539.12,-28 539.12,-40 539.12,-40 539.12,-46 533.12,-52 527.12,-52"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-29.32" font-family="Times,serif" font-size="14.00">cloud_champion_wind</text>
+<title>void_champion_entropy</title>
+<path fill="#b0bec5" stroke="black" d="M533.5,-160C533.5,-160 373.5,-160 373.5,-160 367.5,-160 361.5,-154 361.5,-148 361.5,-148 361.5,-136 361.5,-136 361.5,-130 367.5,-124 373.5,-124 373.5,-124 533.5,-124 533.5,-124 539.5,-124 545.5,-130 545.5,-136 545.5,-136 545.5,-148 545.5,-148 545.5,-154 539.5,-160 533.5,-160"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-137.32" font-family="Times,serif" font-size="14.00">void_champion_entropy</text>
 </g>
-<!-- cloud_rookie&#45;&gt;cloud_champion_wind -->
+<!-- void_rookie&#45;&gt;void_champion_entropy -->
 <g id="edge2" class="edge">
-<title>cloud_rookie&#45;&gt;cloud_champion_wind</title>
-<path fill="none" stroke="#7e57c2" d="M294.87,-73.97C310.71,-69.75 328.18,-65.14 344.25,-61 351.56,-59.12 359.15,-57.18 366.77,-55.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-58.65 376.46,-52.81 365.9,-51.86 367.62,-58.65"/>
-</g>
-<!-- cloud_champion_rain -->
-<g id="node4" class="node">
-<title>cloud_champion_rain</title>
-<path fill="#90caf9" stroke="black" d="M524.12,-106C524.12,-106 382.88,-106 382.88,-106 376.88,-106 370.88,-100 370.88,-94 370.88,-94 370.88,-82 370.88,-82 370.88,-76 376.88,-70 382.88,-70 382.88,-70 524.12,-70 524.12,-70 530.12,-70 536.12,-76 536.12,-82 536.12,-82 536.12,-94 536.12,-94 536.12,-100 530.12,-106 524.12,-106"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-83.33" font-family="Times,serif" font-size="14.00">cloud_champion_rain</text>
-</g>
-<!-- cloud_rookie&#45;&gt;cloud_champion_rain -->
-<g id="edge3" class="edge">
-<title>cloud_rookie&#45;&gt;cloud_champion_rain</title>
-<path fill="none" stroke="#7e57c2" d="M294.87,-88C314.29,-88 336.98,-88 358.99,-88"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="358.91,-91.5 368.91,-88 358.91,-84.5 358.91,-91.5"/>
-</g>
-<!-- cloud_champion_storm -->
-<g id="node5" class="node">
-<title>cloud_champion_storm</title>
-<path fill="#90caf9" stroke="black" d="M530.88,-160C530.88,-160 376.12,-160 376.12,-160 370.12,-160 364.12,-154 364.12,-148 364.12,-148 364.12,-136 364.12,-136 364.12,-130 370.12,-124 376.12,-124 376.12,-124 530.88,-124 530.88,-124 536.88,-124 542.88,-130 542.88,-136 542.88,-136 542.88,-148 542.88,-148 542.88,-154 536.88,-160 530.88,-160"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-137.32" font-family="Times,serif" font-size="14.00">cloud_champion_storm</text>
-</g>
-<!-- cloud_rookie&#45;&gt;cloud_champion_storm -->
-<g id="edge4" class="edge">
-<title>cloud_rookie&#45;&gt;cloud_champion_storm</title>
-<path fill="none" stroke="#7e57c2" d="M294.87,-102.03C310.71,-106.25 328.18,-110.86 344.25,-115 351.56,-116.88 359.15,-118.82 366.77,-120.75"/>
+<title>void_rookie&#45;&gt;void_champion_entropy</title>
+<path fill="none" stroke="#7e57c2" d="M290.73,-100.93C307.63,-105.44 326.77,-110.5 344.25,-115 351.56,-116.88 359.15,-118.82 366.77,-120.75"/>
 <polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-124.14 376.46,-123.19 367.62,-117.35 365.9,-124.14"/>
 </g>
-<!-- cloud_final_jetstream -->
+<!-- void_champion_gravity -->
+<g id="node4" class="node">
+<title>void_champion_gravity</title>
+<path fill="#b0bec5" stroke="black" d="M531.25,-52C531.25,-52 375.75,-52 375.75,-52 369.75,-52 363.75,-46 363.75,-40 363.75,-40 363.75,-28 363.75,-28 363.75,-22 369.75,-16 375.75,-16 375.75,-16 531.25,-16 531.25,-16 537.25,-16 543.25,-22 543.25,-28 543.25,-28 543.25,-40 543.25,-40 543.25,-46 537.25,-52 531.25,-52"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-29.32" font-family="Times,serif" font-size="14.00">void_champion_gravity</text>
+</g>
+<!-- void_rookie&#45;&gt;void_champion_gravity -->
+<g id="edge3" class="edge">
+<title>void_rookie&#45;&gt;void_champion_gravity</title>
+<path fill="none" stroke="#7e57c2" d="M290.73,-75.07C307.63,-70.56 326.77,-65.5 344.25,-61 351.56,-59.12 359.15,-57.18 366.77,-55.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-58.65 376.46,-52.81 365.9,-51.86 367.62,-58.65"/>
+</g>
+<!-- void_champion_null -->
+<g id="node5" class="node">
+<title>void_champion_null</title>
+<path fill="#b0bec5" stroke="black" d="M519.25,-106C519.25,-106 387.75,-106 387.75,-106 381.75,-106 375.75,-100 375.75,-94 375.75,-94 375.75,-82 375.75,-82 375.75,-76 381.75,-70 387.75,-70 387.75,-70 519.25,-70 519.25,-70 525.25,-70 531.25,-76 531.25,-82 531.25,-82 531.25,-94 531.25,-94 531.25,-100 525.25,-106 519.25,-106"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-83.33" font-family="Times,serif" font-size="14.00">void_champion_null</text>
+</g>
+<!-- void_rookie&#45;&gt;void_champion_null -->
+<g id="edge4" class="edge">
+<title>void_rookie&#45;&gt;void_champion_null</title>
+<path fill="none" stroke="#7e57c2" d="M290.61,-88C312.42,-88 338.95,-88 364.18,-88"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="364.14,-91.5 374.14,-88 364.14,-84.5 364.14,-91.5"/>
+</g>
+<!-- corrupt_final_glitch -->
 <g id="node54" class="node">
-<title>cloud_final_jetstream</title>
-<path fill="lightgrey" stroke="black" d="M769.25,-106C769.25,-106 625.75,-106 625.75,-106 619.75,-106 613.75,-100 613.75,-94 613.75,-94 613.75,-82 613.75,-82 613.75,-76 619.75,-70 625.75,-70 625.75,-70 769.25,-70 769.25,-70 775.25,-70 781.25,-76 781.25,-82 781.25,-82 781.25,-94 781.25,-94 781.25,-100 775.25,-106 769.25,-106"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-83.33" font-family="Times,serif" font-size="14.00">cloud_final_jetstream</text>
+<title>corrupt_final_glitch</title>
+<path fill="lightgrey" stroke="black" d="M762.5,-160C762.5,-160 632.5,-160 632.5,-160 626.5,-160 620.5,-154 620.5,-148 620.5,-148 620.5,-136 620.5,-136 620.5,-130 626.5,-124 632.5,-124 632.5,-124 762.5,-124 762.5,-124 768.5,-124 774.5,-130 774.5,-136 774.5,-136 774.5,-148 774.5,-148 774.5,-154 768.5,-160 762.5,-160"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-137.32" font-family="Times,serif" font-size="14.00">corrupt_final_glitch</text>
 </g>
-<!-- cloud_champion_wind&#45;&gt;cloud_final_jetstream -->
+<!-- void_champion_entropy&#45;&gt;corrupt_final_glitch -->
 <g id="edge5" class="edge">
-<title>cloud_champion_wind&#45;&gt;cloud_final_jetstream</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-52.43C558.21,-57.14 581.05,-62.24 602.68,-67.06"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-70.47 612.38,-69.23 603.38,-63.64 601.86,-70.47"/>
+<title>void_champion_entropy&#45;&gt;corrupt_final_glitch</title>
+<path fill="none" stroke="#7e57c2" d="M545.99,-142C566.56,-142 588.34,-142 608.76,-142"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="608.76,-145.5 618.76,-142 608.76,-138.5 608.76,-145.5"/>
 </g>
-<!-- cloud_final_halo -->
+<!-- void_final_oblivion -->
 <g id="node55" class="node">
-<title>cloud_final_halo</title>
-<path fill="lightgrey" stroke="black" d="M749.75,-52C749.75,-52 645.25,-52 645.25,-52 639.25,-52 633.25,-46 633.25,-40 633.25,-40 633.25,-28 633.25,-28 633.25,-22 639.25,-16 645.25,-16 645.25,-16 749.75,-16 749.75,-16 755.75,-16 761.75,-22 761.75,-28 761.75,-28 761.75,-40 761.75,-40 761.75,-46 755.75,-52 749.75,-52"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-29.32" font-family="Times,serif" font-size="14.00">cloud_final_halo</text>
+<title>void_final_oblivion</title>
+<path fill="lightgrey" stroke="black" d="M758.75,-106C758.75,-106 636.25,-106 636.25,-106 630.25,-106 624.25,-100 624.25,-94 624.25,-94 624.25,-82 624.25,-82 624.25,-76 630.25,-70 636.25,-70 636.25,-70 758.75,-70 758.75,-70 764.75,-70 770.75,-76 770.75,-82 770.75,-82 770.75,-94 770.75,-94 770.75,-100 764.75,-106 758.75,-106"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-83.33" font-family="Times,serif" font-size="14.00">void_final_oblivion</text>
 </g>
-<!-- cloud_champion_wind&#45;&gt;cloud_final_halo -->
+<!-- void_champion_entropy&#45;&gt;void_final_oblivion -->
 <g id="edge6" class="edge">
-<title>cloud_champion_wind&#45;&gt;cloud_final_halo</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-34C566.29,-34 595.7,-34 621.74,-34"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="621.55,-37.5 631.55,-34 621.55,-30.5 621.55,-37.5"/>
+<title>void_champion_entropy&#45;&gt;void_final_oblivion</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-123.57C561.57,-118.11 588.36,-112.13 612.89,-106.66"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="613.5,-110.11 622.5,-104.51 611.98,-103.27 613.5,-110.11"/>
 </g>
-<!-- cloud_champion_rain&#45;&gt;cloud_final_halo -->
-<g id="edge7" class="edge">
-<title>cloud_champion_rain&#45;&gt;cloud_final_halo</title>
-<path fill="none" stroke="#7e57c2" d="M536.43,-69.72C564.15,-63.53 594.93,-56.66 622.04,-50.62"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="622.54,-54.09 631.54,-48.5 621.02,-47.26 622.54,-54.09"/>
-</g>
-<!-- cloud_final_tempest -->
-<g id="node56" class="node">
-<title>cloud_final_tempest</title>
-<path fill="lightgrey" stroke="black" d="M764,-160C764,-160 631,-160 631,-160 625,-160 619,-154 619,-148 619,-148 619,-136 619,-136 619,-130 625,-124 631,-124 631,-124 764,-124 764,-124 770,-124 776,-130 776,-136 776,-136 776,-148 776,-148 776,-154 770,-160 764,-160"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-137.32" font-family="Times,serif" font-size="14.00">cloud_final_tempest</text>
-</g>
-<!-- cloud_champion_rain&#45;&gt;cloud_final_tempest -->
+<!-- void_champion_gravity&#45;&gt;void_final_oblivion -->
 <g id="edge8" class="edge">
-<title>cloud_champion_rain&#45;&gt;cloud_final_tempest</title>
-<path fill="none" stroke="#7e57c2" d="M536.43,-106.28C559.39,-111.41 584.46,-117 607.8,-122.21"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="606.74,-125.56 617.27,-124.32 608.27,-118.73 606.74,-125.56"/>
+<title>void_champion_gravity&#45;&gt;void_final_oblivion</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-52.43C561.57,-57.89 588.36,-63.87 612.89,-69.34"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="611.98,-72.73 622.5,-71.49 613.5,-65.89 611.98,-72.73"/>
 </g>
-<!-- cloud_champion_storm&#45;&gt;cloud_final_jetstream -->
-<g id="edge10" class="edge">
-<title>cloud_champion_storm&#45;&gt;cloud_final_jetstream</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-123.57C558.21,-118.86 581.05,-113.76 602.68,-108.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-112.36 612.38,-106.77 601.86,-105.53 603.38,-112.36"/>
+<!-- void_final_singularity -->
+<g id="node56" class="node">
+<title>void_final_singularity</title>
+<path fill="lightgrey" stroke="black" d="M769.25,-52C769.25,-52 625.75,-52 625.75,-52 619.75,-52 613.75,-46 613.75,-40 613.75,-40 613.75,-28 613.75,-28 613.75,-22 619.75,-16 625.75,-16 625.75,-16 769.25,-16 769.25,-16 775.25,-16 781.25,-22 781.25,-28 781.25,-28 781.25,-40 781.25,-40 781.25,-46 775.25,-52 769.25,-52"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-29.32" font-family="Times,serif" font-size="14.00">void_final_singularity</text>
 </g>
-<!-- cloud_champion_storm&#45;&gt;cloud_final_tempest -->
+<!-- void_champion_gravity&#45;&gt;void_final_singularity -->
+<g id="edge7" class="edge">
+<title>void_champion_gravity&#45;&gt;void_final_singularity</title>
+<path fill="none" stroke="#7e57c2" d="M543.58,-34C562.73,-34 583.03,-34 602.37,-34"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="602.12,-37.5 612.12,-34 602.12,-30.5 602.12,-37.5"/>
+</g>
+<!-- void_champion_null&#45;&gt;void_final_oblivion -->
 <g id="edge9" class="edge">
-<title>cloud_champion_storm&#45;&gt;cloud_final_tempest</title>
-<path fill="none" stroke="#7e57c2" d="M543.24,-142C564.07,-142 586.27,-142 607.13,-142"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="607.04,-145.5 617.04,-142 607.04,-138.5 607.04,-145.5"/>
+<title>void_champion_null&#45;&gt;void_final_oblivion</title>
+<path fill="none" stroke="#7e57c2" d="M531.74,-88C557.52,-88 586.37,-88 612.64,-88"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="612.6,-91.5 622.6,-88 612.6,-84.5 612.6,-91.5"/>
 </g>
-<!-- codeborn_baby -->
-<g id="node6" class="node">
-<title>codeborn_baby</title>
-<path fill="#e0e0e0" stroke="black" d="M127.25,-245C127.25,-245 28,-245 28,-245 22,-245 16,-239 16,-233 16,-233 16,-221 16,-221 16,-215 22,-209 28,-209 28,-209 127.25,-209 127.25,-209 133.25,-209 139.25,-215 139.25,-221 139.25,-221 139.25,-233 139.25,-233 139.25,-239 133.25,-245 127.25,-245"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-222.32" font-family="Times,serif" font-size="14.00">codeborn_baby</text>
-</g>
-<!-- codeborn_rookie -->
-<g id="node7" class="node">
-<title>codeborn_rookie</title>
-<path fill="#e0e0e0" stroke="black" d="M296.25,-245C296.25,-245 187.25,-245 187.25,-245 181.25,-245 175.25,-239 175.25,-233 175.25,-233 175.25,-221 175.25,-221 175.25,-215 181.25,-209 187.25,-209 187.25,-209 296.25,-209 296.25,-209 302.25,-209 308.25,-215 308.25,-221 308.25,-221 308.25,-233 308.25,-233 308.25,-239 302.25,-245 296.25,-245"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-222.32" font-family="Times,serif" font-size="14.00">codeborn_rookie</text>
-</g>
-<!-- codeborn_baby&#45;&gt;codeborn_rookie -->
-<g id="edge11" class="edge">
-<title>codeborn_baby&#45;&gt;codeborn_rookie</title>
-<path fill="none" stroke="black" d="M139.46,-227C147.33,-227 155.48,-227 163.58,-227"/>
-<polygon fill="black" stroke="black" points="163.45,-230.5 173.45,-227 163.45,-223.5 163.45,-230.5"/>
-</g>
-<!-- codeborn_champion -->
-<g id="node8" class="node">
-<title>codeborn_champion</title>
-<path fill="#e0e0e0" stroke="black" d="M520.38,-245C520.38,-245 386.62,-245 386.62,-245 380.62,-245 374.62,-239 374.62,-233 374.62,-233 374.62,-221 374.62,-221 374.62,-215 380.62,-209 386.62,-209 386.62,-209 520.38,-209 520.38,-209 526.38,-209 532.38,-215 532.38,-221 532.38,-221 532.38,-233 532.38,-233 532.38,-239 526.38,-245 520.38,-245"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-222.32" font-family="Times,serif" font-size="14.00">codeborn_champion</text>
-</g>
-<!-- codeborn_rookie&#45;&gt;codeborn_champion -->
-<g id="edge12" class="edge">
-<title>codeborn_rookie&#45;&gt;codeborn_champion</title>
-<path fill="none" stroke="black" d="M308.54,-227C325.85,-227 344.82,-227 363.15,-227"/>
-<polygon fill="black" stroke="black" points="362.94,-230.5 372.94,-227 362.94,-223.5 362.94,-230.5"/>
-</g>
-<!-- codeborn_final -->
-<g id="node57" class="node">
-<title>codeborn_final</title>
-<path fill="lightgrey" stroke="black" d="M745.25,-245C745.25,-245 649.75,-245 649.75,-245 643.75,-245 637.75,-239 637.75,-233 637.75,-233 637.75,-221 637.75,-221 637.75,-215 643.75,-209 649.75,-209 649.75,-209 745.25,-209 745.25,-209 751.25,-209 757.25,-215 757.25,-221 757.25,-221 757.25,-233 757.25,-233 757.25,-239 751.25,-245 745.25,-245"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-222.32" font-family="Times,serif" font-size="14.00">codeborn_final</text>
-</g>
-<!-- codeborn_champion&#45;&gt;codeborn_final -->
-<g id="edge13" class="edge">
-<title>codeborn_champion&#45;&gt;codeborn_final</title>
-<path fill="none" stroke="black" d="M532.74,-227C562.73,-227 596.74,-227 625.97,-227"/>
-<polygon fill="black" stroke="black" points="625.82,-230.5 635.82,-227 625.82,-223.5 625.82,-230.5"/>
+<!-- void_champion_null&#45;&gt;void_final_singularity -->
+<g id="edge10" class="edge">
+<title>void_champion_null&#45;&gt;void_final_singularity</title>
+<path fill="none" stroke="#7e57c2" d="M531.74,-70.77C554.3,-65.73 579.22,-60.17 602.7,-54.93"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.25,-58.39 612.25,-52.8 601.73,-51.56 603.25,-58.39"/>
 </g>
 <!-- pulse_baby -->
-<g id="node9" class="node">
+<g id="node6" class="node">
 <title>pulse_baby</title>
-<path fill="#f06292" stroke="black" d="M113.38,-384C113.38,-384 41.88,-384 41.88,-384 35.87,-384 29.88,-378 29.88,-372 29.88,-372 29.88,-360 29.88,-360 29.88,-354 35.88,-348 41.88,-348 41.88,-348 113.38,-348 113.38,-348 119.38,-348 125.38,-354 125.38,-360 125.38,-360 125.38,-372 125.38,-372 125.38,-378 119.38,-384 113.38,-384"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-361.32" font-family="Times,serif" font-size="14.00">pulse_baby</text>
+<path fill="#f06292" stroke="black" d="M113.38,-299C113.38,-299 41.88,-299 41.88,-299 35.87,-299 29.88,-293 29.88,-287 29.88,-287 29.88,-275 29.88,-275 29.88,-269 35.88,-263 41.88,-263 41.88,-263 113.38,-263 113.38,-263 119.38,-263 125.38,-269 125.38,-275 125.38,-275 125.38,-287 125.38,-287 125.38,-293 119.38,-299 113.38,-299"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-276.32" font-family="Times,serif" font-size="14.00">pulse_baby</text>
 </g>
 <!-- pulse_rookie -->
-<g id="node10" class="node">
+<g id="node7" class="node">
 <title>pulse_rookie</title>
-<path fill="#f06292" stroke="black" d="M282.38,-384C282.38,-384 201.12,-384 201.12,-384 195.12,-384 189.12,-378 189.12,-372 189.12,-372 189.12,-360 189.12,-360 189.12,-354 195.12,-348 201.12,-348 201.12,-348 282.38,-348 282.38,-348 288.38,-348 294.38,-354 294.38,-360 294.38,-360 294.38,-372 294.38,-372 294.38,-378 288.38,-384 282.38,-384"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-361.32" font-family="Times,serif" font-size="14.00">pulse_rookie</text>
+<path fill="#f06292" stroke="black" d="M282.38,-299C282.38,-299 201.12,-299 201.12,-299 195.12,-299 189.12,-293 189.12,-287 189.12,-287 189.12,-275 189.12,-275 189.12,-269 195.12,-263 201.12,-263 201.12,-263 282.38,-263 282.38,-263 288.38,-263 294.38,-269 294.38,-275 294.38,-275 294.38,-287 294.38,-287 294.38,-293 288.38,-299 282.38,-299"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-276.32" font-family="Times,serif" font-size="14.00">pulse_rookie</text>
 </g>
 <!-- pulse_baby&#45;&gt;pulse_rookie -->
-<g id="edge14" class="edge">
+<g id="edge11" class="edge">
 <title>pulse_baby&#45;&gt;pulse_rookie</title>
-<path fill="none" stroke="black" d="M125.52,-366C141.78,-366 160.29,-366 177.64,-366"/>
-<polygon fill="black" stroke="black" points="177.33,-369.5 187.33,-366 177.33,-362.5 177.33,-369.5"/>
+<path fill="none" stroke="black" d="M125.52,-281C141.78,-281 160.29,-281 177.64,-281"/>
+<polygon fill="black" stroke="black" points="177.33,-284.5 187.33,-281 177.33,-277.5 177.33,-284.5"/>
 </g>
 <!-- pulse_champion_surge -->
-<g id="node11" class="node">
+<g id="node8" class="node">
 <title>pulse_champion_surge</title>
-<path fill="#f06292" stroke="black" d="M530.12,-330C530.12,-330 376.88,-330 376.88,-330 370.88,-330 364.88,-324 364.88,-318 364.88,-318 364.88,-306 364.88,-306 364.88,-300 370.88,-294 376.88,-294 376.88,-294 530.12,-294 530.12,-294 536.12,-294 542.12,-300 542.12,-306 542.12,-306 542.12,-318 542.12,-318 542.12,-324 536.12,-330 530.12,-330"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-307.32" font-family="Times,serif" font-size="14.00">pulse_champion_surge</text>
+<path fill="#f06292" stroke="black" d="M530.12,-245C530.12,-245 376.88,-245 376.88,-245 370.88,-245 364.88,-239 364.88,-233 364.88,-233 364.88,-221 364.88,-221 364.88,-215 370.88,-209 376.88,-209 376.88,-209 530.12,-209 530.12,-209 536.12,-209 542.12,-215 542.12,-221 542.12,-221 542.12,-233 542.12,-233 542.12,-239 536.12,-245 530.12,-245"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-222.32" font-family="Times,serif" font-size="14.00">pulse_champion_surge</text>
 </g>
 <!-- pulse_rookie&#45;&gt;pulse_champion_surge -->
-<g id="edge15" class="edge">
+<g id="edge12" class="edge">
 <title>pulse_rookie&#45;&gt;pulse_champion_surge</title>
-<path fill="none" stroke="#7e57c2" d="M294.87,-351.97C310.71,-347.75 328.18,-343.14 344.25,-339 351.56,-337.12 359.15,-335.18 366.77,-333.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-336.65 376.46,-330.81 365.9,-329.86 367.62,-336.65"/>
+<path fill="none" stroke="#7e57c2" d="M294.87,-266.97C310.71,-262.75 328.18,-258.14 344.25,-254 351.56,-252.12 359.15,-250.18 366.77,-248.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-251.65 376.46,-245.81 365.9,-244.86 367.62,-251.65"/>
 </g>
 <!-- pulse_champion_resonance -->
-<g id="node12" class="node">
+<g id="node9" class="node">
 <title>pulse_champion_resonance</title>
-<path fill="#f06292" stroke="black" d="M546.25,-384C546.25,-384 360.75,-384 360.75,-384 354.75,-384 348.75,-378 348.75,-372 348.75,-372 348.75,-360 348.75,-360 348.75,-354 354.75,-348 360.75,-348 360.75,-348 546.25,-348 546.25,-348 552.25,-348 558.25,-354 558.25,-360 558.25,-360 558.25,-372 558.25,-372 558.25,-378 552.25,-384 546.25,-384"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-361.32" font-family="Times,serif" font-size="14.00">pulse_champion_resonance</text>
+<path fill="#f06292" stroke="black" d="M546.25,-299C546.25,-299 360.75,-299 360.75,-299 354.75,-299 348.75,-293 348.75,-287 348.75,-287 348.75,-275 348.75,-275 348.75,-269 354.75,-263 360.75,-263 360.75,-263 546.25,-263 546.25,-263 552.25,-263 558.25,-269 558.25,-275 558.25,-275 558.25,-287 558.25,-287 558.25,-293 552.25,-299 546.25,-299"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-276.32" font-family="Times,serif" font-size="14.00">pulse_champion_resonance</text>
 </g>
 <!-- pulse_rookie&#45;&gt;pulse_champion_resonance -->
-<g id="edge16" class="edge">
+<g id="edge13" class="edge">
 <title>pulse_rookie&#45;&gt;pulse_champion_resonance</title>
-<path fill="none" stroke="#7e57c2" d="M294.87,-366C307.92,-366 322.45,-366 337.25,-366"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="337.09,-369.5 347.09,-366 337.09,-362.5 337.09,-369.5"/>
+<path fill="none" stroke="#7e57c2" d="M294.87,-281C307.92,-281 322.45,-281 337.25,-281"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="337.09,-284.5 347.09,-281 337.09,-277.5 337.09,-284.5"/>
 </g>
 <!-- pulse_champion_static -->
-<g id="node13" class="node">
+<g id="node10" class="node">
 <title>pulse_champion_static</title>
-<path fill="#f06292" stroke="black" d="M529.75,-438C529.75,-438 377.25,-438 377.25,-438 371.25,-438 365.25,-432 365.25,-426 365.25,-426 365.25,-414 365.25,-414 365.25,-408 371.25,-402 377.25,-402 377.25,-402 529.75,-402 529.75,-402 535.75,-402 541.75,-408 541.75,-414 541.75,-414 541.75,-426 541.75,-426 541.75,-432 535.75,-438 529.75,-438"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-415.32" font-family="Times,serif" font-size="14.00">pulse_champion_static</text>
+<path fill="#f06292" stroke="black" d="M529.75,-353C529.75,-353 377.25,-353 377.25,-353 371.25,-353 365.25,-347 365.25,-341 365.25,-341 365.25,-329 365.25,-329 365.25,-323 371.25,-317 377.25,-317 377.25,-317 529.75,-317 529.75,-317 535.75,-317 541.75,-323 541.75,-329 541.75,-329 541.75,-341 541.75,-341 541.75,-347 535.75,-353 529.75,-353"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-330.32" font-family="Times,serif" font-size="14.00">pulse_champion_static</text>
 </g>
 <!-- pulse_rookie&#45;&gt;pulse_champion_static -->
-<g id="edge17" class="edge">
+<g id="edge14" class="edge">
 <title>pulse_rookie&#45;&gt;pulse_champion_static</title>
-<path fill="none" stroke="#7e57c2" d="M294.87,-380.03C310.71,-384.25 328.18,-388.86 344.25,-393 351.56,-394.88 359.15,-396.82 366.77,-398.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-402.14 376.46,-401.19 367.62,-395.35 365.9,-402.14"/>
+<path fill="none" stroke="#7e57c2" d="M294.87,-295.03C310.71,-299.25 328.18,-303.86 344.25,-308 351.56,-309.88 359.15,-311.82 366.77,-313.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-317.14 376.46,-316.19 367.62,-310.35 365.9,-317.14"/>
 </g>
 <!-- pulse_final_overdrive -->
-<g id="node58" class="node">
+<g id="node57" class="node">
 <title>pulse_final_overdrive</title>
-<path fill="lightgrey" stroke="black" d="M768.88,-384C768.88,-384 626.12,-384 626.12,-384 620.12,-384 614.12,-378 614.12,-372 614.12,-372 614.12,-360 614.12,-360 614.12,-354 620.12,-348 626.12,-348 626.12,-348 768.88,-348 768.88,-348 774.88,-348 780.88,-354 780.88,-360 780.88,-360 780.88,-372 780.88,-372 780.88,-378 774.88,-384 768.88,-384"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-361.32" font-family="Times,serif" font-size="14.00">pulse_final_overdrive</text>
+<path fill="lightgrey" stroke="black" d="M768.88,-299C768.88,-299 626.12,-299 626.12,-299 620.12,-299 614.12,-293 614.12,-287 614.12,-287 614.12,-275 614.12,-275 614.12,-269 620.12,-263 626.12,-263 626.12,-263 768.88,-263 768.88,-263 774.88,-263 780.88,-269 780.88,-275 780.88,-275 780.88,-287 780.88,-287 780.88,-293 774.88,-299 768.88,-299"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-276.32" font-family="Times,serif" font-size="14.00">pulse_final_overdrive</text>
 </g>
 <!-- pulse_champion_surge&#45;&gt;pulse_final_overdrive -->
-<g id="edge18" class="edge">
+<g id="edge15" class="edge">
 <title>pulse_champion_surge&#45;&gt;pulse_final_overdrive</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-330.43C558.21,-335.14 581.05,-340.24 602.68,-345.06"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-348.47 612.38,-347.23 603.38,-341.64 601.86,-348.47"/>
+<path fill="none" stroke="#7e57c2" d="M537.11,-245.43C558.21,-250.14 581.05,-255.24 602.68,-260.06"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-263.47 612.38,-262.23 603.38,-256.64 601.86,-263.47"/>
 </g>
 <!-- pulse_final_sync -->
-<g id="node59" class="node">
+<g id="node58" class="node">
 <title>pulse_final_sync</title>
-<path fill="lightgrey" stroke="black" d="M750.88,-330C750.88,-330 644.12,-330 644.12,-330 638.12,-330 632.12,-324 632.12,-318 632.12,-318 632.12,-306 632.12,-306 632.12,-300 638.12,-294 644.12,-294 644.12,-294 750.88,-294 750.88,-294 756.88,-294 762.88,-300 762.88,-306 762.88,-306 762.88,-318 762.88,-318 762.88,-324 756.88,-330 750.88,-330"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-307.32" font-family="Times,serif" font-size="14.00">pulse_final_sync</text>
+<path fill="lightgrey" stroke="black" d="M750.88,-245C750.88,-245 644.12,-245 644.12,-245 638.12,-245 632.12,-239 632.12,-233 632.12,-233 632.12,-221 632.12,-221 632.12,-215 638.12,-209 644.12,-209 644.12,-209 750.88,-209 750.88,-209 756.88,-209 762.88,-215 762.88,-221 762.88,-221 762.88,-233 762.88,-233 762.88,-239 756.88,-245 750.88,-245"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-222.32" font-family="Times,serif" font-size="14.00">pulse_final_sync</text>
 </g>
 <!-- pulse_champion_surge&#45;&gt;pulse_final_sync -->
-<g id="edge19" class="edge">
+<g id="edge16" class="edge">
 <title>pulse_champion_surge&#45;&gt;pulse_final_sync</title>
-<path fill="none" stroke="#7e57c2" d="M542.55,-312C567.99,-312 595.52,-312 620.18,-312"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="620.14,-315.5 630.14,-312 620.14,-308.5 620.14,-315.5"/>
+<path fill="none" stroke="#7e57c2" d="M542.55,-227C567.99,-227 595.52,-227 620.18,-227"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="620.14,-230.5 630.14,-227 620.14,-223.5 620.14,-230.5"/>
 </g>
 <!-- pulse_champion_resonance&#45;&gt;pulse_final_sync -->
-<g id="edge20" class="edge">
+<g id="edge17" class="edge">
 <title>pulse_champion_resonance&#45;&gt;pulse_final_sync</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-347.57C564.18,-341.53 594.12,-334.84 620.67,-328.92"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="621.35,-332.36 630.35,-326.76 619.83,-325.52 621.35,-332.36"/>
+<path fill="none" stroke="#7e57c2" d="M537.11,-262.57C564.18,-256.53 594.12,-249.84 620.67,-243.92"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="621.35,-247.36 630.35,-241.76 619.83,-240.52 621.35,-247.36"/>
 </g>
 <!-- pulse_final_staticstorm -->
-<g id="node60" class="node">
+<g id="node59" class="node">
 <title>pulse_final_staticstorm</title>
-<path fill="lightgrey" stroke="black" d="M775.62,-438C775.62,-438 619.38,-438 619.38,-438 613.38,-438 607.38,-432 607.38,-426 607.38,-426 607.38,-414 607.38,-414 607.38,-408 613.38,-402 619.38,-402 619.38,-402 775.62,-402 775.62,-402 781.62,-402 787.62,-408 787.62,-414 787.62,-414 787.62,-426 787.62,-426 787.62,-432 781.62,-438 775.62,-438"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-415.32" font-family="Times,serif" font-size="14.00">pulse_final_staticstorm</text>
+<path fill="lightgrey" stroke="black" d="M775.62,-353C775.62,-353 619.38,-353 619.38,-353 613.38,-353 607.38,-347 607.38,-341 607.38,-341 607.38,-329 607.38,-329 607.38,-323 613.38,-317 619.38,-317 619.38,-317 775.62,-317 775.62,-317 781.62,-317 787.62,-323 787.62,-329 787.62,-329 787.62,-341 787.62,-341 787.62,-347 781.62,-353 775.62,-353"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-330.32" font-family="Times,serif" font-size="14.00">pulse_final_staticstorm</text>
 </g>
 <!-- pulse_champion_resonance&#45;&gt;pulse_final_staticstorm -->
-<g id="edge21" class="edge">
+<g id="edge18" class="edge">
 <title>pulse_champion_resonance&#45;&gt;pulse_final_staticstorm</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-384.43C558.21,-389.14 581.05,-394.24 602.68,-399.06"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-402.47 612.38,-401.23 603.38,-395.64 601.86,-402.47"/>
+<path fill="none" stroke="#7e57c2" d="M537.11,-299.43C558.21,-304.14 581.05,-309.24 602.68,-314.06"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-317.47 612.38,-316.23 603.38,-310.64 601.86,-317.47"/>
 </g>
 <!-- pulse_champion_static&#45;&gt;pulse_final_overdrive -->
-<g id="edge23" class="edge">
+<g id="edge20" class="edge">
 <title>pulse_champion_static&#45;&gt;pulse_final_overdrive</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-401.57C558.21,-396.86 581.05,-391.76 602.68,-386.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-390.36 612.38,-384.77 601.86,-383.53 603.38,-390.36"/>
+<path fill="none" stroke="#7e57c2" d="M537.11,-316.57C558.21,-311.86 581.05,-306.76 602.68,-301.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-305.36 612.38,-299.77 601.86,-298.53 603.38,-305.36"/>
 </g>
 <!-- pulse_champion_static&#45;&gt;pulse_final_staticstorm -->
-<g id="edge22" class="edge">
+<g id="edge19" class="edge">
 <title>pulse_champion_static&#45;&gt;pulse_final_staticstorm</title>
-<path fill="none" stroke="#7e57c2" d="M542.21,-420C559.6,-420 577.99,-420 595.77,-420"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="595.54,-423.5 605.54,-420 595.54,-416.5 595.54,-423.5"/>
-</g>
-<!-- root_baby -->
-<g id="node14" class="node">
-<title>root_baby</title>
-<path fill="#81c784" stroke="black" d="M108.88,-588C108.88,-588 46.38,-588 46.38,-588 40.38,-588 34.38,-582 34.38,-576 34.38,-576 34.38,-564 34.38,-564 34.38,-558 40.38,-552 46.38,-552 46.38,-552 108.88,-552 108.88,-552 114.88,-552 120.88,-558 120.88,-564 120.88,-564 120.88,-576 120.88,-576 120.88,-582 114.88,-588 108.88,-588"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-565.33" font-family="Times,serif" font-size="14.00">root_baby</text>
-</g>
-<!-- root_rookie -->
-<g id="node15" class="node">
-<title>root_rookie</title>
-<path fill="#81c784" stroke="black" d="M277.88,-588C277.88,-588 205.62,-588 205.62,-588 199.62,-588 193.62,-582 193.62,-576 193.62,-576 193.62,-564 193.62,-564 193.62,-558 199.62,-552 205.62,-552 205.62,-552 277.88,-552 277.88,-552 283.88,-552 289.88,-558 289.88,-564 289.88,-564 289.88,-576 289.88,-576 289.88,-582 283.88,-588 277.88,-588"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-565.33" font-family="Times,serif" font-size="14.00">root_rookie</text>
-</g>
-<!-- root_baby&#45;&gt;root_rookie -->
-<g id="edge24" class="edge">
-<title>root_baby&#45;&gt;root_rookie</title>
-<path fill="none" stroke="black" d="M121.22,-570C139.82,-570 161.93,-570 182.04,-570"/>
-<polygon fill="black" stroke="black" points="181.78,-573.5 191.78,-570 181.78,-566.5 181.78,-573.5"/>
-</g>
-<!-- root_champion_thorn -->
-<g id="node16" class="node">
-<title>root_champion_thorn</title>
-<path fill="#81c784" stroke="black" d="M524.88,-534C524.88,-534 382.12,-534 382.12,-534 376.12,-534 370.12,-528 370.12,-522 370.12,-522 370.12,-510 370.12,-510 370.12,-504 376.12,-498 382.12,-498 382.12,-498 524.88,-498 524.88,-498 530.88,-498 536.88,-504 536.88,-510 536.88,-510 536.88,-522 536.88,-522 536.88,-528 530.88,-534 524.88,-534"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-511.32" font-family="Times,serif" font-size="14.00">root_champion_thorn</text>
-</g>
-<!-- root_rookie&#45;&gt;root_champion_thorn -->
-<g id="edge25" class="edge">
-<title>root_rookie&#45;&gt;root_champion_thorn</title>
-<path fill="none" stroke="#7e57c2" d="M290.22,-557.21C307.24,-552.67 326.59,-547.55 344.25,-543 351.56,-541.12 359.15,-539.18 366.77,-537.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-540.65 376.46,-534.81 365.9,-533.86 367.62,-540.65"/>
-</g>
-<!-- root_champion_bloom -->
-<g id="node17" class="node">
-<title>root_champion_bloom</title>
-<path fill="#81c784" stroke="black" d="M527.12,-642C527.12,-642 379.88,-642 379.88,-642 373.88,-642 367.88,-636 367.88,-630 367.88,-630 367.88,-618 367.88,-618 367.88,-612 373.88,-606 379.88,-606 379.88,-606 527.12,-606 527.12,-606 533.12,-606 539.12,-612 539.12,-618 539.12,-618 539.12,-630 539.12,-630 539.12,-636 533.12,-642 527.12,-642"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-619.33" font-family="Times,serif" font-size="14.00">root_champion_bloom</text>
-</g>
-<!-- root_rookie&#45;&gt;root_champion_bloom -->
-<g id="edge26" class="edge">
-<title>root_rookie&#45;&gt;root_champion_bloom</title>
-<path fill="none" stroke="#7e57c2" d="M290.22,-582.79C307.24,-587.33 326.59,-592.45 344.25,-597 351.56,-598.88 359.15,-600.82 366.77,-602.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-606.14 376.46,-605.19 367.62,-599.35 365.9,-606.14"/>
-</g>
-<!-- root_champion_bark -->
-<g id="node18" class="node">
-<title>root_champion_bark</title>
-<path fill="#81c784" stroke="black" d="M521.5,-588C521.5,-588 385.5,-588 385.5,-588 379.5,-588 373.5,-582 373.5,-576 373.5,-576 373.5,-564 373.5,-564 373.5,-558 379.5,-552 385.5,-552 385.5,-552 521.5,-552 521.5,-552 527.5,-552 533.5,-558 533.5,-564 533.5,-564 533.5,-576 533.5,-576 533.5,-582 527.5,-588 521.5,-588"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-565.33" font-family="Times,serif" font-size="14.00">root_champion_bark</text>
-</g>
-<!-- root_rookie&#45;&gt;root_champion_bark -->
-<g id="edge27" class="edge">
-<title>root_rookie&#45;&gt;root_champion_bark</title>
-<path fill="none" stroke="#7e57c2" d="M290.35,-570C311.52,-570 337.18,-570 361.79,-570"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="361.49,-573.5 371.49,-570 361.49,-566.5 361.49,-573.5"/>
-</g>
-<!-- root_final_bramble -->
-<g id="node61" class="node">
-<title>root_final_bramble</title>
-<path fill="lightgrey" stroke="black" d="M759.88,-501C759.88,-501 635.12,-501 635.12,-501 629.12,-501 623.12,-495 623.12,-489 623.12,-489 623.12,-477 623.12,-477 623.12,-471 629.12,-465 635.12,-465 635.12,-465 759.88,-465 759.88,-465 765.88,-465 771.88,-471 771.88,-477 771.88,-477 771.88,-489 771.88,-489 771.88,-495 765.88,-501 759.88,-501"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-478.32" font-family="Times,serif" font-size="14.00">root_final_bramble</text>
-</g>
-<!-- root_champion_thorn&#45;&gt;root_final_bramble -->
-<g id="edge28" class="edge">
-<title>root_champion_thorn&#45;&gt;root_final_bramble</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-504.74C561.1,-501.46 587.34,-497.88 611.48,-494.59"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="611.84,-498.08 621.28,-493.26 610.9,-491.14 611.84,-498.08"/>
-</g>
-<!-- root_final_ancient -->
-<g id="node62" class="node">
-<title>root_final_ancient</title>
-<path fill="lightgrey" stroke="black" d="M756.5,-609C756.5,-609 638.5,-609 638.5,-609 632.5,-609 626.5,-603 626.5,-597 626.5,-597 626.5,-585 626.5,-585 626.5,-579 632.5,-573 638.5,-573 638.5,-573 756.5,-573 756.5,-573 762.5,-573 768.5,-579 768.5,-585 768.5,-585 768.5,-597 768.5,-597 768.5,-603 762.5,-609 756.5,-609"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-586.33" font-family="Times,serif" font-size="14.00">root_final_ancient</text>
-</g>
-<!-- root_champion_thorn&#45;&gt;root_final_ancient -->
-<g id="edge29" class="edge">
-<title>root_champion_thorn&#45;&gt;root_final_ancient</title>
-<path fill="none" stroke="#7e57c2" d="M537.24,-530.72C548.75,-534.05 560.23,-538.1 570.75,-543 584.85,-549.57 584.79,-557.14 598.75,-564 604.13,-566.64 609.81,-569.06 615.62,-571.27"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="614.14,-574.46 624.74,-574.5 616.48,-567.86 614.14,-574.46"/>
-</g>
-<!-- root_champion_bloom&#45;&gt;root_final_ancient -->
-<g id="edge30" class="edge">
-<title>root_champion_bloom&#45;&gt;root_final_ancient</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-612.41C563.93,-609.08 590.55,-605.45 614.8,-602.14"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="615.19,-605.62 624.63,-600.8 614.25,-598.68 615.19,-605.62"/>
-</g>
-<!-- root_final_verdant -->
-<g id="node63" class="node">
-<title>root_final_verdant</title>
-<path fill="lightgrey" stroke="black" d="M758,-663C758,-663 637,-663 637,-663 631,-663 625,-657 625,-651 625,-651 625,-639 625,-639 625,-633 631,-627 637,-627 637,-627 758,-627 758,-627 764,-627 770,-633 770,-639 770,-639 770,-651 770,-651 770,-657 764,-663 758,-663"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-640.33" font-family="Times,serif" font-size="14.00">root_final_verdant</text>
-</g>
-<!-- root_champion_bloom&#45;&gt;root_final_verdant -->
-<g id="edge31" class="edge">
-<title>root_champion_bloom&#45;&gt;root_final_verdant</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-631.37C563.46,-633.46 589.53,-635.72 613.4,-637.79"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="612.79,-641.25 623.05,-638.63 613.39,-634.27 612.79,-641.25"/>
-</g>
-<!-- root_champion_bark&#45;&gt;root_final_ancient -->
-<g id="edge33" class="edge">
-<title>root_champion_bark&#45;&gt;root_final_ancient</title>
-<path fill="none" stroke="#7e57c2" d="M533.74,-576.88C559.68,-579.13 588.53,-581.63 614.66,-583.9"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="614.28,-587.38 624.55,-584.76 614.89,-580.4 614.28,-587.38"/>
-</g>
-<!-- root_final_warden -->
-<g id="node64" class="node">
-<title>root_final_warden</title>
-<path fill="lightgrey" stroke="black" d="M756.88,-555C756.88,-555 638.12,-555 638.12,-555 632.12,-555 626.12,-549 626.12,-543 626.12,-543 626.12,-531 626.12,-531 626.12,-525 632.12,-519 638.12,-519 638.12,-519 756.88,-519 756.88,-519 762.88,-519 768.88,-525 768.88,-531 768.88,-531 768.88,-543 768.88,-543 768.88,-549 762.88,-555 756.88,-555"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-532.33" font-family="Times,serif" font-size="14.00">root_final_warden</text>
-</g>
-<!-- root_champion_bark&#45;&gt;root_final_warden -->
-<g id="edge32" class="edge">
-<title>root_champion_bark&#45;&gt;root_final_warden</title>
-<path fill="none" stroke="#7e57c2" d="M533.74,-559.19C559.56,-555.67 588.26,-551.76 614.29,-548.21"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="614.72,-551.68 624.15,-546.87 613.77,-544.75 614.72,-551.68"/>
-</g>
-<!-- archive_baby -->
-<g id="node19" class="node">
-<title>archive_baby</title>
-<path fill="#ce93d8" stroke="black" d="M120.5,-781C120.5,-781 34.75,-781 34.75,-781 28.75,-781 22.75,-775 22.75,-769 22.75,-769 22.75,-757 22.75,-757 22.75,-751 28.75,-745 34.75,-745 34.75,-745 120.5,-745 120.5,-745 126.5,-745 132.5,-751 132.5,-757 132.5,-757 132.5,-769 132.5,-769 132.5,-775 126.5,-781 120.5,-781"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-758.33" font-family="Times,serif" font-size="14.00">archive_baby</text>
-</g>
-<!-- archive_rookie -->
-<g id="node20" class="node">
-<title>archive_rookie</title>
-<path fill="#ce93d8" stroke="black" d="M289.5,-781C289.5,-781 194,-781 194,-781 188,-781 182,-775 182,-769 182,-769 182,-757 182,-757 182,-751 188,-745 194,-745 194,-745 289.5,-745 289.5,-745 295.5,-745 301.5,-751 301.5,-757 301.5,-757 301.5,-769 301.5,-769 301.5,-775 295.5,-781 289.5,-781"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-758.33" font-family="Times,serif" font-size="14.00">archive_rookie</text>
-</g>
-<!-- archive_baby&#45;&gt;archive_rookie -->
-<g id="edge34" class="edge">
-<title>archive_baby&#45;&gt;archive_rookie</title>
-<path fill="none" stroke="black" d="M132.61,-763C144.67,-763 157.63,-763 170.25,-763"/>
-<polygon fill="black" stroke="black" points="170.19,-766.5 180.19,-763 170.19,-759.5 170.19,-766.5"/>
-</g>
-<!-- archive_champion_logic -->
-<g id="node21" class="node">
-<title>archive_champion_logic</title>
-<path fill="#ce93d8" stroke="black" d="M533.88,-727C533.88,-727 373.12,-727 373.12,-727 367.12,-727 361.12,-721 361.12,-715 361.12,-715 361.12,-703 361.12,-703 361.12,-697 367.12,-691 373.12,-691 373.12,-691 533.88,-691 533.88,-691 539.88,-691 545.88,-697 545.88,-703 545.88,-703 545.88,-715 545.88,-715 545.88,-721 539.88,-727 533.88,-727"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-704.33" font-family="Times,serif" font-size="14.00">archive_champion_logic</text>
-</g>
-<!-- archive_rookie&#45;&gt;archive_champion_logic -->
-<g id="edge35" class="edge">
-<title>archive_rookie&#45;&gt;archive_champion_logic</title>
-<path fill="none" stroke="#7e57c2" d="M301.75,-747.14C315.67,-743.44 330.48,-739.55 344.25,-736 351.56,-734.12 359.15,-732.18 366.77,-730.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-733.65 376.46,-727.81 365.9,-726.86 367.62,-733.65"/>
-</g>
-<!-- archive_champion_index -->
-<g id="node22" class="node">
-<title>archive_champion_index</title>
-<path fill="#ce93d8" stroke="black" d="M536.5,-781C536.5,-781 370.5,-781 370.5,-781 364.5,-781 358.5,-775 358.5,-769 358.5,-769 358.5,-757 358.5,-757 358.5,-751 364.5,-745 370.5,-745 370.5,-745 536.5,-745 536.5,-745 542.5,-745 548.5,-751 548.5,-757 548.5,-757 548.5,-769 548.5,-769 548.5,-775 542.5,-781 536.5,-781"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-758.33" font-family="Times,serif" font-size="14.00">archive_champion_index</text>
-</g>
-<!-- archive_rookie&#45;&gt;archive_champion_index -->
-<g id="edge36" class="edge">
-<title>archive_rookie&#45;&gt;archive_champion_index</title>
-<path fill="none" stroke="#7e57c2" d="M301.74,-763C315.87,-763 331.4,-763 346.94,-763"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="346.73,-766.5 356.73,-763 346.73,-759.5 346.73,-766.5"/>
-</g>
-<!-- archive_champion_fragment -->
-<g id="node23" class="node">
-<title>archive_champion_fragment</title>
-<path fill="#ce93d8" stroke="black" d="M550,-835C550,-835 357,-835 357,-835 351,-835 345,-829 345,-823 345,-823 345,-811 345,-811 345,-805 351,-799 357,-799 357,-799 550,-799 550,-799 556,-799 562,-805 562,-811 562,-811 562,-823 562,-823 562,-829 556,-835 550,-835"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-812.33" font-family="Times,serif" font-size="14.00">archive_champion_fragment</text>
-</g>
-<!-- archive_rookie&#45;&gt;archive_champion_fragment -->
-<g id="edge37" class="edge">
-<title>archive_rookie&#45;&gt;archive_champion_fragment</title>
-<path fill="none" stroke="#7e57c2" d="M301.75,-778.86C315.67,-782.56 330.48,-786.45 344.25,-790 351.56,-791.88 359.15,-793.82 366.77,-795.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-799.14 376.46,-798.19 367.62,-792.35 365.9,-799.14"/>
-</g>
-<!-- archive_final_compiler -->
-<g id="node65" class="node">
-<title>archive_final_compiler</title>
-<path fill="lightgrey" stroke="black" d="M773,-781C773,-781 622,-781 622,-781 616,-781 610,-775 610,-769 610,-769 610,-757 610,-757 610,-751 616,-745 622,-745 622,-745 773,-745 773,-745 779,-745 785,-751 785,-757 785,-757 785,-769 785,-769 785,-775 779,-781 773,-781"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-758.33" font-family="Times,serif" font-size="14.00">archive_final_compiler</text>
-</g>
-<!-- archive_champion_logic&#45;&gt;archive_final_compiler -->
-<g id="edge38" class="edge">
-<title>archive_champion_logic&#45;&gt;archive_final_compiler</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-727.43C558.21,-732.14 581.05,-737.24 602.68,-742.06"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-745.47 612.38,-744.23 603.38,-738.64 601.86,-745.47"/>
-</g>
-<!-- archive_final_librarian -->
-<g id="node66" class="node">
-<title>archive_final_librarian</title>
-<path fill="lightgrey" stroke="black" d="M772.62,-727C772.62,-727 622.38,-727 622.38,-727 616.38,-727 610.38,-721 610.38,-715 610.38,-715 610.38,-703 610.38,-703 610.38,-697 616.38,-691 622.38,-691 622.38,-691 772.62,-691 772.62,-691 778.62,-691 784.62,-697 784.62,-703 784.62,-703 784.62,-715 784.62,-715 784.62,-721 778.62,-727 772.62,-727"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-704.33" font-family="Times,serif" font-size="14.00">archive_final_librarian</text>
-</g>
-<!-- archive_champion_logic&#45;&gt;archive_final_librarian -->
-<g id="edge39" class="edge">
-<title>archive_champion_logic&#45;&gt;archive_final_librarian</title>
-<path fill="none" stroke="#7e57c2" d="M546.33,-709C563.45,-709 581.38,-709 598.67,-709"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="598.4,-712.5 608.4,-709 598.4,-705.5 598.4,-712.5"/>
-</g>
-<!-- archive_champion_index&#45;&gt;archive_final_librarian -->
-<g id="edge40" class="edge">
-<title>archive_champion_index&#45;&gt;archive_final_librarian</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-744.57C558.21,-739.86 581.05,-734.76 602.68,-729.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-733.36 612.38,-727.77 601.86,-726.53 603.38,-733.36"/>
-</g>
-<!-- archive_final_corrupt -->
-<g id="node67" class="node">
-<title>archive_final_corrupt</title>
-<path fill="lightgrey" stroke="black" d="M768.5,-835C768.5,-835 626.5,-835 626.5,-835 620.5,-835 614.5,-829 614.5,-823 614.5,-823 614.5,-811 614.5,-811 614.5,-805 620.5,-799 626.5,-799 626.5,-799 768.5,-799 768.5,-799 774.5,-799 780.5,-805 780.5,-811 780.5,-811 780.5,-823 780.5,-823 780.5,-829 774.5,-835 768.5,-835"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-812.33" font-family="Times,serif" font-size="14.00">archive_final_corrupt</text>
-</g>
-<!-- archive_champion_index&#45;&gt;archive_final_corrupt -->
-<g id="edge41" class="edge">
-<title>archive_champion_index&#45;&gt;archive_final_corrupt</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-781.43C558.33,-786.17 581.31,-791.3 603.03,-796.14"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="602.27,-799.56 612.79,-798.32 603.79,-792.73 602.27,-799.56"/>
-</g>
-<!-- archive_champion_fragment&#45;&gt;archive_final_compiler -->
-<g id="edge43" class="edge">
-<title>archive_champion_fragment&#45;&gt;archive_final_compiler</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-798.57C558.21,-793.86 581.05,-788.76 602.68,-783.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-787.36 612.38,-781.77 601.86,-780.53 603.38,-787.36"/>
-</g>
-<!-- archive_champion_fragment&#45;&gt;archive_final_corrupt -->
-<g id="edge42" class="edge">
-<title>archive_champion_fragment&#45;&gt;archive_final_corrupt</title>
-<path fill="none" stroke="#7e57c2" d="M562.41,-817C575.86,-817 589.53,-817 602.75,-817"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="602.71,-820.5 612.71,-817 602.71,-813.5 602.71,-820.5"/>
-</g>
-<!-- corrupt_baby -->
-<g id="node24" class="node">
-<title>corrupt_baby</title>
-<path fill="#ef5350" stroke="black" d="M120.88,-974C120.88,-974 34.38,-974 34.38,-974 28.38,-974 22.38,-968 22.38,-962 22.38,-962 22.38,-950 22.38,-950 22.38,-944 28.38,-938 34.38,-938 34.38,-938 120.88,-938 120.88,-938 126.88,-938 132.88,-944 132.88,-950 132.88,-950 132.88,-962 132.88,-962 132.88,-968 126.88,-974 120.88,-974"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-951.33" font-family="Times,serif" font-size="14.00">corrupt_baby</text>
-</g>
-<!-- corrupt_rookie -->
-<g id="node25" class="node">
-<title>corrupt_rookie</title>
-<path fill="#ef5350" stroke="black" d="M289.88,-974C289.88,-974 193.62,-974 193.62,-974 187.62,-974 181.62,-968 181.62,-962 181.62,-962 181.62,-950 181.62,-950 181.62,-944 187.62,-938 193.62,-938 193.62,-938 289.88,-938 289.88,-938 295.88,-938 301.88,-944 301.88,-950 301.88,-950 301.88,-962 301.88,-962 301.88,-968 295.88,-974 289.88,-974"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-951.33" font-family="Times,serif" font-size="14.00">corrupt_rookie</text>
-</g>
-<!-- corrupt_baby&#45;&gt;corrupt_rookie -->
-<g id="edge44" class="edge">
-<title>corrupt_baby&#45;&gt;corrupt_rookie</title>
-<path fill="none" stroke="black" d="M133.06,-956C144.89,-956 157.58,-956 169.94,-956"/>
-<polygon fill="black" stroke="black" points="169.65,-959.5 179.65,-956 169.65,-952.5 169.65,-959.5"/>
-</g>
-<!-- corrupt_champion_glitch -->
-<g id="node26" class="node">
-<title>corrupt_champion_glitch</title>
-<path fill="#ef5350" stroke="black" d="M537.62,-974C537.62,-974 369.38,-974 369.38,-974 363.38,-974 357.38,-968 357.38,-962 357.38,-962 357.38,-950 357.38,-950 357.38,-944 363.38,-938 369.38,-938 369.38,-938 537.62,-938 537.62,-938 543.62,-938 549.62,-944 549.62,-950 549.62,-950 549.62,-962 549.62,-962 549.62,-968 543.62,-974 537.62,-974"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-951.33" font-family="Times,serif" font-size="14.00">corrupt_champion_glitch</text>
-</g>
-<!-- corrupt_rookie&#45;&gt;corrupt_champion_glitch -->
-<g id="edge45" class="edge">
-<title>corrupt_rookie&#45;&gt;corrupt_champion_glitch</title>
-<path fill="none" stroke="#7e57c2" d="M302.29,-956C315.9,-956 330.77,-956 345.69,-956"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="345.58,-959.5 355.58,-956 345.58,-952.5 345.58,-959.5"/>
-</g>
-<!-- corrupt_champion_error -->
-<g id="node27" class="node">
-<title>corrupt_champion_error</title>
-<path fill="#ef5350" stroke="black" d="M535.75,-1028C535.75,-1028 371.25,-1028 371.25,-1028 365.25,-1028 359.25,-1022 359.25,-1016 359.25,-1016 359.25,-1004 359.25,-1004 359.25,-998 365.25,-992 371.25,-992 371.25,-992 535.75,-992 535.75,-992 541.75,-992 547.75,-998 547.75,-1004 547.75,-1004 547.75,-1016 547.75,-1016 547.75,-1022 541.75,-1028 535.75,-1028"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1005.33" font-family="Times,serif" font-size="14.00">corrupt_champion_error</text>
-</g>
-<!-- corrupt_rookie&#45;&gt;corrupt_champion_error -->
-<g id="edge46" class="edge">
-<title>corrupt_rookie&#45;&gt;corrupt_champion_error</title>
-<path fill="none" stroke="#7e57c2" d="M302.28,-972C316.05,-975.66 330.65,-979.5 344.25,-983 351.56,-984.88 359.15,-986.82 366.77,-988.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-992.14 376.46,-991.19 367.62,-985.35 365.9,-992.14"/>
-</g>
-<!-- corrupt_champion_patchfail -->
-<g id="node28" class="node">
-<title>corrupt_champion_patchfail</title>
-<path fill="#ef5350" stroke="black" d="M548.5,-920C548.5,-920 358.5,-920 358.5,-920 352.5,-920 346.5,-914 346.5,-908 346.5,-908 346.5,-896 346.5,-896 346.5,-890 352.5,-884 358.5,-884 358.5,-884 548.5,-884 548.5,-884 554.5,-884 560.5,-890 560.5,-896 560.5,-896 560.5,-908 560.5,-908 560.5,-914 554.5,-920 548.5,-920"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-897.33" font-family="Times,serif" font-size="14.00">corrupt_champion_patchfail</text>
-</g>
-<!-- corrupt_rookie&#45;&gt;corrupt_champion_patchfail -->
-<g id="edge47" class="edge">
-<title>corrupt_rookie&#45;&gt;corrupt_champion_patchfail</title>
-<path fill="none" stroke="#7e57c2" d="M302.28,-940C316.05,-936.34 330.65,-932.5 344.25,-929 351.56,-927.12 359.15,-925.18 366.77,-923.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-926.65 376.46,-920.81 365.9,-919.86 367.62,-926.65"/>
-</g>
-<!-- corrupt_final_corruptcore -->
-<g id="node68" class="node">
-<title>corrupt_final_corruptcore</title>
-<path fill="lightgrey" stroke="black" d="M784.25,-1001C784.25,-1001 610.75,-1001 610.75,-1001 604.75,-1001 598.75,-995 598.75,-989 598.75,-989 598.75,-977 598.75,-977 598.75,-971 604.75,-965 610.75,-965 610.75,-965 784.25,-965 784.25,-965 790.25,-965 796.25,-971 796.25,-977 796.25,-977 796.25,-989 796.25,-989 796.25,-995 790.25,-1001 784.25,-1001"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-978.33" font-family="Times,serif" font-size="14.00">corrupt_final_corruptcore</text>
-</g>
-<!-- corrupt_champion_glitch&#45;&gt;corrupt_final_corruptcore -->
-<g id="edge48" class="edge">
-<title>corrupt_champion_glitch&#45;&gt;corrupt_final_corruptcore</title>
-<path fill="none" stroke="#7e57c2" d="M549.8,-966.63C562.05,-968 574.67,-969.41 587.13,-970.8"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="586.68,-974.27 597,-971.9 587.45,-967.31 586.68,-974.27"/>
-</g>
-<!-- corrupt_final_overrun -->
-<g id="node69" class="node">
-<title>corrupt_final_overrun</title>
-<path fill="lightgrey" stroke="black" d="M770.38,-947C770.38,-947 624.62,-947 624.62,-947 618.62,-947 612.62,-941 612.62,-935 612.62,-935 612.62,-923 612.62,-923 612.62,-917 618.62,-911 624.62,-911 624.62,-911 770.38,-911 770.38,-911 776.38,-911 782.38,-917 782.38,-923 782.38,-923 782.38,-935 782.38,-935 782.38,-941 776.38,-947 770.38,-947"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-924.33" font-family="Times,serif" font-size="14.00">corrupt_final_overrun</text>
-</g>
-<!-- corrupt_champion_glitch&#45;&gt;corrupt_final_overrun -->
-<g id="edge49" class="edge">
-<title>corrupt_champion_glitch&#45;&gt;corrupt_final_overrun</title>
-<path fill="none" stroke="#7e57c2" d="M549.8,-945.37C566.72,-943.48 584.35,-941.51 601.28,-939.62"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="601.23,-943.15 610.78,-938.56 600.45,-936.19 601.23,-943.15"/>
-</g>
-<!-- corrupt_champion_error&#45;&gt;corrupt_final_corruptcore -->
-<g id="edge51" class="edge">
-<title>corrupt_champion_error&#45;&gt;corrupt_final_corruptcore</title>
-<path fill="none" stroke="#7e57c2" d="M548.06,-999.56C560.82,-998.14 574.01,-996.67 587.01,-995.22"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="587.33,-998.7 596.88,-994.12 586.55,-991.75 587.33,-998.7"/>
-</g>
-<!-- corrupt_champion_error&#45;&gt;corrupt_final_overrun -->
-<g id="edge50" class="edge">
-<title>corrupt_champion_error&#45;&gt;corrupt_final_overrun</title>
-<path fill="none" stroke="#7e57c2" d="M548.17,-993C556.01,-990.17 563.65,-986.86 570.75,-983 585.94,-974.75 583.73,-964.57 598.75,-956 601.1,-954.66 603.53,-953.38 606.01,-952.16"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="607.37,-955.38 615.07,-948.11 604.52,-948.99 607.37,-955.38"/>
-</g>
-<!-- corrupt_champion_patchfail&#45;&gt;corrupt_final_corruptcore -->
-<g id="edge52" class="edge">
-<title>corrupt_champion_patchfail&#45;&gt;corrupt_final_corruptcore</title>
-<path fill="none" stroke="#7e57c2" d="M552.08,-920.45C558.54,-922.95 564.83,-925.79 570.75,-929 585.94,-937.25 583.73,-947.43 598.75,-956 601.1,-957.34 603.53,-958.62 606.01,-959.84"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="604.52,-963.01 615.07,-963.89 607.37,-956.62 604.52,-963.01"/>
-</g>
-<!-- corrupt_champion_patchfail&#45;&gt;corrupt_final_overrun -->
-<g id="edge53" class="edge">
-<title>corrupt_champion_patchfail&#45;&gt;corrupt_final_overrun</title>
-<path fill="none" stroke="#7e57c2" d="M561,-913.88C574.24,-915.36 587.71,-916.86 600.78,-918.32"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="600.3,-921.79 610.63,-919.42 601.08,-914.83 600.3,-921.79"/>
-</g>
-<!-- core_baby -->
-<g id="node29" class="node">
-<title>core_baby</title>
-<path fill="#4fc3f7" stroke="black" d="M109.62,-1167C109.62,-1167 45.62,-1167 45.62,-1167 39.62,-1167 33.62,-1161 33.62,-1155 33.62,-1155 33.62,-1143 33.62,-1143 33.62,-1137 39.62,-1131 45.62,-1131 45.62,-1131 109.62,-1131 109.62,-1131 115.62,-1131 121.62,-1137 121.62,-1143 121.62,-1143 121.62,-1155 121.62,-1155 121.62,-1161 115.62,-1167 109.62,-1167"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1144.33" font-family="Times,serif" font-size="14.00">core_baby</text>
-</g>
-<!-- core_rookie -->
-<g id="node30" class="node">
-<title>core_rookie</title>
-<path fill="#4fc3f7" stroke="black" d="M278.62,-1167C278.62,-1167 204.88,-1167 204.88,-1167 198.88,-1167 192.88,-1161 192.88,-1155 192.88,-1155 192.88,-1143 192.88,-1143 192.88,-1137 198.88,-1131 204.88,-1131 204.88,-1131 278.62,-1131 278.62,-1131 284.62,-1131 290.62,-1137 290.62,-1143 290.62,-1143 290.62,-1155 290.62,-1155 290.62,-1161 284.62,-1167 278.62,-1167"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1144.33" font-family="Times,serif" font-size="14.00">core_rookie</text>
-</g>
-<!-- core_baby&#45;&gt;core_rookie -->
-<g id="edge54" class="edge">
-<title>core_baby&#45;&gt;core_rookie</title>
-<path fill="none" stroke="black" d="M122.07,-1149C140.26,-1149 161.7,-1149 181.31,-1149"/>
-<polygon fill="black" stroke="black" points="181.1,-1152.5 191.1,-1149 181.1,-1145.5 181.1,-1152.5"/>
-</g>
-<!-- core_champion_power -->
-<g id="node31" class="node">
-<title>core_champion_power</title>
-<path fill="#4fc3f7" stroke="black" d="M528.25,-1113C528.25,-1113 378.75,-1113 378.75,-1113 372.75,-1113 366.75,-1107 366.75,-1101 366.75,-1101 366.75,-1089 366.75,-1089 366.75,-1083 372.75,-1077 378.75,-1077 378.75,-1077 528.25,-1077 528.25,-1077 534.25,-1077 540.25,-1083 540.25,-1089 540.25,-1089 540.25,-1101 540.25,-1101 540.25,-1107 534.25,-1113 528.25,-1113"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1090.33" font-family="Times,serif" font-size="14.00">core_champion_power</text>
-</g>
-<!-- core_rookie&#45;&gt;core_champion_power -->
-<g id="edge55" class="edge">
-<title>core_rookie&#45;&gt;core_champion_power</title>
-<path fill="none" stroke="#7e57c2" d="M290.98,-1136.01C307.82,-1131.51 326.86,-1126.48 344.25,-1122 351.56,-1120.12 359.15,-1118.18 366.77,-1116.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1119.65 376.46,-1113.81 365.9,-1112.86 367.62,-1119.65"/>
-</g>
-<!-- core_champion_guard -->
-<g id="node32" class="node">
-<title>core_champion_guard</title>
-<path fill="#4fc3f7" stroke="black" d="M527.12,-1221C527.12,-1221 379.88,-1221 379.88,-1221 373.88,-1221 367.88,-1215 367.88,-1209 367.88,-1209 367.88,-1197 367.88,-1197 367.88,-1191 373.88,-1185 379.88,-1185 379.88,-1185 527.12,-1185 527.12,-1185 533.12,-1185 539.12,-1191 539.12,-1197 539.12,-1197 539.12,-1209 539.12,-1209 539.12,-1215 533.12,-1221 527.12,-1221"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1198.33" font-family="Times,serif" font-size="14.00">core_champion_guard</text>
-</g>
-<!-- core_rookie&#45;&gt;core_champion_guard -->
-<g id="edge56" class="edge">
-<title>core_rookie&#45;&gt;core_champion_guard</title>
-<path fill="none" stroke="#7e57c2" d="M290.98,-1161.99C307.82,-1166.49 326.86,-1171.52 344.25,-1176 351.56,-1177.88 359.15,-1179.82 366.77,-1181.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1185.14 376.46,-1184.19 367.62,-1178.35 365.9,-1185.14"/>
-</g>
-<!-- core_champion_speed -->
-<g id="node33" class="node">
-<title>core_champion_speed</title>
-<path fill="#4fc3f7" stroke="black" d="M527.12,-1167C527.12,-1167 379.88,-1167 379.88,-1167 373.88,-1167 367.88,-1161 367.88,-1155 367.88,-1155 367.88,-1143 367.88,-1143 367.88,-1137 373.88,-1131 379.88,-1131 379.88,-1131 527.12,-1131 527.12,-1131 533.12,-1131 539.12,-1137 539.12,-1143 539.12,-1143 539.12,-1155 539.12,-1155 539.12,-1161 533.12,-1167 527.12,-1167"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1144.33" font-family="Times,serif" font-size="14.00">core_champion_speed</text>
-</g>
-<!-- core_rookie&#45;&gt;core_champion_speed -->
-<g id="edge57" class="edge">
-<title>core_rookie&#45;&gt;core_champion_speed</title>
-<path fill="none" stroke="#7e57c2" d="M290.87,-1149C310.32,-1149 333.5,-1149 356.15,-1149"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="356.05,-1152.5 366.05,-1149 356.05,-1145.5 356.05,-1152.5"/>
-</g>
-<!-- core_final_overclock -->
-<g id="node70" class="node">
-<title>core_final_overclock</title>
-<path fill="lightgrey" stroke="black" d="M764.75,-1086C764.75,-1086 630.25,-1086 630.25,-1086 624.25,-1086 618.25,-1080 618.25,-1074 618.25,-1074 618.25,-1062 618.25,-1062 618.25,-1056 624.25,-1050 630.25,-1050 630.25,-1050 764.75,-1050 764.75,-1050 770.75,-1050 776.75,-1056 776.75,-1062 776.75,-1062 776.75,-1074 776.75,-1074 776.75,-1080 770.75,-1086 764.75,-1086"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1063.33" font-family="Times,serif" font-size="14.00">core_final_overclock</text>
-</g>
-<!-- core_champion_power&#45;&gt;core_final_overclock -->
-<g id="edge58" class="edge">
-<title>core_champion_power&#45;&gt;core_final_overclock</title>
-<path fill="none" stroke="#7e57c2" d="M540.5,-1085.4C562.02,-1083 585.15,-1080.42 606.84,-1078"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="606.98,-1081.51 616.54,-1076.92 606.21,-1074.55 606.98,-1081.51"/>
-</g>
-<!-- core_final_prime -->
-<g id="node71" class="node">
-<title>core_final_prime</title>
-<path fill="lightgrey" stroke="black" d="M752,-1194C752,-1194 643,-1194 643,-1194 637,-1194 631,-1188 631,-1182 631,-1182 631,-1170 631,-1170 631,-1164 637,-1158 643,-1158 643,-1158 752,-1158 752,-1158 758,-1158 764,-1164 764,-1170 764,-1170 764,-1182 764,-1182 764,-1188 758,-1194 752,-1194"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1171.33" font-family="Times,serif" font-size="14.00">core_final_prime</text>
-</g>
-<!-- core_champion_power&#45;&gt;core_final_prime -->
-<g id="edge59" class="edge">
-<title>core_champion_power&#45;&gt;core_final_prime</title>
-<path fill="none" stroke="#7e57c2" d="M540.58,-1109.41C551.07,-1112.77 561.37,-1116.91 570.75,-1122 585.94,-1130.25 583.73,-1140.43 598.75,-1149 605.33,-1152.75 612.45,-1156 619.75,-1158.82"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="618.52,-1162.09 629.11,-1162.13 620.86,-1155.5 618.52,-1162.09"/>
-</g>
-<!-- core_champion_guard&#45;&gt;core_final_prime -->
-<g id="edge61" class="edge">
-<title>core_champion_guard&#45;&gt;core_final_prime</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-1193.52C565.58,-1190.61 594.14,-1187.42 619.66,-1184.57"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="619.72,-1188.09 629.27,-1183.5 618.94,-1181.13 619.72,-1188.09"/>
-</g>
-<!-- core_final_bastion -->
-<g id="node72" class="node">
-<title>core_final_bastion</title>
-<path fill="lightgrey" stroke="black" d="M757.25,-1248C757.25,-1248 637.75,-1248 637.75,-1248 631.75,-1248 625.75,-1242 625.75,-1236 625.75,-1236 625.75,-1224 625.75,-1224 625.75,-1218 631.75,-1212 637.75,-1212 637.75,-1212 757.25,-1212 757.25,-1212 763.25,-1212 769.25,-1218 769.25,-1224 769.25,-1224 769.25,-1236 769.25,-1236 769.25,-1242 763.25,-1248 757.25,-1248"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1225.33" font-family="Times,serif" font-size="14.00">core_final_bastion</text>
-</g>
-<!-- core_champion_guard&#45;&gt;core_final_bastion -->
-<g id="edge60" class="edge">
-<title>core_champion_guard&#45;&gt;core_final_bastion</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-1212.48C563.7,-1215.18 590.04,-1218.12 614.1,-1220.81"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="613.51,-1224.26 623.84,-1221.89 614.29,-1217.31 613.51,-1224.26"/>
-</g>
-<!-- core_champion_speed&#45;&gt;core_final_prime -->
-<g id="edge63" class="edge">
-<title>core_champion_speed&#45;&gt;core_final_prime</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-1158.48C565.58,-1161.39 594.14,-1164.58 619.66,-1167.43"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="618.94,-1170.87 629.27,-1168.5 619.72,-1163.91 618.94,-1170.87"/>
-</g>
-<!-- core_final_photon -->
-<g id="node73" class="node">
-<title>core_final_photon</title>
-<path fill="lightgrey" stroke="black" d="M755.75,-1140C755.75,-1140 639.25,-1140 639.25,-1140 633.25,-1140 627.25,-1134 627.25,-1128 627.25,-1128 627.25,-1116 627.25,-1116 627.25,-1110 633.25,-1104 639.25,-1104 639.25,-1104 755.75,-1104 755.75,-1104 761.75,-1104 767.75,-1110 767.75,-1116 767.75,-1116 767.75,-1128 767.75,-1128 767.75,-1134 761.75,-1140 755.75,-1140"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1117.33" font-family="Times,serif" font-size="14.00">core_final_photon</text>
-</g>
-<!-- core_champion_speed&#45;&gt;core_final_photon -->
-<g id="edge62" class="edge">
-<title>core_champion_speed&#45;&gt;core_final_photon</title>
-<path fill="none" stroke="#7e57c2" d="M539.48,-1139.52C564.17,-1136.76 591.06,-1133.76 615.5,-1131.04"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="615.85,-1134.52 625.4,-1129.93 615.08,-1127.56 615.85,-1134.52"/>
-</g>
-<!-- echo_baby -->
-<g id="node34" class="node">
-<title>echo_baby</title>
-<path fill="#ba68c8" stroke="black" d="M110.75,-1360C110.75,-1360 44.5,-1360 44.5,-1360 38.5,-1360 32.5,-1354 32.5,-1348 32.5,-1348 32.5,-1336 32.5,-1336 32.5,-1330 38.5,-1324 44.5,-1324 44.5,-1324 110.75,-1324 110.75,-1324 116.75,-1324 122.75,-1330 122.75,-1336 122.75,-1336 122.75,-1348 122.75,-1348 122.75,-1354 116.75,-1360 110.75,-1360"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1337.33" font-family="Times,serif" font-size="14.00">echo_baby</text>
-</g>
-<!-- echo_rookie -->
-<g id="node35" class="node">
-<title>echo_rookie</title>
-<path fill="#ba68c8" stroke="black" d="M279.75,-1360C279.75,-1360 203.75,-1360 203.75,-1360 197.75,-1360 191.75,-1354 191.75,-1348 191.75,-1348 191.75,-1336 191.75,-1336 191.75,-1330 197.75,-1324 203.75,-1324 203.75,-1324 279.75,-1324 279.75,-1324 285.75,-1324 291.75,-1330 291.75,-1336 291.75,-1336 291.75,-1348 291.75,-1348 291.75,-1354 285.75,-1360 279.75,-1360"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1337.33" font-family="Times,serif" font-size="14.00">echo_rookie</text>
-</g>
-<!-- echo_baby&#45;&gt;echo_rookie -->
-<g id="edge64" class="edge">
-<title>echo_baby&#45;&gt;echo_rookie</title>
-<path fill="none" stroke="black" d="M122.93,-1342C140.56,-1342 161.13,-1342 180.1,-1342"/>
-<polygon fill="black" stroke="black" points="179.85,-1345.5 189.85,-1342 179.85,-1338.5 179.85,-1345.5"/>
-</g>
-<!-- echo_champion_resonate -->
-<g id="node36" class="node">
-<title>echo_champion_resonate</title>
-<path fill="#ba68c8" stroke="black" d="M538.38,-1360C538.38,-1360 368.62,-1360 368.62,-1360 362.62,-1360 356.62,-1354 356.62,-1348 356.62,-1348 356.62,-1336 356.62,-1336 356.62,-1330 362.62,-1324 368.62,-1324 368.62,-1324 538.38,-1324 538.38,-1324 544.38,-1324 550.38,-1330 550.38,-1336 550.38,-1336 550.38,-1348 550.38,-1348 550.38,-1354 544.38,-1360 538.38,-1360"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1337.33" font-family="Times,serif" font-size="14.00">echo_champion_resonate</text>
-</g>
-<!-- echo_rookie&#45;&gt;echo_champion_resonate -->
-<g id="edge65" class="edge">
-<title>echo_rookie&#45;&gt;echo_champion_resonate</title>
-<path fill="none" stroke="#7e57c2" d="M292.19,-1342C308.14,-1342 326.49,-1342 344.95,-1342"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="344.92,-1345.5 354.92,-1342 344.92,-1338.5 344.92,-1345.5"/>
-</g>
-<!-- echo_champion_reverb -->
-<g id="node37" class="node">
-<title>echo_champion_reverb</title>
-<path fill="#ba68c8" stroke="black" d="M530.88,-1414C530.88,-1414 376.12,-1414 376.12,-1414 370.12,-1414 364.12,-1408 364.12,-1402 364.12,-1402 364.12,-1390 364.12,-1390 364.12,-1384 370.12,-1378 376.12,-1378 376.12,-1378 530.88,-1378 530.88,-1378 536.88,-1378 542.88,-1384 542.88,-1390 542.88,-1390 542.88,-1402 542.88,-1402 542.88,-1408 536.88,-1414 530.88,-1414"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1391.33" font-family="Times,serif" font-size="14.00">echo_champion_reverb</text>
-</g>
-<!-- echo_rookie&#45;&gt;echo_champion_reverb -->
-<g id="edge66" class="edge">
-<title>echo_rookie&#45;&gt;echo_champion_reverb</title>
-<path fill="none" stroke="#7e57c2" d="M292.01,-1355.27C308.59,-1359.69 327.21,-1364.61 344.25,-1369 351.56,-1370.88 359.15,-1372.82 366.77,-1374.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1378.14 376.46,-1377.19 367.62,-1371.35 365.9,-1378.14"/>
-</g>
-<!-- echo_champion_distort -->
-<g id="node38" class="node">
-<title>echo_champion_distort</title>
-<path fill="#ba68c8" stroke="black" d="M531.25,-1306C531.25,-1306 375.75,-1306 375.75,-1306 369.75,-1306 363.75,-1300 363.75,-1294 363.75,-1294 363.75,-1282 363.75,-1282 363.75,-1276 369.75,-1270 375.75,-1270 375.75,-1270 531.25,-1270 531.25,-1270 537.25,-1270 543.25,-1276 543.25,-1282 543.25,-1282 543.25,-1294 543.25,-1294 543.25,-1300 537.25,-1306 531.25,-1306"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1283.33" font-family="Times,serif" font-size="14.00">echo_champion_distort</text>
-</g>
-<!-- echo_rookie&#45;&gt;echo_champion_distort -->
-<g id="edge67" class="edge">
-<title>echo_rookie&#45;&gt;echo_champion_distort</title>
-<path fill="none" stroke="#7e57c2" d="M292.01,-1328.73C308.59,-1324.31 327.21,-1319.39 344.25,-1315 351.56,-1313.12 359.15,-1311.18 366.77,-1309.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1312.65 376.46,-1306.81 365.9,-1305.86 367.62,-1312.65"/>
-</g>
-<!-- echo_final_harmonic -->
-<g id="node74" class="node">
-<title>echo_final_harmonic</title>
-<path fill="lightgrey" stroke="black" d="M765.5,-1387C765.5,-1387 629.5,-1387 629.5,-1387 623.5,-1387 617.5,-1381 617.5,-1375 617.5,-1375 617.5,-1363 617.5,-1363 617.5,-1357 623.5,-1351 629.5,-1351 629.5,-1351 765.5,-1351 765.5,-1351 771.5,-1351 777.5,-1357 777.5,-1363 777.5,-1363 777.5,-1375 777.5,-1375 777.5,-1381 771.5,-1387 765.5,-1387"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1364.33" font-family="Times,serif" font-size="14.00">echo_final_harmonic</text>
-</g>
-<!-- echo_champion_resonate&#45;&gt;echo_final_harmonic -->
-<g id="edge68" class="edge">
-<title>echo_champion_resonate&#45;&gt;echo_final_harmonic</title>
-<path fill="none" stroke="#7e57c2" d="M550.84,-1352.75C568.98,-1354.77 587.9,-1356.88 605.86,-1358.89"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="605.37,-1362.35 615.7,-1359.99 606.15,-1355.4 605.37,-1362.35"/>
-</g>
-<!-- echo_final_feedback -->
-<g id="node75" class="node">
-<title>echo_final_feedback</title>
-<path fill="lightgrey" stroke="black" d="M764,-1333C764,-1333 631,-1333 631,-1333 625,-1333 619,-1327 619,-1321 619,-1321 619,-1309 619,-1309 619,-1303 625,-1297 631,-1297 631,-1297 764,-1297 764,-1297 770,-1297 776,-1303 776,-1309 776,-1309 776,-1321 776,-1321 776,-1327 770,-1333 764,-1333"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1310.33" font-family="Times,serif" font-size="14.00">echo_final_feedback</text>
-</g>
-<!-- echo_champion_resonate&#45;&gt;echo_final_feedback -->
-<g id="edge69" class="edge">
-<title>echo_champion_resonate&#45;&gt;echo_final_feedback</title>
-<path fill="none" stroke="#7e57c2" d="M550.84,-1331.25C569.51,-1329.17 588.99,-1327 607.41,-1324.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="607.67,-1328.43 617.22,-1323.85 606.89,-1321.48 607.67,-1328.43"/>
-</g>
-<!-- echo_champion_reverb&#45;&gt;echo_final_harmonic -->
-<g id="edge71" class="edge">
-<title>echo_champion_reverb&#45;&gt;echo_final_harmonic</title>
-<path fill="none" stroke="#7e57c2" d="M543.24,-1386.1C563.73,-1383.81 585.54,-1381.38 606.1,-1379.09"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="606.32,-1382.58 615.87,-1378 605.54,-1375.63 606.32,-1382.58"/>
-</g>
-<!-- echo_champion_reverb&#45;&gt;echo_final_feedback -->
-<g id="edge70" class="edge">
-<title>echo_champion_reverb&#45;&gt;echo_final_feedback</title>
-<path fill="none" stroke="#7e57c2" d="M543.32,-1380.69C552.86,-1377.5 562.19,-1373.65 570.75,-1369 585.94,-1360.75 583.73,-1350.57 598.75,-1342 601.79,-1340.27 604.94,-1338.64 608.18,-1337.12"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="609.54,-1340.34 617.35,-1333.17 606.78,-1333.91 609.54,-1340.34"/>
-</g>
-<!-- echo_champion_distort&#45;&gt;echo_final_harmonic -->
-<g id="edge73" class="edge">
-<title>echo_champion_distort&#45;&gt;echo_final_harmonic</title>
-<path fill="none" stroke="#7e57c2" d="M543.63,-1303.41C553.06,-1306.58 562.28,-1310.4 570.75,-1315 585.94,-1323.25 583.73,-1333.43 598.75,-1342 601.38,-1343.5 604.1,-1344.92 606.89,-1346.27"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="605.27,-1349.38 615.83,-1350.21 608.09,-1342.97 605.27,-1349.38"/>
-</g>
-<!-- echo_champion_distort&#45;&gt;echo_final_feedback -->
-<g id="edge72" class="edge">
-<title>echo_champion_distort&#45;&gt;echo_final_feedback</title>
-<path fill="none" stroke="#7e57c2" d="M543.58,-1297.94C564.39,-1300.26 586.56,-1302.73 607.37,-1305.06"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="606.94,-1308.53 617.27,-1306.16 607.72,-1301.57 606.94,-1308.53"/>
+<path fill="none" stroke="#7e57c2" d="M542.21,-335C559.6,-335 577.99,-335 595.77,-335"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="595.54,-338.5 605.54,-335 595.54,-331.5 595.54,-338.5"/>
 </g>
 <!-- dream_baby -->
-<g id="node39" class="node">
+<g id="node11" class="node">
 <title>dream_baby</title>
-<path fill="#9575cd" stroke="black" d="M117.12,-1553C117.12,-1553 38.12,-1553 38.12,-1553 32.12,-1553 26.12,-1547 26.12,-1541 26.12,-1541 26.12,-1529 26.12,-1529 26.12,-1523 32.12,-1517 38.12,-1517 38.12,-1517 117.12,-1517 117.12,-1517 123.12,-1517 129.12,-1523 129.12,-1529 129.12,-1529 129.12,-1541 129.12,-1541 129.12,-1547 123.12,-1553 117.12,-1553"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1530.33" font-family="Times,serif" font-size="14.00">dream_baby</text>
+<path fill="#9575cd" stroke="black" d="M117.12,-492C117.12,-492 38.12,-492 38.12,-492 32.12,-492 26.12,-486 26.12,-480 26.12,-480 26.12,-468 26.12,-468 26.12,-462 32.12,-456 38.12,-456 38.12,-456 117.12,-456 117.12,-456 123.12,-456 129.12,-462 129.12,-468 129.12,-468 129.12,-480 129.12,-480 129.12,-486 123.12,-492 117.12,-492"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-469.32" font-family="Times,serif" font-size="14.00">dream_baby</text>
 </g>
 <!-- dream_rookie -->
-<g id="node40" class="node">
+<g id="node12" class="node">
 <title>dream_rookie</title>
-<path fill="#9575cd" stroke="black" d="M286.12,-1553C286.12,-1553 197.38,-1553 197.38,-1553 191.38,-1553 185.38,-1547 185.38,-1541 185.38,-1541 185.38,-1529 185.38,-1529 185.38,-1523 191.38,-1517 197.38,-1517 197.38,-1517 286.12,-1517 286.12,-1517 292.12,-1517 298.12,-1523 298.12,-1529 298.12,-1529 298.12,-1541 298.12,-1541 298.12,-1547 292.12,-1553 286.12,-1553"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1530.33" font-family="Times,serif" font-size="14.00">dream_rookie</text>
+<path fill="#9575cd" stroke="black" d="M286.12,-492C286.12,-492 197.38,-492 197.38,-492 191.38,-492 185.38,-486 185.38,-480 185.38,-480 185.38,-468 185.38,-468 185.38,-462 191.38,-456 197.38,-456 197.38,-456 286.12,-456 286.12,-456 292.12,-456 298.12,-462 298.12,-468 298.12,-468 298.12,-480 298.12,-480 298.12,-486 292.12,-492 286.12,-492"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-469.32" font-family="Times,serif" font-size="14.00">dream_rookie</text>
 </g>
 <!-- dream_baby&#45;&gt;dream_rookie -->
-<g id="edge74" class="edge">
+<g id="edge21" class="edge">
 <title>dream_baby&#45;&gt;dream_rookie</title>
-<path fill="none" stroke="black" d="M129.48,-1535C143.54,-1535 159.01,-1535 173.84,-1535"/>
-<polygon fill="black" stroke="black" points="173.5,-1538.5 183.5,-1535 173.5,-1531.5 173.5,-1538.5"/>
+<path fill="none" stroke="black" d="M129.48,-474C143.54,-474 159.01,-474 173.84,-474"/>
+<polygon fill="black" stroke="black" points="173.5,-477.5 183.5,-474 173.5,-470.5 173.5,-477.5"/>
 </g>
 <!-- dream_champion_lucid -->
-<g id="node41" class="node">
+<g id="node13" class="node">
 <title>dream_champion_lucid</title>
-<path fill="#9575cd" stroke="black" d="M530.88,-1553C530.88,-1553 376.12,-1553 376.12,-1553 370.12,-1553 364.12,-1547 364.12,-1541 364.12,-1541 364.12,-1529 364.12,-1529 364.12,-1523 370.12,-1517 376.12,-1517 376.12,-1517 530.88,-1517 530.88,-1517 536.88,-1517 542.88,-1523 542.88,-1529 542.88,-1529 542.88,-1541 542.88,-1541 542.88,-1547 536.88,-1553 530.88,-1553"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1530.33" font-family="Times,serif" font-size="14.00">dream_champion_lucid</text>
+<path fill="#9575cd" stroke="black" d="M530.88,-492C530.88,-492 376.12,-492 376.12,-492 370.12,-492 364.12,-486 364.12,-480 364.12,-480 364.12,-468 364.12,-468 364.12,-462 370.12,-456 376.12,-456 376.12,-456 530.88,-456 530.88,-456 536.88,-456 542.88,-462 542.88,-468 542.88,-468 542.88,-480 542.88,-480 542.88,-486 536.88,-492 530.88,-492"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-469.32" font-family="Times,serif" font-size="14.00">dream_champion_lucid</text>
 </g>
 <!-- dream_rookie&#45;&gt;dream_champion_lucid -->
-<g id="edge75" class="edge">
+<g id="edge22" class="edge">
 <title>dream_rookie&#45;&gt;dream_champion_lucid</title>
-<path fill="none" stroke="#7e57c2" d="M298.41,-1535C314.99,-1535 333.7,-1535 352.21,-1535"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="352.18,-1538.5 362.18,-1535 352.18,-1531.5 352.18,-1538.5"/>
+<path fill="none" stroke="#7e57c2" d="M298.41,-474C314.99,-474 333.7,-474 352.21,-474"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="352.18,-477.5 362.18,-474 352.18,-470.5 352.18,-477.5"/>
 </g>
 <!-- dream_champion_nightmare -->
-<g id="node42" class="node">
+<g id="node14" class="node">
 <title>dream_champion_nightmare</title>
-<path fill="#9575cd" stroke="black" d="M550.75,-1607C550.75,-1607 356.25,-1607 356.25,-1607 350.25,-1607 344.25,-1601 344.25,-1595 344.25,-1595 344.25,-1583 344.25,-1583 344.25,-1577 350.25,-1571 356.25,-1571 356.25,-1571 550.75,-1571 550.75,-1571 556.75,-1571 562.75,-1577 562.75,-1583 562.75,-1583 562.75,-1595 562.75,-1595 562.75,-1601 556.75,-1607 550.75,-1607"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1584.33" font-family="Times,serif" font-size="14.00">dream_champion_nightmare</text>
+<path fill="#9575cd" stroke="black" d="M550.75,-546C550.75,-546 356.25,-546 356.25,-546 350.25,-546 344.25,-540 344.25,-534 344.25,-534 344.25,-522 344.25,-522 344.25,-516 350.25,-510 356.25,-510 356.25,-510 550.75,-510 550.75,-510 556.75,-510 562.75,-516 562.75,-522 562.75,-522 562.75,-534 562.75,-534 562.75,-540 556.75,-546 550.75,-546"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-523.33" font-family="Times,serif" font-size="14.00">dream_champion_nightmare</text>
 </g>
 <!-- dream_rookie&#45;&gt;dream_champion_nightmare -->
-<g id="edge76" class="edge">
+<g id="edge23" class="edge">
 <title>dream_rookie&#45;&gt;dream_champion_nightmare</title>
-<path fill="none" stroke="#7e57c2" d="M298.55,-1550.01C313.39,-1553.96 329.42,-1558.18 344.25,-1562 351.56,-1563.88 359.15,-1565.82 366.77,-1567.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1571.14 376.46,-1570.19 367.62,-1564.35 365.9,-1571.14"/>
+<path fill="none" stroke="#7e57c2" d="M298.55,-489.01C313.39,-492.96 329.42,-497.18 344.25,-501 351.56,-502.88 359.15,-504.82 366.77,-506.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-510.14 376.46,-509.19 367.62,-503.35 365.9,-510.14"/>
 </g>
 <!-- dream_champion_whimsy -->
-<g id="node43" class="node">
+<g id="node15" class="node">
 <title>dream_champion_whimsy</title>
-<path fill="#9575cd" stroke="black" d="M541,-1499C541,-1499 366,-1499 366,-1499 360,-1499 354,-1493 354,-1487 354,-1487 354,-1475 354,-1475 354,-1469 360,-1463 366,-1463 366,-1463 541,-1463 541,-1463 547,-1463 553,-1469 553,-1475 553,-1475 553,-1487 553,-1487 553,-1493 547,-1499 541,-1499"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1476.33" font-family="Times,serif" font-size="14.00">dream_champion_whimsy</text>
+<path fill="#9575cd" stroke="black" d="M541,-438C541,-438 366,-438 366,-438 360,-438 354,-432 354,-426 354,-426 354,-414 354,-414 354,-408 360,-402 366,-402 366,-402 541,-402 541,-402 547,-402 553,-408 553,-414 553,-414 553,-426 553,-426 553,-432 547,-438 541,-438"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-415.32" font-family="Times,serif" font-size="14.00">dream_champion_whimsy</text>
 </g>
 <!-- dream_rookie&#45;&gt;dream_champion_whimsy -->
-<g id="edge77" class="edge">
+<g id="edge24" class="edge">
 <title>dream_rookie&#45;&gt;dream_champion_whimsy</title>
-<path fill="none" stroke="#7e57c2" d="M298.55,-1519.99C313.39,-1516.04 329.42,-1511.82 344.25,-1508 351.56,-1506.12 359.15,-1504.18 366.77,-1502.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1505.65 376.46,-1499.81 365.9,-1498.86 367.62,-1505.65"/>
+<path fill="none" stroke="#7e57c2" d="M298.55,-458.99C313.39,-455.04 329.42,-450.82 344.25,-447 351.56,-445.12 359.15,-443.18 366.77,-441.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-444.65 376.46,-438.81 365.9,-437.86 367.62,-444.65"/>
 </g>
 <!-- dream_final_ascended -->
-<g id="node76" class="node">
+<g id="node60" class="node">
 <title>dream_final_ascended</title>
-<path fill="lightgrey" stroke="black" d="M771.88,-1580C771.88,-1580 623.12,-1580 623.12,-1580 617.12,-1580 611.12,-1574 611.12,-1568 611.12,-1568 611.12,-1556 611.12,-1556 611.12,-1550 617.12,-1544 623.12,-1544 623.12,-1544 771.88,-1544 771.88,-1544 777.88,-1544 783.88,-1550 783.88,-1556 783.88,-1556 783.88,-1568 783.88,-1568 783.88,-1574 777.88,-1580 771.88,-1580"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1557.33" font-family="Times,serif" font-size="14.00">dream_final_ascended</text>
+<path fill="lightgrey" stroke="black" d="M771.88,-519C771.88,-519 623.12,-519 623.12,-519 617.12,-519 611.12,-513 611.12,-507 611.12,-507 611.12,-495 611.12,-495 611.12,-489 617.12,-483 623.12,-483 623.12,-483 771.88,-483 771.88,-483 777.88,-483 783.88,-489 783.88,-495 783.88,-495 783.88,-507 783.88,-507 783.88,-513 777.88,-519 771.88,-519"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-496.32" font-family="Times,serif" font-size="14.00">dream_final_ascended</text>
 </g>
 <!-- dream_champion_lucid&#45;&gt;dream_final_ascended -->
-<g id="edge78" class="edge">
+<g id="edge25" class="edge">
 <title>dream_champion_lucid&#45;&gt;dream_final_ascended</title>
-<path fill="none" stroke="#7e57c2" d="M543.24,-1544.9C561.64,-1546.95 581.13,-1549.13 599.8,-1551.21"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="599.17,-1554.66 609.49,-1552.29 599.94,-1547.71 599.17,-1554.66"/>
+<path fill="none" stroke="#7e57c2" d="M543.24,-483.9C561.64,-485.95 581.13,-488.13 599.8,-490.21"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="599.17,-493.66 609.49,-491.29 599.94,-486.71 599.17,-493.66"/>
 </g>
 <!-- dream_final_chaos -->
-<g id="node77" class="node">
+<g id="node61" class="node">
 <title>dream_final_chaos</title>
-<path fill="lightgrey" stroke="black" d="M758.75,-1526C758.75,-1526 636.25,-1526 636.25,-1526 630.25,-1526 624.25,-1520 624.25,-1514 624.25,-1514 624.25,-1502 624.25,-1502 624.25,-1496 630.25,-1490 636.25,-1490 636.25,-1490 758.75,-1490 758.75,-1490 764.75,-1490 770.75,-1496 770.75,-1502 770.75,-1502 770.75,-1514 770.75,-1514 770.75,-1520 764.75,-1526 758.75,-1526"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1503.33" font-family="Times,serif" font-size="14.00">dream_final_chaos</text>
+<path fill="lightgrey" stroke="black" d="M758.75,-465C758.75,-465 636.25,-465 636.25,-465 630.25,-465 624.25,-459 624.25,-453 624.25,-453 624.25,-441 624.25,-441 624.25,-435 630.25,-429 636.25,-429 636.25,-429 758.75,-429 758.75,-429 764.75,-429 770.75,-435 770.75,-441 770.75,-441 770.75,-453 770.75,-453 770.75,-459 764.75,-465 758.75,-465"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-442.32" font-family="Times,serif" font-size="14.00">dream_final_chaos</text>
 </g>
 <!-- dream_champion_lucid&#45;&gt;dream_final_chaos -->
-<g id="edge79" class="edge">
+<g id="edge26" class="edge">
 <title>dream_champion_lucid&#45;&gt;dream_final_chaos</title>
-<path fill="none" stroke="#7e57c2" d="M543.24,-1525.1C565.97,-1522.56 590.34,-1519.84 612.81,-1517.34"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="612.97,-1520.84 622.52,-1516.25 612.19,-1513.88 612.97,-1520.84"/>
+<path fill="none" stroke="#7e57c2" d="M543.24,-464.1C565.97,-461.56 590.34,-458.84 612.81,-456.34"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="612.97,-459.84 622.52,-455.25 612.19,-452.88 612.97,-459.84"/>
 </g>
 <!-- dream_champion_nightmare&#45;&gt;dream_final_ascended -->
-<g id="edge81" class="edge">
+<g id="edge28" class="edge">
 <title>dream_champion_nightmare&#45;&gt;dream_final_ascended</title>
-<path fill="none" stroke="#7e57c2" d="M563.11,-1576.88C575.21,-1575.53 587.46,-1574.17 599.4,-1572.83"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="599.68,-1576.32 609.23,-1571.74 598.9,-1569.37 599.68,-1576.32"/>
+<path fill="none" stroke="#7e57c2" d="M563.11,-515.88C575.21,-514.53 587.46,-513.17 599.4,-511.83"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="599.68,-515.32 609.23,-510.74 598.9,-508.37 599.68,-515.32"/>
 </g>
 <!-- dream_champion_nightmare&#45;&gt;dream_final_chaos -->
-<g id="edge80" class="edge">
+<g id="edge27" class="edge">
 <title>dream_champion_nightmare&#45;&gt;dream_final_chaos</title>
-<path fill="none" stroke="#7e57c2" d="M552.08,-1570.55C558.54,-1568.05 564.83,-1565.21 570.75,-1562 585.94,-1553.75 583.73,-1543.57 598.75,-1535 603.38,-1532.36 608.28,-1529.96 613.33,-1527.8"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="614.42,-1531.13 622.44,-1524.21 611.85,-1524.62 614.42,-1531.13"/>
+<path fill="none" stroke="#7e57c2" d="M552.08,-509.55C558.54,-507.05 564.83,-504.21 570.75,-501 585.94,-492.75 583.73,-482.57 598.75,-474 603.38,-471.36 608.28,-468.96 613.33,-466.8"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="614.42,-470.13 622.44,-463.21 611.85,-463.62 614.42,-470.13"/>
 </g>
 <!-- dream_champion_whimsy&#45;&gt;dream_final_ascended -->
-<g id="edge82" class="edge">
+<g id="edge29" class="edge">
 <title>dream_champion_whimsy&#45;&gt;dream_final_ascended</title>
-<path fill="none" stroke="#7e57c2" d="M552.08,-1499.45C558.54,-1501.95 564.83,-1504.79 570.75,-1508 585.94,-1516.25 583.73,-1526.43 598.75,-1535 601.1,-1536.34 603.53,-1537.62 606.01,-1538.84"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="604.52,-1542.01 615.07,-1542.89 607.37,-1535.62 604.52,-1542.01"/>
+<path fill="none" stroke="#7e57c2" d="M552.08,-438.45C558.54,-440.95 564.83,-443.79 570.75,-447 585.94,-455.25 583.73,-465.43 598.75,-474 601.1,-475.34 603.53,-476.62 606.01,-477.84"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="604.52,-481.01 615.07,-481.89 607.37,-474.62 604.52,-481.01"/>
 </g>
 <!-- dream_champion_whimsy&#45;&gt;dream_final_chaos -->
-<g id="edge83" class="edge">
+<g id="edge30" class="edge">
 <title>dream_champion_whimsy&#45;&gt;dream_final_chaos</title>
-<path fill="none" stroke="#7e57c2" d="M553.28,-1492.02C572.96,-1494.22 593.46,-1496.5 612.58,-1498.64"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="612.15,-1502.11 622.48,-1499.74 612.93,-1495.15 612.15,-1502.11"/>
+<path fill="none" stroke="#7e57c2" d="M553.28,-431.02C572.96,-433.22 593.46,-435.5 612.58,-437.64"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="612.15,-441.11 622.48,-438.74 612.93,-434.15 612.15,-441.11"/>
 </g>
 <!-- firewall_baby -->
-<g id="node44" class="node">
+<g id="node16" class="node">
 <title>firewall_baby</title>
-<path fill="#ff8a65" stroke="black" d="M120.88,-1746C120.88,-1746 34.38,-1746 34.38,-1746 28.38,-1746 22.38,-1740 22.38,-1734 22.38,-1734 22.38,-1722 22.38,-1722 22.38,-1716 28.38,-1710 34.38,-1710 34.38,-1710 120.88,-1710 120.88,-1710 126.88,-1710 132.88,-1716 132.88,-1722 132.88,-1722 132.88,-1734 132.88,-1734 132.88,-1740 126.88,-1746 120.88,-1746"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1723.33" font-family="Times,serif" font-size="14.00">firewall_baby</text>
+<path fill="#ff8a65" stroke="black" d="M120.88,-685C120.88,-685 34.38,-685 34.38,-685 28.38,-685 22.38,-679 22.38,-673 22.38,-673 22.38,-661 22.38,-661 22.38,-655 28.38,-649 34.38,-649 34.38,-649 120.88,-649 120.88,-649 126.88,-649 132.88,-655 132.88,-661 132.88,-661 132.88,-673 132.88,-673 132.88,-679 126.88,-685 120.88,-685"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-662.33" font-family="Times,serif" font-size="14.00">firewall_baby</text>
 </g>
 <!-- firewall_rookie -->
-<g id="node45" class="node">
+<g id="node17" class="node">
 <title>firewall_rookie</title>
-<path fill="#ff8a65" stroke="black" d="M289.88,-1746C289.88,-1746 193.62,-1746 193.62,-1746 187.62,-1746 181.62,-1740 181.62,-1734 181.62,-1734 181.62,-1722 181.62,-1722 181.62,-1716 187.62,-1710 193.62,-1710 193.62,-1710 289.88,-1710 289.88,-1710 295.88,-1710 301.88,-1716 301.88,-1722 301.88,-1722 301.88,-1734 301.88,-1734 301.88,-1740 295.88,-1746 289.88,-1746"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1723.33" font-family="Times,serif" font-size="14.00">firewall_rookie</text>
+<path fill="#ff8a65" stroke="black" d="M289.88,-685C289.88,-685 193.62,-685 193.62,-685 187.62,-685 181.62,-679 181.62,-673 181.62,-673 181.62,-661 181.62,-661 181.62,-655 187.62,-649 193.62,-649 193.62,-649 289.88,-649 289.88,-649 295.88,-649 301.88,-655 301.88,-661 301.88,-661 301.88,-673 301.88,-673 301.88,-679 295.88,-685 289.88,-685"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-662.33" font-family="Times,serif" font-size="14.00">firewall_rookie</text>
 </g>
 <!-- firewall_baby&#45;&gt;firewall_rookie -->
-<g id="edge84" class="edge">
+<g id="edge31" class="edge">
 <title>firewall_baby&#45;&gt;firewall_rookie</title>
+<path fill="none" stroke="black" d="M133.06,-667C144.89,-667 157.58,-667 169.94,-667"/>
+<polygon fill="black" stroke="black" points="169.65,-670.5 179.65,-667 169.65,-663.5 169.65,-670.5"/>
+</g>
+<!-- firewall_champion_barrier -->
+<g id="node18" class="node">
+<title>firewall_champion_barrier</title>
+<path fill="#ff8a65" stroke="black" d="M542.5,-631C542.5,-631 364.5,-631 364.5,-631 358.5,-631 352.5,-625 352.5,-619 352.5,-619 352.5,-607 352.5,-607 352.5,-601 358.5,-595 364.5,-595 364.5,-595 542.5,-595 542.5,-595 548.5,-595 554.5,-601 554.5,-607 554.5,-607 554.5,-619 554.5,-619 554.5,-625 548.5,-631 542.5,-631"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-608.33" font-family="Times,serif" font-size="14.00">firewall_champion_barrier</text>
+</g>
+<!-- firewall_rookie&#45;&gt;firewall_champion_barrier -->
+<g id="edge32" class="edge">
+<title>firewall_rookie&#45;&gt;firewall_champion_barrier</title>
+<path fill="none" stroke="#7e57c2" d="M302.28,-651C316.05,-647.34 330.65,-643.5 344.25,-640 351.56,-638.12 359.15,-636.18 366.77,-634.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-637.65 376.46,-631.81 365.9,-630.86 367.62,-637.65"/>
+</g>
+<!-- firewall_champion_counter -->
+<g id="node19" class="node">
+<title>firewall_champion_counter</title>
+<path fill="#ff8a65" stroke="black" d="M544.75,-739C544.75,-739 362.25,-739 362.25,-739 356.25,-739 350.25,-733 350.25,-727 350.25,-727 350.25,-715 350.25,-715 350.25,-709 356.25,-703 362.25,-703 362.25,-703 544.75,-703 544.75,-703 550.75,-703 556.75,-709 556.75,-715 556.75,-715 556.75,-727 556.75,-727 556.75,-733 550.75,-739 544.75,-739"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-716.33" font-family="Times,serif" font-size="14.00">firewall_champion_counter</text>
+</g>
+<!-- firewall_rookie&#45;&gt;firewall_champion_counter -->
+<g id="edge33" class="edge">
+<title>firewall_rookie&#45;&gt;firewall_champion_counter</title>
+<path fill="none" stroke="#7e57c2" d="M302.28,-683C316.05,-686.66 330.65,-690.5 344.25,-694 351.56,-695.88 359.15,-697.82 366.77,-699.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-703.14 376.46,-702.19 367.62,-696.35 365.9,-703.14"/>
+</g>
+<!-- firewall_champion_patch -->
+<g id="node20" class="node">
+<title>firewall_champion_patch</title>
+<path fill="#ff8a65" stroke="black" d="M537.25,-685C537.25,-685 369.75,-685 369.75,-685 363.75,-685 357.75,-679 357.75,-673 357.75,-673 357.75,-661 357.75,-661 357.75,-655 363.75,-649 369.75,-649 369.75,-649 537.25,-649 537.25,-649 543.25,-649 549.25,-655 549.25,-661 549.25,-661 549.25,-673 549.25,-673 549.25,-679 543.25,-685 537.25,-685"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-662.33" font-family="Times,serif" font-size="14.00">firewall_champion_patch</text>
+</g>
+<!-- firewall_rookie&#45;&gt;firewall_champion_patch -->
+<g id="edge34" class="edge">
+<title>firewall_rookie&#45;&gt;firewall_champion_patch</title>
+<path fill="none" stroke="#7e57c2" d="M302.29,-667C316,-667 330.98,-667 346.01,-667"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="345.98,-670.5 355.98,-667 345.98,-663.5 345.98,-670.5"/>
+</g>
+<!-- firewall_final_fortress -->
+<g id="node62" class="node">
+<title>firewall_final_fortress</title>
+<path fill="lightgrey" stroke="black" d="M770.38,-631C770.38,-631 624.62,-631 624.62,-631 618.62,-631 612.62,-625 612.62,-619 612.62,-619 612.62,-607 612.62,-607 612.62,-601 618.62,-595 624.62,-595 624.62,-595 770.38,-595 770.38,-595 776.38,-595 782.38,-601 782.38,-607 782.38,-607 782.38,-619 782.38,-619 782.38,-625 776.38,-631 770.38,-631"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-608.33" font-family="Times,serif" font-size="14.00">firewall_final_fortress</text>
+</g>
+<!-- firewall_champion_barrier&#45;&gt;firewall_final_fortress -->
+<g id="edge35" class="edge">
+<title>firewall_champion_barrier&#45;&gt;firewall_final_fortress</title>
+<path fill="none" stroke="#7e57c2" d="M554.68,-613C569.91,-613 585.6,-613 600.73,-613"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="600.67,-616.5 610.67,-613 600.67,-609.5 600.67,-616.5"/>
+</g>
+<!-- firewall_final_protocol -->
+<g id="node63" class="node">
+<title>firewall_final_protocol</title>
+<path fill="lightgrey" stroke="black" d="M771.5,-685C771.5,-685 623.5,-685 623.5,-685 617.5,-685 611.5,-679 611.5,-673 611.5,-673 611.5,-661 611.5,-661 611.5,-655 617.5,-649 623.5,-649 623.5,-649 771.5,-649 771.5,-649 777.5,-649 783.5,-655 783.5,-661 783.5,-661 783.5,-673 783.5,-673 783.5,-679 777.5,-685 771.5,-685"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-662.33" font-family="Times,serif" font-size="14.00">firewall_final_protocol</text>
+</g>
+<!-- firewall_champion_barrier&#45;&gt;firewall_final_protocol -->
+<g id="edge36" class="edge">
+<title>firewall_champion_barrier&#45;&gt;firewall_final_protocol</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-631.43C558.21,-636.14 581.05,-641.24 602.68,-646.06"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-649.47 612.38,-648.23 603.38,-642.64 601.86,-649.47"/>
+</g>
+<!-- firewall_champion_counter&#45;&gt;firewall_final_protocol -->
+<g id="edge38" class="edge">
+<title>firewall_champion_counter&#45;&gt;firewall_final_protocol</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-702.57C558.21,-697.86 581.05,-692.76 602.68,-687.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-691.36 612.38,-685.77 601.86,-684.53 603.38,-691.36"/>
+</g>
+<!-- firewall_final_retaliate -->
+<g id="node64" class="node">
+<title>firewall_final_retaliate</title>
+<path fill="lightgrey" stroke="black" d="M772.62,-739C772.62,-739 622.38,-739 622.38,-739 616.38,-739 610.38,-733 610.38,-727 610.38,-727 610.38,-715 610.38,-715 610.38,-709 616.38,-703 622.38,-703 622.38,-703 772.62,-703 772.62,-703 778.62,-703 784.62,-709 784.62,-715 784.62,-715 784.62,-727 784.62,-727 784.62,-733 778.62,-739 772.62,-739"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-716.33" font-family="Times,serif" font-size="14.00">firewall_final_retaliate</text>
+</g>
+<!-- firewall_champion_counter&#45;&gt;firewall_final_retaliate -->
+<g id="edge37" class="edge">
+<title>firewall_champion_counter&#45;&gt;firewall_final_retaliate</title>
+<path fill="none" stroke="#7e57c2" d="M557.13,-721C570.92,-721 585.03,-721 598.73,-721"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="598.61,-724.5 608.61,-721 598.61,-717.5 598.61,-724.5"/>
+</g>
+<!-- firewall_champion_patch&#45;&gt;firewall_final_fortress -->
+<g id="edge40" class="edge">
+<title>firewall_champion_patch&#45;&gt;firewall_final_fortress</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-648.57C558.21,-643.86 581.05,-638.76 602.68,-633.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-637.36 612.38,-631.77 601.86,-630.53 603.38,-637.36"/>
+</g>
+<!-- firewall_champion_patch&#45;&gt;firewall_final_protocol -->
+<g id="edge39" class="edge">
+<title>firewall_champion_patch&#45;&gt;firewall_final_protocol</title>
+<path fill="none" stroke="#7e57c2" d="M549.45,-667C566.02,-667 583.27,-667 599.88,-667"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="599.75,-670.5 609.75,-667 599.75,-663.5 599.75,-670.5"/>
+</g>
+<!-- cloud_baby -->
+<g id="node21" class="node">
+<title>cloud_baby</title>
+<path fill="#90caf9" stroke="black" d="M113.38,-878C113.38,-878 41.88,-878 41.88,-878 35.87,-878 29.88,-872 29.88,-866 29.88,-866 29.88,-854 29.88,-854 29.88,-848 35.88,-842 41.88,-842 41.88,-842 113.38,-842 113.38,-842 119.38,-842 125.38,-848 125.38,-854 125.38,-854 125.38,-866 125.38,-866 125.38,-872 119.38,-878 113.38,-878"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-855.33" font-family="Times,serif" font-size="14.00">cloud_baby</text>
+</g>
+<!-- cloud_rookie -->
+<g id="node22" class="node">
+<title>cloud_rookie</title>
+<path fill="#90caf9" stroke="black" d="M282.38,-878C282.38,-878 201.12,-878 201.12,-878 195.12,-878 189.12,-872 189.12,-866 189.12,-866 189.12,-854 189.12,-854 189.12,-848 195.12,-842 201.12,-842 201.12,-842 282.38,-842 282.38,-842 288.38,-842 294.38,-848 294.38,-854 294.38,-854 294.38,-866 294.38,-866 294.38,-872 288.38,-878 282.38,-878"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-855.33" font-family="Times,serif" font-size="14.00">cloud_rookie</text>
+</g>
+<!-- cloud_baby&#45;&gt;cloud_rookie -->
+<g id="edge41" class="edge">
+<title>cloud_baby&#45;&gt;cloud_rookie</title>
+<path fill="none" stroke="black" d="M125.52,-860C141.78,-860 160.29,-860 177.64,-860"/>
+<polygon fill="black" stroke="black" points="177.33,-863.5 187.33,-860 177.33,-856.5 177.33,-863.5"/>
+</g>
+<!-- cloud_champion_wind -->
+<g id="node23" class="node">
+<title>cloud_champion_wind</title>
+<path fill="#90caf9" stroke="black" d="M527.12,-824C527.12,-824 379.88,-824 379.88,-824 373.88,-824 367.88,-818 367.88,-812 367.88,-812 367.88,-800 367.88,-800 367.88,-794 373.88,-788 379.88,-788 379.88,-788 527.12,-788 527.12,-788 533.12,-788 539.12,-794 539.12,-800 539.12,-800 539.12,-812 539.12,-812 539.12,-818 533.12,-824 527.12,-824"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-801.33" font-family="Times,serif" font-size="14.00">cloud_champion_wind</text>
+</g>
+<!-- cloud_rookie&#45;&gt;cloud_champion_wind -->
+<g id="edge42" class="edge">
+<title>cloud_rookie&#45;&gt;cloud_champion_wind</title>
+<path fill="none" stroke="#7e57c2" d="M294.87,-845.97C310.71,-841.75 328.18,-837.14 344.25,-833 351.56,-831.12 359.15,-829.18 366.77,-827.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-830.65 376.46,-824.81 365.9,-823.86 367.62,-830.65"/>
+</g>
+<!-- cloud_champion_rain -->
+<g id="node24" class="node">
+<title>cloud_champion_rain</title>
+<path fill="#90caf9" stroke="black" d="M524.12,-878C524.12,-878 382.88,-878 382.88,-878 376.88,-878 370.88,-872 370.88,-866 370.88,-866 370.88,-854 370.88,-854 370.88,-848 376.88,-842 382.88,-842 382.88,-842 524.12,-842 524.12,-842 530.12,-842 536.12,-848 536.12,-854 536.12,-854 536.12,-866 536.12,-866 536.12,-872 530.12,-878 524.12,-878"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-855.33" font-family="Times,serif" font-size="14.00">cloud_champion_rain</text>
+</g>
+<!-- cloud_rookie&#45;&gt;cloud_champion_rain -->
+<g id="edge43" class="edge">
+<title>cloud_rookie&#45;&gt;cloud_champion_rain</title>
+<path fill="none" stroke="#7e57c2" d="M294.87,-860C314.29,-860 336.98,-860 358.99,-860"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="358.91,-863.5 368.91,-860 358.91,-856.5 358.91,-863.5"/>
+</g>
+<!-- cloud_champion_storm -->
+<g id="node25" class="node">
+<title>cloud_champion_storm</title>
+<path fill="#90caf9" stroke="black" d="M530.88,-932C530.88,-932 376.12,-932 376.12,-932 370.12,-932 364.12,-926 364.12,-920 364.12,-920 364.12,-908 364.12,-908 364.12,-902 370.12,-896 376.12,-896 376.12,-896 530.88,-896 530.88,-896 536.88,-896 542.88,-902 542.88,-908 542.88,-908 542.88,-920 542.88,-920 542.88,-926 536.88,-932 530.88,-932"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-909.33" font-family="Times,serif" font-size="14.00">cloud_champion_storm</text>
+</g>
+<!-- cloud_rookie&#45;&gt;cloud_champion_storm -->
+<g id="edge44" class="edge">
+<title>cloud_rookie&#45;&gt;cloud_champion_storm</title>
+<path fill="none" stroke="#7e57c2" d="M294.87,-874.03C310.71,-878.25 328.18,-882.86 344.25,-887 351.56,-888.88 359.15,-890.82 366.77,-892.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-896.14 376.46,-895.19 367.62,-889.35 365.9,-896.14"/>
+</g>
+<!-- cloud_final_jetstream -->
+<g id="node65" class="node">
+<title>cloud_final_jetstream</title>
+<path fill="lightgrey" stroke="black" d="M769.25,-878C769.25,-878 625.75,-878 625.75,-878 619.75,-878 613.75,-872 613.75,-866 613.75,-866 613.75,-854 613.75,-854 613.75,-848 619.75,-842 625.75,-842 625.75,-842 769.25,-842 769.25,-842 775.25,-842 781.25,-848 781.25,-854 781.25,-854 781.25,-866 781.25,-866 781.25,-872 775.25,-878 769.25,-878"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-855.33" font-family="Times,serif" font-size="14.00">cloud_final_jetstream</text>
+</g>
+<!-- cloud_champion_wind&#45;&gt;cloud_final_jetstream -->
+<g id="edge45" class="edge">
+<title>cloud_champion_wind&#45;&gt;cloud_final_jetstream</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-824.43C558.21,-829.14 581.05,-834.24 602.68,-839.06"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-842.47 612.38,-841.23 603.38,-835.64 601.86,-842.47"/>
+</g>
+<!-- cloud_final_halo -->
+<g id="node66" class="node">
+<title>cloud_final_halo</title>
+<path fill="lightgrey" stroke="black" d="M749.75,-824C749.75,-824 645.25,-824 645.25,-824 639.25,-824 633.25,-818 633.25,-812 633.25,-812 633.25,-800 633.25,-800 633.25,-794 639.25,-788 645.25,-788 645.25,-788 749.75,-788 749.75,-788 755.75,-788 761.75,-794 761.75,-800 761.75,-800 761.75,-812 761.75,-812 761.75,-818 755.75,-824 749.75,-824"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-801.33" font-family="Times,serif" font-size="14.00">cloud_final_halo</text>
+</g>
+<!-- cloud_champion_wind&#45;&gt;cloud_final_halo -->
+<g id="edge46" class="edge">
+<title>cloud_champion_wind&#45;&gt;cloud_final_halo</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-806C566.29,-806 595.7,-806 621.74,-806"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="621.55,-809.5 631.55,-806 621.55,-802.5 621.55,-809.5"/>
+</g>
+<!-- cloud_champion_rain&#45;&gt;cloud_final_halo -->
+<g id="edge47" class="edge">
+<title>cloud_champion_rain&#45;&gt;cloud_final_halo</title>
+<path fill="none" stroke="#7e57c2" d="M536.43,-841.72C564.15,-835.53 594.93,-828.66 622.04,-822.62"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="622.54,-826.09 631.54,-820.5 621.02,-819.26 622.54,-826.09"/>
+</g>
+<!-- cloud_final_tempest -->
+<g id="node67" class="node">
+<title>cloud_final_tempest</title>
+<path fill="lightgrey" stroke="black" d="M764,-932C764,-932 631,-932 631,-932 625,-932 619,-926 619,-920 619,-920 619,-908 619,-908 619,-902 625,-896 631,-896 631,-896 764,-896 764,-896 770,-896 776,-902 776,-908 776,-908 776,-920 776,-920 776,-926 770,-932 764,-932"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-909.33" font-family="Times,serif" font-size="14.00">cloud_final_tempest</text>
+</g>
+<!-- cloud_champion_rain&#45;&gt;cloud_final_tempest -->
+<g id="edge48" class="edge">
+<title>cloud_champion_rain&#45;&gt;cloud_final_tempest</title>
+<path fill="none" stroke="#7e57c2" d="M536.43,-878.28C559.39,-883.41 584.46,-889 607.8,-894.21"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="606.74,-897.56 617.27,-896.32 608.27,-890.73 606.74,-897.56"/>
+</g>
+<!-- cloud_champion_storm&#45;&gt;cloud_final_jetstream -->
+<g id="edge50" class="edge">
+<title>cloud_champion_storm&#45;&gt;cloud_final_jetstream</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-895.57C558.21,-890.86 581.05,-885.76 602.68,-880.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-884.36 612.38,-878.77 601.86,-877.53 603.38,-884.36"/>
+</g>
+<!-- cloud_champion_storm&#45;&gt;cloud_final_tempest -->
+<g id="edge49" class="edge">
+<title>cloud_champion_storm&#45;&gt;cloud_final_tempest</title>
+<path fill="none" stroke="#7e57c2" d="M543.24,-914C564.07,-914 586.27,-914 607.13,-914"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="607.04,-917.5 617.04,-914 607.04,-910.5 607.04,-917.5"/>
+</g>
+<!-- archive_baby -->
+<g id="node26" class="node">
+<title>archive_baby</title>
+<path fill="#ce93d8" stroke="black" d="M120.5,-1071C120.5,-1071 34.75,-1071 34.75,-1071 28.75,-1071 22.75,-1065 22.75,-1059 22.75,-1059 22.75,-1047 22.75,-1047 22.75,-1041 28.75,-1035 34.75,-1035 34.75,-1035 120.5,-1035 120.5,-1035 126.5,-1035 132.5,-1041 132.5,-1047 132.5,-1047 132.5,-1059 132.5,-1059 132.5,-1065 126.5,-1071 120.5,-1071"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1048.33" font-family="Times,serif" font-size="14.00">archive_baby</text>
+</g>
+<!-- archive_rookie -->
+<g id="node27" class="node">
+<title>archive_rookie</title>
+<path fill="#ce93d8" stroke="black" d="M289.5,-1071C289.5,-1071 194,-1071 194,-1071 188,-1071 182,-1065 182,-1059 182,-1059 182,-1047 182,-1047 182,-1041 188,-1035 194,-1035 194,-1035 289.5,-1035 289.5,-1035 295.5,-1035 301.5,-1041 301.5,-1047 301.5,-1047 301.5,-1059 301.5,-1059 301.5,-1065 295.5,-1071 289.5,-1071"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1048.33" font-family="Times,serif" font-size="14.00">archive_rookie</text>
+</g>
+<!-- archive_baby&#45;&gt;archive_rookie -->
+<g id="edge51" class="edge">
+<title>archive_baby&#45;&gt;archive_rookie</title>
+<path fill="none" stroke="black" d="M132.61,-1053C144.67,-1053 157.63,-1053 170.25,-1053"/>
+<polygon fill="black" stroke="black" points="170.19,-1056.5 180.19,-1053 170.19,-1049.5 170.19,-1056.5"/>
+</g>
+<!-- archive_champion_logic -->
+<g id="node28" class="node">
+<title>archive_champion_logic</title>
+<path fill="#ce93d8" stroke="black" d="M533.88,-1017C533.88,-1017 373.12,-1017 373.12,-1017 367.12,-1017 361.12,-1011 361.12,-1005 361.12,-1005 361.12,-993 361.12,-993 361.12,-987 367.12,-981 373.12,-981 373.12,-981 533.88,-981 533.88,-981 539.88,-981 545.88,-987 545.88,-993 545.88,-993 545.88,-1005 545.88,-1005 545.88,-1011 539.88,-1017 533.88,-1017"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-994.33" font-family="Times,serif" font-size="14.00">archive_champion_logic</text>
+</g>
+<!-- archive_rookie&#45;&gt;archive_champion_logic -->
+<g id="edge52" class="edge">
+<title>archive_rookie&#45;&gt;archive_champion_logic</title>
+<path fill="none" stroke="#7e57c2" d="M301.75,-1037.14C315.67,-1033.44 330.48,-1029.55 344.25,-1026 351.56,-1024.12 359.15,-1022.18 366.77,-1020.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1023.65 376.46,-1017.81 365.9,-1016.86 367.62,-1023.65"/>
+</g>
+<!-- archive_champion_index -->
+<g id="node29" class="node">
+<title>archive_champion_index</title>
+<path fill="#ce93d8" stroke="black" d="M536.5,-1071C536.5,-1071 370.5,-1071 370.5,-1071 364.5,-1071 358.5,-1065 358.5,-1059 358.5,-1059 358.5,-1047 358.5,-1047 358.5,-1041 364.5,-1035 370.5,-1035 370.5,-1035 536.5,-1035 536.5,-1035 542.5,-1035 548.5,-1041 548.5,-1047 548.5,-1047 548.5,-1059 548.5,-1059 548.5,-1065 542.5,-1071 536.5,-1071"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1048.33" font-family="Times,serif" font-size="14.00">archive_champion_index</text>
+</g>
+<!-- archive_rookie&#45;&gt;archive_champion_index -->
+<g id="edge53" class="edge">
+<title>archive_rookie&#45;&gt;archive_champion_index</title>
+<path fill="none" stroke="#7e57c2" d="M301.74,-1053C315.87,-1053 331.4,-1053 346.94,-1053"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="346.73,-1056.5 356.73,-1053 346.73,-1049.5 346.73,-1056.5"/>
+</g>
+<!-- archive_champion_fragment -->
+<g id="node30" class="node">
+<title>archive_champion_fragment</title>
+<path fill="#ce93d8" stroke="black" d="M550,-1125C550,-1125 357,-1125 357,-1125 351,-1125 345,-1119 345,-1113 345,-1113 345,-1101 345,-1101 345,-1095 351,-1089 357,-1089 357,-1089 550,-1089 550,-1089 556,-1089 562,-1095 562,-1101 562,-1101 562,-1113 562,-1113 562,-1119 556,-1125 550,-1125"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1102.33" font-family="Times,serif" font-size="14.00">archive_champion_fragment</text>
+</g>
+<!-- archive_rookie&#45;&gt;archive_champion_fragment -->
+<g id="edge54" class="edge">
+<title>archive_rookie&#45;&gt;archive_champion_fragment</title>
+<path fill="none" stroke="#7e57c2" d="M301.75,-1068.86C315.67,-1072.56 330.48,-1076.45 344.25,-1080 351.56,-1081.88 359.15,-1083.82 366.77,-1085.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1089.14 376.46,-1088.19 367.62,-1082.35 365.9,-1089.14"/>
+</g>
+<!-- archive_final_compiler -->
+<g id="node68" class="node">
+<title>archive_final_compiler</title>
+<path fill="lightgrey" stroke="black" d="M773,-1071C773,-1071 622,-1071 622,-1071 616,-1071 610,-1065 610,-1059 610,-1059 610,-1047 610,-1047 610,-1041 616,-1035 622,-1035 622,-1035 773,-1035 773,-1035 779,-1035 785,-1041 785,-1047 785,-1047 785,-1059 785,-1059 785,-1065 779,-1071 773,-1071"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1048.33" font-family="Times,serif" font-size="14.00">archive_final_compiler</text>
+</g>
+<!-- archive_champion_logic&#45;&gt;archive_final_compiler -->
+<g id="edge55" class="edge">
+<title>archive_champion_logic&#45;&gt;archive_final_compiler</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-1017.43C558.21,-1022.14 581.05,-1027.24 602.68,-1032.06"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-1035.47 612.38,-1034.23 603.38,-1028.64 601.86,-1035.47"/>
+</g>
+<!-- archive_final_librarian -->
+<g id="node69" class="node">
+<title>archive_final_librarian</title>
+<path fill="lightgrey" stroke="black" d="M772.62,-1017C772.62,-1017 622.38,-1017 622.38,-1017 616.38,-1017 610.38,-1011 610.38,-1005 610.38,-1005 610.38,-993 610.38,-993 610.38,-987 616.38,-981 622.38,-981 622.38,-981 772.62,-981 772.62,-981 778.62,-981 784.62,-987 784.62,-993 784.62,-993 784.62,-1005 784.62,-1005 784.62,-1011 778.62,-1017 772.62,-1017"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-994.33" font-family="Times,serif" font-size="14.00">archive_final_librarian</text>
+</g>
+<!-- archive_champion_logic&#45;&gt;archive_final_librarian -->
+<g id="edge56" class="edge">
+<title>archive_champion_logic&#45;&gt;archive_final_librarian</title>
+<path fill="none" stroke="#7e57c2" d="M546.33,-999C563.45,-999 581.38,-999 598.67,-999"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="598.4,-1002.5 608.4,-999 598.4,-995.5 598.4,-1002.5"/>
+</g>
+<!-- archive_champion_index&#45;&gt;archive_final_librarian -->
+<g id="edge57" class="edge">
+<title>archive_champion_index&#45;&gt;archive_final_librarian</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-1034.57C558.21,-1029.86 581.05,-1024.76 602.68,-1019.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-1023.36 612.38,-1017.77 601.86,-1016.53 603.38,-1023.36"/>
+</g>
+<!-- archive_final_corrupt -->
+<g id="node70" class="node">
+<title>archive_final_corrupt</title>
+<path fill="lightgrey" stroke="black" d="M768.5,-1125C768.5,-1125 626.5,-1125 626.5,-1125 620.5,-1125 614.5,-1119 614.5,-1113 614.5,-1113 614.5,-1101 614.5,-1101 614.5,-1095 620.5,-1089 626.5,-1089 626.5,-1089 768.5,-1089 768.5,-1089 774.5,-1089 780.5,-1095 780.5,-1101 780.5,-1101 780.5,-1113 780.5,-1113 780.5,-1119 774.5,-1125 768.5,-1125"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1102.33" font-family="Times,serif" font-size="14.00">archive_final_corrupt</text>
+</g>
+<!-- archive_champion_index&#45;&gt;archive_final_corrupt -->
+<g id="edge58" class="edge">
+<title>archive_champion_index&#45;&gt;archive_final_corrupt</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-1071.43C558.33,-1076.17 581.31,-1081.3 603.03,-1086.14"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="602.27,-1089.56 612.79,-1088.32 603.79,-1082.73 602.27,-1089.56"/>
+</g>
+<!-- archive_champion_fragment&#45;&gt;archive_final_compiler -->
+<g id="edge60" class="edge">
+<title>archive_champion_fragment&#45;&gt;archive_final_compiler</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-1088.57C558.21,-1083.86 581.05,-1078.76 602.68,-1073.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-1077.36 612.38,-1071.77 601.86,-1070.53 603.38,-1077.36"/>
+</g>
+<!-- archive_champion_fragment&#45;&gt;archive_final_corrupt -->
+<g id="edge59" class="edge">
+<title>archive_champion_fragment&#45;&gt;archive_final_corrupt</title>
+<path fill="none" stroke="#7e57c2" d="M562.41,-1107C575.86,-1107 589.53,-1107 602.75,-1107"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="602.71,-1110.5 612.71,-1107 602.71,-1103.5 602.71,-1110.5"/>
+</g>
+<!-- root_baby -->
+<g id="node31" class="node">
+<title>root_baby</title>
+<path fill="#81c784" stroke="black" d="M108.88,-1275C108.88,-1275 46.38,-1275 46.38,-1275 40.38,-1275 34.38,-1269 34.38,-1263 34.38,-1263 34.38,-1251 34.38,-1251 34.38,-1245 40.38,-1239 46.38,-1239 46.38,-1239 108.88,-1239 108.88,-1239 114.88,-1239 120.88,-1245 120.88,-1251 120.88,-1251 120.88,-1263 120.88,-1263 120.88,-1269 114.88,-1275 108.88,-1275"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1252.33" font-family="Times,serif" font-size="14.00">root_baby</text>
+</g>
+<!-- root_rookie -->
+<g id="node32" class="node">
+<title>root_rookie</title>
+<path fill="#81c784" stroke="black" d="M277.88,-1275C277.88,-1275 205.62,-1275 205.62,-1275 199.62,-1275 193.62,-1269 193.62,-1263 193.62,-1263 193.62,-1251 193.62,-1251 193.62,-1245 199.62,-1239 205.62,-1239 205.62,-1239 277.88,-1239 277.88,-1239 283.88,-1239 289.88,-1245 289.88,-1251 289.88,-1251 289.88,-1263 289.88,-1263 289.88,-1269 283.88,-1275 277.88,-1275"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1252.33" font-family="Times,serif" font-size="14.00">root_rookie</text>
+</g>
+<!-- root_baby&#45;&gt;root_rookie -->
+<g id="edge61" class="edge">
+<title>root_baby&#45;&gt;root_rookie</title>
+<path fill="none" stroke="black" d="M121.22,-1257C139.82,-1257 161.93,-1257 182.04,-1257"/>
+<polygon fill="black" stroke="black" points="181.78,-1260.5 191.78,-1257 181.78,-1253.5 181.78,-1260.5"/>
+</g>
+<!-- root_champion_thorn -->
+<g id="node33" class="node">
+<title>root_champion_thorn</title>
+<path fill="#81c784" stroke="black" d="M524.88,-1221C524.88,-1221 382.12,-1221 382.12,-1221 376.12,-1221 370.12,-1215 370.12,-1209 370.12,-1209 370.12,-1197 370.12,-1197 370.12,-1191 376.12,-1185 382.12,-1185 382.12,-1185 524.88,-1185 524.88,-1185 530.88,-1185 536.88,-1191 536.88,-1197 536.88,-1197 536.88,-1209 536.88,-1209 536.88,-1215 530.88,-1221 524.88,-1221"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1198.33" font-family="Times,serif" font-size="14.00">root_champion_thorn</text>
+</g>
+<!-- root_rookie&#45;&gt;root_champion_thorn -->
+<g id="edge62" class="edge">
+<title>root_rookie&#45;&gt;root_champion_thorn</title>
+<path fill="none" stroke="#7e57c2" d="M290.22,-1244.21C307.24,-1239.67 326.59,-1234.55 344.25,-1230 351.56,-1228.12 359.15,-1226.18 366.77,-1224.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1227.65 376.46,-1221.81 365.9,-1220.86 367.62,-1227.65"/>
+</g>
+<!-- root_champion_bloom -->
+<g id="node34" class="node">
+<title>root_champion_bloom</title>
+<path fill="#81c784" stroke="black" d="M527.12,-1329C527.12,-1329 379.88,-1329 379.88,-1329 373.88,-1329 367.88,-1323 367.88,-1317 367.88,-1317 367.88,-1305 367.88,-1305 367.88,-1299 373.88,-1293 379.88,-1293 379.88,-1293 527.12,-1293 527.12,-1293 533.12,-1293 539.12,-1299 539.12,-1305 539.12,-1305 539.12,-1317 539.12,-1317 539.12,-1323 533.12,-1329 527.12,-1329"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1306.33" font-family="Times,serif" font-size="14.00">root_champion_bloom</text>
+</g>
+<!-- root_rookie&#45;&gt;root_champion_bloom -->
+<g id="edge63" class="edge">
+<title>root_rookie&#45;&gt;root_champion_bloom</title>
+<path fill="none" stroke="#7e57c2" d="M290.22,-1269.79C307.24,-1274.33 326.59,-1279.45 344.25,-1284 351.56,-1285.88 359.15,-1287.82 366.77,-1289.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1293.14 376.46,-1292.19 367.62,-1286.35 365.9,-1293.14"/>
+</g>
+<!-- root_champion_bark -->
+<g id="node35" class="node">
+<title>root_champion_bark</title>
+<path fill="#81c784" stroke="black" d="M521.5,-1275C521.5,-1275 385.5,-1275 385.5,-1275 379.5,-1275 373.5,-1269 373.5,-1263 373.5,-1263 373.5,-1251 373.5,-1251 373.5,-1245 379.5,-1239 385.5,-1239 385.5,-1239 521.5,-1239 521.5,-1239 527.5,-1239 533.5,-1245 533.5,-1251 533.5,-1251 533.5,-1263 533.5,-1263 533.5,-1269 527.5,-1275 521.5,-1275"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1252.33" font-family="Times,serif" font-size="14.00">root_champion_bark</text>
+</g>
+<!-- root_rookie&#45;&gt;root_champion_bark -->
+<g id="edge64" class="edge">
+<title>root_rookie&#45;&gt;root_champion_bark</title>
+<path fill="none" stroke="#7e57c2" d="M290.35,-1257C311.52,-1257 337.18,-1257 361.79,-1257"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="361.49,-1260.5 371.49,-1257 361.49,-1253.5 361.49,-1260.5"/>
+</g>
+<!-- root_final_bramble -->
+<g id="node71" class="node">
+<title>root_final_bramble</title>
+<path fill="lightgrey" stroke="black" d="M759.88,-1188C759.88,-1188 635.12,-1188 635.12,-1188 629.12,-1188 623.12,-1182 623.12,-1176 623.12,-1176 623.12,-1164 623.12,-1164 623.12,-1158 629.12,-1152 635.12,-1152 635.12,-1152 759.88,-1152 759.88,-1152 765.88,-1152 771.88,-1158 771.88,-1164 771.88,-1164 771.88,-1176 771.88,-1176 771.88,-1182 765.88,-1188 759.88,-1188"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1165.33" font-family="Times,serif" font-size="14.00">root_final_bramble</text>
+</g>
+<!-- root_champion_thorn&#45;&gt;root_final_bramble -->
+<g id="edge65" class="edge">
+<title>root_champion_thorn&#45;&gt;root_final_bramble</title>
+<path fill="none" stroke="#7e57c2" d="M537.11,-1191.74C561.1,-1188.46 587.34,-1184.88 611.48,-1181.59"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="611.84,-1185.08 621.28,-1180.26 610.9,-1178.14 611.84,-1185.08"/>
+</g>
+<!-- root_final_ancient -->
+<g id="node72" class="node">
+<title>root_final_ancient</title>
+<path fill="lightgrey" stroke="black" d="M756.5,-1296C756.5,-1296 638.5,-1296 638.5,-1296 632.5,-1296 626.5,-1290 626.5,-1284 626.5,-1284 626.5,-1272 626.5,-1272 626.5,-1266 632.5,-1260 638.5,-1260 638.5,-1260 756.5,-1260 756.5,-1260 762.5,-1260 768.5,-1266 768.5,-1272 768.5,-1272 768.5,-1284 768.5,-1284 768.5,-1290 762.5,-1296 756.5,-1296"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1273.33" font-family="Times,serif" font-size="14.00">root_final_ancient</text>
+</g>
+<!-- root_champion_thorn&#45;&gt;root_final_ancient -->
+<g id="edge66" class="edge">
+<title>root_champion_thorn&#45;&gt;root_final_ancient</title>
+<path fill="none" stroke="#7e57c2" d="M537.24,-1217.72C548.75,-1221.05 560.23,-1225.1 570.75,-1230 584.85,-1236.57 584.79,-1244.14 598.75,-1251 604.13,-1253.64 609.81,-1256.06 615.62,-1258.27"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="614.14,-1261.46 624.74,-1261.5 616.48,-1254.86 614.14,-1261.46"/>
+</g>
+<!-- root_champion_bloom&#45;&gt;root_final_ancient -->
+<g id="edge67" class="edge">
+<title>root_champion_bloom&#45;&gt;root_final_ancient</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-1299.41C563.93,-1296.08 590.55,-1292.45 614.8,-1289.14"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="615.19,-1292.62 624.63,-1287.8 614.25,-1285.68 615.19,-1292.62"/>
+</g>
+<!-- root_final_verdant -->
+<g id="node73" class="node">
+<title>root_final_verdant</title>
+<path fill="lightgrey" stroke="black" d="M758,-1350C758,-1350 637,-1350 637,-1350 631,-1350 625,-1344 625,-1338 625,-1338 625,-1326 625,-1326 625,-1320 631,-1314 637,-1314 637,-1314 758,-1314 758,-1314 764,-1314 770,-1320 770,-1326 770,-1326 770,-1338 770,-1338 770,-1344 764,-1350 758,-1350"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1327.33" font-family="Times,serif" font-size="14.00">root_final_verdant</text>
+</g>
+<!-- root_champion_bloom&#45;&gt;root_final_verdant -->
+<g id="edge68" class="edge">
+<title>root_champion_bloom&#45;&gt;root_final_verdant</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-1318.37C563.46,-1320.46 589.53,-1322.72 613.4,-1324.79"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="612.79,-1328.25 623.05,-1325.63 613.39,-1321.27 612.79,-1328.25"/>
+</g>
+<!-- root_champion_bark&#45;&gt;root_final_ancient -->
+<g id="edge70" class="edge">
+<title>root_champion_bark&#45;&gt;root_final_ancient</title>
+<path fill="none" stroke="#7e57c2" d="M533.74,-1263.88C559.68,-1266.13 588.53,-1268.63 614.66,-1270.9"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="614.28,-1274.38 624.55,-1271.76 614.89,-1267.4 614.28,-1274.38"/>
+</g>
+<!-- root_final_warden -->
+<g id="node74" class="node">
+<title>root_final_warden</title>
+<path fill="lightgrey" stroke="black" d="M756.88,-1242C756.88,-1242 638.12,-1242 638.12,-1242 632.12,-1242 626.12,-1236 626.12,-1230 626.12,-1230 626.12,-1218 626.12,-1218 626.12,-1212 632.12,-1206 638.12,-1206 638.12,-1206 756.88,-1206 756.88,-1206 762.88,-1206 768.88,-1212 768.88,-1218 768.88,-1218 768.88,-1230 768.88,-1230 768.88,-1236 762.88,-1242 756.88,-1242"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1219.33" font-family="Times,serif" font-size="14.00">root_final_warden</text>
+</g>
+<!-- root_champion_bark&#45;&gt;root_final_warden -->
+<g id="edge69" class="edge">
+<title>root_champion_bark&#45;&gt;root_final_warden</title>
+<path fill="none" stroke="#7e57c2" d="M533.74,-1246.19C559.56,-1242.67 588.26,-1238.76 614.29,-1235.21"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="614.72,-1238.68 624.15,-1233.87 613.77,-1231.75 614.72,-1238.68"/>
+</g>
+<!-- echo_baby -->
+<g id="node36" class="node">
+<title>echo_baby</title>
+<path fill="#ba68c8" stroke="black" d="M110.75,-1468C110.75,-1468 44.5,-1468 44.5,-1468 38.5,-1468 32.5,-1462 32.5,-1456 32.5,-1456 32.5,-1444 32.5,-1444 32.5,-1438 38.5,-1432 44.5,-1432 44.5,-1432 110.75,-1432 110.75,-1432 116.75,-1432 122.75,-1438 122.75,-1444 122.75,-1444 122.75,-1456 122.75,-1456 122.75,-1462 116.75,-1468 110.75,-1468"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1445.33" font-family="Times,serif" font-size="14.00">echo_baby</text>
+</g>
+<!-- echo_rookie -->
+<g id="node37" class="node">
+<title>echo_rookie</title>
+<path fill="#ba68c8" stroke="black" d="M279.75,-1468C279.75,-1468 203.75,-1468 203.75,-1468 197.75,-1468 191.75,-1462 191.75,-1456 191.75,-1456 191.75,-1444 191.75,-1444 191.75,-1438 197.75,-1432 203.75,-1432 203.75,-1432 279.75,-1432 279.75,-1432 285.75,-1432 291.75,-1438 291.75,-1444 291.75,-1444 291.75,-1456 291.75,-1456 291.75,-1462 285.75,-1468 279.75,-1468"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1445.33" font-family="Times,serif" font-size="14.00">echo_rookie</text>
+</g>
+<!-- echo_baby&#45;&gt;echo_rookie -->
+<g id="edge71" class="edge">
+<title>echo_baby&#45;&gt;echo_rookie</title>
+<path fill="none" stroke="black" d="M122.93,-1450C140.56,-1450 161.13,-1450 180.1,-1450"/>
+<polygon fill="black" stroke="black" points="179.85,-1453.5 189.85,-1450 179.85,-1446.5 179.85,-1453.5"/>
+</g>
+<!-- echo_champion_resonate -->
+<g id="node38" class="node">
+<title>echo_champion_resonate</title>
+<path fill="#ba68c8" stroke="black" d="M538.38,-1468C538.38,-1468 368.62,-1468 368.62,-1468 362.62,-1468 356.62,-1462 356.62,-1456 356.62,-1456 356.62,-1444 356.62,-1444 356.62,-1438 362.62,-1432 368.62,-1432 368.62,-1432 538.38,-1432 538.38,-1432 544.38,-1432 550.38,-1438 550.38,-1444 550.38,-1444 550.38,-1456 550.38,-1456 550.38,-1462 544.38,-1468 538.38,-1468"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1445.33" font-family="Times,serif" font-size="14.00">echo_champion_resonate</text>
+</g>
+<!-- echo_rookie&#45;&gt;echo_champion_resonate -->
+<g id="edge72" class="edge">
+<title>echo_rookie&#45;&gt;echo_champion_resonate</title>
+<path fill="none" stroke="#7e57c2" d="M292.19,-1450C308.14,-1450 326.49,-1450 344.95,-1450"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="344.92,-1453.5 354.92,-1450 344.92,-1446.5 344.92,-1453.5"/>
+</g>
+<!-- echo_champion_reverb -->
+<g id="node39" class="node">
+<title>echo_champion_reverb</title>
+<path fill="#ba68c8" stroke="black" d="M530.88,-1522C530.88,-1522 376.12,-1522 376.12,-1522 370.12,-1522 364.12,-1516 364.12,-1510 364.12,-1510 364.12,-1498 364.12,-1498 364.12,-1492 370.12,-1486 376.12,-1486 376.12,-1486 530.88,-1486 530.88,-1486 536.88,-1486 542.88,-1492 542.88,-1498 542.88,-1498 542.88,-1510 542.88,-1510 542.88,-1516 536.88,-1522 530.88,-1522"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1499.33" font-family="Times,serif" font-size="14.00">echo_champion_reverb</text>
+</g>
+<!-- echo_rookie&#45;&gt;echo_champion_reverb -->
+<g id="edge73" class="edge">
+<title>echo_rookie&#45;&gt;echo_champion_reverb</title>
+<path fill="none" stroke="#7e57c2" d="M292.01,-1463.27C308.59,-1467.69 327.21,-1472.61 344.25,-1477 351.56,-1478.88 359.15,-1480.82 366.77,-1482.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1486.14 376.46,-1485.19 367.62,-1479.35 365.9,-1486.14"/>
+</g>
+<!-- echo_champion_distort -->
+<g id="node40" class="node">
+<title>echo_champion_distort</title>
+<path fill="#ba68c8" stroke="black" d="M531.25,-1414C531.25,-1414 375.75,-1414 375.75,-1414 369.75,-1414 363.75,-1408 363.75,-1402 363.75,-1402 363.75,-1390 363.75,-1390 363.75,-1384 369.75,-1378 375.75,-1378 375.75,-1378 531.25,-1378 531.25,-1378 537.25,-1378 543.25,-1384 543.25,-1390 543.25,-1390 543.25,-1402 543.25,-1402 543.25,-1408 537.25,-1414 531.25,-1414"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1391.33" font-family="Times,serif" font-size="14.00">echo_champion_distort</text>
+</g>
+<!-- echo_rookie&#45;&gt;echo_champion_distort -->
+<g id="edge74" class="edge">
+<title>echo_rookie&#45;&gt;echo_champion_distort</title>
+<path fill="none" stroke="#7e57c2" d="M292.01,-1436.73C308.59,-1432.31 327.21,-1427.39 344.25,-1423 351.56,-1421.12 359.15,-1419.18 366.77,-1417.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1420.65 376.46,-1414.81 365.9,-1413.86 367.62,-1420.65"/>
+</g>
+<!-- echo_final_harmonic -->
+<g id="node75" class="node">
+<title>echo_final_harmonic</title>
+<path fill="lightgrey" stroke="black" d="M765.5,-1495C765.5,-1495 629.5,-1495 629.5,-1495 623.5,-1495 617.5,-1489 617.5,-1483 617.5,-1483 617.5,-1471 617.5,-1471 617.5,-1465 623.5,-1459 629.5,-1459 629.5,-1459 765.5,-1459 765.5,-1459 771.5,-1459 777.5,-1465 777.5,-1471 777.5,-1471 777.5,-1483 777.5,-1483 777.5,-1489 771.5,-1495 765.5,-1495"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1472.33" font-family="Times,serif" font-size="14.00">echo_final_harmonic</text>
+</g>
+<!-- echo_champion_resonate&#45;&gt;echo_final_harmonic -->
+<g id="edge75" class="edge">
+<title>echo_champion_resonate&#45;&gt;echo_final_harmonic</title>
+<path fill="none" stroke="#7e57c2" d="M550.84,-1460.75C568.98,-1462.77 587.9,-1464.88 605.86,-1466.89"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="605.37,-1470.35 615.7,-1467.99 606.15,-1463.4 605.37,-1470.35"/>
+</g>
+<!-- echo_final_feedback -->
+<g id="node76" class="node">
+<title>echo_final_feedback</title>
+<path fill="lightgrey" stroke="black" d="M764,-1441C764,-1441 631,-1441 631,-1441 625,-1441 619,-1435 619,-1429 619,-1429 619,-1417 619,-1417 619,-1411 625,-1405 631,-1405 631,-1405 764,-1405 764,-1405 770,-1405 776,-1411 776,-1417 776,-1417 776,-1429 776,-1429 776,-1435 770,-1441 764,-1441"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1418.33" font-family="Times,serif" font-size="14.00">echo_final_feedback</text>
+</g>
+<!-- echo_champion_resonate&#45;&gt;echo_final_feedback -->
+<g id="edge76" class="edge">
+<title>echo_champion_resonate&#45;&gt;echo_final_feedback</title>
+<path fill="none" stroke="#7e57c2" d="M550.84,-1439.25C569.51,-1437.17 588.99,-1435 607.41,-1432.94"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="607.67,-1436.43 617.22,-1431.85 606.89,-1429.48 607.67,-1436.43"/>
+</g>
+<!-- echo_champion_reverb&#45;&gt;echo_final_harmonic -->
+<g id="edge78" class="edge">
+<title>echo_champion_reverb&#45;&gt;echo_final_harmonic</title>
+<path fill="none" stroke="#7e57c2" d="M543.24,-1494.1C563.73,-1491.81 585.54,-1489.38 606.1,-1487.09"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="606.32,-1490.58 615.87,-1486 605.54,-1483.63 606.32,-1490.58"/>
+</g>
+<!-- echo_champion_reverb&#45;&gt;echo_final_feedback -->
+<g id="edge77" class="edge">
+<title>echo_champion_reverb&#45;&gt;echo_final_feedback</title>
+<path fill="none" stroke="#7e57c2" d="M543.32,-1488.69C552.86,-1485.5 562.19,-1481.65 570.75,-1477 585.94,-1468.75 583.73,-1458.57 598.75,-1450 601.79,-1448.27 604.94,-1446.64 608.18,-1445.12"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="609.54,-1448.34 617.35,-1441.17 606.78,-1441.91 609.54,-1448.34"/>
+</g>
+<!-- echo_champion_distort&#45;&gt;echo_final_harmonic -->
+<g id="edge80" class="edge">
+<title>echo_champion_distort&#45;&gt;echo_final_harmonic</title>
+<path fill="none" stroke="#7e57c2" d="M543.63,-1411.41C553.06,-1414.58 562.28,-1418.4 570.75,-1423 585.94,-1431.25 583.73,-1441.43 598.75,-1450 601.38,-1451.5 604.1,-1452.92 606.89,-1454.27"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="605.27,-1457.38 615.83,-1458.21 608.09,-1450.97 605.27,-1457.38"/>
+</g>
+<!-- echo_champion_distort&#45;&gt;echo_final_feedback -->
+<g id="edge79" class="edge">
+<title>echo_champion_distort&#45;&gt;echo_final_feedback</title>
+<path fill="none" stroke="#7e57c2" d="M543.58,-1405.94C564.39,-1408.26 586.56,-1410.73 607.37,-1413.06"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="606.94,-1416.53 617.27,-1414.16 607.72,-1409.57 606.94,-1416.53"/>
+</g>
+<!-- codeborn_baby -->
+<g id="node41" class="node">
+<title>codeborn_baby</title>
+<path fill="#e0e0e0" stroke="black" d="M127.25,-1607C127.25,-1607 28,-1607 28,-1607 22,-1607 16,-1601 16,-1595 16,-1595 16,-1583 16,-1583 16,-1577 22,-1571 28,-1571 28,-1571 127.25,-1571 127.25,-1571 133.25,-1571 139.25,-1577 139.25,-1583 139.25,-1583 139.25,-1595 139.25,-1595 139.25,-1601 133.25,-1607 127.25,-1607"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1584.33" font-family="Times,serif" font-size="14.00">codeborn_baby</text>
+</g>
+<!-- codeborn_rookie -->
+<g id="node42" class="node">
+<title>codeborn_rookie</title>
+<path fill="#e0e0e0" stroke="black" d="M296.25,-1607C296.25,-1607 187.25,-1607 187.25,-1607 181.25,-1607 175.25,-1601 175.25,-1595 175.25,-1595 175.25,-1583 175.25,-1583 175.25,-1577 181.25,-1571 187.25,-1571 187.25,-1571 296.25,-1571 296.25,-1571 302.25,-1571 308.25,-1577 308.25,-1583 308.25,-1583 308.25,-1595 308.25,-1595 308.25,-1601 302.25,-1607 296.25,-1607"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1584.33" font-family="Times,serif" font-size="14.00">codeborn_rookie</text>
+</g>
+<!-- codeborn_baby&#45;&gt;codeborn_rookie -->
+<g id="edge81" class="edge">
+<title>codeborn_baby&#45;&gt;codeborn_rookie</title>
+<path fill="none" stroke="black" d="M139.46,-1589C147.33,-1589 155.48,-1589 163.58,-1589"/>
+<polygon fill="black" stroke="black" points="163.45,-1592.5 173.45,-1589 163.45,-1585.5 163.45,-1592.5"/>
+</g>
+<!-- codeborn_champion -->
+<g id="node43" class="node">
+<title>codeborn_champion</title>
+<path fill="#e0e0e0" stroke="black" d="M520.38,-1607C520.38,-1607 386.62,-1607 386.62,-1607 380.62,-1607 374.62,-1601 374.62,-1595 374.62,-1595 374.62,-1583 374.62,-1583 374.62,-1577 380.62,-1571 386.62,-1571 386.62,-1571 520.38,-1571 520.38,-1571 526.38,-1571 532.38,-1577 532.38,-1583 532.38,-1583 532.38,-1595 532.38,-1595 532.38,-1601 526.38,-1607 520.38,-1607"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1584.33" font-family="Times,serif" font-size="14.00">codeborn_champion</text>
+</g>
+<!-- codeborn_rookie&#45;&gt;codeborn_champion -->
+<g id="edge82" class="edge">
+<title>codeborn_rookie&#45;&gt;codeborn_champion</title>
+<path fill="none" stroke="black" d="M308.54,-1589C325.85,-1589 344.82,-1589 363.15,-1589"/>
+<polygon fill="black" stroke="black" points="362.94,-1592.5 372.94,-1589 362.94,-1585.5 362.94,-1592.5"/>
+</g>
+<!-- codeborn_final -->
+<g id="node77" class="node">
+<title>codeborn_final</title>
+<path fill="lightgrey" stroke="black" d="M745.25,-1607C745.25,-1607 649.75,-1607 649.75,-1607 643.75,-1607 637.75,-1601 637.75,-1595 637.75,-1595 637.75,-1583 637.75,-1583 637.75,-1577 643.75,-1571 649.75,-1571 649.75,-1571 745.25,-1571 745.25,-1571 751.25,-1571 757.25,-1577 757.25,-1583 757.25,-1583 757.25,-1595 757.25,-1595 757.25,-1601 751.25,-1607 745.25,-1607"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1584.33" font-family="Times,serif" font-size="14.00">codeborn_final</text>
+</g>
+<!-- codeborn_champion&#45;&gt;codeborn_final -->
+<g id="edge83" class="edge">
+<title>codeborn_champion&#45;&gt;codeborn_final</title>
+<path fill="none" stroke="black" d="M532.74,-1589C562.73,-1589 596.74,-1589 625.97,-1589"/>
+<polygon fill="black" stroke="black" points="625.82,-1592.5 635.82,-1589 625.82,-1585.5 625.82,-1592.5"/>
+</g>
+<!-- corrupt_baby -->
+<g id="node44" class="node">
+<title>corrupt_baby</title>
+<path fill="#ef5350" stroke="black" d="M120.88,-1746C120.88,-1746 34.38,-1746 34.38,-1746 28.38,-1746 22.38,-1740 22.38,-1734 22.38,-1734 22.38,-1722 22.38,-1722 22.38,-1716 28.38,-1710 34.38,-1710 34.38,-1710 120.88,-1710 120.88,-1710 126.88,-1710 132.88,-1716 132.88,-1722 132.88,-1722 132.88,-1734 132.88,-1734 132.88,-1740 126.88,-1746 120.88,-1746"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1723.33" font-family="Times,serif" font-size="14.00">corrupt_baby</text>
+</g>
+<!-- corrupt_rookie -->
+<g id="node45" class="node">
+<title>corrupt_rookie</title>
+<path fill="#ef5350" stroke="black" d="M289.88,-1746C289.88,-1746 193.62,-1746 193.62,-1746 187.62,-1746 181.62,-1740 181.62,-1734 181.62,-1734 181.62,-1722 181.62,-1722 181.62,-1716 187.62,-1710 193.62,-1710 193.62,-1710 289.88,-1710 289.88,-1710 295.88,-1710 301.88,-1716 301.88,-1722 301.88,-1722 301.88,-1734 301.88,-1734 301.88,-1740 295.88,-1746 289.88,-1746"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1723.33" font-family="Times,serif" font-size="14.00">corrupt_rookie</text>
+</g>
+<!-- corrupt_baby&#45;&gt;corrupt_rookie -->
+<g id="edge84" class="edge">
+<title>corrupt_baby&#45;&gt;corrupt_rookie</title>
 <path fill="none" stroke="black" d="M133.06,-1728C144.89,-1728 157.58,-1728 169.94,-1728"/>
 <polygon fill="black" stroke="black" points="169.65,-1731.5 179.65,-1728 169.65,-1724.5 169.65,-1731.5"/>
 </g>
-<!-- firewall_champion_barrier -->
+<!-- corrupt_champion_glitch -->
 <g id="node46" class="node">
-<title>firewall_champion_barrier</title>
-<path fill="#ff8a65" stroke="black" d="M542.5,-1692C542.5,-1692 364.5,-1692 364.5,-1692 358.5,-1692 352.5,-1686 352.5,-1680 352.5,-1680 352.5,-1668 352.5,-1668 352.5,-1662 358.5,-1656 364.5,-1656 364.5,-1656 542.5,-1656 542.5,-1656 548.5,-1656 554.5,-1662 554.5,-1668 554.5,-1668 554.5,-1680 554.5,-1680 554.5,-1686 548.5,-1692 542.5,-1692"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1669.33" font-family="Times,serif" font-size="14.00">firewall_champion_barrier</text>
+<title>corrupt_champion_glitch</title>
+<path fill="#ef5350" stroke="black" d="M537.62,-1746C537.62,-1746 369.38,-1746 369.38,-1746 363.38,-1746 357.38,-1740 357.38,-1734 357.38,-1734 357.38,-1722 357.38,-1722 357.38,-1716 363.38,-1710 369.38,-1710 369.38,-1710 537.62,-1710 537.62,-1710 543.62,-1710 549.62,-1716 549.62,-1722 549.62,-1722 549.62,-1734 549.62,-1734 549.62,-1740 543.62,-1746 537.62,-1746"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1723.33" font-family="Times,serif" font-size="14.00">corrupt_champion_glitch</text>
 </g>
-<!-- firewall_rookie&#45;&gt;firewall_champion_barrier -->
+<!-- corrupt_rookie&#45;&gt;corrupt_champion_glitch -->
 <g id="edge85" class="edge">
-<title>firewall_rookie&#45;&gt;firewall_champion_barrier</title>
-<path fill="none" stroke="#7e57c2" d="M302.28,-1712C316.05,-1708.34 330.65,-1704.5 344.25,-1701 351.56,-1699.12 359.15,-1697.18 366.77,-1695.25"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1698.65 376.46,-1692.81 365.9,-1691.86 367.62,-1698.65"/>
+<title>corrupt_rookie&#45;&gt;corrupt_champion_glitch</title>
+<path fill="none" stroke="#7e57c2" d="M302.29,-1728C315.9,-1728 330.77,-1728 345.69,-1728"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="345.58,-1731.5 355.58,-1728 345.58,-1724.5 345.58,-1731.5"/>
 </g>
-<!-- firewall_champion_counter -->
+<!-- corrupt_champion_error -->
 <g id="node47" class="node">
-<title>firewall_champion_counter</title>
-<path fill="#ff8a65" stroke="black" d="M544.75,-1800C544.75,-1800 362.25,-1800 362.25,-1800 356.25,-1800 350.25,-1794 350.25,-1788 350.25,-1788 350.25,-1776 350.25,-1776 350.25,-1770 356.25,-1764 362.25,-1764 362.25,-1764 544.75,-1764 544.75,-1764 550.75,-1764 556.75,-1770 556.75,-1776 556.75,-1776 556.75,-1788 556.75,-1788 556.75,-1794 550.75,-1800 544.75,-1800"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1777.33" font-family="Times,serif" font-size="14.00">firewall_champion_counter</text>
+<title>corrupt_champion_error</title>
+<path fill="#ef5350" stroke="black" d="M535.75,-1800C535.75,-1800 371.25,-1800 371.25,-1800 365.25,-1800 359.25,-1794 359.25,-1788 359.25,-1788 359.25,-1776 359.25,-1776 359.25,-1770 365.25,-1764 371.25,-1764 371.25,-1764 535.75,-1764 535.75,-1764 541.75,-1764 547.75,-1770 547.75,-1776 547.75,-1776 547.75,-1788 547.75,-1788 547.75,-1794 541.75,-1800 535.75,-1800"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1777.33" font-family="Times,serif" font-size="14.00">corrupt_champion_error</text>
 </g>
-<!-- firewall_rookie&#45;&gt;firewall_champion_counter -->
+<!-- corrupt_rookie&#45;&gt;corrupt_champion_error -->
 <g id="edge86" class="edge">
-<title>firewall_rookie&#45;&gt;firewall_champion_counter</title>
+<title>corrupt_rookie&#45;&gt;corrupt_champion_error</title>
 <path fill="none" stroke="#7e57c2" d="M302.28,-1744C316.05,-1747.66 330.65,-1751.5 344.25,-1755 351.56,-1756.88 359.15,-1758.82 366.77,-1760.75"/>
 <polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1764.14 376.46,-1763.19 367.62,-1757.35 365.9,-1764.14"/>
 </g>
-<!-- firewall_champion_patch -->
+<!-- corrupt_champion_patchfail -->
 <g id="node48" class="node">
-<title>firewall_champion_patch</title>
-<path fill="#ff8a65" stroke="black" d="M537.25,-1746C537.25,-1746 369.75,-1746 369.75,-1746 363.75,-1746 357.75,-1740 357.75,-1734 357.75,-1734 357.75,-1722 357.75,-1722 357.75,-1716 363.75,-1710 369.75,-1710 369.75,-1710 537.25,-1710 537.25,-1710 543.25,-1710 549.25,-1716 549.25,-1722 549.25,-1722 549.25,-1734 549.25,-1734 549.25,-1740 543.25,-1746 537.25,-1746"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1723.33" font-family="Times,serif" font-size="14.00">firewall_champion_patch</text>
+<title>corrupt_champion_patchfail</title>
+<path fill="#ef5350" stroke="black" d="M548.5,-1692C548.5,-1692 358.5,-1692 358.5,-1692 352.5,-1692 346.5,-1686 346.5,-1680 346.5,-1680 346.5,-1668 346.5,-1668 346.5,-1662 352.5,-1656 358.5,-1656 358.5,-1656 548.5,-1656 548.5,-1656 554.5,-1656 560.5,-1662 560.5,-1668 560.5,-1668 560.5,-1680 560.5,-1680 560.5,-1686 554.5,-1692 548.5,-1692"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1669.33" font-family="Times,serif" font-size="14.00">corrupt_champion_patchfail</text>
 </g>
-<!-- firewall_rookie&#45;&gt;firewall_champion_patch -->
+<!-- corrupt_rookie&#45;&gt;corrupt_champion_patchfail -->
 <g id="edge87" class="edge">
-<title>firewall_rookie&#45;&gt;firewall_champion_patch</title>
-<path fill="none" stroke="#7e57c2" d="M302.29,-1728C316,-1728 330.98,-1728 346.01,-1728"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="345.98,-1731.5 355.98,-1728 345.98,-1724.5 345.98,-1731.5"/>
+<title>corrupt_rookie&#45;&gt;corrupt_champion_patchfail</title>
+<path fill="none" stroke="#7e57c2" d="M302.28,-1712C316.05,-1708.34 330.65,-1704.5 344.25,-1701 351.56,-1699.12 359.15,-1697.18 366.77,-1695.25"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1698.65 376.46,-1692.81 365.9,-1691.86 367.62,-1698.65"/>
 </g>
-<!-- firewall_final_fortress -->
+<!-- corrupt_final_corruptcore -->
 <g id="node78" class="node">
-<title>firewall_final_fortress</title>
-<path fill="lightgrey" stroke="black" d="M770.38,-1692C770.38,-1692 624.62,-1692 624.62,-1692 618.62,-1692 612.62,-1686 612.62,-1680 612.62,-1680 612.62,-1668 612.62,-1668 612.62,-1662 618.62,-1656 624.62,-1656 624.62,-1656 770.38,-1656 770.38,-1656 776.38,-1656 782.38,-1662 782.38,-1668 782.38,-1668 782.38,-1680 782.38,-1680 782.38,-1686 776.38,-1692 770.38,-1692"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1669.33" font-family="Times,serif" font-size="14.00">firewall_final_fortress</text>
+<title>corrupt_final_corruptcore</title>
+<path fill="lightgrey" stroke="black" d="M784.25,-1773C784.25,-1773 610.75,-1773 610.75,-1773 604.75,-1773 598.75,-1767 598.75,-1761 598.75,-1761 598.75,-1749 598.75,-1749 598.75,-1743 604.75,-1737 610.75,-1737 610.75,-1737 784.25,-1737 784.25,-1737 790.25,-1737 796.25,-1743 796.25,-1749 796.25,-1749 796.25,-1761 796.25,-1761 796.25,-1767 790.25,-1773 784.25,-1773"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1750.33" font-family="Times,serif" font-size="14.00">corrupt_final_corruptcore</text>
 </g>
-<!-- firewall_champion_barrier&#45;&gt;firewall_final_fortress -->
+<!-- corrupt_champion_glitch&#45;&gt;corrupt_final_corruptcore -->
 <g id="edge88" class="edge">
-<title>firewall_champion_barrier&#45;&gt;firewall_final_fortress</title>
-<path fill="none" stroke="#7e57c2" d="M554.68,-1674C569.91,-1674 585.6,-1674 600.73,-1674"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="600.67,-1677.5 610.67,-1674 600.67,-1670.5 600.67,-1677.5"/>
+<title>corrupt_champion_glitch&#45;&gt;corrupt_final_corruptcore</title>
+<path fill="none" stroke="#7e57c2" d="M549.8,-1738.63C562.05,-1740 574.67,-1741.41 587.13,-1742.8"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="586.68,-1746.27 597,-1743.9 587.45,-1739.31 586.68,-1746.27"/>
 </g>
-<!-- firewall_final_protocol -->
+<!-- corrupt_final_overrun -->
 <g id="node79" class="node">
-<title>firewall_final_protocol</title>
-<path fill="lightgrey" stroke="black" d="M771.5,-1746C771.5,-1746 623.5,-1746 623.5,-1746 617.5,-1746 611.5,-1740 611.5,-1734 611.5,-1734 611.5,-1722 611.5,-1722 611.5,-1716 617.5,-1710 623.5,-1710 623.5,-1710 771.5,-1710 771.5,-1710 777.5,-1710 783.5,-1716 783.5,-1722 783.5,-1722 783.5,-1734 783.5,-1734 783.5,-1740 777.5,-1746 771.5,-1746"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1723.33" font-family="Times,serif" font-size="14.00">firewall_final_protocol</text>
+<title>corrupt_final_overrun</title>
+<path fill="lightgrey" stroke="black" d="M770.38,-1719C770.38,-1719 624.62,-1719 624.62,-1719 618.62,-1719 612.62,-1713 612.62,-1707 612.62,-1707 612.62,-1695 612.62,-1695 612.62,-1689 618.62,-1683 624.62,-1683 624.62,-1683 770.38,-1683 770.38,-1683 776.38,-1683 782.38,-1689 782.38,-1695 782.38,-1695 782.38,-1707 782.38,-1707 782.38,-1713 776.38,-1719 770.38,-1719"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1696.33" font-family="Times,serif" font-size="14.00">corrupt_final_overrun</text>
 </g>
-<!-- firewall_champion_barrier&#45;&gt;firewall_final_protocol -->
+<!-- corrupt_champion_glitch&#45;&gt;corrupt_final_overrun -->
 <g id="edge89" class="edge">
-<title>firewall_champion_barrier&#45;&gt;firewall_final_protocol</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-1692.43C558.21,-1697.14 581.05,-1702.24 602.68,-1707.06"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="601.86,-1710.47 612.38,-1709.23 603.38,-1703.64 601.86,-1710.47"/>
+<title>corrupt_champion_glitch&#45;&gt;corrupt_final_overrun</title>
+<path fill="none" stroke="#7e57c2" d="M549.8,-1717.37C566.72,-1715.48 584.35,-1713.51 601.28,-1711.62"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="601.23,-1715.15 610.78,-1710.56 600.45,-1708.19 601.23,-1715.15"/>
 </g>
-<!-- firewall_champion_counter&#45;&gt;firewall_final_protocol -->
+<!-- corrupt_champion_error&#45;&gt;corrupt_final_corruptcore -->
 <g id="edge91" class="edge">
-<title>firewall_champion_counter&#45;&gt;firewall_final_protocol</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-1763.57C558.21,-1758.86 581.05,-1753.76 602.68,-1748.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-1752.36 612.38,-1746.77 601.86,-1745.53 603.38,-1752.36"/>
+<title>corrupt_champion_error&#45;&gt;corrupt_final_corruptcore</title>
+<path fill="none" stroke="#7e57c2" d="M548.06,-1771.56C560.82,-1770.14 574.01,-1768.67 587.01,-1767.22"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="587.33,-1770.7 596.88,-1766.12 586.55,-1763.75 587.33,-1770.7"/>
 </g>
-<!-- firewall_final_retaliate -->
-<g id="node80" class="node">
-<title>firewall_final_retaliate</title>
-<path fill="lightgrey" stroke="black" d="M772.62,-1800C772.62,-1800 622.38,-1800 622.38,-1800 616.38,-1800 610.38,-1794 610.38,-1788 610.38,-1788 610.38,-1776 610.38,-1776 610.38,-1770 616.38,-1764 622.38,-1764 622.38,-1764 772.62,-1764 772.62,-1764 778.62,-1764 784.62,-1770 784.62,-1776 784.62,-1776 784.62,-1788 784.62,-1788 784.62,-1794 778.62,-1800 772.62,-1800"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1777.33" font-family="Times,serif" font-size="14.00">firewall_final_retaliate</text>
-</g>
-<!-- firewall_champion_counter&#45;&gt;firewall_final_retaliate -->
+<!-- corrupt_champion_error&#45;&gt;corrupt_final_overrun -->
 <g id="edge90" class="edge">
-<title>firewall_champion_counter&#45;&gt;firewall_final_retaliate</title>
-<path fill="none" stroke="#7e57c2" d="M557.13,-1782C570.92,-1782 585.03,-1782 598.73,-1782"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="598.61,-1785.5 608.61,-1782 598.61,-1778.5 598.61,-1785.5"/>
+<title>corrupt_champion_error&#45;&gt;corrupt_final_overrun</title>
+<path fill="none" stroke="#7e57c2" d="M548.17,-1765C556.01,-1762.17 563.65,-1758.86 570.75,-1755 585.94,-1746.75 583.73,-1736.57 598.75,-1728 601.1,-1726.66 603.53,-1725.38 606.01,-1724.16"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="607.37,-1727.38 615.07,-1720.11 604.52,-1720.99 607.37,-1727.38"/>
 </g>
-<!-- firewall_champion_patch&#45;&gt;firewall_final_fortress -->
-<g id="edge93" class="edge">
-<title>firewall_champion_patch&#45;&gt;firewall_final_fortress</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-1709.57C558.21,-1704.86 581.05,-1699.76 602.68,-1694.94"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.38,-1698.36 612.38,-1692.77 601.86,-1691.53 603.38,-1698.36"/>
-</g>
-<!-- firewall_champion_patch&#45;&gt;firewall_final_protocol -->
+<!-- corrupt_champion_patchfail&#45;&gt;corrupt_final_corruptcore -->
 <g id="edge92" class="edge">
-<title>firewall_champion_patch&#45;&gt;firewall_final_protocol</title>
-<path fill="none" stroke="#7e57c2" d="M549.45,-1728C566.02,-1728 583.27,-1728 599.88,-1728"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="599.75,-1731.5 609.75,-1728 599.75,-1724.5 599.75,-1731.5"/>
+<title>corrupt_champion_patchfail&#45;&gt;corrupt_final_corruptcore</title>
+<path fill="none" stroke="#7e57c2" d="M552.08,-1692.45C558.54,-1694.95 564.83,-1697.79 570.75,-1701 585.94,-1709.25 583.73,-1719.43 598.75,-1728 601.1,-1729.34 603.53,-1730.62 606.01,-1731.84"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="604.52,-1735.01 615.07,-1735.89 607.37,-1728.62 604.52,-1735.01"/>
 </g>
-<!-- void_baby -->
+<!-- corrupt_champion_patchfail&#45;&gt;corrupt_final_overrun -->
+<g id="edge93" class="edge">
+<title>corrupt_champion_patchfail&#45;&gt;corrupt_final_overrun</title>
+<path fill="none" stroke="#7e57c2" d="M561,-1685.88C574.24,-1687.36 587.71,-1688.86 600.78,-1690.32"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="600.3,-1693.79 610.63,-1691.42 601.08,-1686.83 600.3,-1693.79"/>
+</g>
+<!-- core_baby -->
 <g id="node49" class="node">
-<title>void_baby</title>
-<path fill="#b0bec5" stroke="black" d="M109.25,-1939C109.25,-1939 46,-1939 46,-1939 40,-1939 34,-1933 34,-1927 34,-1927 34,-1915 34,-1915 34,-1909 40,-1903 46,-1903 46,-1903 109.25,-1903 109.25,-1903 115.25,-1903 121.25,-1909 121.25,-1915 121.25,-1915 121.25,-1927 121.25,-1927 121.25,-1933 115.25,-1939 109.25,-1939"/>
-<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1916.33" font-family="Times,serif" font-size="14.00">void_baby</text>
+<title>core_baby</title>
+<path fill="#4fc3f7" stroke="black" d="M109.62,-1939C109.62,-1939 45.62,-1939 45.62,-1939 39.62,-1939 33.62,-1933 33.62,-1927 33.62,-1927 33.62,-1915 33.62,-1915 33.62,-1909 39.62,-1903 45.62,-1903 45.62,-1903 109.62,-1903 109.62,-1903 115.62,-1903 121.62,-1909 121.62,-1915 121.62,-1915 121.62,-1927 121.62,-1927 121.62,-1933 115.62,-1939 109.62,-1939"/>
+<text xml:space="preserve" text-anchor="middle" x="77.62" y="-1916.33" font-family="Times,serif" font-size="14.00">core_baby</text>
 </g>
-<!-- void_rookie -->
+<!-- core_rookie -->
 <g id="node50" class="node">
-<title>void_rookie</title>
-<path fill="#b0bec5" stroke="black" d="M278.25,-1939C278.25,-1939 205.25,-1939 205.25,-1939 199.25,-1939 193.25,-1933 193.25,-1927 193.25,-1927 193.25,-1915 193.25,-1915 193.25,-1909 199.25,-1903 205.25,-1903 205.25,-1903 278.25,-1903 278.25,-1903 284.25,-1903 290.25,-1909 290.25,-1915 290.25,-1915 290.25,-1927 290.25,-1927 290.25,-1933 284.25,-1939 278.25,-1939"/>
-<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1916.33" font-family="Times,serif" font-size="14.00">void_rookie</text>
+<title>core_rookie</title>
+<path fill="#4fc3f7" stroke="black" d="M278.62,-1939C278.62,-1939 204.88,-1939 204.88,-1939 198.88,-1939 192.88,-1933 192.88,-1927 192.88,-1927 192.88,-1915 192.88,-1915 192.88,-1909 198.88,-1903 204.88,-1903 204.88,-1903 278.62,-1903 278.62,-1903 284.62,-1903 290.62,-1909 290.62,-1915 290.62,-1915 290.62,-1927 290.62,-1927 290.62,-1933 284.62,-1939 278.62,-1939"/>
+<text xml:space="preserve" text-anchor="middle" x="241.75" y="-1916.33" font-family="Times,serif" font-size="14.00">core_rookie</text>
 </g>
-<!-- void_baby&#45;&gt;void_rookie -->
+<!-- core_baby&#45;&gt;core_rookie -->
 <g id="edge94" class="edge">
-<title>void_baby&#45;&gt;void_rookie</title>
-<path fill="none" stroke="black" d="M121.65,-1921C140,-1921 161.71,-1921 181.54,-1921"/>
-<polygon fill="black" stroke="black" points="181.44,-1924.5 191.44,-1921 181.44,-1917.5 181.44,-1924.5"/>
+<title>core_baby&#45;&gt;core_rookie</title>
+<path fill="none" stroke="black" d="M122.07,-1921C140.26,-1921 161.7,-1921 181.31,-1921"/>
+<polygon fill="black" stroke="black" points="181.1,-1924.5 191.1,-1921 181.1,-1917.5 181.1,-1924.5"/>
 </g>
-<!-- void_champion_entropy -->
+<!-- core_champion_power -->
 <g id="node51" class="node">
-<title>void_champion_entropy</title>
-<path fill="#b0bec5" stroke="black" d="M533.5,-1993C533.5,-1993 373.5,-1993 373.5,-1993 367.5,-1993 361.5,-1987 361.5,-1981 361.5,-1981 361.5,-1969 361.5,-1969 361.5,-1963 367.5,-1957 373.5,-1957 373.5,-1957 533.5,-1957 533.5,-1957 539.5,-1957 545.5,-1963 545.5,-1969 545.5,-1969 545.5,-1981 545.5,-1981 545.5,-1987 539.5,-1993 533.5,-1993"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1970.33" font-family="Times,serif" font-size="14.00">void_champion_entropy</text>
+<title>core_champion_power</title>
+<path fill="#4fc3f7" stroke="black" d="M528.25,-1885C528.25,-1885 378.75,-1885 378.75,-1885 372.75,-1885 366.75,-1879 366.75,-1873 366.75,-1873 366.75,-1861 366.75,-1861 366.75,-1855 372.75,-1849 378.75,-1849 378.75,-1849 528.25,-1849 528.25,-1849 534.25,-1849 540.25,-1855 540.25,-1861 540.25,-1861 540.25,-1873 540.25,-1873 540.25,-1879 534.25,-1885 528.25,-1885"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1862.33" font-family="Times,serif" font-size="14.00">core_champion_power</text>
 </g>
-<!-- void_rookie&#45;&gt;void_champion_entropy -->
+<!-- core_rookie&#45;&gt;core_champion_power -->
 <g id="edge95" class="edge">
-<title>void_rookie&#45;&gt;void_champion_entropy</title>
-<path fill="none" stroke="#7e57c2" d="M290.73,-1933.93C307.63,-1938.44 326.77,-1943.5 344.25,-1948 351.56,-1949.88 359.15,-1951.82 366.77,-1953.75"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1957.14 376.46,-1956.19 367.62,-1950.35 365.9,-1957.14"/>
-</g>
-<!-- void_champion_gravity -->
-<g id="node52" class="node">
-<title>void_champion_gravity</title>
-<path fill="#b0bec5" stroke="black" d="M531.25,-1885C531.25,-1885 375.75,-1885 375.75,-1885 369.75,-1885 363.75,-1879 363.75,-1873 363.75,-1873 363.75,-1861 363.75,-1861 363.75,-1855 369.75,-1849 375.75,-1849 375.75,-1849 531.25,-1849 531.25,-1849 537.25,-1849 543.25,-1855 543.25,-1861 543.25,-1861 543.25,-1873 543.25,-1873 543.25,-1879 537.25,-1885 531.25,-1885"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1862.33" font-family="Times,serif" font-size="14.00">void_champion_gravity</text>
-</g>
-<!-- void_rookie&#45;&gt;void_champion_gravity -->
-<g id="edge96" class="edge">
-<title>void_rookie&#45;&gt;void_champion_gravity</title>
-<path fill="none" stroke="#7e57c2" d="M290.73,-1908.07C307.63,-1903.56 326.77,-1898.5 344.25,-1894 351.56,-1892.12 359.15,-1890.18 366.77,-1888.25"/>
+<title>core_rookie&#45;&gt;core_champion_power</title>
+<path fill="none" stroke="#7e57c2" d="M290.98,-1908.01C307.82,-1903.51 326.86,-1898.48 344.25,-1894 351.56,-1892.12 359.15,-1890.18 366.77,-1888.25"/>
 <polygon fill="#7e57c2" stroke="#7e57c2" points="367.62,-1891.65 376.46,-1885.81 365.9,-1884.86 367.62,-1891.65"/>
 </g>
-<!-- void_champion_null -->
+<!-- core_champion_guard -->
+<g id="node52" class="node">
+<title>core_champion_guard</title>
+<path fill="#4fc3f7" stroke="black" d="M527.12,-1993C527.12,-1993 379.88,-1993 379.88,-1993 373.88,-1993 367.88,-1987 367.88,-1981 367.88,-1981 367.88,-1969 367.88,-1969 367.88,-1963 373.88,-1957 379.88,-1957 379.88,-1957 527.12,-1957 527.12,-1957 533.12,-1957 539.12,-1963 539.12,-1969 539.12,-1969 539.12,-1981 539.12,-1981 539.12,-1987 533.12,-1993 527.12,-1993"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1970.33" font-family="Times,serif" font-size="14.00">core_champion_guard</text>
+</g>
+<!-- core_rookie&#45;&gt;core_champion_guard -->
+<g id="edge96" class="edge">
+<title>core_rookie&#45;&gt;core_champion_guard</title>
+<path fill="none" stroke="#7e57c2" d="M290.98,-1933.99C307.82,-1938.49 326.86,-1943.52 344.25,-1948 351.56,-1949.88 359.15,-1951.82 366.77,-1953.75"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="365.9,-1957.14 376.46,-1956.19 367.62,-1950.35 365.9,-1957.14"/>
+</g>
+<!-- core_champion_speed -->
 <g id="node53" class="node">
-<title>void_champion_null</title>
-<path fill="#b0bec5" stroke="black" d="M519.25,-1939C519.25,-1939 387.75,-1939 387.75,-1939 381.75,-1939 375.75,-1933 375.75,-1927 375.75,-1927 375.75,-1915 375.75,-1915 375.75,-1909 381.75,-1903 387.75,-1903 387.75,-1903 519.25,-1903 519.25,-1903 525.25,-1903 531.25,-1909 531.25,-1915 531.25,-1915 531.25,-1927 531.25,-1927 531.25,-1933 525.25,-1939 519.25,-1939"/>
-<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1916.33" font-family="Times,serif" font-size="14.00">void_champion_null</text>
+<title>core_champion_speed</title>
+<path fill="#4fc3f7" stroke="black" d="M527.12,-1939C527.12,-1939 379.88,-1939 379.88,-1939 373.88,-1939 367.88,-1933 367.88,-1927 367.88,-1927 367.88,-1915 367.88,-1915 367.88,-1909 373.88,-1903 379.88,-1903 379.88,-1903 527.12,-1903 527.12,-1903 533.12,-1903 539.12,-1909 539.12,-1915 539.12,-1915 539.12,-1927 539.12,-1927 539.12,-1933 533.12,-1939 527.12,-1939"/>
+<text xml:space="preserve" text-anchor="middle" x="453.5" y="-1916.33" font-family="Times,serif" font-size="14.00">core_champion_speed</text>
 </g>
-<!-- void_rookie&#45;&gt;void_champion_null -->
+<!-- core_rookie&#45;&gt;core_champion_speed -->
 <g id="edge97" class="edge">
-<title>void_rookie&#45;&gt;void_champion_null</title>
-<path fill="none" stroke="#7e57c2" d="M290.61,-1921C312.42,-1921 338.95,-1921 364.18,-1921"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="364.14,-1924.5 374.14,-1921 364.14,-1917.5 364.14,-1924.5"/>
+<title>core_rookie&#45;&gt;core_champion_speed</title>
+<path fill="none" stroke="#7e57c2" d="M290.87,-1921C310.32,-1921 333.5,-1921 356.15,-1921"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="356.05,-1924.5 366.05,-1921 356.05,-1917.5 356.05,-1924.5"/>
 </g>
-<!-- corrupt_final_glitch -->
-<g id="node81" class="node">
-<title>corrupt_final_glitch</title>
-<path fill="lightgrey" stroke="black" d="M762.5,-1993C762.5,-1993 632.5,-1993 632.5,-1993 626.5,-1993 620.5,-1987 620.5,-1981 620.5,-1981 620.5,-1969 620.5,-1969 620.5,-1963 626.5,-1957 632.5,-1957 632.5,-1957 762.5,-1957 762.5,-1957 768.5,-1957 774.5,-1963 774.5,-1969 774.5,-1969 774.5,-1981 774.5,-1981 774.5,-1987 768.5,-1993 762.5,-1993"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1970.33" font-family="Times,serif" font-size="14.00">corrupt_final_glitch</text>
+<!-- core_final_overclock -->
+<g id="node80" class="node">
+<title>core_final_overclock</title>
+<path fill="lightgrey" stroke="black" d="M764.75,-1858C764.75,-1858 630.25,-1858 630.25,-1858 624.25,-1858 618.25,-1852 618.25,-1846 618.25,-1846 618.25,-1834 618.25,-1834 618.25,-1828 624.25,-1822 630.25,-1822 630.25,-1822 764.75,-1822 764.75,-1822 770.75,-1822 776.75,-1828 776.75,-1834 776.75,-1834 776.75,-1846 776.75,-1846 776.75,-1852 770.75,-1858 764.75,-1858"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1835.33" font-family="Times,serif" font-size="14.00">core_final_overclock</text>
 </g>
-<!-- void_champion_entropy&#45;&gt;corrupt_final_glitch -->
+<!-- core_champion_power&#45;&gt;core_final_overclock -->
 <g id="edge98" class="edge">
-<title>void_champion_entropy&#45;&gt;corrupt_final_glitch</title>
-<path fill="none" stroke="#7e57c2" d="M545.99,-1975C566.56,-1975 588.34,-1975 608.76,-1975"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="608.76,-1978.5 618.76,-1975 608.76,-1971.5 608.76,-1978.5"/>
+<title>core_champion_power&#45;&gt;core_final_overclock</title>
+<path fill="none" stroke="#7e57c2" d="M540.5,-1857.4C562.02,-1855 585.15,-1852.42 606.84,-1850"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="606.98,-1853.51 616.54,-1848.92 606.21,-1846.55 606.98,-1853.51"/>
 </g>
-<!-- void_final_oblivion -->
-<g id="node82" class="node">
-<title>void_final_oblivion</title>
-<path fill="lightgrey" stroke="black" d="M758.75,-1939C758.75,-1939 636.25,-1939 636.25,-1939 630.25,-1939 624.25,-1933 624.25,-1927 624.25,-1927 624.25,-1915 624.25,-1915 624.25,-1909 630.25,-1903 636.25,-1903 636.25,-1903 758.75,-1903 758.75,-1903 764.75,-1903 770.75,-1909 770.75,-1915 770.75,-1915 770.75,-1927 770.75,-1927 770.75,-1933 764.75,-1939 758.75,-1939"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1916.33" font-family="Times,serif" font-size="14.00">void_final_oblivion</text>
+<!-- core_final_prime -->
+<g id="node81" class="node">
+<title>core_final_prime</title>
+<path fill="lightgrey" stroke="black" d="M752,-1966C752,-1966 643,-1966 643,-1966 637,-1966 631,-1960 631,-1954 631,-1954 631,-1942 631,-1942 631,-1936 637,-1930 643,-1930 643,-1930 752,-1930 752,-1930 758,-1930 764,-1936 764,-1942 764,-1942 764,-1954 764,-1954 764,-1960 758,-1966 752,-1966"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1943.33" font-family="Times,serif" font-size="14.00">core_final_prime</text>
 </g>
-<!-- void_champion_entropy&#45;&gt;void_final_oblivion -->
+<!-- core_champion_power&#45;&gt;core_final_prime -->
 <g id="edge99" class="edge">
-<title>void_champion_entropy&#45;&gt;void_final_oblivion</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-1956.57C561.57,-1951.11 588.36,-1945.13 612.89,-1939.66"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="613.5,-1943.11 622.5,-1937.51 611.98,-1936.27 613.5,-1943.11"/>
+<title>core_champion_power&#45;&gt;core_final_prime</title>
+<path fill="none" stroke="#7e57c2" d="M540.58,-1881.41C551.07,-1884.77 561.37,-1888.91 570.75,-1894 585.94,-1902.25 583.73,-1912.43 598.75,-1921 605.33,-1924.75 612.45,-1928 619.75,-1930.82"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="618.52,-1934.09 629.11,-1934.13 620.86,-1927.5 618.52,-1934.09"/>
 </g>
-<!-- void_champion_gravity&#45;&gt;void_final_oblivion -->
+<!-- core_champion_guard&#45;&gt;core_final_prime -->
 <g id="edge101" class="edge">
-<title>void_champion_gravity&#45;&gt;void_final_oblivion</title>
-<path fill="none" stroke="#7e57c2" d="M537.11,-1885.43C561.57,-1890.89 588.36,-1896.87 612.89,-1902.34"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="611.98,-1905.73 622.5,-1904.49 613.5,-1898.89 611.98,-1905.73"/>
+<title>core_champion_guard&#45;&gt;core_final_prime</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-1965.52C565.58,-1962.61 594.14,-1959.42 619.66,-1956.57"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="619.72,-1960.09 629.27,-1955.5 618.94,-1953.13 619.72,-1960.09"/>
 </g>
-<!-- void_final_singularity -->
-<g id="node83" class="node">
-<title>void_final_singularity</title>
-<path fill="lightgrey" stroke="black" d="M769.25,-1885C769.25,-1885 625.75,-1885 625.75,-1885 619.75,-1885 613.75,-1879 613.75,-1873 613.75,-1873 613.75,-1861 613.75,-1861 613.75,-1855 619.75,-1849 625.75,-1849 625.75,-1849 769.25,-1849 769.25,-1849 775.25,-1849 781.25,-1855 781.25,-1861 781.25,-1861 781.25,-1873 781.25,-1873 781.25,-1879 775.25,-1885 769.25,-1885"/>
-<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1862.33" font-family="Times,serif" font-size="14.00">void_final_singularity</text>
+<!-- core_final_bastion -->
+<g id="node82" class="node">
+<title>core_final_bastion</title>
+<path fill="lightgrey" stroke="black" d="M757.25,-2020C757.25,-2020 637.75,-2020 637.75,-2020 631.75,-2020 625.75,-2014 625.75,-2008 625.75,-2008 625.75,-1996 625.75,-1996 625.75,-1990 631.75,-1984 637.75,-1984 637.75,-1984 757.25,-1984 757.25,-1984 763.25,-1984 769.25,-1990 769.25,-1996 769.25,-1996 769.25,-2008 769.25,-2008 769.25,-2014 763.25,-2020 757.25,-2020"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1997.33" font-family="Times,serif" font-size="14.00">core_final_bastion</text>
 </g>
-<!-- void_champion_gravity&#45;&gt;void_final_singularity -->
+<!-- core_champion_guard&#45;&gt;core_final_bastion -->
 <g id="edge100" class="edge">
-<title>void_champion_gravity&#45;&gt;void_final_singularity</title>
-<path fill="none" stroke="#7e57c2" d="M543.58,-1867C562.73,-1867 583.03,-1867 602.37,-1867"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="602.12,-1870.5 612.12,-1867 602.12,-1863.5 602.12,-1870.5"/>
+<title>core_champion_guard&#45;&gt;core_final_bastion</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-1984.48C563.7,-1987.18 590.04,-1990.12 614.1,-1992.81"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="613.51,-1996.26 623.84,-1993.89 614.29,-1989.31 613.51,-1996.26"/>
 </g>
-<!-- void_champion_null&#45;&gt;void_final_oblivion -->
-<g id="edge102" class="edge">
-<title>void_champion_null&#45;&gt;void_final_oblivion</title>
-<path fill="none" stroke="#7e57c2" d="M531.74,-1921C557.52,-1921 586.37,-1921 612.64,-1921"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="612.6,-1924.5 622.6,-1921 612.6,-1917.5 612.6,-1924.5"/>
-</g>
-<!-- void_champion_null&#45;&gt;void_final_singularity -->
+<!-- core_champion_speed&#45;&gt;core_final_prime -->
 <g id="edge103" class="edge">
-<title>void_champion_null&#45;&gt;void_final_singularity</title>
-<path fill="none" stroke="#7e57c2" d="M531.74,-1903.77C554.3,-1898.73 579.22,-1893.17 602.7,-1887.93"/>
-<polygon fill="#7e57c2" stroke="#7e57c2" points="603.25,-1891.39 612.25,-1885.8 601.73,-1884.56 603.25,-1891.39"/>
+<title>core_champion_speed&#45;&gt;core_final_prime</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-1930.48C565.58,-1933.39 594.14,-1936.58 619.66,-1939.43"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="618.94,-1942.87 629.27,-1940.5 619.72,-1935.91 618.94,-1942.87"/>
+</g>
+<!-- core_final_photon -->
+<g id="node83" class="node">
+<title>core_final_photon</title>
+<path fill="lightgrey" stroke="black" d="M755.75,-1912C755.75,-1912 639.25,-1912 639.25,-1912 633.25,-1912 627.25,-1906 627.25,-1900 627.25,-1900 627.25,-1888 627.25,-1888 627.25,-1882 633.25,-1876 639.25,-1876 639.25,-1876 755.75,-1876 755.75,-1876 761.75,-1876 767.75,-1882 767.75,-1888 767.75,-1888 767.75,-1900 767.75,-1900 767.75,-1906 761.75,-1912 755.75,-1912"/>
+<text xml:space="preserve" text-anchor="middle" x="697.5" y="-1889.33" font-family="Times,serif" font-size="14.00">core_final_photon</text>
+</g>
+<!-- core_champion_speed&#45;&gt;core_final_photon -->
+<g id="edge102" class="edge">
+<title>core_champion_speed&#45;&gt;core_final_photon</title>
+<path fill="none" stroke="#7e57c2" d="M539.48,-1911.52C564.17,-1908.76 591.06,-1905.76 615.5,-1903.04"/>
+<polygon fill="#7e57c2" stroke="#7e57c2" points="615.85,-1906.52 625.4,-1901.93 615.08,-1899.56 615.85,-1906.52"/>
 </g>
 </g>
 </svg>
